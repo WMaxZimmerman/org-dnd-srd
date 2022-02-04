@@ -1,0 +1,4 @@
+#+TITLE: Org DnD SRD
+
+* Description
+  A shared plain text collection of DnD SRD files.
