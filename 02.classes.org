@@ -1,3 +1,6 @@
+#+STARTUP: content showstars indent
+#+FILETAGS: class
+
 * CLASSES
   :PROPERTIES:
   :CUSTOM_ID: classes
@@ -5867,61 +5870,32 @@ long rest.
   burgeoning insanity allows you to understand and cast.
 #+END_QUOTE
 
-* Wizard
-  :PROPERTIES:
-  :CUSTOM_ID: wizard
-  :END:
-
+* Wizard                                                             :wizard:
 *** Class Features
-    :PROPERTIES:
-    :CUSTOM_ID: class-features-11
-    :END:
-
 As a wizard, you gain the following class features.
 
 **** Hit Points
-     :PROPERTIES:
-     :CUSTOM_ID: hit-points-11
-     :END:
-
-*Hit Dice:* 1d6 per wizard level
-
-*Hit Points at 1st Level:* 6 + your Constitution modifier
-
-*Hit Points at Higher Levels:* 1d6 (or 4) + your Constitution modifier
-per wizard level after 1st
+- Hit Dice :: 1d6 per wizard level
+- Hit Points at 1st Level :: 6 + your Constitution modifier
+- Hit Points at Higher Levels :: 1d6 (or 4) + your Constitution modifier per wizard level after 1st
 
 **** Proficiencies
-     :PROPERTIES:
-     :CUSTOM_ID: proficiencies-11
-     :END:
-
-*Armor:* None
-
-*Weapons:* Daggers, darts, slings, quarterstaffs, light crossbows
-
-*Tools:* None
-
-*Saving Throws:* Intelligence, Wisdom
-
-*Skills:* Choose two from Arcana, History, Insight, Investigation,
-Medicine, and Religion
+- Armor :: None
+- Weapons :: Daggers, darts, slings, quarterstaffs, light crossbows
+- Tools :: None
+- Saving Throws :: Intelligence, Wisdom
+- Skills :: Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
 
 **** Equipment
-     :PROPERTIES:
-     :CUSTOM_ID: equipment-11
-     :END:
-
 You start with the following equipment, in addition to the equipment
 granted by your background:
 
-- (/a/) a quarterstaff or (/b/) a dagger
-- (/a/) a component pouch or (/b/) an arcane focus
-- (/a/) a scholar's pack or (/b/) an explorer's pack
+- a quarterstaff or a dagger
+- a component pouch or an arcane focus
+- a scholar's pack or an explorer's pack
 - A spellbook
 
-*Table- The Wizard*
-
+**** Table: The Wizard
 | Level | Proficiency Bonus | Features                      | Cantrips Known | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th |
 |-------+-------------------+-------------------------------+----------------+-----+-----+-----+-----+-----+-----+-----+-----+-----|
 | 1st   | +2                | Spellcasting, Arcane Recovery | 3              | 2   | -   | -   | -   | -   | -   | -   | -   | -   |
@@ -5946,37 +5920,21 @@ granted by your background:
 | 20th  | +6                | Signature Spell               | 5              | 4   | 3   | 3   | 3   | 3   | 2   | 2   | 1   | 1   |
 
 *** Spellcasting
-    :PROPERTIES:
-    :CUSTOM_ID: spellcasting-6
-    :END:
-
 As a student of arcane magic, you have a spellbook containing spells
 that show the first glimmerings of your true power.
 
 **** Cantrips
-     :PROPERTIES:
-     :CUSTOM_ID: cantrips-5
-     :END:
-
 At 1st level, you know three cantrips of your choice from the wizard
 spell list. You learn additional wizard cantrips of your choice at
 higher levels, as shown in the Cantrips Known column of the Wizard
 table.
 
 **** Spellbook
-     :PROPERTIES:
-     :CUSTOM_ID: spellbook
-     :END:
-
-At 1st level, you have a spellbook containing six 1st- level wizard
+At 1st level, you have a spellbook containing six 1st-level wizard
 spells of your choice. Your spellbook is the repository of the wizard
 spells you know, except your cantrips, which are fixed in your mind.
 
 **** Preparing and Casting Spells
-     :PROPERTIES:
-     :CUSTOM_ID: preparing-and-casting-spells-3
-     :END:
-
 The Wizard table shows how many spell slots you have to cast your wizard
 spells of 1st level and higher. To cast one of these spells, you must
 expend a slot of the spell's level or higher. You regain all expended
@@ -6002,10 +5960,6 @@ cast the spell: at least 1 minute per spell level for each spell on your
 list.
 
 **** Spellcasting Ability
-     :PROPERTIES:
-     :CUSTOM_ID: spellcasting-ability-7
-     :END:
-
 Intelligence is your spellcasting ability for your wizard spells, since
 you learn your spells through dedicated study and memorization. You use
 your Intelligence whenever a spell refers to your spellcasting ability.
@@ -6020,27 +5974,15 @@ modifier
 modifier
 
 **** Ritual Casting
-     :PROPERTIES:
-     :CUSTOM_ID: ritual-casting-3
-     :END:
-
 You can cast a wizard spell as a ritual if that spell has the ritual tag
 and you have the spell in your spellbook. You don't need to have the
 spell prepared.
 
 **** Spellcasting Focus
-     :PROPERTIES:
-     :CUSTOM_ID: spellcasting-focus-6
-     :END:
-
 You can use an arcane focus as a spellcasting focus for your wizard
 spells.
 
 **** Learning Spells of 1st Level and Higher
-     :PROPERTIES:
-     :CUSTOM_ID: learning-spells-of-1st-level-and-higher
-     :END:
-
 Each time you gain a wizard level, you can add two wizard spells of your
 choice to your spellbook for free. Each of these spells must be of a
 level for which you have spell slots, as shown on the Wizard table. On
@@ -6048,10 +5990,6 @@ your adventures, you might find other spells that you can add to your
 spellbook.
 
 *** Arcane Recovery
-    :PROPERTIES:
-    :CUSTOM_ID: arcane-recovery
-    :END:
-
 You have learned to regain some of your magical energy by studying your
 spellbook. Once per day when you finish a short rest, you can choose
 expended spell slots to recover. The spell slots can have a combined
@@ -6063,10 +6001,6 @@ levels worth of spell slots. You can recover either a 2nd-level spell
 slot or two 1st-level spell slots.
 
 *** Arcane Tradition
-    :PROPERTIES:
-    :CUSTOM_ID: arcane-tradition
-    :END:
-
 When you reach 2nd level, you choose an arcane tradition, shaping your
 practice of magic through one of eight schools: Abjuration, Conjuration,
 Divination, Enchantment, Evocation, Illusion, Necromancy, or
@@ -6076,20 +6010,12 @@ Your choice grants you features at 2nd level and again at 6th, 10th, and
 14th level.
 
 *** Ability Score Improvement
-    :PROPERTIES:
-    :CUSTOM_ID: ability-score-improvement-11
-    :END:
-
 When you reach 4th level, and again at 8th, 12th, 16th, and 19th level,
 you can increase one ability score of your choice by 2, or you can
 increase two ability scores of your choice by 1. As normal, you can't
 increase an ability score above 20 using this feature.
 
 *** Spell Mastery
-    :PROPERTIES:
-    :CUSTOM_ID: spell-mastery
-    :END:
-
 At 18th level, you have achieved such mastery over certain spells that
 you can cast them at will. Choose a 1st-level wizard spell and a
 2nd-level wizard spell that are in your spellbook. You can cast those
@@ -6101,10 +6027,6 @@ By spending 8 hours in study, you can exchange one or both of the spells
 you chose for different spells of the same levels.
 
 *** Signature Spells
-    :PROPERTIES:
-    :CUSTOM_ID: signature-spells
-    :END:
-
 When you reach 20th level, you gain mastery over two powerful spells and
 can cast them with little effort. Choose two 3rd-level wizard spells in
 your spellbook as your signature spells. You always have these spells
@@ -6117,10 +6039,6 @@ If you want to cast either spell at a higher level, you must expend a
 spell slot as normal.
 
 ** Arcane Traditions
-   :PROPERTIES:
-   :CUSTOM_ID: arcane-traditions
-   :END:
-
 The study of wizardry is ancient, stretching back to the earliest mortal
 discoveries of magic. It is firmly established in fantasy gaming worlds,
 with various traditions dedicated to its complex study.
@@ -6136,11 +6054,15 @@ funding. Even wizards who train apprentices in the solitude of their own
 towers use the division of magic into schools as a learning device,
 since the spells of each school require mastery of different techniques.
 
-*** School of Evocation
-    :PROPERTIES:
-    :CUSTOM_ID: school-of-evocation
-    :END:
+*** TODO School of Abjuration
 
+*** TODO School of Conjuration
+
+*** TODO School of Divination
+
+*** TODO School of Enchantment
+
+*** School of Evocation
 You focus your study on magic that creates powerful elemental effects
 such as bitter cold, searing flame, rolling thunder, crackling
 lightning, and burning acid. Some evokers find employment in military
@@ -6149,18 +6071,10 @@ their spectacular power to protect the weak, while some seek their own
 gain as bandits, adventurers, or aspiring tyrants.
 
 **** Evocation Savant
-     :PROPERTIES:
-     :CUSTOM_ID: evocation-savant
-     :END:
-
 Beginning when you select this school at 2nd level, the gold and time
 you must spend to copy an evocation spell into your spellbook is halved.
 
 **** Sculpt Spells
-     :PROPERTIES:
-     :CUSTOM_ID: sculpt-spells
-     :END:
-
 Beginning at 2nd level, you can create pockets of relative safety within
 the effects of your evocation spells. When you cast an evocation spell
 that affects other creatures that you can see, you can choose a number
@@ -6170,28 +6084,16 @@ take no damage if they would normally take half damage on a successful
 save.
 
 **** Potent Cantrip
-     :PROPERTIES:
-     :CUSTOM_ID: potent-cantrip
-     :END:
-
 Starting at 6th level, your damaging cantrips affect even creatures that
 avoid the brunt of the effect. When a creature succeeds on a saving
 throw against your cantrip, the creature takes half the cantrip's damage
 (if any) but suffers no additional effect from the cantrip.
 
 **** Empowered Evocation
-     :PROPERTIES:
-     :CUSTOM_ID: empowered-evocation
-     :END:
-
 Beginning at 10th level, you can add your Intelligence modifier to one
 damage roll of any wizard evocation spell you cast.
 
 **** Overchannel
-     :PROPERTIES:
-     :CUSTOM_ID: overchannel
-     :END:
-
 Starting at 14th level, you can increase the power of your simpler
 spells. When you cast a wizard spell of 1st through 5th level that deals
 damage, you can deal maximum damage with that spell.
@@ -6250,3 +6152,9 @@ resistance and immunity.
   library, or even a loose collection of notes scrounged together after
   you lost your previous spellbook in a mishap.
 #+END_QUOTE
+
+*** TODO School of Illusion
+
+*** TODO School of Necromancy
+
+*** TODO School of Transmutation
