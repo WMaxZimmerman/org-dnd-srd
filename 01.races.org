@@ -100,8 +100,6 @@ resilience.
 - Dwarven Toughness ::
   Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
 
-** TODO Mountain Dwarf                                            :mountain:
-
 * Elf                                                                   :elf:
 ** Traits
 Your elf character has a variety of natural abilities, the result of
@@ -168,8 +166,6 @@ races.
 
 - Extra Language ::
   You can speak, read, and write one extra language of your choice.
-
-** TODO Drow                                                          :drow:
 
 * Halfling                                                         :halfling:
 ** Traits
@@ -379,8 +375,6 @@ that of other gnomes.
 - Music Box ::
   When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's
   end or when it is closed.
-
-** TODO Forest Gnome                                                :forest:
 
 * Half-Elf                                                         :half_elf:
 ** Traits

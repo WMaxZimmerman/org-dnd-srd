@@ -4,7 +4,7 @@
 * Spells
 ** 0th level                                                       :cantrip:
 *** Abjuration                                                      :abjur:
-**** Resistance                                  :cleric:druid:artificier:
+**** Resistance                                             :cleric:druid:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (a miniature cloak)
@@ -14,7 +14,7 @@ You touch one willing creature. Once before the spell ends, the target can roll 
 saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends.
      
 *** Conjuration                                                      :conj:
-**** Mage Hand                   :bard:sorcerer:warlock:wizard:artificier:
+**** Mage Hand                              :bard:sorcerer:warlock:wizard:
 - Casting Time :: 1 action
 - Range :: 30 feet
 - Components :: V, S
@@ -30,7 +30,7 @@ to 30 feet each time you use it.
 
 The hand can't attack, activate magic items, or carry more than 10 pounds.
      
-**** Poison Spray               :druid:sorcerer:warlock:wizard:artificier:
+**** Poison Spray                          :druid:sorcerer:warlock:wizard:
 - Casting Time :: 1 action
 - Range :: 10 feet
 - Components :: V, S
@@ -57,7 +57,7 @@ takes 1d8 fire damage.
 
 This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
-**** Acid Splash                              :sorcerer:wizard:artificier:
+**** Acid Splash                                         :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 60 feet
 - Components :: V, S
@@ -79,7 +79,7 @@ You extend your hand and point a finger at a target in range. Your magic grants 
 defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell
 hasn't ended.
 
-**** Guidance                                    :cleric:druid:artificier:
+**** Guidance                                               :cleric:druid:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S
@@ -102,7 +102,7 @@ have disadvantage on the next attack roll it makes before the end of its next tu
 This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
 
 *** Evocation                                                        :evoc:
-**** Dancing Lights                      :bard:sorcerer:wizard:artificier:
+**** Dancing Lights                                 :bard:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 120 feet
 - Components :: V, S, M (a bit of phosphorus or wychwood, or a glowworm)
@@ -115,7 +115,7 @@ size. Whichever form you choose, each light sheds dim light in a 10-foot radius.
 As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within
 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.
 
-**** Light                        :bard:cleric:sorcerer:wizard:artificier:
+**** Light                                   :bard:cleric:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, M (a firefly or phosphorescent moss)
@@ -146,7 +146,7 @@ throw or take 1d8 radiant damage. The target gains no benefit from cover for thi
 
 The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
-**** Fire Bolt                                :sorcerer:wizard:artificier:
+**** Fire Bolt                                           :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 120 feet
 - Components :: V, S
@@ -157,7 +157,7 @@ the target takes 1d10 fire damage. A flammable object hit by this spell ignites 
 
 This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).
 
-**** Ray of Frost                             :sorcerer:wizard:artificier:
+**** Ray of Frost                                        :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 60 feet
 - Components :: V, S
@@ -168,7 +168,7 @@ On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until th
 
 The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
-**** Shocking Grasp                           :sorcerer:wizard:artificier:
+**** Shocking Grasp                                      :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S
@@ -216,7 +216,7 @@ successful Intelligence (Investigation) check against your spell save DC. If a c
 it is, the illusion becomes faint to the creature.
 
 *** Necromancy                                                      :necro:
-**** Spare the Dying                                   :cleric:artificier:
+**** Spare the Dying                                              :cleric:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S
@@ -240,7 +240,7 @@ If you hit an undead target, it also has disadvantage on attack rolls against yo
 This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).
 
 *** Transmutation                                                   :trans:
-**** Mending                :bard:cleric:druid:sorcerer:wizard:artificier:
+**** Mending                           :bard:cleric:druid:sorcerer:wizard:
 - Casting Time :: 1 minute
 - Range :: Touch
 - Components :: V, S, M (two lodestones)
@@ -252,7 +252,7 @@ mend it, leaving no trace of the former damage.
 
 This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object.
 
-**** Message                             :bard:sorcerer:wizard:artificier:
+**** Message                                        :bard:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 120 feet
 - Components :: V, S, M (a short piece of copper wire)
@@ -265,7 +265,7 @@ You can cast this spell through solid objects if you are familiar with the targe
 Magical silence, 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the spell. The
 spell doesn't have to follow a straight line and can travel freely around corners or through openings.
 
-**** Prestidigitation            :bard:sorcerer:warlock:wizard:artificier:
+**** Prestidigitation                       :bard:sorcerer:warlock:wizard:
 - Casting Time :: 1 action
 - Range :: 10 feet
 - Components :: V, S
@@ -359,7 +359,7 @@ The protection grants several benefits. Creatures of those types have disadvanta
 The target also can't be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or
 possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.
 
-**** Sanctuary                                         :cleric:artificier:
+**** Sanctuary                                                    :cleric:
 - Casting Time :: 1 bonus action
 - Range :: 30 feet
 - Components :: V, S, M (a small silver mirror)
@@ -382,7 +382,7 @@ spell ends.
 A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the
 duration.
 
-**** Alarm                                      :ranger:wizard:artificier:
+**** Alarm                                                 :ranger:wizard:
 - Casting Time :: 1 minute
 - Range :: 30 feet
 - Components :: V, S, M (a tiny bell and a piece of fine silver wire)
@@ -516,7 +516,7 @@ nor could it leave such a pit if it was created at the bottom.
 If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the
 spell ends.
 
-**** Grease                                            :wizard:artificier:
+**** Grease                                                       :wizard:
 - Casting Time :: 1 action
 - Range :: 60 feet
 - Components :: V, S, M (a bit of pork rind or butter)
@@ -555,7 +555,7 @@ has been magically consecrated or desecrated.
 The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of
 lead, or 3 feet of wood or dirt.
 
-**** Detect Magic :bard:cleric:druid:paladin:ranger:sorcerer:wizard:artificier:
+**** Detect Magic       :bard:cleric:druid:paladin:ranger:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Self
 - Components :: V, S
@@ -580,7 +580,7 @@ of you. You also identify the kind of poison, poisonous creature, or disease in 
 The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of
 lead, or 3 feet of wood or dirt.
 
-**** Identify                                     :bard:wizard:artificier:
+**** Identify                                                :bard:wizard:
 - Casting Time :: 1 minute
 - Range :: Touch
 - Components :: V, S, M (a pearl worth at least 100 gp and an owl feather)
@@ -763,7 +763,7 @@ Undead and creatures immune to being charmed aren't affected by this spell.
   1st.
 
 *** Evocation                                                        :evoc:
-**** Cure Wounds             :bard:cleric:druid:paladin:ranger:artificier:
+**** Cure Wounds                        :bard:cleric:druid:paladin:ranger:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S
@@ -776,7 +776,7 @@ effect on undead or constructs.
   When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level
   above 1st.
 
-**** Faerie Fire                                   :bard:druid:artificier:
+**** Faerie Fire                                              :bard:druid:
 - Casting Time :: 1 action
 - Range :: 60 feet
 - Components :: V
@@ -842,8 +842,6 @@ next turn has advantage, thanks to the mystical dim light glittering on the targ
 Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra 1d4 radiant
 damage on a hit.
 
-**** TODO Wrathful Smite                                         :paladin:
-
 **** Burning Hands                                       :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Self (15-foot cone)
@@ -859,8 +857,6 @@ The fire ignites any flammable objects in the area that aren't being worn or car
 - At Higher Levels ::
   When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level
   above 1st.
-
-**** TODO Chromatic Orb                                  :sorcerer:wizard:
 
 **** Magic Missile                                       :sorcerer:wizard:
 - Casting Time :: 1 action
@@ -890,7 +886,7 @@ make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or ha
   above 1st.
 
 *** Illusion                                                        :illus:
-**** Disguise Self                       :bard:sorcerer:wizard:artificier:
+**** Disguise Self                                  :bard:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Self
 - Components :: V, S
@@ -978,7 +974,7 @@ Make a melee spell attack against a creature you can reach. On a hit, the target
   When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level
   above 1st.
 
-**** False Life                               :sorcerer:wizard:artificier:
+**** False Life                                          :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Self
 - Components :: V, S, M (a small amount of alcohol or distilled spirits)
@@ -991,7 +987,7 @@ Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 tempo
   each slot level above 1st.
 
 *** Transmutation                                                   :trans:
-**** Feather Fall                        :bard:sorcerer:wizard:artificier:
+**** Feather Fall                                   :bard:sorcerer:wizard:
 - Casting Time :: 1 reaction, which you take when you or a creature within 60 feet of you falls
 - Range :: 60 feet
 - Components :: V, M (a small feather or piece of down)
@@ -1001,7 +997,7 @@ Choose up to five falling creatures within range. A falling creature's rate of d
 the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and
 the spell ends for that creature.
 
-**** Longstrider                     :bard:druid:ranger:wizard:artificier:
+**** Longstrider                                :bard:druid:ranger:wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (a pinch of dirt)
@@ -1033,7 +1029,7 @@ You either create or destroy water.
   When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of
   water, or the size of the cube increases by 5 feet, for each slot level above 1st.
 
-**** Purify Food and Drink               :cleric:druid:paladin:artificier:
+**** Purify Food and Drink                          :cleric:druid:paladin:
 - Casting Time :: 1 action
 - Range :: 10 feet
 - Components :: V, S
@@ -1063,7 +1059,7 @@ hours of the casting of this spell.
 
 You touch a creature. The creature's jump distance is tripled until the spell ends.
 
-**** Expeditious Retreat              :sorcerer:warlock:wizard:artificier:
+**** Expeditious Retreat                         :sorcerer:warlock:wizard:
 - Casting Time :: 1 bonus action
 - Range :: Self
 - Components :: V, S
@@ -1074,7 +1070,7 @@ your turns until the spell ends, you can take the Dash action.
 
 ** 2nd level                                                          :lvl2:
 *** Abjuration                                                      :abjur:
-**** Aid                                       :cleric:paladin:artificier:
+**** Aid                                                  :cleric:paladin:
 - Casting Time :: 1 action
 - Range :: 30 feet
 - Components :: V, S, M (a tiny strip of white cloth)
@@ -1087,7 +1083,7 @@ point maximum and current hit points increase by 5 for the duration.
   When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5
   for each slot level above 2nd.
   
-**** Lesser Restoration      :bard:cleric:druid:paladin:ranger:artificier:
+**** Lesser Restoration                 :bard:cleric:druid:paladin:ranger:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S
@@ -1096,7 +1092,7 @@ point maximum and current hit points increase by 5 for the duration.
 You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded,
 deafened, paralyzed, or poisoned.
 
-**** Protection from Poison       :cleric:druid:paladin:ranger:artificier:
+**** Protection from Poison                  :cleric:druid:paladin:ranger:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S
@@ -1132,7 +1128,7 @@ creature you choose within 30 feet of you (including you) has a +10 bonus to Dex
 tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its
 passage.
 
-**** Arcane Lock                                       :wizard:artificier:
+**** Arcane Lock                                                  :wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (gold dust worth at least 25 gp, which the spell consumes)
@@ -1202,7 +1198,7 @@ at any time, causing it to disappear.
 
 Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.
 
-**** Web                                      :sorcerer:wizard:artificier:
+**** Web                                                 :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 60 feet
 - Components :: V, S, M (a bit of spiderweb)
@@ -1281,7 +1277,7 @@ furniture, tool, or weapon.
 This spell can't locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the
 object.
 
-**** See Invisibility                    :bard:sorcerer:wizard:artificier:
+**** See Invisibility                               :bard:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Self
 - Components :: V, S, M (a pinch of talc and a small sprinkling of powdered silver)
@@ -1445,7 +1441,7 @@ A nonmagical object that isn't being worn or carried also takes the damage if it
   When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level
   above 2nd.
 
-**** Continual Flame                            :cleric:wizard:artificier:
+**** Continual Flame                                       :cleric:wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (ruby dust worth 50 gp, which the spell consumes)
@@ -1606,7 +1602,7 @@ of its next turn.
   1d4 for each slot level above 2nd.
 
 *** Illusion                                                        :illus:
-**** Invisibility                :bard:sorcerer:warlock:wizard:artificier:
+**** Invisibility                           :bard:sorcerer:warlock:wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (an eyelash encased in gum arabic)
@@ -1622,7 +1618,7 @@ spell.
   level or higher, you can target one additional creature for each slot
   level above 2nd.
 
-**** Magic Mouth                                  :bard:wizard:artificier:
+**** Magic Mouth                                             :bard:wizard:
 - Casting Time :: 1 minute
 - Range :: 30 feet
 - Components :: V, S, M (a small bit of honeycomb and jade dust worth at least 10 gp, which the spell consumes)
@@ -1661,7 +1657,7 @@ creature or object entirely inside the sphere is immune to thunder
 damage, and creatures are deafened while entirely inside it. Casting a
 spell that includes a verbal component is impossible there.
 
-**** Blur                                     :sorcerer:wizard:artificier:
+**** Blur                                                :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Self
 - Components :: V
@@ -1778,7 +1774,7 @@ At the end of each of the target's turns, it can make a Constitution
 saving throw against the spell. On a success, the spell ends.
 
 *** Transmutation                                                   :trans:
-**** Enhance Ability               :bard:cleric:druid:sorcerer:artificier:
+**** Enhance Ability                          :bard:cleric:druid:sorcerer:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (fur or a feather from a beast)
@@ -1816,7 +1812,7 @@ spell ends.
   level or higher, you can target one additional creature for each slot
   level above 2nd.
 
-**** Heat Metal                                    :bard:druid:artificier:
+**** Heat Metal                                               :bard:druid:
 - Casting Time :: 1 action
 - Range :: 60 feet
 - Components :: V, S, M (a piece of iron and a flame)
@@ -1870,7 +1866,7 @@ You touch a willing creature. Until the spell ends, the target's skin
 has a rough, bark-like appearance, and the target's AC can't be less
 than 16, regardless of what kind of armor it is wearing.
 
-**** Darkvision                  :druid:ranger:sorcerer:wizard:artificier:
+**** Darkvision                             :druid:ranger:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (either a pinch of dried carrot or an agate)
@@ -1896,7 +1892,7 @@ creature that can't see the area at the time the spell is cast must make
 a Wisdom (Perception) check against your spell save DC to recognize the
 terrain as hazardous before entering it.
 
-**** Magic Weapon                              :paladin:wizard:artificier:
+**** Magic Weapon                                         :paladin:wizard:
 - Casting Time :: 1 bonus action
 - Range :: Touch
 - Components :: V, S
@@ -1910,7 +1906,7 @@ a magic weapon with a +1 bonus to attack rolls and damage rolls.
   level or higher, the bonus increases to +2. When you use a spell slot of
   6th level or higher, the bonus increases to +3.
 
-**** Alter Self                               :sorcerer:wizard:artificier:
+**** Alter Self                                          :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Self
 - Components :: V, S
@@ -1946,7 +1942,7 @@ gain the benefits of a different one.
   Finally, the natural weapon is magic and you have a +1 bonus to the
   attack and damage rolls you make using it.
 
-**** Enlarge/Reduce                           :sorcerer:wizard:artificier:
+**** Enlarge/Reduce                                      :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 30 feet
 - Components :: V, S, M (a pinch of powdered iron)
@@ -1981,7 +1977,7 @@ to normal size at once.
   While these weapons are reduced, the target's attacks with them deal 1d4
   less damage (this can't reduce the damage below 1).
 
-**** Levitate                                 :sorcerer:wizard:artificier:
+**** Levitate                                            :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 60 feet
 - Components :: V, S, M (either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end)
@@ -2003,7 +1999,7 @@ action to move the target, which must remain within the spell's range.
 When the spell ends, the target floats gently to the ground if it is
 still aloft.
 
-**** Spider Climb                     :sorcerer:warlock:wizard:artificier:
+**** Spider Climb                                :sorcerer:warlock:wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (a drop of bitumen and a spider)
@@ -2014,7 +2010,7 @@ to move up, down, and across vertical surfaces and upside down along
 ceilings, while leaving its hands free. The target also gains a climbing
 speed equal to its walking speed.
 
-**** Rope Trick                                        :wizard:artificier:
+**** Rope Trick                                                   :wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (powdered corn extract and a twisted loop of parchment)
@@ -2039,7 +2035,7 @@ ends.
 
 ** 3rd level                                                          :lvl3:
 *** Abjuration                                                      :abjur:
-**** Dispel Magic :bard:cleric:druid:paladin:sorcerer:warlock:wizard:artificier:
+**** Dispel Magic      :bard:cleric:druid:paladin:sorcerer:warlock:wizard:
 - Casting Time :: 1 action
 - Range :: 120 feet
 - Components :: V, S
@@ -2057,7 +2053,7 @@ the spell ends.
   target if the spell's level is equal to or less than the level of the
   spell slot you used.
 
-**** Glyph of Warding                      :bard:cleric:wizard:artificier:
+**** Glyph of Warding                                 :bard:cleric:wizard:
 - Casting Time :: 1 hour
 - Range :: Touch
 - Components :: V, S, M (incense and powdered diamond worth at least 200 gp, which the spell consumes)
@@ -2175,7 +2171,7 @@ leaving the cylinder and protecting targets outside it.
   level or higher, the duration increases by 1 hour for each slot level
   above 3rd.
 
-**** Protection from Energy :cleric:druid:ranger:sorcerer:wizard:artificier:
+**** Protection from Energy          :cleric:druid:ranger:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S
@@ -2233,7 +2229,7 @@ A moderate wind (at least 10 miles per hour) disperses the cloud after 4
 rounds. A strong wind (at least 20 miles per hour) disperses it after 1
 round.
 
-**** Create Food and Water                     :cleric:paladin:artificier:
+**** Create Food and Water                                :cleric:paladin:
 - Casting Time :: 1 action
 - Range :: 30 feet
 - Components :: V, S
@@ -2665,7 +2661,6 @@ creature's soul to its body, only its animating spirit. Thus, the corpse
 can't learn new information, doesn't comprehend anything that has
 happened since it died, and can't speculate about future events.
 
-**** TODO Feign Death                           :bard:cleric:druid:wizard:
 **** Animate Dead                                          :cleric:wizard:
 - Casting Time :: 1 minute
 - Range :: 10 feet
@@ -2701,7 +2696,7 @@ spell, rather than animating a new one.
   undead creatures for each slot level above 3rd. Each of the creatures
   must come from a different corpse or pile of bones.
 
-**** Revivify                                  :cleric:paladin:artificier:
+**** Revivify                                             :cleric:paladin:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (diamonds worth 300 gp, which the spell consumes)
@@ -2809,7 +2804,7 @@ substance) expels you and deals 50 bludgeoning damage to you. If
 expelled, you fall prone in an unoccupied space closest to where you
 first entered.
 
-**** Water Walk                  :cleric:druid:ranger:sorcerer:artificier:
+**** Water Walk                             :cleric:druid:ranger:sorcerer:
 - Casting Time :: 1 action
 - Range :: 30 feet
 - Components :: V, S, M (a piece of cork)
@@ -2824,7 +2819,7 @@ ability for the duration.
 If you target a creature submerged in a liquid, the spell carries the
 target to the surface of the liquid at a rate of 60 feet per round.
 
-**** Water Breathing             :druid:ranger:sorcerer:wizard:artificier:
+**** Water Breathing                        :druid:ranger:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 30 feet
 - Components :: V, S, M (a short reed or piece of straw)
@@ -2834,7 +2829,7 @@ This spell grants up to ten willing creatures you can see within range
 the ability to breathe underwater until the spell ends. Affected
 creatures also retain their normal mode of respiration.
 
-**** Blink                                    :sorcerer:wizard:artificier:
+**** Blink                                               :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Self
 - Components :: V, S
@@ -2858,7 +2853,7 @@ affected by other creatures on the Ethereal Plane. Creatures that aren't
 there can't perceive you or interact with you, unless they have the
 ability to do so.
 
-**** Fly                              :sorcerer:warlock:wizard:artificier:
+**** Fly                                         :sorcerer:warlock:wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (a wing feather from any bird)
@@ -2898,7 +2893,7 @@ objects, and any objects it was carrying or holding can't be dropped,
 used, or otherwise interacted with. The target can't attack or cast
 spells.
 
-**** Haste                                    :sorcerer:wizard:artificier:
+**** Haste                                               :sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 30 feet
 - Components :: V, S, M (a shaving of licorice root)
@@ -2941,7 +2936,7 @@ it.
 
 ** 4th level                                                          :lvl4:
 *** Abjuration                                                      :abjur:
-**** Freedom of Movement             :bard:cleric:druid:ranger:artificier:
+**** Freedom of Movement                        :bard:cleric:druid:ranger:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (a leather strap, bound around the arm or a similar appendage)
@@ -3000,7 +2995,7 @@ If the spell is still in effect when the target is subjected to an
 effect that would kill it instantaneously without dealing damage, that
 effect is instead negated against the target, and the spell ends.
 
-**** Stoneskin                   :druid:ranger:sorcerer:wizard:artificier:
+**** Stoneskin                              :druid:ranger:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (diamond dust worth 100 gp, which the spell consumes)
@@ -3250,7 +3245,7 @@ If you cast the spell two or more times before finishing your next long
 rest, there is a cumulative 25 percent chance for each casting after the
 first that you get a random reading. The GM makes this roll in secret.
 
-**** Arcane Eye                                        :wizard:artificier:
+**** Arcane Eye                                                   :wizard:
 - Casting Time :: 1 action
 - Range :: 30 feet
 - Components :: V, S, M (a bit of bat fur)
@@ -3449,7 +3444,6 @@ A [[*Disintegrate][Disintegrate]] spell targeting the globe destroys it without 
 anything inside it.
 
 *** Illusion                                                        :illus:
-**** TODO Greater Invisibility                      :bard:sorcerer:wizard:
 **** Hallucinatory Terrain                     :bard:druid:warlock:wizard:
 - Casting Time :: 10 minutes
 - Range :: 300 feet
@@ -3611,7 +3605,7 @@ your turn, you can repeat the same effect or choose a different one.
   takes 2d8 bludgeoning damage; this damage occurs each round it remains
   in the vortex.
 
-**** Stone Shape                          :cleric:druid:wizard:artificier:
+**** Stone Shape                                     :cleric:druid:wizard:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (soft clay, which must be worked into roughly the desired shape of the stone object)
@@ -3648,7 +3642,7 @@ The GM might allow you to choose different targets. For example, if you
 transform a bee, its giant version might have the same statistics as a
 giant wasp.
 
-**** Fabricate                                         :wizard:artificier:
+**** Fabricate                                                    :wizard:
 - Casting Time :: 10 minutes
 - Range :: 120 feet
 - Components :: V, S
@@ -3674,7 +3668,7 @@ craft such objects.
 
 ** 5th level                                                          :lvl5:
 *** Abjuration                                                      :abjur:
-**** Greater Restoration                    :bard:cleric:druid:artificier:
+**** Greater Restoration                               :bard:cleric:druid:
 - Casting Time :: 1 action
 - Range :: Touch
 - Components :: V, S, M (diamond dust worth at least 100 gp, which the spell consumes
@@ -4270,7 +4264,7 @@ leaves the area.
   Affected creatures can communicate with any other creature
   in the area, even if they don't share a common language.
 
-**** Wall of Stone                      :druid:sorcerer:wizard:artificier:
+**** Wall of Stone                                 :druid:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 120 feet
 - Components :: V, S, M (a small block of granite)
@@ -4494,7 +4488,7 @@ A creature can use its action to inspect a target and make an
 Intelligence (Investigation) check against your spell save DC. If it
 succeeds, it becomes aware that the target is disguised.
 
-**** Creation                                 :sorcerer:wizard:artificier:
+**** Creation                                            :sorcerer:wizard:
 - Casting Time :: 1 minute
 - Range :: 30 feet
 - Components :: V, S, M (a tiny piece of matter of the same type of the item you plan to create)
@@ -4607,7 +4601,7 @@ apply to it.
   until the end of its next turn.
 
 *** Transmutation                                                   :trans:
-**** Animate Objects                     :bard:sorcerer:wizard:artificier:
+**** Animate Objects                                :bard:sorcerer:wizard:
 - Casting Time :: 1 action
 - Range :: 120 feet
 - Components :: V, S

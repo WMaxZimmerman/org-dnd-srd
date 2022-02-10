@@ -6054,14 +6054,6 @@ funding. Even wizards who train apprentices in the solitude of their own
 towers use the division of magic into schools as a learning device,
 since the spells of each school require mastery of different techniques.
 
-*** TODO School of Abjuration
-
-*** TODO School of Conjuration
-
-*** TODO School of Divination
-
-*** TODO School of Enchantment
-
 *** School of Evocation
 You focus your study on magic that creates powerful elemental effects
 such as bitter cold, searing flame, rolling thunder, crackling
@@ -6152,9 +6144,3 @@ resistance and immunity.
   library, or even a loose collection of notes scrounged together after
   you lost your previous spellbook in a mishap.
 #+END_QUOTE
-
-*** TODO School of Illusion
-
-*** TODO School of Necromancy
-
-*** TODO School of Transmutation
