@@ -1,4 +1,13 @@
 #+TITLE: Org DnD SRD
 
 * Description
-  A shared plain text collection of DnD SRD files.
+  A shared org file collection of DnD SRD files. This repository was started from the [[https://github.com/OldManUmby/OGL-SRD5][OGL-SRD5]] repository. However, I
+  didn't want to simply fork the repository as the structure will shift to better suite the capabilities that org files
+  can have within [[https://www.gnu.org/software/emacs/][emacs]].
+
+
+---
+
+© 2015 Wizards. All Rights Reserved. Dungeons & Dragons® is a trademark[s] of Wizards of the Coast. For more information
+about Wizards of the Coast or any of Wizards' trademarks or other intellectual property, please visit their website at
+[[http://www.wizards.com][www.wizards.com]].
