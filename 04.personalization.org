@@ -1,13 +1,7 @@
-* PERSONALIZATION
-  :PROPERTIES:
-  :CUSTOM_ID: personalization
-  :END:
+#+STARTUP: content showstars indent
+#+FILETAGS: personalization
 
-* Alignment
-  :PROPERTIES:
-  :CUSTOM_ID: alignment
-  :END:
-
+* Alignment                                                       :alignment:
 A typical creature in the game world has an alignment, which broadly
 describes its moral and personal attitudes. Alignment is a combination
 of two factors: one identifies morality (good, evil, or neutral), and
@@ -20,46 +14,51 @@ behavior of a creature with that alignment. Individuals might vary
 significantly from that typical behavior, and few people are perfectly
 and consistently faithful to the precepts of their alignment.
 
-*Lawful good* (LG) creatures can be counted on to do the right thing as
-expected by society. Gold dragons, paladins, and most dwarves are lawful
-good.
+- Lawful Good (LG)::
+  LG creatures can be counted on to do the right thing as
+  expected by society. Gold dragons, paladins, and most dwarves are lawful
+  good.
 
-*Neutral good* (NG) folk do the best they can to help others according
-to their needs. Many celestials, some cloud giants, and most gnomes are
-neutral good.
+- Neutral Good (NG)::
+  NG folk do the best they can to help others according
+  to their needs. Many celestials, some cloud giants, and most gnomes are
+  neutral good.
 
-*Chaotic good* (CG) creatures act as their conscience directs, with
-little regard for what others expect. Copper dragons, many elves, and
-unicorns are chaotic good.
+- Chaotic Good (CG) ::
+  CG creatures act as their conscience directs, with
+  little regard for what others expect. Copper dragons, many elves, and
+  unicorns are chaotic good.
 
-*Lawful neutral* (LN) individuals act in accordance with law, tradition,
-or personal codes. Many monks and some wizards are lawful neutral.
+- Lawful Neutral (LN) ::
+  LN individuals act in accordance with law, tradition,
+  or personal codes. Many monks and some wizards are lawful neutral.
 
-*Neutral* (N) is the alignment of those who prefer to steer clear of
-moral questions and don't take sides, doing what seems best at the time.
-Lizardfolk, most druids, and many humans are neutral.
+- Neutral (N) ::
+  N is the alignment of those who prefer to steer clear of
+  moral questions and don't take sides, doing what seems best at the time.
+  Lizardfolk, most druids, and many humans are neutral.
 
-*Chaotic neutral* (CN) creatures follow their whims, holding their
-personal freedom above all else. Many barbarians and rogues, and some
-bards, are chaotic neutral.
+- Chaotic Neutral (CN) ::
+  CN creatures follow their whims, holding their
+  personal freedom above all else. Many barbarians and rogues, and some
+  bards, are chaotic neutral.
 
-*Lawful evil* (LE) creatures methodically take what they want, within
-the limits of a code of tradition, loyalty, or order. Devils, blue
-dragons, and hobgoblins are lawful evil.
+- Lawful Evil (LE) ::
+  LE creatures methodically take what they want, within
+  the limits of a code of tradition, loyalty, or order. Devils, blue
+  dragons, and hobgoblins are lawful evil.
 
-*Neutral evil* (NE) is the alignment of those who do whatever they can
-get away with, without compassion or qualms. Many drow, some cloud
-giants, and goblins are neutral evil.
+- Neutral Evil (NE) ::
+  NE is the alignment of those who do whatever they can
+  get away with, without compassion or qualms. Many drow, some cloud
+  giants, and goblins are neutral evil.
 
-*Chaotic evil* (CE) creatures act with arbitrary violence, spurred by
-their greed, hatred, or bloodlust. Demons, red dragons, and orcs are
-chaotic evil.
+- Chaotic Evil (CE) ::
+  CE creatures act with arbitrary violence, spurred by
+  their greed, hatred, or bloodlust. Demons, red dragons, and orcs are
+  chaotic evil.
 
 ** Alignment in the Multiverse
-   :PROPERTIES:
-   :CUSTOM_ID: alignment-in-the-multiverse
-   :END:
-
 For many thinking creatures, alignment is a moral choice. Humans,
 dwarves, elves, and other humanoid races can choose whether to follow
 the paths of good or evil, law or chaos. According to myth, the good-
@@ -85,11 +84,7 @@ a moral or ethical choice and acts according to its bestial nature.
 Sharks are savage predators, for example, but they are not evil; they
 have no alignment.
 
-* Languages
-  :PROPERTIES:
-  :CUSTOM_ID: languages
-  :END:
-
+* Languages                                                        :language:
 Your race indicates the languages your character can speak by default,
 and your background might give you access to one or more additional
 languages of your choice. Note these languages on your character sheet.
@@ -105,8 +100,7 @@ Aquan, Ignan, and Terran dialects, one for each of the four elemental
 planes. Creatures that speak different dialects of the same language can
 communicate with one another.
 
-*Table- Standard Languages*
-
+** Standard Languages
 | Language | Typical Speakers | Script   |
 |----------+------------------+----------|
 | Common   | Humans           | Common   |
@@ -117,10 +111,8 @@ communicate with one another.
 | Goblin   | Goblinoids       | Dwarvish |
 | Halfling | Halflings        | Common   |
 | Orc      | Orcs             | Dwarvish |
-|          |                  |          |
 
-*Table- Exotic Languages*
-
+** Exotic Languages
 | Language    | Typical Speakers    | Script    |
 |-------------+---------------------+-----------|
 | Abyssal     | Demons              | Infernal  |
@@ -131,13 +123,8 @@ communicate with one another.
 | Primordial  | Elementals          | Dwarvish  |
 | Sylvan      | Fey creatures       | Elvish    |
 | Undercommon | Underworld traders  | Elvish    |
-|             |                     |           |
 
-* Inspiration
-  :PROPERTIES:
-  :CUSTOM_ID: inspiration
-  :END:
-
+* Inspiration                                                   :inspriation:
 Inspiration is a rule the game master can use to reward you for playing
 your character in a way that's true to his or her personality traits,
 ideal, bond, and flaw. By using inspiration, you can draw on your
@@ -147,10 +134,6 @@ on your bond to the defense of your home village to push past the effect
 of a spell that has been laid on you.
 
 ** Gaining Inspiration
-   :PROPERTIES:
-   :CUSTOM_ID: gaining-inspiration
-   :END:
-
 Your GM can choose to give you inspiration for a variety of reasons.
 Typically, GMs award it when you play out your personality traits, give
 in to the drawbacks presented by a flaw or bond, and otherwise portray
@@ -161,10 +144,6 @@ You either have inspiration or you don't - you can't stockpile multiple
 "inspirations" for later use.
 
 ** Using Inspiration
-   :PROPERTIES:
-   :CUSTOM_ID: using-inspiration
-   :END:
-
 If you have inspiration, you can expend it when you make an attack roll,
 saving throw, or ability check. Spending your inspiration gives you
 advantage on that roll.
@@ -175,11 +154,7 @@ the game. When another player character does something that really
 contributes to the story in a fun and interesting way, you can give up
 your inspiration to give that character inspiration.
 
-* Backgrounds
-  :PROPERTIES:
-  :CUSTOM_ID: backgrounds
-  :END:
-
+* Backgrounds                                                    :background:
 Every story has a beginning. Your character's background reveals where
 you came from, how you became an adventurer, and your place in the
 world. Your fighter might have been a courageous knight or a grizzled
@@ -200,10 +175,6 @@ The sample backgrounds in this chapter provide both concrete benefits
 (features, proficiencies, and languages) and roleplaying suggestions.
 
 *** Proficiencies
-    :PROPERTIES:
-    :CUSTOM_ID: proficiencies
-    :END:
-
 Each background gives a character proficiency in two skills (described
 in "Using Ability Scores").
 
@@ -215,37 +186,21 @@ sources, he or she can choose a different proficiency of the same kind
 (skill or tool) instead.
 
 *** Languages
-    :PROPERTIES:
-    :CUSTOM_ID: languages-1
-    :END:
-
 Some backgrounds also allow characters to learn additional languages
 beyond those given by race. See "Languages."
 
 *** Equipment
-    :PROPERTIES:
-    :CUSTOM_ID: equipment
-    :END:
-
 Each background provides a package of starting equipment. If you use the
 optional rule to spend coin on gear, you do not receive the starting
 equipment from your background.
 
 *** Suggested Characteristics
-    :PROPERTIES:
-    :CUSTOM_ID: suggested-characteristics
-    :END:
-
 A background contains suggested personal characteristics based on your
 background. You can pick characteristics, roll dice to determine them
 randomly, or use the suggestions as inspiration for characteristics of
 your own creation.
 
 *** Customizing a Background
-    :PROPERTIES:
-    :CUSTOM_ID: customizing-a-background
-    :END:
-
 You might want to tweak some of the features of a background so it
 better fits your character or the campaign setting. To customize a
 background, you can replace one feature with any other one, choose any
@@ -258,10 +213,6 @@ ideal, one bond, and one flaw. If you can't find a feature that matches
 your desired background, work with your GM to create one.
 
 ** Acolyte
-   :PROPERTIES:
-   :CUSTOM_ID: acolyte
-   :END:
-
 You have spent your life in the service of a temple to a specific god or
 pantheon of gods. You act as an intermediary between the realm of the
 holy and the mortal world, performing sacred rites and offering
@@ -279,19 +230,16 @@ way? Perhaps you were the leader of a small cult outside of any
 established temple structure, or even an occult group that served a
 fiendish master that you now deny.
 
-*Skill Proficiencies:* Insight, Religion
-
-*Languages:* Two of your choice
-
-*Equipment:* A holy symbol (a gift to you when you entered the
-priesthood), a prayer book or prayer wheel, 5 sticks of incense,
-vestments, a set of common clothes, and a pouch containing 15 gp
+- Skill Proficiencies :: Insight, Religion
+  
+- Languages :: Two of your choice
+  
+- Equipment ::
+  A holy symbol (a gift to you when you entered the
+  priesthood), a prayer book or prayer wheel, 5 sticks of incense,
+  vestments, a set of common clothes, and a pouch containing 15 gp
 
 *** Feature: Shelter of the Faithful
-    :PROPERTIES:
-    :CUSTOM_ID: feature-shelter-of-the-faithful
-    :END:
-
 As an acolyte, you command the respect of those who share your faith,
 and you can perform the religious ceremonies of your deity. You and your
 adventuring companions can expect to receive free healing and care at a
@@ -308,47 +256,51 @@ ask for is not hazardous and you remain in good standing with your
 temple.
 
 *** Suggested Characteristics
-    :PROPERTIES:
-    :CUSTOM_ID: suggested-characteristics-1
-    :END:
-
 Acolytes are shaped by their experience in temples or other religious
 communities. Their study of the history and tenets of their faith and
 their relationships to temples, shrines, or hierarchies affect their
 mannerisms and ideals. Their flaws might be some hidden hypocrisy or
 heretical idea, or an ideal or bond taken to an extreme.
 
-*Table- Suggested Acolyte Characteristics*
+*** Tables: Suggested Acolyte Characteristics
+**** Personality Traits
+| d8 | Personality Trait                                                                                                  |
+|----+--------------------------------------------------------------------------------------------------------------------|
+|  1 | I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.                  |
+|  2 | I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.      |
+|  3 | I see omens in every event and action. The gods try to speak to us, we just need to listen                         |
+|  4 | Nothing can shake my optimistic attitude.                                                                          |
+|  5 | I quote (or misquote) sacred texts and proverbs in almost every situation.                                         |
+|  6 | I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.                  |
+|  7 | I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me.                |
+|  8 | I've spent so long in the temple that I have little practical experience dealing with people in the outside world. |
 
-| d8   | Personality Trait                                                                                                        |
-|------+--------------------------------------------------------------------------------------------------------------------------|
-| 1    | I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.                        |
-| 2    | I can find common ground between the fiercest enemies, empathizing with them and always working toward peace.            |
-| 3    | I see omens in every event and action. The gods try to speak to us, we just need to listen                               |
-| 4    | Nothing can shake my optimistic attitude.                                                                                |
-| 5    | I quote (or misquote) sacred texts and proverbs in almost every situation.                                               |
-| 6    | I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods.                        |
-| 7    | I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me.                      |
-| 8    | I've spent so long in the temple that I have little practical experience dealing with people in the outside world.       |
-| *d6* | *Ideal*                                                                                                                  |
-| 1    | *Tradition*. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)                      |
-| 2    | *Charity*. I always try to help those in need, no matter what the personal cost. (Good)                                  |
-| 3    | *Change*. We must help bring about the changes the gods are constantly working in the world. (Chaotic)                   |
-| 4    | *Power*. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)                                   |
-| 5    | *Faith*. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)    |
-| 6    | *Aspiration*. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any) |
-| *d6* | *Bond*                                                                                                                   |
-| 1    | I would die to recover an ancient relic of my faith that was lost long ago.                                              |
-| 2    | I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.                                     |
-| 3    | I owe my life to the priest who took me in when my parents died.                                                         |
-| 4    | Everything I do is for the common people.                                                                                |
-| 5    | I will do anything to protect the temple where I served.                                                                 |
-| 6    | I seek to preserve a sacred text that my enemies consider heretical and seek to destroy.                                 |
-| *d6* | *Flaw*                                                                                                                   |
-| 1    | I judge others harshly, and myself even more severely.                                                                   |
-| 2    | I put too much trust in those who wield power within my temple's hierarchy.                                              |
-| 3    | My piety sometimes leads me to blindly trust those that profess faith in my god.                                         |
-| 4    | I am inflexible in my thinking.                                                                                          |
-| 5    | I am suspicious of strangers and expect the worst of them.                                                               |
-| 6    | Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.                            |
-|      |                                                                                                                          |
+**** Ideals
+| d6 | Ideal                                                                                                                    |
+|----+--------------------------------------------------------------------------------------------------------------------------|
+|  1 | *Tradition*. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)                      |
+|  2 | *Charity*. I always try to help those in need, no matter what the personal cost. (Good)                                  |
+|  3 | *Change*. We must help bring about the changes the gods are constantly working in the world. (Chaotic)                   |
+|  4 | *Power*. I hope to one day rise to the top of my faith's religious hierarchy. (Lawful)                                   |
+|  5 | *Faith*. I trust that my deity will guide my actions. I have faith that if I work hard, things will go well. (Lawful)    |
+|  6 | *Aspiration*. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings. (Any) |
+
+**** Bonds
+| d6 | Bond                                                                                     |
+|----+------------------------------------------------------------------------------------------|
+|  1 | I would die to recover an ancient relic of my faith that was lost long ago.              |
+|  2 | I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.     |
+|  3 | I owe my life to the priest who took me in when my parents died.                         |
+|  4 | Everything I do is for the common people.                                                |
+|  5 | I will do anything to protect the temple where I served.                                 |
+|  6 | I seek to preserve a sacred text that my enemies consider heretical and seek to destroy. |
+
+**** Flaws
+| d6 | Flaw                                                                                          |
+|----+-----------------------------------------------------------------------------------------------|
+|  1 | I judge others harshly, and myself even more severely.                                        |
+|  2 | I put too much trust in those who wield power within my temple's hierarchy.                   |
+|  3 | My piety sometimes leads me to blindly trust those that profess faith in my god.              |
+|  4 | I am inflexible in my thinking.                                                               |
+|  5 | I am suspicious of strangers and expect the worst of them.                                    |
+|  6 | Once I pick a goal, I become obsessed with it to the detriment of everything else in my life. |
