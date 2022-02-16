@@ -1,13 +1,7 @@
-* ADVENTURING
-  :PROPERTIES:
-  :CUSTOM_ID: adventuring
-  :END:
+#+STARTUP: content showstars indent
+#+FILETAGS: adventuring
 
-* Time
-  :PROPERTIES:
-  :CUSTOM_ID: time
-  :END:
-
+* Time                                                                 :time:
 In situations where keeping track of the passage of time is important,
 the GM determines the time a task requires. The GM might use a different
 time scale depending on the context of the situation at hand. In a
@@ -30,11 +24,7 @@ journey.
 In combat and other fast-paced situations, the game relies on *rounds*,
 a 6-second span of time.
 
-* Movement
-  :PROPERTIES:
-  :CUSTOM_ID: movement
-  :END:
-
+* Movement                                                         :movement:
 Swimming across a rushing river, sneaking down a dungeon corridor,
 scaling a treacherous mountain slope-all sorts of movement play a key
 role in fantasy gaming adventures.
@@ -54,11 +44,7 @@ The rules for determining travel time depend on two factors: the speed
 and travel pace of the creatures moving and the terrain they're moving
 over.
 
-** Speed
-   :PROPERTIES:
-   :CUSTOM_ID: speed
-   :END:
-
+** Speed                                                             :speed:
 Every character and monster has a speed, which is the distance in feet
 that the character or monster can walk in 1 round. This number assumes
 short bursts of energetic movement in the midst of a life-threatening
@@ -67,20 +53,16 @@ situation.
 The following rules determine how far a character or monster can move in
 a minute, an hour, or a day.
 
-*** Travel Pace
-    :PROPERTIES:
-    :CUSTOM_ID: travel-pace
-    :END:
-
+*** Travel Pace                                               :travel:pace:
 While traveling, a group of adventurers can move at a normal, fast, or
 slow pace, as shown on the Travel Pace table. The table states how far
 the party can move in a period of time and whether the pace has any
 effect. A fast pace makes characters less perceptive, while a slow pace
 makes it possible to sneak around and to search an area more carefully.
 
-*/Forced March/*. The Travel Pace table assumes that characters travel
-for 8 hours in day. They can push on beyond that limit, at the risk of
-exhaustion.
+**** Forced March                                           :forced:march:
+The Travel Pace table assumes that characters travel for 8 hours in
+day. They can push on beyond that limit, at the risk of exhaustion.
 
 For each additional hour of travel beyond 8 hours, the characters cover
 the distance shown in the Hour column for their pace, and each character
@@ -88,12 +70,13 @@ must make a Constitution saving throw at the end of the hour. The DC is
 10 + 1 for each hour past 8 hours. On a failed saving throw, a character
 suffers one level of exhaustion (see appendix ##).
 
-*/Mounts and Vehicles/*. For short spans of time (up to an hour), many
-animals move much faster than humanoids. A mounted character can ride at
-a gallop for about an hour, covering twice the usual distance for a fast
-pace. If fresh mounts are available every 8 to 10 miles, characters can
-cover larger distances at this pace, but this is very rare except in
-densely populated areas.
+**** Mounts and Vehicles                                   :mount:vehicle:
+For short spans of time (up to an hour), many animals move much faster
+than humanoids. A mounted character can ride at a gallop for about an
+hour, covering twice the usual distance for a fast pace. If fresh
+mounts are available every 8 to 10 miles, characters can cover larger
+distances at this pace, but this is very rare except in densely
+populated areas.
 
 Characters in wagons, carriages, or other land vehicles choose a pace as
 normal. Characters in a waterborne vessel are limited to the speed of
@@ -105,22 +88,14 @@ Certain special mounts, such as a pegasus or griffon, or special
 vehicles, such as a /carpet of flying/, allow you to travel more
 swiftly.
 
-*Table- Travel Pace*
-
-*Distance Traveled Per ...*
-
+**** Table: Travel Pace                                            :table:
 | Pace   | Minute   | Hour    | Day      | Effect                                           |
 |--------+----------+---------+----------+--------------------------------------------------|
 | Fast   | 400 feet | 4 miles | 30 miles | -5 penalty to passive Wisdom (Perception) scores |
 | Normal | 300 feet | 3 miles | 18 miles | -                                                |
 | Slow   | 200 feet | 2 miles | 24 miles | Able to use stealth                              |
-|        |          |         |          |                                                  |
 
-*** Difficult Terrain
-    :PROPERTIES:
-    :CUSTOM_ID: difficult-terrain
-    :END:
-
+*** Difficult Terrain                 :difficult:terrain:difficult_terrain:
 The travel speeds given in the Travel Pace table assume relatively
 simple terrain: roads, open plains, or clear dungeon corridors. But
 adventurers often face dense forests, deep swamps, rubble-filled ruins,
@@ -131,20 +106,12 @@ You move at half speed in difficult terrain- moving 1 foot in difficult
 terrain costs 2 feet of speed-so you can cover only half the normal
 distance in a minute, an hour, or a day.
 
-** Special Types of Movement
-   :PROPERTIES:
-   :CUSTOM_ID: special-types-of-movement
-   :END:
-
+** Special Types of Movement                                       :special:
 Movement through dangerous dungeons or wilderness areas often involves
 more than simply walking. Adventurers might have to climb, crawl, swim,
 or jump to get where they need to go.
 
-*** Climbing, Swimming, and Crawling
-    :PROPERTIES:
-    :CUSTOM_ID: climbing-swimming-and-crawling
-    :END:
-
+*** Climbing, Swimming, and Crawling                     :climb:swim:crawl:
 While climbing or swimming, each foot of movement costs 1 extra foot (2
 extra feet in difficult terrain), unless a creature has a climbing or
 swimming speed. At the GM's option, climbing a slippery vertical surface
@@ -152,14 +119,11 @@ or one with few handholds requires a successful Strength (Athletics)
 check. Similarly, gaining any distance in rough water might require a
 successful Strength (Athletics) check.
 
-*** Jumping
-    :PROPERTIES:
-    :CUSTOM_ID: jumping
-    :END:
-
+*** Jumping                                                          :jump:
 Your Strength determines how far you can jump.
 
-*/Long Jump/*. When you make a long jump, you cover a number of feet up
+**** Long Jump                                                      :long:
+When you make a long jump, you cover a number of feet up
 to your Strength score if you move at least 10 feet on foot immediately
 before the jump. When you make a standing long jump, you can leap only
 half that distance. Either way, each foot you clear on the jump costs a
@@ -175,7 +139,8 @@ When you land in difficult terrain, you must succeed on a DC 10
 Dexterity (Acrobatics) check to land on your feet. Otherwise, you land
 prone.
 
-*/High Jump/*. When you make a high jump, you leap into the air a number
+**** High Jump                                                      :high:
+When you make a high jump, you leap into the air a number
 of feet equal to 3 + your Strength modifier if you move at least 10 feet
 on foot immediately before the jump. When you make a standing high jump,
 you can jump only half that distance. Either way, each foot you clear on
@@ -187,31 +152,19 @@ You can extend your arms half your height above yourself during the
 jump. Thus, you can reach above you a distance equal to the height of
 the jump plus 1½ times your height.
 
-* The Environment
-  :PROPERTIES:
-  :CUSTOM_ID: the-environment
-  :END:
-
+* The Environment                                   :environment:environ:env:
 By its nature, adventuring involves delving into places that are dark,
 dangerous, and full of mysteries to be explored. The rules in this
 section cover some of the most important ways in which adventurers
 interact with the environment in such places.
 
-** Falling
-   :PROPERTIES:
-   :CUSTOM_ID: falling
-   :END:
-
+** Falling                                                    :fall:falling:
 A fall from a great height is one of the most common hazards facing an
 adventurer. At the end of a fall, a creature takes 1d6 bludgeoning
 damage for every 10 feet it fell, to a maximum of 20d6. The creature
 lands prone, unless it avoids taking damage from the fall.
 
-** Suffocating
-   :PROPERTIES:
-   :CUSTOM_ID: suffocating
-   :END:
-
+** Suffocating                                       :suffocate:suffocating:
 A creature can hold its breath for a number of minutes equal to 1 + its
 Constitution modifier (minimum of 30 seconds).
 
@@ -225,11 +178,7 @@ For example, a creature with a Constitution of 14 can hold its breath
 for 3 minutes. If it starts suffocating, it has 2 rounds to reach air
 before it drops to 0 hit points.
 
-** Vision and Light
-   :PROPERTIES:
-   :CUSTOM_ID: vision-and-light
-   :END:
-
+** Vision and Light                                           :vision:light:
 The most fundamental tasks of adventuring- noticing danger, finding
 hidden objects, hitting an enemy in combat, and targeting a spell, to
 name just a few-rely heavily on a character's ability to see. Darkness
@@ -266,20 +215,12 @@ within the confines of an unlit dungeon or a subterranean vault, or in
 an area of magical darkness.
 
 *** Blindsight
-    :PROPERTIES:
-    :CUSTOM_ID: blindsight
-    :END:
-
 A creature with blindsight can perceive its surroundings without relying
 on sight, within a specific radius. Creatures without eyes, such as
 oozes, and creatures with echolocation or heightened senses, such as
 bats and true dragons, have this sense.
 
 *** Darkvision
-    :PROPERTIES:
-    :CUSTOM_ID: darkvision
-    :END:
-
 Many creatures in fantasy gaming worlds, especially those that dwell
 underground, have darkvision. Within a specified range, a creature with
 darkvision can see in darkness as if the darkness were dim light, so
@@ -288,10 +229,6 @@ concerned. However, the creature can't discern color in darkness, only
 shades of gray.
 
 *** Truesight
-    :PROPERTIES:
-    :CUSTOM_ID: truesight
-    :END:
-
 A creature with truesight can, out to a specific range, see in normal
 and magical darkness, see invisible creatures and objects, automatically
 detect visual illusions and succeed on saving throws against them, and
@@ -299,20 +236,12 @@ perceives the original form of a shapechanger or a creature that is
 transformed by magic. Furthermore, the creature can see into the
 Ethereal Plane.
 
-** Food and Water
-   :PROPERTIES:
-   :CUSTOM_ID: food-and-water
-   :END:
-
+** Food and Water                                               :sustanence:
 Characters who don't eat or drink suffer the effects of exhaustion (see
 appendix ##). Exhaustion caused by lack of food or water can't be
 removed until the character eats and drinks the full required amount.
 
-*** Food
-    :PROPERTIES:
-    :CUSTOM_ID: food
-    :END:
-
+*** Food                                                             :food:
 A character needs one pound of food per day and can make food last
 longer by subsisting on half rations. Eating half a pound of food in a
 day counts as half a day without food.
@@ -323,11 +252,7 @@ that limit, a character automatically suffers one level of exhaustion.
 
 A normal day of eating resets the count of days without food to zero.
 
-*** Water
-    :PROPERTIES:
-    :CUSTOM_ID: water
-    :END:
-
+*** Water                                                           :water:
 A character needs one gallon of water per day, or two gallons per day if
 the weather is hot. A character who drinks only half that much water
 must succeed on a DC 15 Constitution saving throw or suffer one level of
@@ -339,10 +264,6 @@ If the character already has one or more levels of exhaustion, the
 character takes two levels in either case.
 
 ** Interacting with Objects
-   :PROPERTIES:
-   :CUSTOM_ID: interacting-with-objects
-   :END:
-
 A character's interaction with objects in an environment is often simple
 to resolve in the game. The player tells the GM that his or her
 character is doing something, such as moving a lever, and the GM
@@ -369,11 +290,7 @@ it breaks.
 A character can also attempt a Strength check to break an object. The GM
 sets the DC for any such check.
 
-* Resting
-  :PROPERTIES:
-  :CUSTOM_ID: resting
-  :END:
-
+* Resting                                                      :rest:resting:
 Heroic though they might be, adventurers can't spend every hour of the
 day in the thick of exploration, social interaction, and combat. They
 need rest-time to sleep and eat, tend their wounds, refresh their minds
@@ -383,11 +300,7 @@ adventure.
 Adventurers can take short rests in the midst of an adventuring day and
 a long rest to end the day.
 
-** Short Rest
-   :PROPERTIES:
-   :CUSTOM_ID: short-rest
-   :END:
-
+** Short Rest                                                        :short:
 A short rest is a period of downtime, at least 1 hour long, during which
 a character does nothing more strenuous than eating, drinking, reading,
 and tending to wounds.
@@ -401,11 +314,7 @@ player can decide to spend an additional Hit Die after each roll. A
 character regains some spent Hit Dice upon finishing a long rest, as
 explained below.
 
-** Long Rest
-   :PROPERTIES:
-   :CUSTOM_ID: long-rest
-   :END:
-
+** Long Rest                                                          :long:
 A long rest is a period of extended downtime, at least 8 hours long,
 during which a character sleeps for at least 6 hours and performs no
 more than 2 hours of light activity, such as reading, talking, eating,
@@ -425,10 +334,6 @@ period, and a character must have at least 1 hit point at the start of
 the rest to gain its benefits.
 
 * Between Adventures
-  :PROPERTIES:
-  :CUSTOM_ID: between-adventures
-  :END:
-
 Between trips to dungeons and battles against ancient evils, adventurers
 need time to rest, recuperate, and prepare for their next adventure.
 Many adventurers also use this time to perform other tasks, such as
@@ -443,10 +348,6 @@ times, the GM might want to keep track of just how much time is passing
 as events beyond your perception stay in motion.
 
 ** Lifestyle Expenses
-   :PROPERTIES:
-   :CUSTOM_ID: lifestyle-expenses
-   :END:
-
 Between adventures, you choose a particular quality of life and pay the
 cost of maintaining that lifestyle.
 
@@ -456,11 +357,7 @@ groups react to you. For example, when you lead an aristocratic
 lifestyle, it might be easier for you to influence the nobles of the
 city than if you live in poverty.
 
-** Downtime Activities
-   :PROPERTIES:
-   :CUSTOM_ID: downtime-activities
-   :END:
-
+** Downtime Activities                                            :downtime:
 Between adventures, the GM might ask you what your character is doing
 during his or her downtime. Periods of downtime can vary in duration,
 but each downtime activity requires a certain number of days to complete
@@ -474,11 +371,7 @@ Downtime activities other than the ones presented below are possible. If
 you want your character to spend his or her downtime performing an
 activity not covered here, discuss it with your GM.
 
-*** Crafting
-    :PROPERTIES:
-    :CUSTOM_ID: crafting
-    :END:
-
+*** Crafting                                               :craft:crafting:
 You can craft nonmagical objects, including adventuring equipment and
 works of art. You must be proficient with tools related to the object
 you are trying to create (typically artisan's tools). You might also
@@ -505,11 +398,7 @@ proficiency and the proper facilities can craft a suit of plate armor in
 While crafting, you can maintain a modest lifestyle without having to
 pay 1 gp per day, or a comfortable lifestyle at half the normal cost.
 
-*** Practicing a Profession
-    :PROPERTIES:
-    :CUSTOM_ID: practicing-a-profession
-    :END:
-
+*** Practicing a Profession                           :practice:profession:
 You can work between adventures, allowing you to maintain a modest
 lifestyle without having to pay 1 gp per day. This benefit lasts as long
 you continue to practice your profession.
@@ -522,11 +411,7 @@ If you have proficiency in the Performance skill and put your
 performance skill to use during your downtime, you earn enough to
 support a wealthy lifestyle instead.
 
-*** Recuperating
-    :PROPERTIES:
-    :CUSTOM_ID: recuperating
-    :END:
-
+*** Recuperating                                               :recuperate:
 You can use downtime between adventures to recover from a debilitating
 injury, disease, or poison.
 
@@ -538,11 +423,7 @@ the following results:
 - For the next 24 hours, gain advantage on saving throws against one
   disease or poison currently affecting you.
 
-*** Researching
-    :PROPERTIES:
-    :CUSTOM_ID: researching
-    :END:
-
+*** Researching                                                  :research:
 The time between adventures is a great chance to perform research,
 gaining insight into mysteries that have unfurled over the course of the
 campaign. Research can include poring over dusty tomes and crumbling
@@ -561,11 +442,7 @@ those conditions are met, you learn the information if it is available.
 For each day of research, you must spend 1 gp to cover your expenses.
 This cost is in addition to your normal lifestyle expenses.
 
-*** Training
-    :PROPERTIES:
-    :CUSTOM_ID: training
-    :END:
-
+*** Training                                               :train:training:
 You can spend time between adventures learning a new language or
 training with a set of tools. Your GM might allow additional training
 options.
