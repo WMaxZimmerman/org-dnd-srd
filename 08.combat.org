@@ -1,8 +1,7 @@
-* COMBAT
-  :PROPERTIES:
-  :CUSTOM_ID: combat
-  :END:
+#+STARTUP: content showstars indent
+#+FILETAGS: combat
 
+* Description
 A typical combat encounter is a clash between two sides, a flurry of
 weapon swings, feints, parries, footwork, and spellcasting. The game
 organizes the chaos of combat into a cycle of rounds and turns. A
@@ -14,30 +13,27 @@ next round if neither side has defeated the other.
 
 #+BEGIN_QUOTE
   * Combat Step by Step
-    :PROPERTIES:
-    :CUSTOM_ID: combat-step-by-step
-    :END:
-
+    
   1. *Determine surprise.* The GM determines whether anyone involved in
      the combat encounter is surprised.
+     
   2. *Establish positions.* The GM decides where all the characters and
      monsters are located. Given the adventurers' marching order or
      their stated positions in the room or other location, the GM
      figures out where the adversaries are̶how far away and in what
      direction.
+     
   3. *Roll initiative.* Everyone involved in the combat encounter rolls
      initiative, determining the order of combatants' turns.
+     
   4. *Take turns.* Each participant in the battle takes a turn in
      initiative order.
+     
   5. *Begin the next round.* When everyone involved in the combat has
      had a turn, the round ends. Repeat step 4 until the fighting stops.
 #+END_QUOTE
 
-** Surprise
-   :PROPERTIES:
-   :CUSTOM_ID: surprise
-   :END:
-
+** Surprise                                                       :surprise:
 A band of adventurers sneaks up on a bandit camp, springing from the
 trees to attack them. A gelatinous cube glides down a dungeon passage,
 unnoticed by the adventurers until the cube engulfs one of them. In
@@ -54,11 +50,7 @@ If you're surprised, you can't move or take an action on your first turn
 of the combat, and you can't take a reaction until that turn ends. A
 member of a group can be surprised even if the other members aren't.
 
-** Initiative
-   :PROPERTIES:
-   :CUSTOM_ID: initiative
-   :END:
-
+** Initiative                                                   :initiative:
 Initiative determines the order of turns during combat. When combat
 starts, every participant makes a Dexterity check to determine their
 place in the initiative order. The GM makes one roll for an entire group
@@ -76,11 +68,7 @@ The GM can decide the order if the tie is between a monster and a player
 character. Optionally, the GM can have the tied characters and monsters
 each roll a d20 to determine the order, highest roll going first.
 
-** Your Turn
-   :PROPERTIES:
-   :CUSTOM_ID: your-turn
-   :END:
-
+** Your Turn                                                          :turn:
 On your turn, you can *move* a distance up to your speed and *take one
 action*. You decide whether to move first or take your action first.
 Your speed- sometimes called your walking speed-is noted on your
@@ -97,11 +85,7 @@ You can forgo moving, taking an action, or doing anything at all on your
 turn. If you can't decide what to do on your turn, consider taking the
 Dodge or Ready action, as described in "Actions in Combat."
 
-** Bonus Actions
-   :PROPERTIES:
-   :CUSTOM_ID: bonus-actions
-   :END:
-
+** Bonus Actions                                              :bonus_action:
 Various class features, spells, and other abilities let you take an
 additional action on your turn called a bonus action. The Cunning Action
 feature, for example, allows a rogue to take a bonus action. You can
@@ -117,11 +101,7 @@ bonus action's timing is specified, and anything that deprives you of
 your ability to take actions also prevents you from taking a bonus
 action.
 
-** Other Activity on Your Turn
-   :PROPERTIES:
-   :CUSTOM_ID: other-activity-on-your-turn
-   :END:
-
+** Other Activity on Your Turn                                       :other:
 Your turn can include a variety of flourishes that require neither your
 action nor your move.
 
@@ -142,11 +122,7 @@ when it needs special care or when it presents an unusual obstacle. For
 instance, the GM could reasonably expect you to use an action to open a
 stuck door or turn a crank to lower a drawbridge.
 
-* Reactions
-  :PROPERTIES:
-  :CUSTOM_ID: reactions
-  :END:
-
+* Reactions                                                        :reaction:
 Certain special abilities, spells, and situations allow you to take a
 special action called a reaction. A reaction is an instant response to a
 trigger of some kind, which can occur on your turn or on someone else's.
@@ -157,11 +133,7 @@ When you take a reaction, you can't take another one until the start of
 your next turn. If the reaction interrupts another creature's turn, that
 creature can continue its turn right after the reaction.
 
-* Movement and Position
-  :PROPERTIES:
-  :CUSTOM_ID: movement-and-position
-  :END:
-
+* Movement and Position                                   :movement:position:
 In combat, characters and monsters are in constant motion, often using
 movement and position to gain the upper hand.
 
@@ -175,20 +147,12 @@ constitute your entire move. However you're moving, you deduct the
 distance of each part of your move from your speed until it is used up
 or until you are done moving.
 
-** Breaking Up Your Move
-   :PROPERTIES:
-   :CUSTOM_ID: breaking-up-your-move
-   :END:
-
+** Breaking Up Your Move                                             :split:
 You can break up your movement on your turn, using some of your speed
 before and after your action. For example, if you have a speed of 30
 feet, you can move 10 feet, take your action, and then move 20 feet.
 
 *** Moving between Attacks
-    :PROPERTIES:
-    :CUSTOM_ID: moving-between-attacks
-    :END:
-
 If you take an action that includes more than one weapon attack, you can
 break up your movement even further by moving between those attacks. For
 example, a fighter who can make two attacks with the Extra Attack
@@ -196,10 +160,6 @@ feature and who has a speed of 25 feet could move 10 feet, make an
 attack, move 15 feet, and then attack again.
 
 *** Using Different Speeds
-    :PROPERTIES:
-    :CUSTOM_ID: using-different-speeds
-    :END:
-
 If you have more than one speed, such as your walking speed and a flying
 speed, you can switch back and forth between your speeds during your
 move. Whenever you switch, subtract the distance you've already moved
@@ -208,14 +168,10 @@ If the result is 0 or less, you can't use the new speed during the
 current move.
 
 For example, if you have a speed of 30 and a flying speed of 60 because
-a wizard cast the /fly/ spell on you, you could fly 20 feet, then walk
+a wizard cast the [[file:10.spells.org::*Fly][Fly]] spell on you, you could fly 20 feet, then walk
 10 feet, and then leap into the air to fly 30 feet more.
 
-** Difficult Terrain
-   :PROPERTIES:
-   :CUSTOM_ID: difficult-terrain
-   :END:
-
+** Difficult Terrain                                     :difficult_terrain:
 Combat rarely takes place in bare rooms or on featureless plains.
 Boulder-strewn caverns, briar-choked forests, treacherous staircases-the
 setting of a typical fight contains difficult terrain.
@@ -228,11 +184,7 @@ Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs
 are examples of difficult terrain. The space of another creature,
 whether hostile or not, also counts as difficult terrain.
 
-** Being Prone
-   :PROPERTIES:
-   :CUSTOM_ID: being-prone
-   :END:
-
+** Being Prone                                                       :prone:
 Combatants often find themselves lying on the ground, either because
 they are knocked down or because they throw themselves down. In the
 game, they are prone, a condition described in appendix A.
@@ -279,10 +231,6 @@ movement.
 #+END_QUOTE
 
 ** Moving Around Other Creatures
-   :PROPERTIES:
-   :CUSTOM_ID: moving-around-other-creatures
-   :END:
-
 You can move through a nonhostile creature's space. In contrast, you can
 move through a hostile creature's space only if the creature is at least
 two sizes larger or smaller than you. Remember that another creature's
@@ -294,28 +242,19 @@ move in its space.
 If you leave a hostile creature's reach during your move, you provoke an
 opportunity attack, as explained later in the chapter.
 
-** Flying Movement
-   :PROPERTIES:
-   :CUSTOM_ID: flying-movement
-   :END:
-
+** Flying Movement                                              :fly:flying:
 Flying creatures enjoy many benefits of mobility, but they must also
 deal with the danger of falling. If a flying creature is knocked prone,
 has its speed reduced to 0, or is otherwise deprived of the ability to
 move, the creature falls, unless it has the ability to hover or it is
 being held aloft by magic, such as by the /fly/ spell.
 
-** Creature Size
-   :PROPERTIES:
-   :CUSTOM_ID: creature-size
-   :END:
-
+** Creature Size                                                      :size:
 Each creature takes up a different amount of space. The Size Categories
 table shows how much space a creature of a particular size controls in
 combat. Objects sometimes use the same size categories.
 
-*Table- Creature Size*
-
+*** Table: Creature Size                                            :table:
 | Size       | Space                  |
 |------------+------------------------|
 | Tiny       | 2 1/2 by 2 1/2 ft.     |
@@ -324,13 +263,8 @@ combat. Objects sometimes use the same size categories.
 | Large      | 10 by 10 ft.           |
 | Huge       | 15 by 15 ft.           |
 | Gargantuan | 20 by 20 ft. or larger |
-|            |                        |
 
-*** Space
-    :PROPERTIES:
-    :CUSTOM_ID: space
-    :END:
-
+*** Space                                                           :space:
 A creature's space is the area in feet that it effectively controls in
 combat, not an expression of its physical dimensions. A typical Medium
 creature isn't 5 feet wide, for example, but it does control a space
@@ -347,11 +281,7 @@ a creature. If four Large creatures crowd around a Medium or smaller
 one, there's little room for anyone else. In contrast, as many as twenty
 Medium creatures can surround a Gargantuan one.
 
-**** Squeezing into a Smaller Space
-     :PROPERTIES:
-     :CUSTOM_ID: squeezing-into-a-smaller-space
-     :END:
-
+**** Squeezing into a Smaller Space                              :squeeze:
 A creature can squeeze through a space that is large enough for a
 creature one size smaller than it. Thus, a Large creature can squeeze
 through a passage that's only 5 feet wide. While squeezing through a
@@ -360,11 +290,7 @@ and it has disadvantage on attack rolls and Dexterity saving throws.
 Attack rolls against the creature have advantage while it's in the
 smaller space.
 
-* Actions in Combat
-  :PROPERTIES:
-  :CUSTOM_ID: actions-in-combat
-  :END:
-
+* Actions in Combat                                          :action:actions:
 When you take your action on your turn, you can take one of the actions
 presented here, an action you gained from your class or a special
 feature, or an action that you improvise. Many monsters have action
@@ -374,11 +300,7 @@ When you describe an action not detailed elsewhere in the rules, the GM
 tells you whether that action is possible and what kind of roll you need
 to make, if any, to determine success or failure.
 
-** Attack
-   :PROPERTIES:
-   :CUSTOM_ID: attack
-   :END:
-
+** Attack                                                           :attack:
 The most common action to take in combat is the Attack action, whether
 you are swinging a sword, firing an arrow from a bow, or brawling with
 your fists.
@@ -389,11 +311,7 @@ an Attack" section for the rules that govern attacks.
 Certain features, such as the Extra Attack feature of the fighter, allow
 you to make more than one attack with this action.
 
-** Cast a Spell
-   :PROPERTIES:
-   :CUSTOM_ID: cast-a-spell
-   :END:
-
+** Cast a Spell                                                      :spell:
 Spellcasters such as wizards and clerics, as well as many monsters, have
 access to spells and can use them to great effect in combat. Each spell
 has a casting time, which specifies whether the caster must use an
@@ -402,11 +320,7 @@ spell is, therefore, not necessarily an action. Most spells do have a
 casting time of 1 action, so a spellcaster often uses his or her action
 in combat to cast such a spell.
 
-** Dash
-   :PROPERTIES:
-   :CUSTOM_ID: dash
-   :END:
-
+** Dash                                                               :dash:
 When you take the Dash action, you gain extra movement for the current
 turn. The increase equals your speed, after applying any modifiers. With
 a speed of 30 feet, for example, you can move up to 60 feet on your turn
@@ -416,30 +330,18 @@ Any increase or decrease to your speed changes this additional movement
 by the same amount. If your speed of 30 feet is reduced to 15 feet, for
 instance, you can move up to 30 feet this turn if you dash.
 
-** Disengage
-   :PROPERTIES:
-   :CUSTOM_ID: disengage
-   :END:
-
+** Disengage                                                     :disengage:
 If you take the Disengage action, your movement doesn't provoke
 opportunity attacks for the rest of the turn.
 
-** Dodge
-   :PROPERTIES:
-   :CUSTOM_ID: dodge
-   :END:
-
+** Dodge                                                             :dodge:
 When you take the Dodge action, you focus entirely on avoiding attacks.
 Until the start of your next turn, any attack roll made against you has
 disadvantage if you can see the attacker, and you make Dexterity saving
 throws with advantage. You lose this benefit if you are incapacitated
 (as explained in appendix A) or if your speed drops to 0.
 
-** Help
-   :PROPERTIES:
-   :CUSTOM_ID: help
-   :END:
-
+** Help                                                               :help:
 You can lend your aid to another creature in the completion of a task.
 When you take the Help action, the creature you aid gains advantage on
 the next ability check it makes to perform the task you are helping
@@ -452,21 +354,13 @@ way team up to make your ally's attack more effective. If your ally
 attacks the target before your next turn, the first attack roll is made
 with advantage.
 
-** Hide
-   :PROPERTIES:
-   :CUSTOM_ID: hide
-   :END:
-
+** Hide                                                               :hide:
 When you take the Hide action, you make a Dexterity (Stealth) check in
 an attempt to hide, following the rules for hiding. If you succeed, you
 gain certain benefits, as described in the "Unseen Attackers and
 Targets" section later in this chapter.
 
-** Ready
-   :PROPERTIES:
-   :CUSTOM_ID: ready
-   :END:
-
+** Ready                                                             :ready:
 Sometimes you want to get the jump on a foe or wait for a particular
 circumstance before you act. To do so, you can take the Ready action on
 your turn, which lets you act using your reaction before the start of
@@ -487,46 +381,36 @@ you release with your reaction when the trigger occurs. To be readied, a
 spell must have a casting time of 1 action, and holding onto the spell's
 magic requires concentration. If your concentration is broken, the spell
 dissipates without taking effect. For example, if you are concentrating
-on the /web/ spell and ready /magic missile/, your /web/ spell ends, and
+on the [[file:10.spells.org::*Web][Web]] spell and ready [[file:10.spells.org::*Magic Missile][Magic Missile]], your /web/ spell ends, and
 if you take damage before you release /magic missile/ with your
 reaction, your concentration might be broken.
 
-** Search
-   :PROPERTIES:
-   :CUSTOM_ID: search
-   :END:
-
+** Search                                                           :search:
 When you take the Search action, you devote your attention to finding
 something. Depending on the nature of your search, the GM might have you
 make a Wisdom (Perception) check or an Intelligence (Investigation)
 check.
 
-** Use an Object
-   :PROPERTIES:
-   :CUSTOM_ID: use-an-object
-   :END:
-
+** Use an Object                                                :use:object:
 You normally interact with an object while doing something else, such as
 when you draw a sword as part of an attack. When an object requires your
 action for its use, you take the Use an Object action. This action is
 also useful when you want to interact with more than one object on your
 turn.
 
-* Making an Attack
-  :PROPERTIES:
-  :CUSTOM_ID: making-an-attack
-  :END:
-
+* Making an Attack                                         :attacking:attack:
 Whether you're striking with a melee weapon, firing a weapon at range,
 or making an attack roll as part of a spell, an attack has a simple
 structure.
 
 - *Choose a target*. Pick a target within your attack's *Range:* a
   creature, an object, or a location.
+  
 - *Determine modifiers*. The GM determines whether the target has cover
   and whether you have advantage or disadvantage against the target. In
   addition, spells, special abilities, and other effects can apply
   penalties or bonuses to your attack roll.
+  
 - *Resolve the attack*. You make the attack roll. On a hit, you roll
   damage, unless the particular attack has rules that specify otherwise.
   Some attacks cause special effects in addition to or instead of
@@ -536,11 +420,7 @@ If there's ever any question whether something you're doing counts as an
 attack, the rule is simple: if you're making an attack roll, you're
 making an attack.
 
-** Attack Rolls
-   :PROPERTIES:
-   :CUSTOM_ID: attack-rolls
-   :END:
-
+** Attack Rolls                                                       :roll:
 When you make an attack, your attack roll determines whether the attack
 hits or misses. To make an attack roll, roll a d20 and add the
 appropriate modifiers. If the total of the roll plus modifiers equals or
@@ -548,11 +428,7 @@ exceeds the target's Armor Class (AC), the attack hits. The AC of a
 character is determined at character creation, whereas the AC of a
 monster is in its stat block.
 
-*** Modifiers to the Roll
-    :PROPERTIES:
-    :CUSTOM_ID: modifiers-to-the-roll
-    :END:
-
+*** Modifiers to the Roll                                    :mod:modifier:
 When a character makes an attack roll, the two most common modifiers to
 the roll are an ability modifier and the character's proficiency bonus.
 When a monster makes an attack roll, it uses whatever modifier is
@@ -570,11 +446,7 @@ spell attack depends on the spellcasting ability of the spellcaster.
 roll when you attack using a weapon with which you have proficiency, as
 well as when you attack with a spell.
 
-*** Rolling 1 or 20
-    :PROPERTIES:
-    :CUSTOM_ID: rolling-1-or-20
-    :END:
-
+*** Rolling 1 or 20                            :crit:success:fail:critical:
 Sometimes fate blesses or curses a combatant, causing the novice to hit
 and the veteran to miss.
 
@@ -585,11 +457,7 @@ explained later in this chapter.
 If the d20 roll for an attack is a 1, the attack misses regardless of
 any modifiers or the target's AC.
 
-** Unseen Attackers and Targets
-   :PROPERTIES:
-   :CUSTOM_ID: unseen-attackers-and-targets
-   :END:
-
+** Unseen Attackers and Targets                                     :unseen:
 Combatants often try to escape their foes' notice by hiding, casting the
 invisibility spell, or lurking in darkness.
 
@@ -604,21 +472,13 @@ When a creature can't see you, you have advantage on attack rolls
 against it. If you are hidden-both unseen and unheard-when you make an
 attack, you give away your location when the attack hits or misses.
 
-** Ranged Attacks
-   :PROPERTIES:
-   :CUSTOM_ID: ranged-attacks
-   :END:
-
+** Ranged Attacks                                                   :ranged:
 When you make a ranged attack, you fire a bow or a crossbow, hurl a
 handaxe, or otherwise send projectiles to strike a foe at a distance. A
 monster might shoot spines from its tail. Many spells also involve
 making a ranged attack.
 
 *** Range
-    :PROPERTIES:
-    :CUSTOM_ID: range
-    :END:
-
 You can make ranged attacks only against targets within a specified
 range.
 
@@ -632,20 +492,12 @@ target is beyond normal range, and you can't attack a target beyond the
 long range.
 
 *** Ranged Attacks in Close Combat
-    :PROPERTIES:
-    :CUSTOM_ID: ranged-attacks-in-close-combat
-    :END:
-
 Aiming a ranged attack is more difficult when a foe is next to you. When
 you make a ranged attack with a weapon, a spell, or some other means,
 you have disadvantage on the attack roll if you are within 5 feet of a
 hostile creature who can see you and who isn't incapacitated.
 
-** Melee Attacks
-   :PROPERTIES:
-   :CUSTOM_ID: melee-attacks
-   :END:
-
+** Melee Attacks                                                     :melee:
 Used in hand-to-hand combat, a melee attack allows you to attack a foe
 within your reach. A melee attack typically uses a handheld weapon such
 as a sword, a warhammer, or an axe. A typical monster makes a melee
@@ -673,11 +525,7 @@ proficient with your unarmed strikes.
   improvising others.
 #+END_QUOTE
 
-**** Opportunity Attacks
-     :PROPERTIES:
-     :CUSTOM_ID: opportunity-attacks
-     :END:
-
+**** Opportunity Attacks                                     :opportunity:
 In a fight, everyone is constantly watching for a chance to strike an
 enemy who is fleeing or passing by. Such a strike is called an
 opportunity attack.
@@ -694,11 +542,7 @@ action, or reaction. For example, you don't provoke an opportunity
 attack if an explosion hurls you out of a foe's reach or if gravity
 causes you to fall past an enemy.
 
-*** Two-Weapon Fighting
-    :PROPERTIES:
-    :CUSTOM_ID: two-weapon-fighting
-    :END:
-
+*** Two-Weapon Fighting                             :duel_wield:two_weapon:
 When you take the Attack action and attack with a light melee weapon
 that you're holding in one hand, you can use a bonus action to attack
 with a different light melee weapon that you're holding in the other
@@ -708,11 +552,7 @@ attack, unless that modifier is negative.
 If either weapon has the thrown property, you can throw the weapon,
 instead of making a melee attack with it.
 
-*** Grappling
-    :PROPERTIES:
-    :CUSTOM_ID: grappling
-    :END:
-
+*** Grappling                                          :grapple:piggy_back:
 When you want to grab a creature or wrestle with it, you can use the
 Attack action to make a special melee attack, a grapple. If you're able
 to make multiple attacks with the Attack action, this attack replaces
@@ -729,19 +569,17 @@ condition (see appendix ##). The condition specifies the things that end
 it, and you can release the target whenever you like (no action
 required).
 
-*/Escaping a Grapple/*. A grappled creature can use its action to
+**** Escaping a Grapple
+A grappled creature can use its action to
 escape. To do so, it must succeed on a Strength (Athletics) or Dexterity
 (Acrobatics) check contested by your Strength (Athletics) check.
 
-*/Moving a Grappled Creature/*. When you move, you can drag or carry the
+**** Moving a Grappled Creature
+When you move, you can drag or carry the
 grappled creature with you, but your speed is halved, unless the
 creature is two or more sizes smaller than you.
 
-*** Shoving a Creature
-    :PROPERTIES:
-    :CUSTOM_ID: shoving-a-creature
-    :END:
-
+*** Shoving a Creature                                      :shove:shoving:
 Using the Attack action, you can make a special melee attack to shove a
 creature, either to knock it prone or push it away from you. If you're
 able to make multiple attacks with the Attack action, this attack
@@ -755,11 +593,7 @@ You succeed automatically if the target is incapacitated. If you
 succeed, you either knock the target prone or push it 5 feet away from
 you.
 
-** Cover
-   :PROPERTIES:
-   :CUSTOM_ID: cover
-   :END:
-
+** Cover                                                             :cover:
 Walls, trees, creatures, and other obstacles can provide cover during
 combat, making a target more difficult to harm. A target can benefit
 from cover only when an attack or other effect originates on the
@@ -787,21 +621,13 @@ spell, although some spells can reach such a target by including it in
 an area of effect. A target has total cover if it is completely
 concealed by an obstacle.
 
-** Damage and Healing
-   :PROPERTIES:
-   :CUSTOM_ID: damage-and-healing
-   :END:
-
+** Damage and Healing                                  :damage:healing:heal:
 Injury and the risk of death are constant companions of those who
 explore fantasy gaming worlds. The thrust of a sword, a well-placed
-arrow, or a blast of flame from a /fireball/ spell all have the
+arrow, or a blast of flame from a [[file:10.spells.org::*Fireball][Fireball]] spell all have the
 potential to damage, or even kill, the hardiest of creatures.
 
-*** Hit Points
-    :PROPERTIES:
-    :CUSTOM_ID: hit-points
-    :END:
-
+*** Hit Points                                                      :hp:HP:
 Hit points represent a combination of physical and mental durability,
 the will to live, and luck. Creatures with more hit points are more
 difficult to kill. Those with fewer hit points are more fragile.
@@ -814,11 +640,7 @@ Whenever a creature takes damage, that damage is subtracted from its hit
 points. The loss of hit points has no effect on a creature's
 capabilities until the creature drops to 0 hit points.
 
-*** Damage Rolls
-    :PROPERTIES:
-    :CUSTOM_ID: damage-rolls
-    :END:
-
+*** Damage Rolls                                                     :roll:
 Each weapon, spell, and harmful monster ability specifies the damage it
 deals. You roll the damage die or dice, add any modifiers, and apply the
 damage to your target. Magic weapons, special abilities, and other
@@ -831,14 +653,10 @@ which dice to roll for damage and whether to add any modifiers.
 
 If a spell or other effect deals damage to *more than one target* at the
 same time, roll the damage once for all of them. For example, when a
-wizard casts /fireball/ or a cleric casts /flame strike/, the spell's
+wizard casts [[file:10.spells.org::*Fireball][Fireball]] or a cleric casts [[file:10.spells.org::*Flame Strike][Flame Strike]], the spell's
 damage is rolled once for all creatures caught in the blast.
 
-*** Critical Hits
-    :PROPERTIES:
-    :CUSTOM_ID: critical-hits
-    :END:
-
+*** Critical Hits                                           :crit:critical:
 When you score a critical hit, you get to roll extra dice for the
 attack's damage against the target. Roll all of the attack's damage dice
 twice and add them together. Then add any relevant modifiers as normal.
@@ -849,11 +667,7 @@ damage, rather than 1d4, and then add your relevant ability modifier. If
 the attack involves other damage dice, such as from the rogue's Sneak
 Attack feature, you roll those dice twice as well.
 
-*** Damage Types
-    :PROPERTIES:
-    :CUSTOM_ID: damage-types
-    :END:
-
+*** Damage Types                                                     :type:
 Different attacks, damaging spells, and other harmful effects deal
 different types of damage. Damage types have no rules of their own, but
 other rules, such as damage resistance, rely on the types.
@@ -861,51 +675,60 @@ other rules, such as damage resistance, rely on the types.
 The damage types follow, with examples to help a GM assign a damage type
 to a new effect.
 
-*/Acid/*. The corrosive spray of a black dragon's breath and the
+**** Acid
+The corrosive spray of a black dragon's breath and the
 dissolving enzymes secreted by a black pudding deal acid damage.
 
-*/Bludgeoning/*. Blunt force attacks-hammers, falling, constriction, and
+**** Bludgeoning
+Blunt force attacks-hammers, falling, constriction, and
 the like-deal bludgeoning damage.
 
-*/Cold/*. The infernal chill radiating from an ice devil's spear and the
+**** Cold
+The infernal chill radiating from an ice devil's spear and the
 frigid blast of a white dragon's breath deal cold damage.
 
-*/Fire/*. Red dragons breathe fire, and many spells conjure flames to
+**** Fire
+Red dragons breathe fire, and many spells conjure flames to
 deal fire damage.
 
-*/Force/*. Force is pure magical energy focused into a damaging form.
-Most effects that deal force damage are spells, including /magic
-missile/ and /spiritual weapon/.
+**** Force
+Force is pure magical energy focused into a damaging form.
+Most effects that deal force damage are spells, including [[file:10.spells.org::*Magic Missile][Magic Missile]]
+and [[file:10.spells.org::*Spiritual Weapon][Spiritual Weapon]].
 
-*/Lightning/*. A /lightning bolt/ spell and a blue dragon's breath deal
+**** Lightning
+A [[file:10.spells.org::*Lightning Bolt][Lightning Bolt]] spell and a blue dragon's breath deal
 lightning damage.
 
-*/Necrotic/*. Necrotic damage, dealt by certain undead and a spell such
-as /chill touch/, withers matter and even the soul.
+**** Necrotic
+Necrotic damage, dealt by certain undead and a spell such
+as [[file:10.spells.org::*Chill Touch][Chill Touch]], withers matter and even the soul.
 
-*/Piercing/*. Puncturing and impaling attacks, including spears and
+**** Piercing
+Puncturing and impaling attacks, including spears and
 monsters' bites, deal piercing damage.
 
-*/Poison/*. Venomous stings and the toxic gas of a green dragon's breath
+**** Poison
+Venomous stings and the toxic gas of a green dragon's breath
 deal poison damage.
 
-*/Psychic/*. Mental abilities such as a mind flayer's psionic blast deal
+**** Psychic
+Mental abilities such as a mind flayer's psionic blast deal
 psychic damage.
 
-*/Radiant/*. Radiant damage, dealt by a cleric's /flame strike/ spell or
+**** Radiant
+Radiant damage, dealt by a cleric's [[file:10.spells.org::*Flame Strike][Flame Strike]] spell or
 an angel's smiting weapon, sears the flesh like fire and overloads the
 spirit with power.
 
-*/Slashing/*. Swords, axes, and monsters' claws deal slashing damage.
+**** Slashing
+Swords, axes, and monsters' claws deal slashing damage.
 
-*/Thunder/*. A concussive burst of sound, such as the effect of the
-/thunderwave/ spell, deals thunder damage.
+**** Thunder
+A concussive burst of sound, such as the effect of the
+[[file:10.spells.org::*Thunderwave][Thunderwave]] spell, deals thunder damage.
 
-*** Damage Resistance and Vulnerability
-    :PROPERTIES:
-    :CUSTOM_ID: damage-resistance-and-vulnerability
-    :END:
-
+*** Damage Resistance and Vulnerability          :resistance:vulnerability:
 Some creatures and objects are exceedingly difficult or unusually easy
 to hurt with certain types of damage.
 
@@ -928,13 +751,9 @@ damage, the damage of a nonmagical fire is reduced by half against the
 creature, not reduced by three-quarters.
 
 *** Healing
-    :PROPERTIES:
-    :CUSTOM_ID: healing
-    :END:
-
 Unless it results in death, damage isn't permanent. Even death is
 reversible through powerful magic. Rest can restore a creature's hit
-points, and magical methods such as a /cure wounds/ spell or a /potion
+points, and magical methods such as a [[file:10.spells.org::*Cure Wounds][Cure Wounds]] spell or a /potion
 of healing/ can remove damage in an instant.
 
 When a creature receives healing of any kind, hit points regained are
@@ -945,21 +764,13 @@ healing. If the ranger has 14 current hit points and has a hit point
 maximum of 20, the ranger regains 6 hit points from the druid, not 8.
 
 A creature that has died can't regain hit points until magic such as the
-/revivify/ spell has restored it to life.
+[[file:10.spells.org::*Revivify][Revivify]] spell has restored it to life.
 
-*** Dropping to 0 Hit Points
-    :PROPERTIES:
-    :CUSTOM_ID: dropping-to-0-hit-points
-    :END:
-
+*** Dropping to 0 Hit Points                              :unconscious:0hp:
 When you drop to 0 hit points, you either die outright or fall
 unconscious, as explained in the following sections.
 
-*** Instant Death
-    :PROPERTIES:
-    :CUSTOM_ID: instant-death
-    :END:
-
+*** Instant Death                                           :death:instant:
 Massive damage can kill you instantly. When damage reduces you to 0 hit
 points and there is damage remaining, you die if the remaining damage
 equals or exceeds your hit point maximum.
@@ -969,20 +780,12 @@ hit points. If she takes 18 damage from an attack, she is reduced to 0
 hit points, but 12 damage remains. Because the remaining damage equals
 her hit point maximum, the cleric dies.
 
-*** Falling Unconscious
-    :PROPERTIES:
-    :CUSTOM_ID: falling-unconscious
-    :END:
-
+*** Falling Unconscious                                       :unconscious:
 If damage reduces you to 0 hit points and fails to kill you, you fall
 unconscious (see appendix ##). This unconsciousness ends if you regain
 any hit points.
 
-*** Death Saving Throws
-    :PROPERTIES:
-    :CUSTOM_ID: death-saving-throws
-    :END:
-
+*** Death Saving Throws                                :death:saving_throw:
 Whenever you start your turn with 0 hit points, you must make a special
 saving throw, called a death saving throw, to determine whether you
 creep closer to death or hang onto life. Unlike other saving throws,
@@ -1006,11 +809,7 @@ points, you suffer a death saving throw failure. If the damage is from a
 critical hit, you suffer two failures instead. If the damage equals or
 exceeds your hit point maximum, you suffer instant death.
 
-**** Stabilizing a Creature
-     :PROPERTIES:
-     :CUSTOM_ID: stabilizing-a-creature
-     :END:
-
+**** Stabilizing a Creature                                    :stabalize:
 The best way to save a creature with 0 hit points is to heal it. If
 healing is unavailable, the creature can at least be stabilized so that
 it isn't killed by a failed death saving throw.
@@ -1025,11 +824,7 @@ stable, and must start making death saving throws again, if it takes any
 damage. A stable creature that isn't healed regains 1 hit point after
 1d4 hours.
 
-*** Monsters and Death
-    :PROPERTIES:
-    :CUSTOM_ID: monsters-and-death
-    :END:
-
+*** Monsters and Death                                      :death:monster:
 Most GMs have a monster die the instant it drops to 0 hit points, rather
 than having it fall unconscious and make death saving throws.
 
@@ -1037,22 +832,14 @@ Mighty villains and special nonplayer characters are common exceptions;
 the GM might have them fall unconscious and follow the same rules as
 player characters.
 
-** Knocking a Creature Out
-   :PROPERTIES:
-   :CUSTOM_ID: knocking-a-creature-out
-   :END:
-
+** Knocking a Creature Out                           :unsonscious:knock_out:
 Sometimes an attacker wants to incapacitate a foe, rather than deal a
 killing blow. When an attacker reduces a creature to 0 hit points with a
 melee attack, the attacker can knock the creature out. The attacker can
 make this choice the instant the damage is dealt. The creature falls
 unconscious and is stable.
 
-** Temporary Hit Points
-   :PROPERTIES:
-   :CUSTOM_ID: temporary-hit-points
-   :END:
-
+** Temporary Hit Points                   :temp:temoporary:hp:HP:hit_points:
 Some spells and special abilities confer temporary hit points to a
 creature. Temporary hit points aren't actual hit points; they are a
 buffer against damage, a pool of hit points that protect you from
@@ -1081,11 +868,7 @@ save you.
 Unless a feature that grants you temporary hit points has a duration,
 they last until they're depleted or you finish a long rest.
 
-* Mounted Combat
-  :PROPERTIES:
-  :CUSTOM_ID: mounted-combat
-  :END:
-
+* Mounted Combat                                              :mounted:mount:
 A knight charging into battle on a warhorse, a wizard casting spells
 from the back of a griffon, or a cleric soaring through the sky on a
 pegasus all enjoy the benefits of speed and mobility that a mount can
@@ -1095,11 +878,7 @@ A willing creature that is at least one size larger than you and that
 has an appropriate anatomy can serve as a mount, using the following
 rules.
 
-** Mounting and Dismounting
-   :PROPERTIES:
-   :CUSTOM_ID: mounting-and-dismounting
-   :END:
-
+** Mounting and Dismounting                                       :dismount:
 Once during your move, you can mount a creature that is within 5 feet of
 you or dismount. Doing so costs an amount of movement equal to half your
 speed. For example, if your speed is 30 feet, you must spend 15 feet of
@@ -1115,11 +894,7 @@ If your mount is knocked prone, you can use your reaction to dismount it
 as it falls and land on your feet. Otherwise, you are dismounted and
 fall prone in a space within 5 feet it.
 
-** Controlling a Mount
-   :PROPERTIES:
-   :CUSTOM_ID: controlling-a-mount
-   :END:
-
+** Controlling a Mount                                             :control:
 While you're mounted, you have two options. You can either control the
 mount or allow it to act independently. Intelligent creatures, such as
 dragons, act independently.
@@ -1139,11 +914,7 @@ and devour a badly injured foe, or otherwise act against your wishes.
 In either case, if the mount provokes an opportunity attack while you're
 on it, the attacker can target you or the mount.
 
-* Underwater Combat
-  :PROPERTIES:
-  :CUSTOM_ID: underwater-combat
-  :END:
-
+* Underwater Combat                                              :underwater:
 When adventurers pursue sahuagin back to their undersea homes, fight off
 sharks in an ancient shipwreck, or find themselves in a flooded dungeon
 room, they must fight in a challenging environment. Underwater the
