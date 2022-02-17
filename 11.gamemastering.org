@@ -1,13 +1,7 @@
-* GAMEMASTERING
-  :PROPERTIES:
-  :CUSTOM_ID: gamemastering
-  :END:
+#+STARTUP: content showstars indent
+#+FILETAGS: gamemaster gamemastering dungeonmaster DM dm GM gm
 
-* Conditions
-  :PROPERTIES:
-  :CUSTOM_ID: conditions
-  :END:
-
+* Conditions                                                      :condition:
 Conditions alter a creature's capabilities in a variety of ways and can
 arise as a result of a spell, a class feature, a monster's attack, or
 other effect. Most conditions, such as blinded, are impairments, but a
@@ -24,56 +18,30 @@ effects don't get worse. A creature either has a condition or doesn't.
 The following definitions specify what happens to a creature while it is
 subjected to a condition.
 
-** Blinded
-   :PROPERTIES:
-   :CUSTOM_ID: blinded
-   :END:
-
+** Blinded                                                   :blind:blinded:
 - A blinded creature can't see and automatically fails any ability check
   that requires sight.
+  
 - Attack rolls against the creature have advantage, and the creature's
   attack rolls have disadvantage.
 
-** Charmed
-   :PROPERTIES:
-   :CUSTOM_ID: charmed
-   :END:
-
+** Charmed                                                   :charm:charmed:
 - A charmed creature can't attack the charmer or target the charmer with
   harmful abilities or magical effects.
+  
 - The charmer has advantage on any ability check to interact socially
   with the creature.
 
-** Deafened
-   :PROPERTIES:
-   :CUSTOM_ID: deafened
-   :END:
-
+** Deafened                                                   :deaf:deafend:
 - A deafened creature can't hear and automatically fails any ability
   check that requires hearing.
 
-** Exhaustion
-   :PROPERTIES:
-   :CUSTOM_ID: exhaustion
-   :END:
-
+** Exhaustion                                                   :exhaustion:
 Some special abilities and environmental hazards, such as starvation and
 the long-term effects of freezing or scorching temperatures, can lead to
 a special condition called exhaustion. Exhaustion is measured in six
 levels. An effect can give a creature one or more levels of exhaustion,
 as specified in the effect's description.
-
-*Table- Exhaustion Effects*
-
-| Level | Effect                                         |
-|-------+------------------------------------------------|
-| 1     | Disadvantage on ability checks                 |
-| 2     | Speed halved                                   |
-| 3     | Disadvantage on attack rolls and saving throws |
-| 4     | Hit point maximum halved                       |
-| 5     | Speed reduced to 0                             |
-| 6     | Death                                          |
-|       |                                                |
 
 If an already exhausted creature suffers another effect that causes
 exhaustion, its current level of exhaustion increases by the amount
@@ -91,40 +59,37 @@ Finishing a long rest reduces a creature's exhaustion level by 1,
 provided that the creature has also ingested some food and drink. Also,
 being raised from the dead reduces a creature's exhaustion level by 1.
 
-** Frightened
-   :PROPERTIES:
-   :CUSTOM_ID: frightened
-   :END:
+*** Table: Exhaustion Effects                                       :table:
+| Level | Effect                                         |
+|-------+------------------------------------------------|
+| 1     | Disadvantage on ability checks                 |
+| 2     | Speed halved                                   |
+| 3     | Disadvantage on attack rolls and saving throws |
+| 4     | Hit point maximum halved                       |
+| 5     | Speed reduced to 0                             |
+| 6     | Death                                          |
 
+** Frightened                                                   :frightened:
 - A frightened creature has disadvantage on ability checks and attack
   rolls while the source of its fear is within line of sight.
+  
 - The creature can't willingly move closer to the source of its fear.
 
-** Grappled
-   :PROPERTIES:
-   :CUSTOM_ID: grappled
-   :END:
-
+** Grappled                                            :grappled:piggy_back:
 - A grappled creature's speed becomes 0, and it can't benefit from any
   bonus to its speed.
+  
 - The condition ends if the grappler is incapacitated (see the
   condition).
+  
 - The condition also ends if an effect removes the grappled creature
   from the reach of the grappler or grappling effect, such as when a
-  creature is hurled away by the /thunder-wave/ spell.
+  creature is hurled away by the [[file:10.spells.org::*Thunderwave][Thunderwave]] spell.
 
-** Incapacitated
-   :PROPERTIES:
-   :CUSTOM_ID: incapacitated
-   :END:
-
+** Incapacitated                                             :incapacitated:
 - An incapacitated creature can't take actions or reactions.
 
-** Invisible
-   :PROPERTIES:
-   :CUSTOM_ID: invisible
-   :END:
-
+** Invisible                                                     :invisible:
 - An invisible creature is impossible to see without the aid of magic or
   a special sense. For the purpose of hiding, the creature is heavily
   obscured. The creature's location can be detected by any noise it
@@ -133,104 +98,86 @@ being raised from the dead reduces a creature's exhaustion level by 1.
 - Attack rolls against the creature have disadvantage, and the
   creature's attack rolls have advantage.
 
-** Paralyzed
-   :PROPERTIES:
-   :CUSTOM_ID: paralyzed
-   :END:
-
+** Paralyzed                                                     :paralyzed:
 - A paralyzed creature is incapacitated (see the condition) and can't
   move or speak.
+  
 - The creature automatically fails Strength and Dexterity saving throws.
+  
 - Attack rolls against the creature have advantage.
+  
 - Any attack that hits the creature is a critical hit if the attacker is
   within 5 feet of the creature.
 
-** Petrified
-   :PROPERTIES:
-   :CUSTOM_ID: petrified
-   :END:
-
+** Petrified                                                     :petrified:
 - A petrified creature is transformed, along with any nonmagical object
   it is wearing or carrying, into a solid inanimate substance (usually
   stone). Its weight increases by a factor of ten, and it ceases aging.
+  
 - The creature is incapacitated (see the condition), can't move or
   speak, and is unaware of its surroundings.
+  
 - Attack rolls against the creature have advantage.
+  
 - The creature automatically fails Strength and Dexterity saving throws.
+  
 - The creature has resistance to all damage.
+  
 - The creature is immune to poison and disease, although a poison or
   disease already in its system is suspended, not neutralized.
 
-** Poisoned
-   :PROPERTIES:
-   :CUSTOM_ID: poisoned
-   :END:
-
+** Poisoned                                                       :poisoned:
 - A poisoned creature has disadvantage on attack rolls and ability
   checks.
 
-** Prone
-   :PROPERTIES:
-   :CUSTOM_ID: prone
-   :END:
-
+** Prone                                                             :prone:
 - A prone creature's only movement option is to crawl, unless it stands
   up and thereby ends the condition.
+  
 - The creature has disadvantage on attack rolls.
+  
 - An attack roll against the creature has advantage if the attacker is
   within 5 feet of the creature. Otherwise, the attack roll has
   disadvantage.
 
-** Restrained
-   :PROPERTIES:
-   :CUSTOM_ID: restrained
-   :END:
-
+** Restrained                                                   :restrained:
 - A restrained creature's speed becomes 0, and it can't benefit from any
   bonus to its speed.
+  
 - Attack rolls against the creature have advantage, and the creature's
   attack rolls have disadvantage.
+  
 - The creature has disadvantage on Dexterity saving throws.
 
-** Stunned
-   :PROPERTIES:
-   :CUSTOM_ID: stunned
-   :END:
-
+** Stunned                                                    :stunned:stun:
 - A stunned creature is incapacitated (see the condition), can't move,
   and can speak only falteringly.
+  
 - The creature automatically fails Strength and Dexterity saving throws.
+  
 - Attack rolls against the creature have advantage.
 
-** Unconscious
-   :PROPERTIES:
-   :CUSTOM_ID: unconscious
-   :END:
-
+** Unconscious                                                 :unconscious:
 - An unconscious creature is incapacitated (see the condition), can't
   move or speak, and is unaware of its surroundings
+  
 - The creature drops whatever it's holding and falls prone.
+  
 - The creature automatically fails Strength and Dexterity saving throws.
+  
 - Attack rolls against the creature have advantage.
+  
 - Any attack that hits the creature is a critical hit if the attacker is
   within 5 feet of the creature.
 
-* Pantheons
-  :PROPERTIES:
-  :CUSTOM_ID: pantheons
-  :END:
-
+* Pantheons                                          :pantheons:dieties:gods:
 The Celtic, Egyptian, Greek, and Norse pantheons are fantasy
 interpretations of historical religions from our world's ancient times.
 They include deities that are most appropriate for use in a game,
 divorced from their historical context in the real world and united into
 pantheons that serve the needs of the game.
 
-** The Celtic Pantheon
-   :PROPERTIES:
-   :CUSTOM_ID: the-celtic-pantheon
-   :END:
-
+** The Celtic Pantheon                                              :celtic:
 It's said that something wild lurks in the heart of every soul, a space
 that thrills to the sound of geese calling at night, to the whispering
 wind through the pines, to the unexpected red of mistletoe on an oak-and
@@ -243,8 +190,7 @@ in a brook, these gods forced themselves into being.
 The Celtic gods are as often served by druids as by clerics, for they
 are closely aligned with the forces of nature that druids revere.
 
-*Table- Celtic Deities*
-
+*** Table: Celtic Deities                                           :table:
 | Deity                                             | Alignment | Suggested Domains | Symbol                             |
 |---------------------------------------------------+-----------+-------------------+------------------------------------|
 | The Daghdha, god of weather and crops             | CG        | Nature, Trickery  | Bubbling cauldron or shield        |
@@ -261,13 +207,8 @@ are closely aligned with the forces of nature that druids revere.
 | Nuada, god of war and warriors                    | N         | War               | Silver hand on black background    |
 | Oghma, god of speech and writing                  | NG        | Knowledge         | Unfurled scroll                    |
 | Silvanus, god of nature and forests               | N         | Nature            | Summer oak tree                    |
-|                                                   |           |                   |                                    |
 
-** The Greek Pantheon
-   :PROPERTIES:
-   :CUSTOM_ID: the-greek-pantheon
-   :END:
-
+** The Greek Pantheon                                                :greek:
 The gods of Olympus make themselves known with the gentle lap of waves
 against the shores and the crash of the thunder among the
 cloud-enshrouded peaks. The thick boar-infested woods and the sere,
@@ -275,8 +216,7 @@ olive-covered hillsides hold evidence of their passing. Every aspect of
 nature echoes with their presence, and they've made a place for
 themselves inside the human heart, too.
 
-*Table- Greek Deities*
-
+*** Table: Greek Deities                                            :table:
 | Deity                                      | Alignment | Suggested Domains      | Symbol                                |
 |--------------------------------------------+-----------+------------------------+---------------------------------------|
 | Zeus, god of the sky, ruler of the gods    | N         | Tempest                | Fist full of lightning bolts          |
@@ -298,13 +238,8 @@ themselves inside the human heart, too.
 | Pan, god of nature                         | CN        | Nature                 | Syrinx (pan pipes)                    |
 | Poseidon, god of the sea and earthquakes   | CN        | Tempest                | Trident                               |
 | Tyche, goddess of good fortune             | N         | Trickery               | Red pentagram                         |
-|                                            |           |                        |                                       |
 
-** The Egyptian Pantheon
-   :PROPERTIES:
-   :CUSTOM_ID: the-egyptian-pantheon
-   :END:
-
+** The Egyptian Pantheon                                          :egyptian:
 These gods are a young dynasty of an ancient divine family, heirs to the
 rulership of the cosmos and the maintenance of the divine principle of
 Ma'at-the fundamental order of truth, justice, law, and order that puts
@@ -317,8 +252,7 @@ of the afterlife, who judges the souls of the dead. Set is a chaotic
 evil god of murder, perhaps best known for killing his brother Osiris.
 And Nephthys is a chaotic good goddess of mourning.
 
-*Table- Egyptian Deities*
-
+*** Table: Egyptian Deities                                         :table:
 | Deity                                          | Alignment | Suggested Domains        | Symbol                               |
 |------------------------------------------------+-----------+--------------------------+--------------------------------------|
 | Re-Horakhty, god of the sun, ruler of the gods | LG        | Life, Light              | Solar disk encircled by serpent      |
@@ -335,13 +269,8 @@ And Nephthys is a chaotic good goddess of mourning.
 | Set, god of darkness and desert storms         | CE        | Death, Tempest, Trickery | Coiled cobra                         |
 | Sobek, god of water and crocodiles             | LE        | Nature, Tempest          | Crocodile head with horns and plumes |
 | Thoth, god of knowledge and wisdom             | N         | Knowledge                | Ibis                                 |
-|                                                |           |                          |                                      |
 
-** The Norse Pantheon
-   :PROPERTIES:
-   :CUSTOM_ID: the-norse-pantheon
-   :END:
-
+** The Norse Pantheon                                                :norse:
 Where the land plummets from the snowy hills into the icy fjords below,
 where the longboats draw up on to the beach, where the glaciers flow
 forward and retreat with every fall and spring-this is the land of the
@@ -361,8 +290,7 @@ and destiny) and the Vanir (gods of fertility and prosperity). Once
 enemies, these two families are now closely allied against their common
 enemies, the giants (including the gods Surtur and Thrym).
 
-*Table- Norse Deities*
-
+*** Table: Norse Deities                                            :table:
 | Deity                                     | Alignment | Suggested Domains | Symbol                            |
 |-------------------------------------------+-----------+-------------------+-----------------------------------|
 | Odin, god of knowledge and war            | NG        | Knowledge, War    | Watching blue eye                 |
@@ -385,13 +313,8 @@ enemies, the giants (including the gods Surtur and Thrym).
 | Thrym, god of frost giants and cold       | CE        | War               | White double-bladed axe           |
 | Tyr, god of courage and strategy          | LN        | Knowledge, War    | Sword                             |
 | Uller, god of hunting and winter          | CN        | Nature            | Longbow                           |
-|                                           |           |                   |                                   |
 
-* Planes
-  :PROPERTIES:
-  :CUSTOM_ID: planes
-  :END:
-
+* Planes                                                       :planes:plane:
 The cosmos teems with a multitude of worlds as well as myriad alternate
 dimensions of reality, called the *planes of existence*. It encompasses
 every world where GMs run their adventures, all within the relatively
@@ -406,11 +329,7 @@ power and higher levels, you might walk on streets made of solid fire or
 test your mettle on a battlefield where the fallen are resurrected with
 each dawn.
 
-** The Material Plane
-   :PROPERTIES:
-   :CUSTOM_ID: the-material-plane
-   :END:
-
+** The Material Plane                                               :mortal:
 The Material Plane is the nexus where the philosophical and elemental
 forces that define the other planes collide in the jumbled existence of
 mortal life and mundane matter. All fantasy gaming worlds exist within
@@ -425,21 +344,13 @@ magic-wasted desert planets and island-dotted water worlds, worlds where
 magic combines with advanced technology and others trapped in an endless
 Stone Age, worlds where the gods walk and places they have abandoned.
 
-** Beyond the Material
-   :PROPERTIES:
-   :CUSTOM_ID: beyond-the-material
-   :END:
-
+** Beyond the Material                                     :beyond:material:
 Beyond the Material Plane, the various planes of existence are realms of
 myth and mystery. They're not simply other worlds, but different
 qualities of being, formed and governed by spiritual and elemental
 principles abstracted from the ordinary world.
 
-*** Planar Travel
-    :PROPERTIES:
-    :CUSTOM_ID: planar-travel
-    :END:
-
+*** Planar Travel                                                  :travel:
 When adventurers travel into other planes of existence, they are
 undertaking a legendary journey across the thresholds of existence to a
 mythic destination where they strive to complete their quest. Such a
@@ -451,11 +362,11 @@ Travel to the planes beyond the Material Plane can be accomplished in
 two ways: by casting a spell or by using a planar portal.
 
 */Spells/*. A number of spells allow direct or indirect access to other
-planes of existence. /Plane shift/ and /gate/ can transport adventurers
+planes of existence. [[file:10.spells.org::*Plane Shift][Plane Shift]] and [[file:10.spells.org::*Gate][Gate]] can transport adventurers
 directly to any other plane of existence, with different degrees of
-precision. /Etherealness/ allows adventurers to enter the Ethereal Plane
+precision. [[file:10.spells.org::*Etherealness][Etherealness]] allows adventurers to enter the Ethereal Plane
 and travel from there to any of the planes it touches-such as the
-Elemental Planes. And the /astral projection/ spell lets adventurers
+Elemental Planes. And the [[file:10.spells.org::*Astral Projection][Astral Projection]] spell lets adventurers
 project themselves into the Astral Plane and travel to the Outer Planes.
 
 */Portals/*. A portal is a general term for a stationary interplanar
@@ -470,27 +381,22 @@ similar location on the Material Plane, such as the heart of a volcano
 (leading to the Plane of Fire) or the depths of the ocean (to the Plane
 of Water).
 
-*** Transitive Planes
-    :PROPERTIES:
-    :CUSTOM_ID: transitive-planes
-    :END:
-
+*** Transitive Planes                                          :transitive:
 The Ethereal Plane and the Astral Plane are called the Transitive
 Planes. They are mostly featureless realms that serve primarily as ways
-to travel from one plane to another. Spells such as /etherealness/ and
-/astral projection/ allow characters to enter these planes and traverse
+to travel from one plane to another. Spells such as [[file:10.spells.org::*Etherealness][Etherealness]] and
+[[file:10.spells.org::*Astral Projection][Astral Projection]] allow characters to enter these planes and traverse
 them to reach the planes beyond.
 
 The *Ethereal Plane* is a misty, fog-bound dimension that is sometimes
 described as a great ocean. Its shores, called the Border Ethereal,
 overlap the Material Plane and the Inner Planes, so that every location
 on those planes has a corresponding location on the Ethereal Plane.
-Certain creatures can see into the Border Ethereal, and the /see
-invisibility/ and /true seeing/ spell grant that ability. Some magical
-effects also extend from the Material Plane into the Border Ethereal,
-particularly effects that use force energy such as /forcecage/ and /wall
-of force/. The depths of the plane, the Deep Ethereal, are a region of
-swirling mists and colorful fogs.
+Certain creatures can see into the Border Ethereal, and the [[file:10.spells.org::*See Invisibility][See Invisibility]]
+and [[file:10.spells.org::*True Seeing][True Seeing]] spell grant that ability. Some magical effects also extend
+from the Material Plane into the Border Ethereal, particularly effects that
+use force energy such as [[file:10.spells.org::*Forcecage][Forcecage]] and [[file:10.spells.org::*Wall of Force][Wall of Force]]. The depths of the
+plane, the Deep Ethereal, are a region of swirling mists and colorful fogs.
 
 The *Astral Plane* is the realm of thought and dream, where visitors
 travel as disembodied souls to reach the planes of the divine and
@@ -500,11 +406,7 @@ resembling distant stars. Erratic whirlpools of color flicker in midair
 like spinning coins. Occasional bits of solid matter can be found here,
 but most of the Astral Plane is an endless, open domain.
 
-*** Inner Planes
-    :PROPERTIES:
-    :CUSTOM_ID: inner-planes
-    :END:
-
+*** Inner Planes                                                    :inner:
 The Inner Planes surround and enfold the Material Plane and its echoes,
 providing the raw elemental substance from which all the worlds were
 made. The four *Elemental Planes* - Air, Earth, Fire, and Water - form a
@@ -524,11 +426,7 @@ the border region. At the farthest extents of the Inner Planes, the pure
 elements dissolve and bleed together into an unending tumult of clashing
 energies and colliding substance, the Elemental Chaos.
 
-*** Outer Planes
-    :PROPERTIES:
-    :CUSTOM_ID: outer-planes
-    :END:
-
+*** Outer Planes                                                    :outer:
 If the Inner Planes are the raw matter and energy that makes up the
 multiverse, the Outer Planes are the direction, thought and purpose for
 such construction. Accordingly, many sages refer to the Outer Planes as
@@ -562,10 +460,6 @@ correspond to the eight alignments (excluding neutrality) and the shades
 of distinction between them.
 
 **** Outer Planes
-     :PROPERTIES:
-     :CUSTOM_ID: outer-planes-1
-     :END:
-
 The planes with some element of good in their nature are called the
 *Upper Planes*. Celestial creatures such as angels and pegasi dwell in
 the Upper Planes. Planes with some element of evil are the *Lower
@@ -577,33 +471,21 @@ Upper Plane), it feels in tune with the plane, but an evil creature
 feels out of tune and more than a little uncomfortable.
 
 **** Demiplanes
-     :PROPERTIES:
-     :CUSTOM_ID: demiplanes
-     :END:
-
 Demiplanes are small extradimensional spaces with their own unique
 rules. They are pieces of reality that don't seem to fit anywhere else.
 Demiplanes come into being by a variety of means. Some are created by
-spells, such as /demiplane/, or generated at the desire of a powerful
+spells, such as [[file:10.spells.org::*Demiplane][Demiplane]], or generated at the desire of a powerful
 deity or other force. They may exist naturally, as a fold of existing
 reality that has been pinched off from the rest of the multiverse, or as
 a baby universe growing in power. A given demiplane can be entered
 through a single point where it touches another plane. Theoretically, a
-/plane shift/ spell can also carry travelers to a demiplane, but the
+[[file:10.spells.org::*Plane Shift][Plane Shift]] spell can also carry travelers to a demiplane, but the
 proper frequency required for the tuning fork is extremely hard to
-acquire. The /gate/ spell is more reliable, assuming the caster knows of
+acquire. The [[file:10.spells.org::*Gate][Gate]] spell is more reliable, assuming the caster knows of
 the demiplane.
 
-* Situational Rules
-  :PROPERTIES:
-  :CUSTOM_ID: situational-rules
-  :END:
-
-** Traps
-   :PROPERTIES:
-   :CUSTOM_ID: traps
-   :END:
-
+* Situational Rules                                  :rule:rules:situational:
+** Traps                                                        :trap:traps:
 Traps can be found almost anywhere. One wrong step in an ancient tomb
 might trigger a series of scything blades, which cleave through armor
 and bone. The seemingly innocuous vines that hang over a cave entrance
@@ -617,36 +499,24 @@ include pits, arrow traps, falling blocks, water-filled rooms, whirling
 blades, and anything else that depends on a mechanism to operate. *Magic
 traps* are either magical device traps or spell traps. Magical device
 traps initiate spell effects when activated. Spell traps are spells such
-as /glyph of warding/ and /symbol/ that function as traps.
+as [[file:10.spells.org::*Glyph of Warding][Glyph of Warding]] and [[file:10.spells.org::*Symbol][Symbol]] that function as traps.
 
-*** Traps in Play
-    :PROPERTIES:
-    :CUSTOM_ID: traps-in-play
-    :END:
-
+*** Traps in Play                                                    :play:
 When adventurers come across a trap, you need to know how the trap is
 triggered and what it does, as well as the possibility for the
 characters to detect the trap and to disable or avoid it.
 
-**** Triggering a Trap
-     :PROPERTIES:
-     :CUSTOM_ID: triggering-a-trap
-     :END:
-
+**** Triggering a Trap                                        :triggering:
 Most traps are triggered when a creature goes somewhere or touches
 something that the trap's creator wanted to protect. Common triggers
 include stepping on a pressure plate or a false section of floor,
 pulling a trip wire, turning a doorknob, and using the wrong key in a
 lock. Magic traps are often set to go off when a creature enters an area
-or touches an object. Some magic traps (such as the /glyph of warding/
+or touches an object. Some magic traps (such as the  [[file:10.spells.org::*Glyph of Warding][Glyph of Warding]]
 spell) have more complicated trigger conditions, including a password
 that prevents the trap from activating.
 
-**** Detecting and Disabling a Trap
-     :PROPERTIES:
-     :CUSTOM_ID: detecting-and-disabling-a-trap
-     :END:
-
+**** Detecting and Disabling a Trap                       :detect:disable:
 Usually, some element of a trap is visible to careful inspection.
 Characters might notice an uneven flagstone that conceals a pressure
 plate, spot the gleam of light off a trip wire, notice small holes in
@@ -667,7 +537,7 @@ check using thieves' tools to perform the necessary sabotage.
 Any character can attempt an Intelligence (Arcana) check to detect or
 disarm a magic trap, in addition to any other checks noted in the trap's
 description. The DCs are the same regardless of the check used. In
-addition, /dispel magic/ has a chance of disabling most magic traps. A
+addition, [[file:10.spells.org::*Dispel Magic][Dispel Magic]] has a chance of disabling most magic traps. A
 magic trap's description provides the DC for the ability check made when
 you use /dispel magic/.
 
@@ -699,11 +569,7 @@ lairs need ways to get past those traps without harming themselves. Such
 traps might have hidden levers that disable their triggers, or a secret
 door might conceal a passage that goes around the trap.
 
-**** Trap Effects
-     :PROPERTIES:
-     :CUSTOM_ID: trap-effects
-     :END:
-
+**** Trap Effects                                                 :effect:
 The effects of traps can range from inconvenient to deadly, making use
 of elements such as arrows, spikes, blades, poison, toxic gas, blasts of
 fire, and deep pits. The deadliest traps combine multiple elements to
@@ -722,30 +588,22 @@ to seriously injure (and potentially kill) characters of the indicated
 levels. A *deadly* trap is likely to kill characters of the indicated
 levels.
 
-*Table- Trap Dangers*
-
+***** Table: Trap Dangers                                         :table:
 | Trap Danger | Save DC | Attack Bonus |
 |-------------+---------+--------------|
 | Setback     | 10-11   | +3 to +5     |
 | Dangerous   | 12-15   | +6 to +8     |
 | Deadly      | 16-20   | +9 to +12    |
-|             |         |              |
 
-*Table- Trap Severity*
-
+***** Table: Trap Severity                                        :table:
 | Character Level | Setback | Dangerous | Deadly |
 |-----------------+---------+-----------+--------|
 | 1st-4th         | 1d10    | 2d10      | 4d10   |
 | 5th-10th        | 2d10    | 4d10      | 10d10  |
 | 11th-16th       | 4d10    | 10d10     | 18d10  |
 | 17th-20th       | 10d10   | 18d10     | 24d10  |
-|                 |         |           |        |
 
-**** Complex Traps
-     :PROPERTIES:
-     :CUSTOM_ID: complex-traps
-     :END:
-
+**** Complex Traps                                               :complex:
 Complex traps work like standard traps, except once activated they
 execute a series of actions each round. A complex trap turns the process
 of dealing with a trap into something more like a combat encounter.
@@ -761,21 +619,11 @@ For example, a trap that causes a room to slowly flood works best as a
 complex trap. On the trap's turn, the water level rises. After several
 rounds, the room is completely flooded.
 
-*** Sample Traps
-    :PROPERTIES:
-    :CUSTOM_ID: sample-traps
-    :END:
-
+*** Sample Traps                                                   :sample:
 The magical and mechanical traps presented here vary in deadliness and
 are presented in alphabetical order.
 
-**** Collapsing Roof
-     :PROPERTIES:
-     :CUSTOM_ID: collapsing-roof
-     :END:
-
-/Mechanical trap/
-
+**** Collapsing Roof                                          :mechanical:
 This trap uses a trip wire to collapse the supports keeping an unstable
 section of a ceiling in place.
 
@@ -800,13 +648,7 @@ save, or half as much damage on a successful one. Once the trap is
 triggered, the floor of the area is filled with rubble and becomes
 difficult terrain.
 
-**** Falling Net
-     :PROPERTIES:
-     :CUSTOM_ID: falling-net
-     :END:
-
-/Mechanical trap/
-
+**** Falling Net                                              :mechanical:
 This trap uses a trip wire to release a net suspended from the ceiling.
 
 The trip wire is 3 inches off the ground and stretches between two
@@ -826,13 +668,7 @@ success. The net has AC 10 and 20 hit points. Dealing 5 slashing damage
 to the net (AC 10) destroys a 5-foot square section of it, freeing any
 creature trapped in that section.
 
-**** Fire-Breathing Statue
-     :PROPERTIES:
-     :CUSTOM_ID: fire-breathing-statue
-     :END:
-
-/Magic trap/
-
+**** Fire-Breathing Statue                                 :magic:magical:
 This trap is activated when an intruder steps on a hidden pressure
 plate, releasing a magical gout of flame from a nearby statue. The
 statue can be of anything, including a dragon or a wizard casting a
@@ -840,7 +676,7 @@ spell.
 
 The DC is 15 to spot the pressure plate, as well as faint scorch marks
 on the floor and walls. A spell or other effect that can sense the
-presence of magic, such as /detect magic/, reveals an aura of evocation
+presence of magic, such as [[file:10.spells.org::*Detect Magic][Detect Magic]], reveals an aura of evocation
 magic around the statue.
 
 The trap activates when more than 20 pounds of weight is placed on the
@@ -850,19 +686,14 @@ taking 22 (4d10) fire damage on a failed save, or half as much damage on
 a successful one.
 
 Wedging an iron spike or other object under the pressure plate prevents
-the trap from activating. A successful /dispel magic/ (DC 13) cast on
+the trap from activating. A successful [[file:10.spells.org::*Dispel Magic][Dispel Magic]] (DC 13) cast on
 the statue destroys the trap.
 
-**** Pits
-     :PROPERTIES:
-     :CUSTOM_ID: pits
-     :END:
-
-/Mechanical trap/
-
+**** Pits                                                 :mechanical:pit:
 Four basic pit traps are presented here.
 
-*/Simple Pit/*. A simple pit trap is a hole dug in the ground. The hole
+***** Simple Pit
+A simple pit trap is a hole dug in the ground. The hole
 is covered by a large cloth anchored on the pit's edge and camouflaged
 with dirt and debris.
 
@@ -870,7 +701,8 @@ The DC to spot the pit is 10. Anyone stepping on the cloth falls through
 and pulls the cloth down into the pit, taking damage based on the pit's
 depth (usually 10 feet, but some pits are deeper).
 
-*/Hidden Pit/*. This pit has a cover constructed from material identical
+***** Hidden Pit
+This pit has a cover constructed from material identical
 to the floor around it.
 
 A successful DC 15 Wisdom (Perception) check discerns an absence of foot
@@ -886,10 +718,11 @@ or 20 feet deep but can be deeper.
 Once the pit trap is detected, an iron spike or similar object can be
 wedged between the pit's cover and the surrounding floor in such a way
 as to prevent the cover from opening, thereby making it safe to cross.
-The cover can also be magically held shut using the /arcane lock/ spell
+The cover can also be magically held shut using the [[file:10.spells.org::*Arcane Lock][Arcane Lock]] spell
 or similar magic.
 
-*/Locking Pit/*. This pit trap is identical to a hidden pit trap, with
+***** Locking Pit
+This pit trap is identical to a hidden pit trap, with
 one key exception: the trap door that covers the pit is spring-loaded.
 After a creature falls into the pit, the cover snaps shut to trap its
 victim inside.
@@ -901,7 +734,8 @@ Dexterity check using thieves' tools, provided that the mechanism can be
 reached and the character can see. In some cases, a mechanism (usually
 hidden behind a secret door nearby) opens the pit.
 
-*/Spiked Pit/*. This pit trap is a simple, hidden, or locking pit trap
+***** Spiked Pit
+This pit trap is a simple, hidden, or locking pit trap
 with sharpened wooden or iron spikes at the bottom. A creature falling
 into the pit takes 11 (2d10) piercing damage from the spikes, in
 addition to any falling damage. Even nastier versions have poison
@@ -910,13 +744,7 @@ the spikes must also make a DC 13 Constitution saving throw, taking an
 22 (4d10) poison damage on a failed save, or half as much damage on a
 successful one.
 
-**** Poison Darts
-     :PROPERTIES:
-     :CUSTOM_ID: poison-darts
-     :END:
-
-/Mechanical trap/
-
+**** Poison Darts                                             :mechanical:
 When a creature steps on a hidden pressure plate, poison-tipped darts
 shoot from spring-loaded or pressurized tubes cleverly embedded in the
 surrounding walls. An area might include multiple pressure plates, each
@@ -943,13 +771,7 @@ the area, the darts don't hit anything.) A target that is hit takes 2
 throw, taking 11 (2d10) poison damage on a failed save, or half as much
 damage on a successful one.
 
-**** Poison Needle
-     :PROPERTIES:
-     :CUSTOM_ID: poison-needle
-     :END:
-
-/Mechanical trap/
-
+**** Poison Needle                                            :mechanical:
 A poisoned needle is hidden within a treasure chest's lock, or in
 something else that a creature might open. Opening the chest without the
 proper key causes the needle to spring out, delivering a dose of poison.
@@ -965,13 +787,7 @@ accommodate the needle. A successful DC 15 Dexterity check using
 thieves' tools disarms the trap, removing the needle from the lock.
 Unsuccessfully attempting to pick the lock triggers the trap.
 
-**** Rolling Sphere
-     :PROPERTIES:
-     :CUSTOM_ID: rolling-sphere
-     :END:
-
-/Mechanical trap/
-
+**** Rolling Sphere                                           :mechanical:
 When 20 or more pounds of pressure are placed on this trap's pressure
 plate, a hidden trapdoor in the ceiling opens, releasing a 10-foot
 diameter rolling sphere of solid stone.
@@ -1002,13 +818,7 @@ it down with a DC 20 Strength check. On a successful check, the sphere's
 speed is reduced by 15 feet. If the sphere's speed drops to 0, it stops
 moving and is no longer a threat.
 
-**** Sphere of Annihilation
-     :PROPERTIES:
-     :CUSTOM_ID: sphere-of-annihilation
-     :END:
-
-/Magic trap/
-
+**** Sphere of Annihilation                                :magic:magical:
 Magical, impenetrable darkness fills the gaping mouth of a stone face
 carved into a wall. The mouth is 2 feet in diameter and roughly
 circular. No sound issues from it, no light can illuminate the inside of
@@ -1021,14 +831,10 @@ It is otherwise identical to a normal /sphere of annihilation/.
 Some versions of the trap include an enchantment placed on the stone
 face, such that specified creatures feel an overwhelming urge to
 approach it and crawl inside its mouth. This effect is otherwise like
-the sympathy aspect of the /antipathy/sympathy/ spell. A successful
-/dispel magic/ (DC 18) removes this enchantment.
+the sympathy aspect of the [[file:10.spells.org::*Antipathy/Sympathy][Antipathy/Sympathy]] spell. A successful
+[[file:10.spells.org::*Dispel Magic][Dispel Magic]] (DC 18) removes this enchantment.
 
-** Diseases
-   :PROPERTIES:
-   :CUSTOM_ID: diseases
-   :END:
-
+** Diseases                                                        :disease:
 A plague ravages the kingdom, setting the adventurers on a quest to find
 a cure. An adventurer emerges from an ancient tomb, unopened for
 centuries, and soon finds herself suffering from a wasting illness. A
@@ -1050,21 +856,13 @@ another. A plague might affect only constructs or undead, or sweep
 through a halfling neighborhood but leave other races untouched. What
 matters is the story you want to tell.
 
-*** Sample Diseases
-    :PROPERTIES:
-    :CUSTOM_ID: sample-diseases
-    :END:
-
+*** Sample Diseases                                                :sample:
 The diseases here illustrate the variety of ways disease can work in the
 game. Feel free to alter the saving throw DCs, incubation times,
 symptoms, and other characteristics of these diseases to suit your
 campaign.
 
-**** Cackle Fever
-     :PROPERTIES:
-     :CUSTOM_ID: cackle-fever
-     :END:
-
+**** Cackle Fever                                                  :fever:
 This disease targets humanoids, although gnomes are strangely immune.
 While in the grips of this disease, victims frequently succumb to fits
 of mad laughter, giving the disease its common name and its morbid
@@ -1096,11 +894,7 @@ A creature that fails three of these saving throws gains a randomly
 determined form of indefinite madness, as described later in this
 chapter.
 
-**** Sewer Plague
-     :PROPERTIES:
-     :CUSTOM_ID: sewer-plague
-     :END:
-
+**** Sewer Plague                                                 :plague:
 Sewer plague is a generic term for a broad category of illnesses that
 incubate in sewers, refuse heaps, and stagnant swamps, and which are
 sometimes transmitted by creatures that dwell in those areas, such as
@@ -1124,11 +918,7 @@ level decreases by one level. If a successful saving throw reduces the
 infected creature's level of exhaustion below 1, the creature recovers
 from the disease.
 
-**** Sight Rot
-     :PROPERTIES:
-     :CUSTOM_ID: sight-rot
-     :END:
-
+**** Sight Rot                                                       :rot:
 This painful infection causes bleeding from the eyes and eventually
 blinds the victim.
 
@@ -1138,7 +928,7 @@ infection, the creature's vision starts to become blurry. The creature
 takes a -1 penalty to attack rolls and ability checks that rely on
 sight. At the end of each long rest after the symptoms appear, the
 penalty worsens by 1. When it reaches -5, the victim is blinded until
-its sight is restored by magic such as /lesser restoration/ or /heal/.
+its sight is restored by magic such as [[file:10.spells.org::*Lesser Restoration][Lesser Restoration]] or [[file:10.spells.org::*Heal][Heal]].
 
 Sight rot can be cured using a rare flower called Eyebright, which grows
 in some swamps. Given an hour, a character who has proficiency with an
@@ -1147,11 +937,7 @@ the eyes before a long rest, one dose of it prevents the disease from
 worsening after that rest. After three doses, the ointment cures the
 disease entirely.
 
-** Madness
-   :PROPERTIES:
-   :CUSTOM_ID: madness
-   :END:
-
+** Madness                                                         :madness:
 In a typical campaign, characters aren't driven mad by the horrors they
 face and the carnage they inflict day after day, but sometimes the
 stress of being an adventurer can be too much to bear. If your campaign
@@ -1160,12 +946,8 @@ reinforce that theme, emphasizing the extraordinarily horrific nature of
 the threats the adventurers face.
 
 *** Going Mad
-    :PROPERTIES:
-    :CUSTOM_ID: going-mad
-    :END:
-
 Various magical effects can inflict madness on an otherwise stable mind.
-Certain spells, such as /contact other plane/ and /symbol/, can cause
+Certain spells, such as [[file:10.spells.org::*Contact Other Plane][Contact Other Plane]] and [[file:10.spells.org::*Symbol][Symbol]], can cause
 insanity, and you can use the madness rules here instead of the spell
 effects of those spells. Diseases, poisons, and planar effects such as
 psychic wind or the howling winds of Pandemonium can all inflict
@@ -1175,11 +957,7 @@ uses or becomes attuned to them.
 Resisting a madness-inducing effect usually requires a Wisdom or
 Charisma saving throw.
 
-*** Madness Effects
-    :PROPERTIES:
-    :CUSTOM_ID: madness-effects
-    :END:
-
+*** Madness Effects                                                :effect:
 Madness can be short-term, long-term, or indefinite. Most relatively
 mundane effects impose short-term madness, which lasts for just a few
 minutes. More horrific effects or cumulative effects can result in
@@ -1194,8 +972,8 @@ from the Long-Term Madness table for 1d10 × 10 hours.
 A character afflicted with *indefinite madness* gains a new character
 flaw from the Indefinite Madness table that lasts until cured.
 
-*Table- Madness Short-Term Effects*
-
+**** Tables                                                        :table:
+***** Table: Madness Short-Term Effects
 | d100   | Effect (lasts 1d10 minutes)                                                                                                  |
 |--------+------------------------------------------------------------------------------------------------------------------------------|
 | 01-20  | The character retreats into his or her mind and becomes paralyzed. The effect ends if the character takes any damage.        |
@@ -1208,10 +986,8 @@ flaw from the Indefinite Madness table that lasts until cured.
 | 76-80  | The character experiences an overpowering urge to eat something strange such as dirt, slime, or offal.                       |
 | 81-90  | The character is stunned.                                                                                                    |
 | 91-100 | The character falls unconscious.                                                                                             |
-|        |                                                                                                                              |
 
-*Table- Madness Long-Term Effects*
-
+***** Table: Madness Long-Term Effects
 | d100   | Effect (lasts 1d10 × 10 hours)                                                                                                                                                                                                       |
 |--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 01-10  | The character feels compelled to repeat a specific activity over and over, such as washing hands, touching things, praying, or counting coins.                                                                                       |
@@ -1226,10 +1002,8 @@ flaw from the Indefinite Madness table that lasts until cured.
 | 86-90  | Whenever the character takes damage, he or she must succeed on a DC 15 Wisdom saving throw or be affected as though he or she failed a saving throw against the confusion spell. The confusion effect lasts for 1 minute.            |
 | 91-95  | The character loses the ability to speak.                                                                                                                                                                                            |
 | 96-100 | The character falls unconscious. No amount of jostling or damage can wake the character.                                                                                                                                             |
-|        |                                                                                                                                                                                                                                      |
 
-*Table- Madness Indefinite Flaws*
-
+***** Table: Madness Indefinite Flaws
 | d100   | Flaw (lasts until cured)                                                                                                                 |
 |--------+------------------------------------------------------------------------------------------------------------------------------------------|
 | 01-15  | "Being drunk keeps me sane."                                                                                                             |
@@ -1244,25 +1018,16 @@ flaw from the Indefinite Madness table that lasts until cured.
 | 81-85  | "There's only one person I can trust. And only I can see this special friend."                                                           |
 | 86-95  | "I can't take anything seriously. The more serious the situation, the funnier I find it."                                                |
 | 96-100 | "I've discovered that I really like killing people."                                                                                     |
-|        |                                                                                                                                          |
 
-*** Curing Madness
-    :PROPERTIES:
-    :CUSTOM_ID: curing-madness
-    :END:
+*** Curing Madness                                            :cure:curing:
+A [[file:10.spells.org::*Calm Emotions][Calm Emotions]] spell can suppress the effects of madness, while a
+[[file:10.spells.org::*Lesser Restoration][Lesser Restoration]] spell can rid a character of a short-term or
+long-term madness. Depending on the source of the madness, [[file:10.spells.org::*Remove Curse][Remove Curse]]
+or [[file:10.spells.org::*Dispel Evil and Good][Dispel Evil and Good]] might also prove effective. A [[file:10.spells.org::*Greater Restoration][Greater Restoration]]
+spell or more powerful magic is required to rid a character of
+indefinite madness.
 
-A /calm emotions/ spell can suppress the effects of madness, while a
-/lesser restoration/ spell can rid a character of a short-term or
-long-term madness. Depending on the source of the madness, /remove
-curse/ or /dispel evil/ might also prove effective. A /greater
-restoration/ spell or more powerful magic is required to rid a character
-of indefinite madness.
-
-** Objects
-   :PROPERTIES:
-   :CUSTOM_ID: objects
-   :END:
-
+** Objects                                                  :object:objects:
 When characters need to saw through ropes, shatter a window, or smash a
 vampire's coffin, the only hard and fast rule is this: given enough time
 and the right tools, characters can destroy any destructible object. Use
@@ -1274,22 +1039,18 @@ For the purpose of these rules, an object is a discrete, inanimate item
 like a window, door, sword, book, table, chair, or stone, not a building
 or a vehicle that is composed of many other objects.
 
-*** Statistics for Objects
-    :PROPERTIES:
-    :CUSTOM_ID: statistics-for-objects
-    :END:
-
+*** Statistics for Objects                                          :stats:
 When time is a factor, you can assign an Armor Class and hit points to a
 destructible object. You can also give it immunities, resistances, and
 vulnerabilities to specific types of damage.
 
-*/Armor Class/*. An object's Armor Class is a measure of how difficult
+**** Armor Class                                       :ac:AC:armor_class:
+An object's Armor Class is a measure of how difficult
 it is to deal damage to the object when striking it (because the object
 has no chance of dodging out of the way). The Object Armor Class table
 provides suggested AC values for various substances.
 
-*Table- Object's Armor Class*
-
+***** Table: Object's Armor Class                                 :table:
 | Substance           | AC |
 |---------------------+----|
 | Cloth, paper, rope  | 11 |
@@ -1299,9 +1060,9 @@ provides suggested AC values for various substances.
 | Iron, steel         | 19 |
 | Mithral             | 21 |
 | Adamantine          | 23 |
-|                     |    |
 
-*/Hit Points/*. An object's hit points measure how much damage it can
+**** Hit Points                                         :hp:HP:hit_points:
+An object's hit points measure how much damage it can
 take before losing its structural integrity. Resilient objects have more
 hit points than fragile ones. Large objects also tend to have more hit
 points than small ones, unless breaking a small part of the object is
@@ -1309,20 +1070,19 @@ just as effective as breaking the whole thing. The Object Hit Points
 table provides suggested hit points for fragile and resilient objects
 that are Large or smaller.
 
-*Table- Object's Hit Points*
-
+***** Table: Object's Hit Points                                  :table:
 | Size                                | Fragile  | Resilient |
 |-------------------------------------+----------+-----------|
 | Tiny (bottle, lock)                 | 2 (1d4)  | 5 (2d4)   |
 | Small (chest, lute)                 | 3 (1d6)  | 10 (3d6)  |
 | Medium (barrel, chandelier)         | 4 (1d8)  | 18 (4d8)  |
 | Large (cart, 10-ft-by-10-ft window) | 5 (1d10) | 27 (5d10) |
-|                                     |          |           |
 
-*/Huge and Gargantuan Objects/*. Normal weapons are of little use
+**** Huge and Gargantuan Objects                                    :size:
+Normal weapons are of little use
 against many Huge and Gargantuan objects, such as a colossal statue,
 towering column of stone, or massive boulder. That said, one torch can
-burn a Huge tapestry, and an /earthquake/ spell can reduce a colossus to
+burn a Huge tapestry, and an [[file:10.spells.org::*Earthquake][Earthquake]] spell can reduce a colossus to
 rubble. You can track a Huge or Gargantuan object's hit points if you
 like, or you can simply decide how long the object can withstand
 whatever weapon or force is acting against it. If you track hit points
@@ -1331,7 +1091,8 @@ section's hit points separately. Destroying one of those sections could
 ruin the entire object. For example, a Gargantuan statue of a human
 might topple over when one of its Large legs is reduced to 0 hit points.
 
-*/Objects and Damage Types/*. Objects are immune to poison and psychic
+**** Objects and Damage Types                                     :damage:
+Objects are immune to poison and psychic
 damage. You might decide that some damage types are more effective
 against a particular object or substance than others. For example,
 bludgeoning damage works well for smashing things but not for cutting
@@ -1339,7 +1100,8 @@ through rope or leather. Paper or cloth objects might be vulnerable to
 fire and lightning damage. A pick can chip away stone but can't
 effectively cut down a tree. As always, use your best judgment.
 
-*/Damage Threshold/*. Big objects such as castle walls often have extra
+**** Damage Threshold                                             :damage:
+Big objects such as castle walls often have extra
 resilience represented by a damage threshold. An object with a damage
 threshold has immunity to all damage unless it takes an amount of damage
 from a single attack or effect equal to or greater than its damage
@@ -1347,41 +1109,39 @@ threshold, in which case it takes damage as normal. Any damage that
 fails to meet or exceed the object's damage threshold is considered
 superficial and doesn't reduce the object's hit points.
 
-** Poisons
-   :PROPERTIES:
-   :CUSTOM_ID: poisons
-   :END:
-
+** Poisons                                                          :poison:
 Given their insidious and deadly nature, poisons are illegal in most
 societies but are a favorite tool among assassins, drow, and other evil
 creatures.
 
-Poisons come in the following four types.
-
-*/Contact/*. Contact poison can be smeared on an object and remains
+*** Poisons come in the following four types                         :type:
+**** Contact                                                     :contact:
+Contact poison can be smeared on an object and remains
 potent until it is touched or washed off. A creature that touches
 contact poison with exposed skin suffers its effects.
 
-*/Ingested/*. A creature must swallow an entire dose of ingested poison
+**** Ingested                                                   :ingested:
+A creature must swallow an entire dose of ingested poison
 to suffer its effects. The dose can be delivered in food or a liquid.
 You may decide that a partial dose has a reduced effect, such as
 allowing advantage on the saving throw or dealing only half damage on a
 failed save.
 
-*/Inhaled/*. These poisons are powders or gases that take effect when
+**** Inhaled                                                     :inhaled:
+These poisons are powders or gases that take effect when
 inhaled. Blowing the powder or releasing the gas subjects creatures in a
 5-foot cube to its effect. The resulting cloud dissipates immediately
 afterward. Holding one's breath is ineffective against inhaled poisons,
 as they affect nasal membranes, tear ducts, and other parts of the body.
 
-*/Injury/*. Injury poison can be applied to weapons, ammunition, trap
+**** Injury                                                       :injury:
+Injury poison can be applied to weapons, ammunition, trap
 components, and other objects that deal piercing or slashing damage and
 remains potent until delivered through a wound or washed off. A creature
 that takes piercing or slashing damage from an object coated with the
 poison is exposed to its effects.
 
-*Table- List of Poisons*
-
+*** Table: List of Poisons                                          :table:
 | Item               | Type     | Price/Dose |
 |--------------------+----------+------------|
 | Assassin's blood   | Ingested | 150 gp     |
@@ -1398,34 +1158,33 @@ poison is exposed to its effects.
 | Torpor             | Ingested | 600 gp     |
 | Truth serum        | Ingested | 150 gp     |
 | Wyvern poison      | Injury   | 1,200 gp   |
-|                    |          |            |
 
-*** Sample Poisons
-    :PROPERTIES:
-    :CUSTOM_ID: sample-poisons
-    :END:
-
+*** Sample Poisons                                                 :sample:
 Each type of poison has its own debilitating effects.
 
-*/Assassin's Blood (Ingested)/*. A creature subjected to this poison
+**** Assassin's Blood (Ingested)                                :ingested:
+A creature subjected to this poison
 must make a DC 10 Constitution saving throw. On a failed save, it takes
 6 (1d12) poison damage and is poisoned for 24 hours. On a successful
 save, the creature takes half damage and isn't poisoned.
 
-*/Burnt Othur Fumes (Inhaled)/*. A creature subjected to this poison
+**** Burnt Othur Fumes (Inhaled)                                 :inhaled:
+A creature subjected to this poison
 must succeed on a DC 13 Constitution saving throw or take 10 (3d6)
 poison damage, and must repeat the saving throw at the start of each of
 its turns. On each successive failed save, the character takes 3 (1d6)
 poison damage. After three successful saves, the poison ends.
 
-*/Crawler Mucus (Contact)/*. This poison must be harvested from a dead
+**** Crawler Mucus (Contact)                                     :contact:
+This poison must be harvested from a dead
 or incapacitated crawler. A creature subjected to this poison must
 succeed on a DC 13 Constitution saving throw or be poisoned for 1
 minute. The poisoned creature is paralyzed. The creature can repeat the
 saving throw at the end of each of its turns, ending the effect on
 itself on a success.
 
-*/Drow Poison (Injury)/*. This poison is typically made only by the
+**** Drow Poison (Injury)                                         :injury:
+This poison is typically made only by the
 drow, and only in a place far removed from sunlight. A creature
 subjected to this poison must succeed on a DC 13 Constitution saving
 throw or be poisoned for 1 hour. If the saving throw fails by 5 or more,
@@ -1433,27 +1192,32 @@ the creature is also unconscious while poisoned in this way. The
 creature wakes up if it takes damage or if another creature takes an
 action to shake it awake.
 
-*/Essence of Ether (Inhaled)/*. A creature subjected to this poison must
+**** Essence of Ether (Inhaled)                                  :inhaled:
+A creature subjected to this poison must
 succeed on a DC 15 Constitution saving throw or become poisoned for 8
 hours. The poisoned creature is unconscious. The creature wakes up if it
 takes damage or if another creature takes an action to shake it awake.
 
-*/Malice (Inhaled)/*. A creature subjected to this poison must succeed
+**** Malice (Inhaled)                                            :inhaled:
+A creature subjected to this poison must succeed
 on a DC 15 Constitution saving throw or become poisoned for 1 hour. The
 poisoned creature is blinded.
 
-*/Midnight Tears (Ingested)/*. A creature that ingests this poison
+**** Midnight Tears (Ingested)                                  :ingested:
+A creature that ingests this poison
 suffers no effect until the stroke of midnight. If the poison has not
 been neutralized before then, the creature must succeed on a DC 17
 Constitution saving throw, taking 31 (9d6) poison damage on a failed
 save, or half as much damage on a successful one.
 
-*/Oil of Taggit (Contact)/*. A creature subjected to this poison must
+**** Oil of Taggit (Contact)                                     :contact:
+A creature subjected to this poison must
 succeed on a DC 13 Constitution saving throw or become poisoned for 24
 hours. The poisoned creature is unconscious. The creature wakes up if it
 takes damage.
 
-*/Pale Tincture (Ingested)/*. A creature subjected to this poison must
+**** Pale Tincture (Ingested)                                   :ingested:
+A creature subjected to this poison must
 succeed on a DC 16 Constitution saving throw or take 3 (1d6) poison
 damage and become poisoned. The poisoned creature must repeat the saving
 throw every 24 hours, taking 3 (1d6) poison damage on a failed save.
@@ -1461,27 +1225,32 @@ Until this poison ends, the damage the poison deals can't be healed by
 any means. After seven successful saving throws, the effect ends and the
 creature can heal normally.
 
-*/Purple Worm Poison (Injury)/*. This poison must be harvested from a
+**** Purple Worm Poison (Injury)                                  :injury:
+This poison must be harvested from a
 dead or incapacitated purple worm. A creature subjected to this poison
 must make a DC 19 Constitution saving throw, taking 42 (12d6) poison
 damage on a failed save, or half as much damage on a successful one.
 
-*/Serpent Venom (Injury)/*. This poison must be harvested from a dead or
+**** Serpent Venom (Injury)                                       :injury:
+This poison must be harvested from a dead or
 incapacitated giant poisonous snake. A creature subjected to this poison
 must succeed on a DC 11 Constitution saving throw, taking 10 (3d6)
 poison damage on a failed save, or half as much damage on a successful
 one.
 
-*/Torpor (Ingested)/*. A creature subjected to this poison must succeed
+**** Torpor (Ingested)                                          :ingested:
+A creature subjected to this poison must succeed
 on a DC 15 Constitution saving throw or become poisoned for 4d6 hours.
 The poisoned creature is incapacitated.
 
-*/Truth Serum (Ingested)/*. A creature subjected to this poison must
+**** Truth Serum (Ingested)                                     :ingested:
+A creature subjected to this poison must
 succeed on a DC 11 Constitution saving throw or become poisoned for 1
 hour. The poisoned creature can't knowingly speak a lie, as if under the
-effect of a /zone of truth/ spell.
+effect of a [[file:10.spells.org::*Zone of Truth][Zone of Truth]] spell.
 
-*/Wyvern Poison (Injury)/*. This poison must be harvested from a dead or
+**** Wyvern Poison (Injury)                                       :injury:
+This poison must be harvested from a dead or
 incapacitated wyvern. A creature subjected to this poison must make a DC
 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed
 save, or half as much damage on a successful one.

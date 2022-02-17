@@ -1,65 +1,39 @@
-* TREASURE
-  :PROPERTIES:
-  :CUSTOM_ID: treasure
-  :END:
+#+STARTUP: content showstars indent
+#+FILETAGS: treasure
 
+* Description                                                          :item:
 Magic items are presented in alphabetical order. A magic item's
 description gives the item's name, its category, its rarity, and its
 magical properties.
 
-* Magic Items (A)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-a
-  :END:
-
-*** Adamantine Armor
-    :PROPERTIES:
-    :CUSTOM_ID: adamantine-armor
-    :END:
-
+** Adamantine Armor
 /Armor (medium or heavy, but not hide), uncommon/
 
 This suit of armor is reinforced with adamantine, one of the hardest
 substances in existence. While you're wearing it, any critical hit
 against you becomes a normal hit.
 
-*** Ammunition, +1, +2, or +3
-    :PROPERTIES:
-    :CUSTOM_ID: ammunition-1-2-or-3
-    :END:
-
+** Ammunition, +1, +2, or +3
 /Weapon (any ammunition), uncommon (+1), rare (+2), or very rare (+3)/
 
 You have a bonus to attack and damage rolls made with this piece of
 magic ammunition. The bonus is determined by the rarity of the
 ammunition. Once it hits a target, the ammunition is no longer magical.
 
-*** Amulet of Health
-    :PROPERTIES:
-    :CUSTOM_ID: amulet-of-health
-    :END:
-
+** Amulet of Health
 /Wondrous item, rare (requires attunement)/
 
 Your Constitution score is 19 while you wear this amulet. It has no
 effect on you if your Constitution is already 19 or higher.
 
-*** Amulet of Proof against Detection and Location
-    :PROPERTIES:
-    :CUSTOM_ID: amulet-of-proof-against-detection-and-location
-    :END:
-
+** Amulet of Proof against Detection and Location
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing this amulet, you are hidden from divination magic. You
 can't be targeted by such magic or perceived through magical scrying
 sensors.
 
-*** Amulet of the Planes
-    :PROPERTIES:
-    :CUSTOM_ID: amulet-of-the-planes
-    :END:
-
+** Amulet of the Planes
 /Wondrous item, very rare (requires attunement)/
 
 While wearing this amulet, you can use an action to name a location that
@@ -70,11 +44,7 @@ you travel to a random destination. Roll a d100. On a 1-60, you travel
 to a random location on the plane you named. On a 61-100, you travel to
 a randomly determined plane of existence.
 
-*** Animated Shield
-    :PROPERTIES:
-    :CUSTOM_ID: animated-shield
-    :END:
-
+** Animated Shield
 /Armor (shield), very rare (requires attunement)/
 
 While holding this shield, you can speak its command word as a bonus
@@ -85,11 +55,7 @@ bonus action to end this effect, or until you are incapacitated or die,
 at which point the shield falls to the ground or into your hand if you
 have one free.
 
-*** Apparatus of the Crab
-    :PROPERTIES:
-    :CUSTOM_ID: apparatus-of-the-crab
-    :END:
-
+** Apparatus of the Crab
 /Wondrous item, legendary/
 
 This item first appears to be a Large sealed iron barrel weighing 500
@@ -142,22 +108,14 @@ shown in the Apparatus of the Crab Levers table.
 | 10    | The rear hatch unseals and opens.                                                                                                | The rear hatch closes and seals.                                                                                                            |
 |       |                                                                                                                                  |                                                                                                                                             |
 
-*** Armor, +1, +2, or +3
-    :PROPERTIES:
-    :CUSTOM_ID: armor-1-2-or-3
-    :END:
-
+** Armor, +1, +2, or +3
 /Armor (light, medium, or heavy), rare (+1), very rare (+2), or
 legendary (+3)/
 
 You have a bonus to AC while wearing this armor. The bonus is determined
 by its rarity.
 
-*** Armor of Invulnerability
-    :PROPERTIES:
-    :CUSTOM_ID: armor-of-invulnerability
-    :END:
-
+** Armor of Invulnerability
 /Armor (plate), legendary (requires attunement)/
 
 You have resistance to nonmagical damage while you wear this armor.
@@ -166,11 +124,7 @@ nonmagical damage for 10 minutes or until you are no longer wearing the
 armor. Once this special action is used, it can't be used again until
 the next dawn.
 
-*** Armor of Resistance
-    :PROPERTIES:
-    :CUSTOM_ID: armor-of-resistance
-    :END:
-
+** Armor of Resistance
 /Armor (light, medium, or heavy), rare (requires attunement)/
 
 You have resistance to one type of damage while you wear this armor. The
@@ -192,11 +146,7 @@ GM chooses the type or determines it randomly from the options below.
 | 10  | Thunder     |
 |     |             |
 
-*** Armor of Vulnerability
-    :PROPERTIES:
-    :CUSTOM_ID: armor-of-vulnerability
-    :END:
-
+** Armor of Vulnerability
 /Armor (plate), rare (requires attunement)/
 
 While wearing this armor, you have resistance to one of the following
@@ -210,11 +160,7 @@ or similar magic; removing the armor fails to end the curse. While
 cursed, you have vulnerability to two of the three damage types
 associated with the armor (not the one to which it grants resistance).
 
-*** Arrow-Catching Shield
-    :PROPERTIES:
-    :CUSTOM_ID: arrow-catching-shield
-    :END:
-
+** Arrow-Catching Shield
 /Armor (shield), rare (requires attunement)/
 
 You gain a +2 bonus to AC against ranged attacks while you wield this
@@ -223,11 +169,7 @@ addition, whenever an attacker makes a ranged attack against a target
 within 5 feet of you, you can use your reaction to become the target of
 the attack instead.
 
-*** Arrow of Slaying
-    :PROPERTIES:
-    :CUSTOM_ID: arrow-of-slaying
-    :END:
-
+** Arrow of Slaying
 /Weapon (arrow), very rare/
 
 An /arrow of slaying/ is a magic weapon meant to slay a particular kind
@@ -244,16 +186,7 @@ becomes a nonmagical arrow.
 Other types of magic ammunition of this kind exist, such as /bolts of
 slaying/ meant for a crossbow, though arrows are most common.
 
-* Magic Items (B)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-b
-  :END:
-
-*** Bag of Beans
-    :PROPERTIES:
-    :CUSTOM_ID: bag-of-beans
-    :END:
-
+** Bag of Beans
 /Wondrous item, rare/
 
 Inside this heavy cloth bag are 3d4 dry beans. The bag weighs 1/2 pound
@@ -288,11 +221,7 @@ table, determine it randomly, or create an effect.
 | 100   | A giant beanstalk sprouts, growing to a height of the GM's choice. The top leads where the GM chooses, such as to a great view, a cloud giant's castle, or a different plane of existence.                                                                                                                                                                            |
 |       |                                                                                                                                                                                                                                                                                                                                                                       |
 
-*** Bag of Devouring
-    :PROPERTIES:
-    :CUSTOM_ID: bag-of-devouring
-    :END:
-
+** Bag of Devouring
 /Wondrous item, very rare/
 
 This bag superficially resembles a /bag of holding/ but is a feeding
@@ -318,11 +247,7 @@ determines the time and plane.
 If the bag is pierced or torn, it is destroyed, and anything contained
 within it is transported to a random location on the Astral Plane.
 
-*** Bag of Holding
-    :PROPERTIES:
-    :CUSTOM_ID: bag-of-holding
-    :END:
-
+** Bag of Holding
 /Wondrous item, uncommon/
 
 This bag has an interior space considerably larger than its outside
@@ -347,11 +272,7 @@ feet of the gate is sucked through it to a random location on the Astral
 Plane. The gate then closes. The gate is one-way only and can't be
 reopened.
 
-*** Bag of Tricks
-    :PROPERTIES:
-    :CUSTOM_ID: bag-of-tricks
-    :END:
-
+** Bag of Tricks
 /Wondrous item, uncommon/
 
 This ordinary bag, made from gray, rust, or tan cloth, appears empty.
@@ -414,11 +335,7 @@ used again until the next dawn.
 | 8  | Tiger        |
 |    |              |
 
-*** Bead of Force
-    :PROPERTIES:
-    :CUSTOM_ID: bead-of-force
-    :END:
-
+** Bead of Force
 /Wondrous item, rare/
 
 This small black sphere measures 3/4 of an inch in diameter and weighs
@@ -439,11 +356,7 @@ wall, moving the sphere up to half the creature's walking speed. The
 sphere can be picked up, and its magic causes it to weigh only 1 pound,
 regardless of the weight of creatures inside.
 
-*** Belt of Dwarvenkind
-    :PROPERTIES:
-    :CUSTOM_ID: belt-of-dwarvenkind
-    :END:
-
+** Belt of Dwarvenkind
 /Wondrous item, rare (requires attunement)/
 
 While wearing this belt, you gain the following benefits:
@@ -464,11 +377,7 @@ wearing the belt:
 - You have darkvision out to a range of 60 feet.
 - You can speak, read, and write Dwarvish.
 
-*** Belt of Giant Strength
-    :PROPERTIES:
-    :CUSTOM_ID: belt-of-giant-strength
-    :END:
-
+** Belt of Giant Strength
 /Wondrous item, rarity varies (requires attunement)/
 
 While wearing this belt, your Strength score changes to a score granted
@@ -491,11 +400,7 @@ they have the same effect.
 | Storm giant       | 29       | Legendary |
 |                   |          |           |
 
-*** Berserker Axe
-    :PROPERTIES:
-    :CUSTOM_ID: berserker-axe
-    :END:
-
+** Berserker Axe
 /Weapon (any axe), rare (requires attunement)/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
@@ -518,32 +423,20 @@ you have multiple possible targets, you attack one at random. You are
 berserk until you start your turn with no creatures within 60 feet of
 you that you can see or hear.
 
-*** Boots of Elvenkind
-    :PROPERTIES:
-    :CUSTOM_ID: boots-of-elvenkind
-    :END:
-
+** Boots of Elvenkind
 /Wondrous item, uncommon/
 
 While you wear these boots, your steps make no sound, regardless of the
 surface you are moving across. You also have advantage on Dexterity
 (Stealth) checks that rely on moving silently.
 
-*** Boots of Levitation
-    :PROPERTIES:
-    :CUSTOM_ID: boots-of-levitation
-    :END:
-
+** Boots of Levitation
 /Wondrous item, rare (requires attunement)/
 
 While you wear these boots, you can use an action to cast the /levitate/
 spell on yourself at will.
 
-*** Boots of Speed
-    :PROPERTIES:
-    :CUSTOM_ID: boots-of-speed
-    :END:
-
+** Boots of Speed
 /Wondrous item, rare (requires attunement)/
 
 While you wear these boots, you can use a bonus action and click the
@@ -555,11 +448,7 @@ you end the effect.
 When the boots' property has been used for a total of 10 minutes, the
 magic ceases to function until you finish a long rest.
 
-*** Boots of Striding and Springing
-    :PROPERTIES:
-    :CUSTOM_ID: boots-of-striding-and-springing
-    :END:
-
+** Boots of Striding and Springing
 /Wondrous item, uncommon (requires attunement)/
 
 While you wear these boots, your walking speed becomes 30 feet, unless
@@ -568,11 +457,7 @@ encumbered or wearing heavy armor. In addition, you can jump three times
 the normal distance, though you can't jump farther than your remaining
 movement would allow.
 
-*** Boots of the Winterlands
-    :PROPERTIES:
-    :CUSTOM_ID: boots-of-the-winterlands
-    :END:
-
+** Boots of the Winterlands
 /Wondrous item, uncommon (requires attunement)/
 
 These furred boots are snug and feel quite warm. While you wear them,
@@ -584,11 +469,7 @@ you gain the following benefits:
   any additional protection. If you wear heavy clothes, you can tolerate
   temperatures as low as -100 degrees Fahrenheit.
 
-*** Bowl of Commanding Water Elementals
-    :PROPERTIES:
-    :CUSTOM_ID: bowl-of-commanding-water-elementals
-    :END:
-
+** Bowl of Commanding Water Elementals
 /Wondrous item, rare/
 
 While this bowl is filled with water, you can use an action to speak the
@@ -599,32 +480,20 @@ the next dawn.
 The bowl is about 1 foot in diameter and half as deep. It weighs 3
 pounds and holds about 3 gallons.
 
-*** Bracers of Archery
-    :PROPERTIES:
-    :CUSTOM_ID: bracers-of-archery
-    :END:
-
+** Bracers of Archery
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing these bracers, you have proficiency with the longbow and
 shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made
 with such weapons.
 
-*** Bracers of Defense
-    :PROPERTIES:
-    :CUSTOM_ID: bracers-of-defense
-    :END:
-
+** Bracers of Defense
 /Wondrous item, rare (requires attunement)/
 
 While wearing these bracers, you gain a +2 bonus to AC if you are
 wearing no armor and using no shield.
 
-*** Brazier of Commanding Fire Elementals
-    :PROPERTIES:
-    :CUSTOM_ID: brazier-of-commanding-fire-elementals
-    :END:
-
+** Brazier of Commanding Fire Elementals
 /Wondrous item, rare/
 
 While a fire burns in this brass brazier, you can use an action to speak
@@ -634,21 +503,13 @@ again until the next dawn.
 
 The brazier weighs 5 pounds.
 
-*** Brooch of Shielding
-    :PROPERTIES:
-    :CUSTOM_ID: brooch-of-shielding
-    :END:
-
+** Brooch of Shielding
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing this brooch, you have resistance to force damage, and you
 have immunity to damage from the /magic missile/ spell.
 
-*** Broom of Flying
-    :PROPERTIES:
-    :CUSTOM_ID: broom-of-flying
-    :END:
-
+** Broom of Flying
 /Wondrous item, uncommon/
 
 This wooden broom, which weighs 3 pounds, functions like a mundane broom
@@ -663,16 +524,7 @@ you if you speak the command word, name the location, and are familiar
 with that place. The broom comes back to you when you speak another
 command word, provided that the broom is still within 1 mile of you.
 
-* Magic Items (C)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-c
-  :END:
-
-*** Candle of Invocation
-    :PROPERTIES:
-    :CUSTOM_ID: candle-of-invocation
-    :END:
-
+** Candle of Invocation
 /Wondrous item, very rare (requires attunement)/
 
 This slender taper is dedicated to a deity and shares that deity's
@@ -711,11 +563,7 @@ expending spell slots, though the spell's effect is as if cast with a
 Alternatively, when you light the candle for the first time, you can
 cast the /gate/ spell with it. Doing so destroys the candle.
 
-*** Cape of the Mountebank
-    :PROPERTIES:
-    :CUSTOM_ID: cape-of-the-mountebank
-    :END:
-
+** Cape of the Mountebank
 /Wondrous item, rare/
 
 This cape smells faintly of brimstone. While wearing it, you can use it
@@ -727,11 +575,7 @@ a similar cloud of smoke at your destination. The smoke lightly obscures
 the space you left and the space you appear in, and it dissipates at the
 end of your next turn. A light or stronger wind disperses the smoke.
 
-*** Carpet of Flying
-    :PROPERTIES:
-    :CUSTOM_ID: carpet-of-flying
-    :END:
-
+** Carpet of Flying
 /Wondrous item, very rare/
 
 You can speak the carpet's command word as an action to make the carpet
@@ -754,11 +598,7 @@ given carpet or determines it randomly.
 A carpet can carry up to twice the weight shown on the table, but it
 flies at half speed if it carries more than its normal capacity.
 
-*** Censer of Controlling Air Elementals
-    :PROPERTIES:
-    :CUSTOM_ID: censer-of-controlling-air-elementals
-    :END:
-
+** Censer of Controlling Air Elementals
 /Wondrous item, rare/
 
 While incense is burning in this censer, you can use an action to speak
@@ -769,11 +609,7 @@ again until the next dawn.
 This 6-inch-wide, 1-foot high vessel resembles a chalice with a
 decorated lid. It weighs 1 pound.
 
-*** Chime of Opening
-    :PROPERTIES:
-    :CUSTOM_ID: chime-of-opening
-    :END:
-
+** Chime of Opening
 /Wondrous item, rare/
 
 This hollow metal tube measures about 1 foot long and weighs 1 pound.
@@ -786,11 +622,7 @@ object itself opens.
 The chime can be used ten times. After the tenth time, it cracks and
 becomes useless.
 
-*** Circlet of Blasting
-    :PROPERTIES:
-    :CUSTOM_ID: circlet-of-blasting
-    :END:
-
+** Circlet of Blasting
 /Wondrous item, uncommon/
 
 While wearing this circlet, you can use an action to cast the /scorching
@@ -798,11 +630,7 @@ ray/ spell with it. When you make the spell's attacks, you do so with an
 attack bonus of +5. The circlet can't be used this way again until the
 next dawn.
 
-*** Cloak of Arachnida
-    :PROPERTIES:
-    :CUSTOM_ID: cloak-of-arachnida
-    :END:
-
+** Cloak of Arachnida
 /Wondrous item, very rare (requires attunement)/
 
 This fine garment is made of black silk interwoven with faint silvery
@@ -818,11 +646,7 @@ threads. While wearing it, you gain the following benefits:
   created by the spell fills twice its normal area. Once used, this
   property of the cloak can't be used again until the next dawn.
 
-*** Cloak of Displacement
-    :PROPERTIES:
-    :CUSTOM_ID: cloak-of-displacement
-    :END:
-
+** Cloak of Displacement
 /Wondrous item, rare (requires attunement)/
 
 While you wear this cloak, it projects an illusion that makes you appear
@@ -832,11 +656,7 @@ damage, the property ceases to function until the start of your next
 turn. This property is suppressed while you are incapacitated,
 restrained, or otherwise unable to move.
 
-*** Cloak of Elvenkind
-    :PROPERTIES:
-    :CUSTOM_ID: cloak-of-elvenkind
-    :END:
-
+** Cloak of Elvenkind
 /Wondrous item, uncommon (requires attunement)/
 
 While you wear this cloak with its hood up, Wisdom (Perception) checks
@@ -844,20 +664,12 @@ made to see you have disadvantage, and you have advantage on Dexterity
 (Stealth) checks made to hide, as the cloak's color shifts to camouflage
 you. Pulling the hood up or down requires an action.
 
-*** Cloak of Protection
-    :PROPERTIES:
-    :CUSTOM_ID: cloak-of-protection
-    :END:
-
+** Cloak of Protection
 /Wondrous item, uncommon (requires attunement)/
 
 You gain a +1 bonus to AC and saving throws while you wear this cloak.
 
-*** Cloak of the Bat
-    :PROPERTIES:
-    :CUSTOM_ID: cloak-of-the-bat
-    :END:
-
+** Cloak of the Bat
 /Wondrous item, rare (requires attunement)/
 
 While wearing this cloak, you have advantage on Dexterity (Stealth)
@@ -872,22 +684,14 @@ While you are in the form of the bat, you retain your Intelligence,
 Wisdom, and Charisma scores. The cloak can't be used this way again
 until the next dawn.
 
-*** Cloak of the Manta Ray
-    :PROPERTIES:
-    :CUSTOM_ID: cloak-of-the-manta-ray
-    :END:
-
+** Cloak of the Manta Ray
 /Wondrous item, uncommon/
 
 While wearing this cloak with its hood up, you can breathe underwater,
 and you have a swimming speed of 60 feet. Pulling the hood up or down
 requires an action.
 
-*** Crystal Ball
-    :PROPERTIES:
-    :CUSTOM_ID: crystal-ball
-    :END:
-
+** Crystal Ball
 /Wondrous item, very rare or legendary (requires attunement)/
 
 The typical /crystal ball/, a very rare item, is about 6 inches in
@@ -916,11 +720,7 @@ until the next dawn.
 you have truesight with a radius of 120 feet centered on the spell's
 sensor.
 
-*** Cube of Force
-    :PROPERTIES:
-    :CUSTOM_ID: cube-of-force
-    :END:
-
+** Cube of Force
 /Wondrous item, rare (requires attunement)/
 
 This cube is about an inch across. Each face has a distinct marking on
@@ -969,11 +769,7 @@ the table below.
 | Wall of fire     | 1d4          |
 |                  |              |
 
-*** Cubic Gate
-    :PROPERTIES:
-    :CUSTOM_ID: cubic-gate
-    :END:
-
+** Cubic Gate
 /Wondrous item, legendary/
 
 This cube is 3 inches across and radiates palpable magical energy. The
@@ -990,16 +786,7 @@ the targets to the plane keyed to that side.
 The cube has 3 charges. Each use of the cube expends 1 charge. The cube
 regains 1d3 expended charges daily at dawn.
 
-* Magic Items (D)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-d
-  :END:
-
-*** Dagger of Venom
-    :PROPERTIES:
-    :CUSTOM_ID: dagger-of-venom
-    :END:
-
+** Dagger of Venom
 /Weapon (dagger), rare/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
@@ -1011,11 +798,7 @@ hits a creature. That creature must succeed on a DC 15 Constitution
 saving throw or take 2d10 poison damage and become poisoned for 1
 minute. The dagger can't be used this way again until the next dawn.
 
-*** Dancing Sword
-    :PROPERTIES:
-    :CUSTOM_ID: dancing-sword
-    :END:
-
+** Dancing Sword
 /Weapon (any sword), very rare (requires attunement)/
 
 You can use a bonus action to toss this magic sword into the air and
@@ -1036,11 +819,7 @@ to you, it moves as close to you as it can and then falls to the ground.
 It also ceases to hover if you grasp it or move more than 30 feet away
 from it.
 
-*** Decanter of Endless Water
-    :PROPERTIES:
-    :CUSTOM_ID: decanter-of-endless-water
-    :END:
-
+** Decanter of Endless Water
 /Wondrous item, uncommon/
 
 This stoppered flask sloshes when shaken, as if it contains water. The
@@ -1062,11 +841,7 @@ of your next turn. Choose from the following options:
   weighs no more than 200 pounds. The object is either knocked over or
   pushed up to 15 feet away from you.
 
-*** Deck of Illusions
-    :PROPERTIES:
-    :CUSTOM_ID: deck-of-illusions
-    :END:
-
+** Deck of Illusions
 /Wondrous item, uncommon/
 
 This box contains a set of parchment cards. A full deck has 34 cards. A
@@ -1131,11 +906,7 @@ can't be used again.
 | Jokers (2)        | You (the deck's owner)           |
 |                   |                                  |
 
-*** Deck of Many Things
-    :PROPERTIES:
-    :CUSTOM_ID: deck-of-many-things
-    :END:
-
+** Deck of Many Things
 /Wondrous item, legendary/
 
 Usually found in a box or pouch, this deck contains a number of cards
@@ -1258,11 +1029,7 @@ until you die or it drops to 0 hit points, whereupon it disappears. If
 anyone tries to help you, the helper summons its own avatar of death. A
 creature slain by an avatar of death can't be restored to life.
 
-**** Avatar of Death
-     :PROPERTIES:
-     :CUSTOM_ID: avatar-of-death
-     :END:
-
+*** Avatar of Death
 /Medium undead, neutral evil/
 
 *Armor Class* 20
@@ -1292,11 +1059,7 @@ damage if it ends its turn inside an object.
 
 */Turning Immunity/*. The avatar is immune to features that turn undead.
 
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions
-       :END:
-
+***** Actions
 */Reaping Scythe/*. The avatar sweeps its spectral scythe through a
 creature within 5 feet of it, dealing 7 (1d8+3) slashing damage plus 4
 (1d8) necrotic damage.
@@ -1329,11 +1092,7 @@ this way, your body is incapacitated. A /wish/ spell can't restore your
 soul, but the spell reveals the location of the object that holds it.
 You draw no more cards.
 
-*** Defender
-    :PROPERTIES:
-    :CUSTOM_ID: defender
-    :END:
-
+** Defender
 /Weapon (any sword), legendary (requires attunement)/
 
 You gain a +3 bonus to attack and damage rolls made with this magic
@@ -1347,11 +1106,7 @@ bonus to AC. The adjusted bonuses remain in effect until the start of
 your next turn, although you must hold the sword to gain a bonus to AC
 from it.
 
-*** Demon Armor
-    :PROPERTIES:
-    :CUSTOM_ID: demon-armor
-    :END:
-
+** Demon Armor
 /Armor (plate), very rare (requires attunement)/
 
 While wearing this armor, you gain a +1 bonus to AC, and you can
@@ -1365,11 +1120,7 @@ are targeted by the /remove curse/ spell or similar magic. While wearing
 the armor, you have disadvantage on attack rolls against demons and on
 saving throws against their spells and special abilities.
 
-*** Dimensional Shackles
-    :PROPERTIES:
-    :CUSTOM_ID: dimensional-shackles
-    :END:
-
+** Dimensional Shackles
 /Wondrous item, rare/
 
 You can use an action to place these shackles on an incapacitated
@@ -1385,11 +1136,7 @@ action to remove them. Once every 30 days, the bound creature can make a
 DC 30 Strength (Athletics) check. On a success, the creature breaks free
 and destroys the shackles.
 
-*** Dragon Scale Mail
-    :PROPERTIES:
-    :CUSTOM_ID: dragon-scale-mail
-    :END:
-
+** Dragon Scale Mail
 /Armor (scale mail), very rare (requires attunement)/
 
 Dragon scale mail is made of the scales of one kind of dragon. Sometimes
@@ -1423,11 +1170,7 @@ be used again until the next dawn.
 | White  | Cold       |
 |        |            |
 
-*** Dragon Slayer
-    :PROPERTIES:
-    :CUSTOM_ID: dragon-slayer
-    :END:
-
+** Dragon Slayer
 /Weapon (any sword), rare/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
@@ -1438,11 +1181,7 @@ damage of the weapon's type. For the purpose of this weapon, "dragon"
 refers to any creature with the dragon type, including dragon turtles
 and wyverns.
 
-*** Dust of Disappearance
-    :PROPERTIES:
-    :CUSTOM_ID: dust-of-disappearance
-    :END:
-
+** Dust of Disappearance
 /Wondrous item, uncommon/
 
 Found in a small packet, this powder resembles very fine sand. There is
@@ -1453,11 +1192,7 @@ and the dust is consumed when its magic takes effect. If a creature
 affected by the dust attacks or casts a spell, the invisibility ends for
 that creature.
 
-*** Dust of Dryness
-    :PROPERTIES:
-    :CUSTOM_ID: dust-of-dryness
-    :END:
-
+** Dust of Dryness
 /Wondrous item, uncommon/
 
 This small packet contains 1d6+4 pinches of dust. You can use an action
@@ -1473,11 +1208,7 @@ An elemental composed mostly of water that is exposed to a pinch of the
 dust must make a DC 13 Constitution saving throw, taking 10d6 necrotic
 damage on a failed save, or half as much damage on a successful one.
 
-*** Dust of Sneezing and Choking
-    :PROPERTIES:
-    :CUSTOM_ID: dust-of-sneezing-and-choking
-    :END:
-
+** Dust of Sneezing and Choking
 /Wondrous item, uncommon/
 
 Found in a small container, this powder resembles very fine sand. It
@@ -1493,22 +1224,14 @@ can repeat the saving throw at the end of each of its turns, ending the
 effect on it on a success. The /lesser restoration/ spell can also end
 the effect on a creature.
 
-*** Dwarven Plate
-    :PROPERTIES:
-    :CUSTOM_ID: dwarven-plate
-    :END:
-
+** Dwarven Plate
 /Armor (plate), very rare/
 
 While wearing this armor, you gain a +2 bonus to AC. In addition, if an
 effect moves you against your will along the ground, you can use your
 reaction to reduce the distance you are moved by up to 10 feet.
 
-*** Dwarven Thrower
-    :PROPERTIES:
-    :CUSTOM_ID: dwarven-thrower
-    :END:
-
+** Dwarven Thrower
 /Weapon (warhammer), very rare (requires attunement by a dwarf)/
 
 You gain a +3 bonus to attack and damage rolls made with this magic
@@ -1518,16 +1241,7 @@ weapon, it deals an extra 1d8 damage or, if the target is a giant, 2d8
 damage. Immediately after the attack, the weapon flies back to your
 hand.
 
-* Magic Items (E)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-e
-  :END:
-
-*** Efficient Quiver
-    :PROPERTIES:
-    :CUSTOM_ID: efficient-quiver
-    :END:
-
+** Efficient Quiver
 /Wondrous item, uncommon/
 
 Each of the quiver's three compartments connects to an extradimensional
@@ -1540,11 +1254,7 @@ to six long objects, such as bows, quarterstaffs, or spears.
 You can draw any item the quiver contains as if doing so from a regular
 quiver or scabbard.
 
-*** Efreeti Bottle
-    :PROPERTIES:
-    :CUSTOM_ID: efreeti-bottle
-    :END:
-
+** Efreeti Bottle
 /Wondrous item, very rare/
 
 This painted brass bottle weighs 1 pound. When you use an action to
@@ -1565,11 +1275,7 @@ happens.
 | 91-100 | The efreeti can cast the wish spell three times for you. It disappears when it grants the final wish or after 1 hour, and the bottle loses its magic.                                                                                                                                                                                                  |
 |        |                                                                                                                                                                                                                                                                                                                                                        |
 
-*** Elemental Gem
-    :PROPERTIES:
-    :CUSTOM_ID: elemental-gem
-    :END:
-
+** Elemental Gem
 /Wondrous item, uncommon/
 
 This gem contains a mote of elemental energy. When you use an action to
@@ -1587,22 +1293,14 @@ determines the elemental summoned by the spell.
 | Emerald        | Water elemental    |
 |                |                    |
 
-*** Elven Chain
-    :PROPERTIES:
-    :CUSTOM_ID: elven-chain
-    :END:
-
+** Elven Chain
 /Armor (chain shirt), rare/
 
 You gain a +1 bonus to AC while you wear this armor. You are considered
 proficient with this armor even if you lack proficiency with medium
 armor.
 
-*** Eversmoking Bottle
-    :PROPERTIES:
-    :CUSTOM_ID: eversmoking-bottle
-    :END:
-
+** Eversmoking Bottle
 /Wondrous item, uncommon/
 
 Smoke leaks from the lead-stoppered mouth of this brass bottle, which
@@ -1618,11 +1316,7 @@ closed, the cloud disperses after 10 minutes. A moderate wind (11 to 20
 miles per hour) can also disperse the smoke after 1 minute, and a strong
 wind (21 or more miles per hour) can do so after 1 round.
 
-*** Eyes of Charming
-    :PROPERTIES:
-    :CUSTOM_ID: eyes-of-charming
-    :END:
-
+** Eyes of Charming
 /Wondrous item, uncommon (requires attunement)/
 
 These crystal lenses fit over the eyes. They have 3 charges. While
@@ -1631,11 +1325,7 @@ person/ spell (save DC 13) on a humanoid within 30 feet of you, provided
 that you and the target can see each other. The lenses regain all
 expended charges daily at dawn.
 
-*** Eyes of Minute Seeing
-    :PROPERTIES:
-    :CUSTOM_ID: eyes-of-minute-seeing
-    :END:
-
+** Eyes of Minute Seeing
 /Wondrous item, uncommon/
 
 These crystal lenses fit over the eyes. While wearing them, you can see
@@ -1643,11 +1333,7 @@ much better than normal out to a range of 1 foot. You have advantage on
 Intelligence (Investigation) checks that rely on sight while searching
 an area or studying an object within that range.
 
-*** Eyes of the Eagle
-    :PROPERTIES:
-    :CUSTOM_ID: eyes-of-the-eagle
-    :END:
-
+** Eyes of the Eagle
 /Wondrous item, uncommon (requires attunement)/
 
 These crystal lenses fit over the eyes. While wearing them, you have
@@ -1655,16 +1341,7 @@ advantage on Wisdom (Perception) checks that rely on sight. In
 conditions of clear visibility, you can make out details of even
 extremely distant creatures and objects as small as 2 feet across.
 
-* Magic Items (F)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-f
-  :END:
-
-*** Feather Token
-    :PROPERTIES:
-    :CUSTOM_ID: feather-token
-    :END:
-
+** Feather Token
 /Wondrous item, rare/
 
 This tiny object looks like a feather. Different types of feather tokens
@@ -1731,11 +1408,7 @@ feet and repeat the attack against a creature within 10 feet of it. The
 whip disappears after 1 hour, when you use an action to dismiss it, or
 when you are incapacitated or die.
 
-*** Figurine of Wondrous Power
-    :PROPERTIES:
-    :CUSTOM_ID: figurine-of-wondrous-power
-    :END:
-
+** Figurine of Wondrous Power
 /Wondrous item, rarity by figurine/
 
 A /figurine of wondrous power/ is a statuette of a beast small enough to
@@ -1767,11 +1440,7 @@ a horsefly. It can become a giant fly for up to 12 hours and can be
 ridden as a mount. Once it has been used, it can't be used again until 2
 days have passed.
 
-**** Giant Fly
-     :PROPERTIES:
-     :CUSTOM_ID: giant-fly
-     :END:
-
+*** Giant Fly
 /Large beast, unaligned/
 
 *Armor Class* 11
@@ -1853,11 +1522,7 @@ a raven for up to 12 hours. Once it has been used, it can't be used
 again until 2 days have passed. While in raven form, the figurine allows
 you to cast the /animal messenger/ spell on it at will.
 
-*** Flame Tongue
-    :PROPERTIES:
-    :CUSTOM_ID: flame-tongue
-    :END:
-
+** Flame Tongue
 /Weapon (any sword), rare (requires attunement)/
 
 You can use a bonus action to speak this magic sword's command word,
@@ -1867,11 +1532,7 @@ sword is ablaze, it deals an extra 2d6 fire damage to any target it
 hits. The flames last until you use a bonus action to speak the command
 word again or until you drop or sheathe the sword.
 
-*** Folding Boat
-    :PROPERTIES:
-    :CUSTOM_ID: folding-boat
-    :END:
-
+** Folding Boat
 /Wondrous item, rare/
 
 This object appears as a wooden box that measures 12 inches long, 6
@@ -1899,11 +1560,7 @@ box, provided that no creatures are aboard. Any objects in the vessel
 that can't fit inside the box remain outside the box as it folds. Any
 objects in the vessel that can fit inside the box do so.
 
-*** Frost Brand
-    :PROPERTIES:
-    :CUSTOM_ID: frost-brand
-    :END:
-
+** Frost Brand
 /Weapon (any sword), very rare (requires attunement)/
 
 When you hit with an attack using this magic sword, the target takes an
@@ -1917,26 +1574,13 @@ When you draw this weapon, you can extinguish all nonmagical flames
 within 30 feet of you. This property can be used no more than once per
 hour.
 
-* Magic Items (G)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-g
-  :END:
-
-*** Gauntlets of Ogre Power
-    :PROPERTIES:
-    :CUSTOM_ID: gauntlets-of-ogre-power
-    :END:
-
+** Gauntlets of Ogre Power
 /Wondrous item, uncommon (requires attunement)/
 
 Your Strength score is 19 while you wear these gauntlets. They have no
 effect on you if your Strength is already 19 or higher.
 
-*** Gem of Brightness
-    :PROPERTIES:
-    :CUSTOM_ID: gem-of-brightness
-    :END:
-
+** Gem of Brightness
 /Wondrous item, uncommon/
 
 This prism has 50 charges. While you are holding it, you can use an
@@ -1961,11 +1605,7 @@ effects:
 When all of the gem's charges are expended, the gem becomes a nonmagical
 jewel worth 50 gp.
 
-*** Gem of Seeing
-    :PROPERTIES:
-    :CUSTOM_ID: gem-of-seeing
-    :END:
-
+** Gem of Seeing
 /Wondrous item, rare (requires attunement)/
 
 This gem has 3 charges. As an action, you can speak the gem's command
@@ -1974,11 +1614,7 @@ out to 120 feet when you peer through the gem.
 
 The gem regains 1d3 expended charges daily at dawn.
 
-*** Giant Slayer
-    :PROPERTIES:
-    :CUSTOM_ID: giant-slayer
-    :END:
-
+** Giant Slayer
 /Weapon (any axe or sword), rare/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
@@ -1989,11 +1625,7 @@ weapon's type and must succeed on a DC 15 Strength saving throw or fall
 prone. For the purpose of this weapon, "giant" refers to any creature
 with the giant type, including ettins and trolls.
 
-*** Glamoured Studded Leather
-    :PROPERTIES:
-    :CUSTOM_ID: glamoured-studded-leather
-    :END:
-
+** Glamoured Studded Leather
 /Armor (studded leather), rare/
 
 While wearing this armor, you gain a +1 bonus to AC. You can also use a
@@ -2004,11 +1636,7 @@ accessories, but the armor retains its normal bulk and weight. The
 illusory appearance lasts until you use this property again or remove
 the armor.
 
-*** Gloves of Missile Snaring
-    :PROPERTIES:
-    :CUSTOM_ID: gloves-of-missile-snaring
-    :END:
-
+** Gloves of Missile Snaring
 /Wondrous item, uncommon (requires attunement)/
 
 These gloves seem to almost meld into your hands when you don them. When
@@ -2018,38 +1646,21 @@ provided that you have a free hand. If you reduce the damage to 0, you
 can catch the missile if it is small enough for you to hold in that
 hand.
 
-*** Gloves of Swimming and Climbing
-    :PROPERTIES:
-    :CUSTOM_ID: gloves-of-swimming-and-climbing
-    :END:
-
+** Gloves of Swimming and Climbing
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing these gloves, climbing and swimming don't cost you extra
 movement, and you gain a +5 bonus to Strength (Athletics) checks made to
 climb or swim.
 
-*** Goggles of Night
-    :PROPERTIES:
-    :CUSTOM_ID: goggles-of-night
-    :END:
-
+** Goggles of Night
 /Wondrous item, uncommon/
 
 While wearing these dark lenses, you have darkvision out to a range of
 60 feet. If you already have darkvision, wearing the goggles increases
 its range by 60 feet.
 
-* Magic Items (H)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-h
-  :END:
-
-*** Hammer of Thunderbolts
-    :PROPERTIES:
-    :CUSTOM_ID: hammer-of-thunderbolts
-    :END:
-
+** Hammer of Thunderbolts
 /Weapon (maul), legendary/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
@@ -2072,11 +1683,7 @@ it must succeed on a DC 17 Constitution saving throw or be stunned until
 the end of your next turn. The hammer regains 1d4+1 expended charges
 daily at dawn.
 
-*** Handy Haversack
-    :PROPERTIES:
-    :CUSTOM_ID: handy-haversack
-    :END:
-
+** Handy Haversack
 /Wondrous item, rare/
 
 This backpack has a central pouch and two side pouches, each of which is
@@ -2107,31 +1714,19 @@ the gate is sucked through it and deposited in a random location on the
 Astral Plane. The gate then closes. The gate is one-way only and can't
 be reopened.
 
-*** Hat of Disguise
-    :PROPERTIES:
-    :CUSTOM_ID: hat-of-disguise
-    :END:
-
+** Hat of Disguise
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing this hat, you can use an action to cast the /disguise
 self/ spell from it at will. The spell ends if the hat is removed.
 
-*** Headband of Intellect
-    :PROPERTIES:
-    :CUSTOM_ID: headband-of-intellect
-    :END:
-
+** Headband of Intellect
 /Wondrous item, uncommon (requires attunement)/
 
 Your Intelligence score is 19 while you wear this headband. It has no
 effect on you if your Intelligence is already 19 or higher.
 
-*** Helm of Brilliance
-    :PROPERTIES:
-    :CUSTOM_ID: helm-of-brilliance
-    :END:
-
+** Helm of Brilliance
 /Wondrous item, very rare (requires attunement)/
 
 This dazzling helm is set with 1d10 diamonds, 2d10 rubies, 3d10 fire
@@ -2166,21 +1761,13 @@ feet of the helm other than you must succeed on a DC 17 Dexterity saving
 throw or be struck by a beam, taking radiant damage equal to the number
 of gems in the helm. The helm and its gems are then destroyed.
 
-*** Helm of Comprehending Languages
-    :PROPERTIES:
-    :CUSTOM_ID: helm-of-comprehending-languages
-    :END:
-
+** Helm of Comprehending Languages
 /Wondrous item, uncommon/
 
 While wearing this helm, you can use an action to cast the /comprehend
 languages/ spell from it at will.
 
-*** Helm of Telepathy
-    :PROPERTIES:
-    :CUSTOM_ID: helm-of-telepathy
-    :END:
-
+** Helm of Telepathy
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing this helm, you can use an action to cast the /detect
@@ -2194,22 +1781,14 @@ action to cast the /suggestion/ spell (save DC 13) from the helm on that
 creature. Once used, the /suggestion/ property can't be used again until
 the next dawn.
 
-*** Helm of Teleportation
-    :PROPERTIES:
-    :CUSTOM_ID: helm-of-teleportation
-    :END:
-
+** Helm of Teleportation
 /Wondrous item, rare (requires attunement)/
 
 This helm has 3 charges. While wearing it, you can use an action and
 expend 1 charge to cast the /teleport/ spell from it. The helm regains
 1d3 expended charges daily at dawn.
 
-*** Holy Avenger
-    :PROPERTIES:
-    :CUSTOM_ID: holy-avenger
-    :END:
-
+** Holy Avenger
 /Weapon (any sword), legendary (requires attunement by a paladin)/
 
 You gain a +3 bonus to attack and damage rolls made with this magic
@@ -2222,11 +1801,7 @@ advantage on saving throws against spells and other magical effects. If
 you have 17 or more levels in the paladin class, the radius of the aura
 increases to 30 feet.
 
-*** Horn of Blasting
-    :PROPERTIES:
-    :CUSTOM_ID: horn-of-blasting
-    :END:
-
+** Horn of Blasting
 /Wondrous item, rare/
 
 You can use an action to speak the horn's command word and then blow the
@@ -2242,11 +1817,7 @@ Each use of the horn's magic has a 20 percent chance of causing the horn
 to explode. The explosion deals 10d6 fire damage to the blower and
 destroys the horn.
 
-*** Horn of Valhalla
-    :PROPERTIES:
-    :CUSTOM_ID: horn-of-valhalla
-    :END:
-
+** Horn of Valhalla
 /Wondrous item, rare (silver or brass), very rare (bronze), or legendary
 (iron)/
 
@@ -2275,11 +1846,7 @@ If you blow the horn without meeting its requirement, the summoned
 berserkers attack you. If you meet the requirement, they are friendly to
 you and your companions and follow your commands.
 
-*** Horseshoes of a Zephyr
-    :PROPERTIES:
-    :CUSTOM_ID: horseshoes-of-a-zephyr
-    :END:
-
+** Horseshoes of a Zephyr
 /Wondrous item, very rare/
 
 These iron horseshoes come in a set of four. While all four shoes are
@@ -2291,27 +1858,14 @@ ignores difficult terrain. In addition, the creature can move at normal
 speed for up to 12 hours a day without suffering exhaustion from a
 forced march.
 
-*** Horseshoes of Speed
-    :PROPERTIES:
-    :CUSTOM_ID: horseshoes-of-speed
-    :END:
-
+** Horseshoes of Speed
 /Wondrous item, rare/
 
 These iron horseshoes come in a set of four. While all four shoes are
 affixed to the hooves of a horse or similar creature, they increase the
 creature's walking speed by 30 feet.
 
-* Magic Items (I)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-i
-  :END:
-
-*** Immovable Rod
-    :PROPERTIES:
-    :CUSTOM_ID: immovable-rod
-    :END:
-
+** Immovable Rod
 /Rod, uncommon/
 
 This flat iron rod has a button on one end. You can use an action to
@@ -2322,11 +1876,7 @@ hold up to 8,000 pounds of weight. More weight causes the rod to
 deactivate and fall. A creature can use an action to make a DC 30
 Strength check, moving the fixed rod up to 10 feet on a success.
 
-*** Instant Fortress
-    :PROPERTIES:
-    :CUSTOM_ID: instant-fortress
-    :END:
-
+** Instant Fortress
 /Wondrous item, rare/
 
 You can use an action to place this 1-inch metal cube on the ground and
@@ -2359,11 +1909,7 @@ fortress (this use of the spell counts as replicating a spell of 8th
 level or lower). Each casting of /wish/ causes the roof, the door, or
 one wall to regain 50 hit points.
 
-*** Ioun Stone
-    :PROPERTIES:
-    :CUSTOM_ID: ioun-stone
-    :END:
-
+** Ioun Stone
 /Wondrous item, rarity varies (requires attunement)/
 
 An /Ioun stone/ is named after Ioun, a god of knowledge and prophecy
@@ -2452,11 +1998,7 @@ maximum of 20, while this pale blue rhomboid orbits your head.
 */Sustenance (Rare)/*. You don't need to eat or drink while this clear
 spindle orbits your head.
 
-*** Iron Bands of Binding
-    :PROPERTIES:
-    :CUSTOM_ID: iron-bands-of-binding
-    :END:
-
+** Iron Bands of Binding
 /Wondrous item, rare/
 
 This rusty iron sphere measures 3 inches in diameter and weighs 1 pound.
@@ -2478,11 +2020,7 @@ have elapsed.
 
 Once the bands are used, they can't be used again until the next dawn.
 
-*** Iron Flask
-    :PROPERTIES:
-    :CUSTOM_ID: iron-flask
-    :END:
-
+** Iron Flask
 /Wondrous item, legendary/
 
 This iron bottle has a brass stopper. You can use an action to speak the
@@ -2534,16 +2072,7 @@ determined randomly.
 | 100   | Xorn              |
 |       |                   |
 
-* Magic Items (J)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-j
-  :END:
-
-*** Javelin of Lightning
-    :PROPERTIES:
-    :CUSTOM_ID: javelin-of-lightning
-    :END:
-
+** Javelin of Lightning
 /Weapon (javelin), uncommon/
 
 This javelin is a magic weapon. When you hurl it and speak its command
@@ -2559,21 +2088,7 @@ lightning damage.
 The javelin's property can't be used again until the next dawn. In the
 meantime, the javelin can still be used as a magic weapon.
 
-* Magic Items (K)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-k
-  :END:
-
-* Magic Items (L)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-l
-  :END:
-
-*** Lantern of Revealing
-    :PROPERTIES:
-    :CUSTOM_ID: lantern-of-revealing
-    :END:
-
+** Lantern of Revealing
 /Wondrous item, uncommon/
 
 While lit, this hooded lantern burns for 6 hours on 1 pint of oil,
@@ -2582,11 +2097,7 @@ additional 30 feet. Invisible creatures and objects are visible as long
 as they are in the lantern's bright light. You can use an action to
 lower the hood, reducing the light to dim light in a 5-foot radius.
 
-*** Luck Blade
-    :PROPERTIES:
-    :CUSTOM_ID: luck-blade
-    :END:
-
+** Luck Blade
 /Weapon (any sword), legendary (requires attunement)/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
@@ -2603,16 +2114,7 @@ action to expend 1 charge and cast the /wish/ spell from it. This
 property can't be used again until the next dawn. The sword loses this
 property if it has no charges.
 
-* Magic Items (M)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-m
-  :END:
-
-*** Mace of Disruption
-    :PROPERTIES:
-    :CUSTOM_ID: mace-of-disruption
-    :END:
-
+** Mace of Disruption
 /Weapon (mace), rare (requires attunement)/
 
 When you hit a fiend or an undead with this magic weapon, that creature
@@ -2624,11 +2126,7 @@ frightened of you until the end of your next turn.
 While you hold this weapon, it sheds bright light in a 20-foot radius
 and dim light for an additional 20 feet.
 
-*** Mace of Smiting
-    :PROPERTIES:
-    :CUSTOM_ID: mace-of-smiting
-    :END:
-
+** Mace of Smiting
 /Weapon (mace), rare/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
@@ -2640,11 +2138,7 @@ takes an extra 2d6 bludgeoning damage, or 4d6 bludgeoning damage if it's
 a construct. If a construct has 25 hit points or fewer after taking this
 damage, it is destroyed.
 
-*** Mace of Terror
-    :PROPERTIES:
-    :CUSTOM_ID: mace-of-terror
-    :END:
-
+** Mace of Terror
 /Weapon (mace), rare (requires attunement)/
 
 This magic weapon has 3 charges. While holding it, you can use an action
@@ -2662,21 +2156,13 @@ success.
 
 The mace regains 1d3 expended charges daily at dawn.
 
-*** Mantle of Spell Resistance
-    :PROPERTIES:
-    :CUSTOM_ID: mantle-of-spell-resistance
-    :END:
-
+** Mantle of Spell Resistance
 /Wondrous item, rare (requires attunement)/
 
 You have advantage on saving throws against spells while you wear this
 cloak.
 
-*** Manual of Bodily Health
-    :PROPERTIES:
-    :CUSTOM_ID: manual-of-bodily-health
-    :END:
-
+** Manual of Bodily Health
 /Wondrous item, very rare/
 
 This book contains health and diet tips, and its words are charged with
@@ -2685,11 +2171,7 @@ the book's contents and practicing its guidelines, your Constitution
 score increases by 2, as does your maximum for that score. The manual
 then loses its magic, but regains it in a century.
 
-*** Manual of Gainful Exercise
-    :PROPERTIES:
-    :CUSTOM_ID: manual-of-gainful-exercise
-    :END:
-
+** Manual of Gainful Exercise
 /Wondrous item, very rare/
 
 This book describes fitness exercises, and its words are charged with
@@ -2698,11 +2180,7 @@ the book's contents and practicing its guidelines, your Strength score
 increases by 2, as does your maximum for that score. The manual then
 loses its magic, but regains it in a century.
 
-*** Manual of Golems
-    :PROPERTIES:
-    :CUSTOM_ID: manual-of-golems
-    :END:
-
+** Manual of Golems
 /Wondrous item, very rare/
 
 This tome contains information and incantations necessary to make a
@@ -2731,11 +2209,7 @@ flames. The golem becomes animate when the ashes of the manual are
 sprinkled on it. It is under your control, and it understands and obeys
 your spoken commands.
 
-*** Manual of Quickness of Action
-    :PROPERTIES:
-    :CUSTOM_ID: manual-of-quickness-of-action
-    :END:
-
+** Manual of Quickness of Action
 /Wondrous item, very rare/
 
 This book contains coordination and balance exercises, and its words are
@@ -2744,11 +2218,7 @@ fewer studying the book's contents and practicing its guidelines, your
 Dexterity score increases by 2, as does your maximum for that score. The
 manual then loses its magic, but regains it in a century.
 
-*** Marvelous Pigments
-    :PROPERTIES:
-    :CUSTOM_ID: marvelous-pigments
-    :END:
-
+** Marvelous Pigments
 /Wondrous item, very rare/
 
 Typically found in 1d4 pots inside a fine wooden box with a brush
@@ -2777,22 +2247,14 @@ If you paint a form of energy such as fire or lightning, the energy
 appears but dissipates as soon as you complete the painting, doing no
 harm to anything.
 
-*** Medallion of Thoughts
-    :PROPERTIES:
-    :CUSTOM_ID: medallion-of-thoughts
-    :END:
-
+** Medallion of Thoughts
 /Wondrous item, uncommon (requires attunement)/
 
 The medallion has 3 charges. While wearing it, you can use an action and
 expend 1 charge to cast the /detect thoughts/ spell (save DC 13) from
 it. The medallion regains 1d3 expended charges daily at dawn.
 
-*** Mirror of Life Trapping
-    :PROPERTIES:
-    :CUSTOM_ID: mirror-of-life-trapping
-    :END:
-
+** Mirror of Life Trapping
 /Wondrous item, very rare/
 
 When this 4-foot tall mirror is viewed indirectly, its surface shows
@@ -2836,11 +2298,7 @@ and free one creature trapped in the mirror. The freed creature appears,
 along with its possessions, in the unoccupied space nearest to the
 mirror and facing away from it.
 
-*** Mithral Armor
-    :PROPERTIES:
-    :CUSTOM_ID: mithral-armor
-    :END:
-
+** Mithral Armor
 /Armor (medium or heavy, but not hide), uncommon/
 
 Mithral is a light, flexible metal. A mithral chain shirt or breastplate
@@ -2848,16 +2306,7 @@ can be worn under normal clothes. If the armor normally imposes
 disadvantage on Dexterity (Stealth) checks or has a Strength
 requirement, the mithral version of the armor doesn't.
 
-* Magic Items (N)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-n
-  :END:
-
-*** Necklace of Adaptation
-    :PROPERTIES:
-    :CUSTOM_ID: necklace-of-adaptation
-    :END:
-
+** Necklace of Adaptation
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing this necklace, you can breathe normally in any
@@ -2865,11 +2314,7 @@ environment, and you have advantage on saving throws made against
 harmful gases and vapors (such as /cloudkill/ and /stinking cloud/
 effects, inhaled poisons, and the breath weapons of some dragons).
 
-*** Necklace of Fireballs
-    :PROPERTIES:
-    :CUSTOM_ID: necklace-of-fireballs
-    :END:
-
+** Necklace of Fireballs
 /Wondrous item, rare/
 
 This necklace has 1d6+3 beads hanging from it. You can use an action to
@@ -2881,11 +2326,7 @@ You can hurl multiple beads, or even the whole necklace, as one action.
 When you do so, increase the level of the /fireball/ by 1 for each bead
 beyond the first.
 
-*** Necklace of Prayer Beads
-    :PROPERTIES:
-    :CUSTOM_ID: necklace-of-prayer-beads
-    :END:
-
+** Necklace of Prayer Beads
 /Wondrous item, rare (requires attunement by a cleric, druid, or
 paladin)/
 
@@ -2913,11 +2354,7 @@ spell is cast, that bead can't be used again until the next dawn.
 | 20    | Wind walking | Wind walk                                     |
 |       |              |                                               |
 
-*** Nine Lives Stealer
-    :PROPERTIES:
-    :CUSTOM_ID: nine-lives-stealer
-    :END:
-
+** Nine Lives Stealer
 /Weapon (any sword), very rare (requires attunement)/
 
 You gain a +2 bonus to attack and damage rolls made with this magic
@@ -2930,16 +2367,7 @@ life force from its body (a construct or an undead is immune). The sword
 loses 1 charge if the creature is slain. When the sword has no charges
 remaining, it loses this property.
 
-* Magic Items (O)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-o
-  :END:
-
-*** Oathbow
-    :PROPERTIES:
-    :CUSTOM_ID: oathbow
-    :END:
-
+** Oathbow
 /Weapon (longbow), very rare (requires attunement)/
 
 When you nock an arrow on this bow, it whispers in Elvish, "Swift defeat
@@ -2959,11 +2387,7 @@ takes an extra 3d6 piercing damage.
 While your sworn enemy lives, you have disadvantage on attack rolls with
 all other weapons.
 
-*** Oil of Etherealness
-    :PROPERTIES:
-    :CUSTOM_ID: oil-of-etherealness
-    :END:
-
+** Oil of Etherealness
 /Potion, rare/
 
 Beads of this cloudy gray oil form on the outside of its container and
@@ -2973,11 +2397,7 @@ required for each size category above Medium). Applying the oil takes 10
 minutes. The affected creature then gains the effect of the
 /etherealness/ spell for 1 hour.
 
-*** Oil of Sharpness
-    :PROPERTIES:
-    :CUSTOM_ID: oil-of-sharpness
-    :END:
-
+** Oil of Sharpness
 /Potion, very rare/
 
 This clear, gelatinous oil sparkles with tiny, ultrathin silver shards.
@@ -2986,11 +2406,7 @@ slashing or piercing ammunition. Applying the oil takes 1 minute. For 1
 hour, the coated item is magical and has a +3 bonus to attack and damage
 rolls.
 
-*** Oil of Slipperiness
-    :PROPERTIES:
-    :CUSTOM_ID: oil-of-slipperiness
-    :END:
-
+** Oil of Slipperiness
 /Potion, uncommon/
 
 This sticky black unguent is thick and heavy in the container, but it
@@ -3004,16 +2420,7 @@ Alternatively, the oil can be poured on the ground as an action, where
 it covers a 10-foot square, duplicating the effect of the /grease/ spell
 in that area for 8 hours.
 
-* Magic Items (P)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-p
-  :END:
-
-*** Pearl of Power
-    :PROPERTIES:
-    :CUSTOM_ID: pearl-of-power
-    :END:
-
+** Pearl of Power
 /Wondrous item, uncommon (requires attunement by a spellcaster)/
 
 While this pearl is on your person, you can use an action to speak its
@@ -3021,44 +2428,28 @@ command word and regain one expended spell slot. If the expended slot
 was of 4th level or higher, the new slot is 3rd level. Once you use the
 pearl, it can't be used again until the next dawn.
 
-*** Periapt of Health
-    :PROPERTIES:
-    :CUSTOM_ID: periapt-of-health
-    :END:
-
+** Periapt of Health
 /Wondrous item, uncommon/
 
 You are immune to contracting any disease while you wear this pendant.
 If you are already infected with a disease, the effects of the disease
 are suppressed you while you wear the pendant.
 
-*** Periapt of Proof against Poison
-    :PROPERTIES:
-    :CUSTOM_ID: periapt-of-proof-against-poison
-    :END:
-
+** Periapt of Proof against Poison
 /Wondrous item, rare/
 
 This delicate silver chain has a brilliant-cut black gem pendant. While
 you wear it, poisons have no effect on you. You are immune to the
 poisoned condition and have immunity to poison damage.
 
-*** Periapt of Wound Closure
-    :PROPERTIES:
-    :CUSTOM_ID: periapt-of-wound-closure
-    :END:
-
+** Periapt of Wound Closure
 /Wondrous item, uncommon (requires attunement)/
 
 While you wear this pendant, you stabilize whenever you are dying at the
 start of your turn. In addition, whenever you roll a Hit Die to regain
 hit points, double the number of hit points it restores.
 
-*** Philter of Love
-    :PROPERTIES:
-    :CUSTOM_ID: philter-of-love
-    :END:
-
+** Philter of Love
 /Potion, uncommon/
 
 The next time you see a creature within 10 minutes after drinking this
@@ -3068,11 +2459,7 @@ as your true love while you are charmed. This potion's rose-hued,
 effervescent liquid contains one easy-to-miss bubble shaped like a
 heart.
 
-*** Pipes of Haunting
-    :PROPERTIES:
-    :CUSTOM_ID: pipes-of-haunting
-    :END:
-
+** Pipes of Haunting
 /Wondrous item, uncommon/
 
 You must be proficient with wind instruments to use these pipes. They
@@ -3087,11 +2474,7 @@ creature that succeeds on its saving throw is immune to the effect of
 these pipes for 24 hours. The pipes regain 1d3 expended charges daily at
 dawn.
 
-*** Pipes of the Sewers
-    :PROPERTIES:
-    :CUSTOM_ID: pipes-of-the-sewers
-    :END:
-
+** Pipes of the Sewers
 /Wondrous item, uncommon (requires attunement)/
 
 You must be proficient with wind instruments to use these pipes. While
@@ -3122,11 +2505,7 @@ music, your control over that swarm ends, and the swarm behaves as it
 normally would and can't be swayed by the pipes' music for the next 24
 hours.
 
-*** Plate Armor of Etherealness
-    :PROPERTIES:
-    :CUSTOM_ID: plate-armor-of-etherealness
-    :END:
-
+** Plate Armor of Etherealness
 /Armor (plate), legendary (requires attunement)/
 
 While you're wearing this armor, you can speak its command word as an
@@ -3135,11 +2514,7 @@ minutes or until you remove the armor or use an action to speak the
 command word again. This property of the armor can't be used again until
 the next dawn.
 
-*** Portable Hole
-    :PROPERTIES:
-    :CUSTOM_ID: portable-hole
-    :END:
-
+** Portable Hole
 /Wondrous item, rare/
 
 This fine black cloth, soft as silk, is folded up to the dimensions of a
@@ -3172,11 +2547,7 @@ feet of the gate is sucked through it and deposited in a random location
 on the Astral Plane. The gate then closes. The gate is one-way only and
 can't be reopened.
 
-*** Potion of Animal Friendship
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-animal-friendship
-    :END:
-
+** Potion of Animal Friendship
 /Potion, uncommon/
 
 When you drink this potion, you can cast the /animal friendship/ spell
@@ -3184,22 +2555,14 @@ When you drink this potion, you can cast the /animal friendship/ spell
 little bits into view: a fish scale, a hummingbird tongue, a cat claw,
 or a squirrel hair.
 
-*** Potion of Clairvoyance
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-clairvoyance
-    :END:
-
+** Potion of Clairvoyance
 /Potion, rare/
 
 When you drink this potion, you gain the effect of the /clairvoyance/
 spell. An eyeball bobs in this yellowish liquid but vanishes when the
 potion is opened.
 
-*** Potion of Climbing
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-climbing
-    :END:
-
+** Potion of Climbing
 /Potion, common/
 
 When you drink this potion, you gain a climbing speed equal to your
@@ -3208,11 +2571,7 @@ Strength (Athletics) checks you make to climb. The potion is separated
 into brown, silver, and gray layers resembling bands of stone. Shaking
 the bottle fails to mix the colors.
 
-*** Potion of Diminution
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-diminution
-    :END:
-
+** Potion of Diminution
 /Potion, rare/
 
 When you drink this potion, you gain the "reduce" effect of the
@@ -3221,11 +2580,7 @@ red in the potion's liquid continuously contracts to a tiny bead and
 then expands to color the clear liquid around it. Shaking the bottle
 fails to interrupt this process.
 
-*** Potion of Flying
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-flying
-    :END:
-
+** Potion of Flying
 /Potion, very rare/
 
 When you drink this potion, you gain a flying speed equal to your
@@ -3234,11 +2589,7 @@ potion wears off, you fall unless you have some other means of staying
 aloft. This potion's clear liquid floats at the top of its container and
 has cloudy white impurities drifting in it.
 
-*** Potion of Gaseous Form
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-gaseous-form
-    :END:
-
+** Potion of Gaseous Form
 /Potion, rare/
 
 When you drink this potion, you gain the effect of the /gaseous form/
@@ -3246,11 +2597,7 @@ spell for 1 hour (no concentration required) or until you end the effect
 as a bonus action. This potion's container seems to hold fog that moves
 and pours like water.
 
-*** Potion of Giant Strength
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-giant-strength
-    :END:
-
+** Potion of Giant Strength
 /Potion, rarity varies/
 
 When you drink this potion, your Strength score changes for 1 hour. The
@@ -3274,11 +2621,7 @@ effect.
 | Storm giant       | 29       | Legendary |
 |                   |          |           |
 
-*** Potion of Growth
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-growth
-    :END:
-
+** Potion of Growth
 /Potion, uncommon/
 
 When you drink this potion, you gain the "enlarge" effect of the
@@ -3287,11 +2630,7 @@ red in the potion's liquid continuously expands from a tiny bead to
 color the clear liquid around it and then contracts. Shaking the bottle
 fails to interrupt this process.
 
-*** Potion of Healing
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-healing
-    :END:
-
+** Potion of Healing
 /Potion, rarity varies/
 
 You regain hit points when you drink this potion. The number of hit
@@ -3309,11 +2648,7 @@ when agitated.
 | Supreme healing  | Very rare | 10d4+20     |
 |                  |           |             |
 
-*** Potion of Heroism
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-heroism
-    :END:
-
+** Potion of Heroism
 /Potion, rare/
 
 For 1 hour after drinking it, you gain 10 temporary hit points that last
@@ -3321,11 +2656,7 @@ for 1 hour. For the same duration, you are under the effect of the
 /bless/ spell (no concentration required). This blue potion bubbles and
 steams as if boiling.
 
-*** Potion of Invisibility
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-invisibility
-    :END:
-
+** Potion of Invisibility
 /Potion, very rare/
 
 This potion's container looks empty but feels as though it holds liquid.
@@ -3333,22 +2664,14 @@ When you drink it, you become invisible for 1 hour. Anything you wear or
 carry is invisible with you. The effect ends early if you attack or cast
 a spell.
 
-*** Potion of Mind Reading
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-mind-reading
-    :END:
-
+** Potion of Mind Reading
 /Potion, rare/
 
 When you drink this potion, you gain the effect of the /detect thoughts/
 spell (save DC 13). The potion's dense, purple liquid has an ovoid cloud
 of pink floating in it.
 
-*** Potion of Poison
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-poison
-    :END:
-
+** Potion of Poison
 /Potion, uncommon/
 
 This concoction looks, smells, and tastes like a /potion of healing/ or
@@ -3363,11 +2686,7 @@ throw. On a successful save, the poison damage you take on your
 subsequent turns decreases by 1d6. The poison ends when the damage
 decreases to 0.
 
-*** Potion of Resistance
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-resistance
-    :END:
-
+** Potion of Resistance
 /Potion, uncommon/
 
 When you drink this potion, you gain resistance to one type of damage
@@ -3390,43 +2709,21 @@ options below.
 | 10  | Thunder     |
 |     |             |
 
-*** Potion of Speed
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-speed
-    :END:
-
+** Potion of Speed
 /Potion, very rare/
 
 When you drink this potion, you gain the effect of the /haste/ spell for
 1 minute (no concentration required). The potion's yellow fluid is
 streaked with black and swirls on its own.
 
-*** Potion of Water Breathing
-    :PROPERTIES:
-    :CUSTOM_ID: potion-of-water-breathing
-    :END:
-
+** Potion of Water Breathing
 /Potion, uncommon/
 
 You can breathe underwater for 1 hour after drinking this potion. Its
 cloudy green fluid smells of the sea and has a jellyfish-like bubble
 floating in it.
 
-* Magic Items (Q)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-q
-  :END:
-
-* Magic Items (R)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-r
-  :END:
-
-*** Restorative Ointment
-    :PROPERTIES:
-    :CUSTOM_ID: restorative-ointment
-    :END:
-
+** Restorative Ointment
 /Wondrous item, uncommon/
 
 This glass jar, 3 inches in diameter, contains 1d4+1 doses of a thick
@@ -3437,11 +2734,7 @@ As an action, one dose of the ointment can be swallowed or applied to
 the skin. The creature that receives it regains 2d8+2 hit points, ceases
 to be poisoned, and is cured of any disease.
 
-*** Ring of Animal Influence
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-animal-influence
-    :END:
-
+** Ring of Animal Influence
 /Ring, rare/
 
 This ring has 3 charges, and it regains 1d3 expended charges daily at
@@ -3453,11 +2746,7 @@ charges to cast one of the following spells:
   3 or lower
 - Speak with animals
 
-*** Ring of Djinni Summoning
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-djinni-summoning
-    :END:
-
+** Ring of Djinni Summoning
 /Ring, legendary (requires attunement)/
 
 While wearing this ring, you can speak its command word as an action to
@@ -3475,11 +2764,7 @@ takes no other actions.
 After the djinni departs, it can't be summoned again for 24 hours, and
 the ring becomes nonmagical if the djinni dies.
 
-*** Ring of Elemental Command
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-elemental-command
-    :END:
-
+** Ring of Elemental Command
 /Ring, legendary (requires attunement)/
 
 This ring is linked to one of the four Elemental Planes. The GM chooses
@@ -3551,11 +2836,7 @@ access to the following additional properties:
   /control water/ (3 charges), /ice storm/ (2 charges), or /wall of ice/
   (3 charges).
 
-*** Ring of Evasion
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-evasion
-    :END:
-
+** Ring of Evasion
 /Ring, rare (requires attunement)/
 
 This ring has 3 charges, and it regains 1d3 expended charges daily at
@@ -3563,32 +2844,20 @@ dawn. When you fail a Dexterity saving throw while wearing it, you can
 use your reaction to expend 1 of its charges to succeed on that saving
 throw instead.
 
-*** Ring of Feather Falling
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-feather-falling
-    :END:
-
+** Ring of Feather Falling
 /Ring, rare (requires attunement)/
 
 When you fall while wearing this ring, you descend 60 feet per round and
 take no damage from falling.
 
-*** Ring of Free Action
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-free-action
-    :END:
-
+** Ring of Free Action
 /Ring, rare (requires attunement)/
 
 While you wear this ring, difficult terrain doesn't cost you extra
 movement. In addition, magic can neither reduce your speed nor cause you
 to be paralyzed or restrained.
 
-*** Ring of Invisibility
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-invisibility
-    :END:
-
+** Ring of Invisibility
 /Ring, legendary (requires attunement)/
 
 While wearing this ring, you can turn invisible as an action. Anything
@@ -3596,21 +2865,13 @@ you are wearing or carrying is invisible with you. You remain invisible
 until the ring is removed, until you attack or cast a spell, or until
 you use a bonus action to become visible again.
 
-*** Ring of Jumping
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-jumping
-    :END:
-
+** Ring of Jumping
 /Ring, uncommon (requires attunement)/
 
 While wearing this ring, you can cast the /jump/ spell from it as a
 bonus action at will, but can target only yourself when you do so.
 
-*** Ring of Mind Shielding
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-mind-shielding
-    :END:
-
+** Ring of Mind Shielding
 /Ring, uncommon (requires attunement)/
 
 While wearing this ring, you are immune to magic that allows other
@@ -3628,20 +2889,12 @@ afterlife. As long as your soul is in the ring, you can telepathically
 communicate with any creature wearing it. A wearer can't prevent this
 telepathic communication.
 
-*** Ring of Protection
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-protection
-    :END:
-
+** Ring of Protection
 /Ring, rare (requires attunement)/
 
 You gain a +1 bonus to AC and saving throws while wearing this ring.
 
-*** Ring of Regeneration
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-regeneration
-    :END:
-
+** Ring of Regeneration
 /Ring, very rare (requires attunement)/
 
 While wearing this ring, you regain 1d6 hit points every 10 minutes,
@@ -3650,11 +2903,7 @@ the ring causes the missing part to regrow and return to full
 functionality after 1d6+1 days if you have at least 1 hit point the
 whole time.
 
-*** Ring of Resistance
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-resistance
-    :END:
-
+** Ring of Resistance
 /Ring, rare (requires attunement)/
 
 You have resistance to one damage type while wearing this ring. The gem
@@ -3677,11 +2926,7 @@ randomly.
 | 10  | Thunder     | Spinel     |
 |     |             |            |
 
-*** Ring of Shooting Stars
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-shooting-stars
-    :END:
-
+** Ring of Shooting Stars
 /Ring, very rare (requires attunement outdoors at night)/
 
 While wearing this ring in dim light or darkness, you can cast /dancing
@@ -3727,11 +2972,7 @@ a 15-foot cube originating from that point is showered in sparks and
 must make a DC 15 Dexterity saving throw, taking 5d4 fire damage on a
 failed save, or half as much damage on a successful one.
 
-*** Ring of Spell Storing
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-spell-storing
-    :END:
-
+** Ring of Spell Storing
 /Ring, rare (requires attunement)/
 
 This ring stores spells cast into it, holding them until the attuned
@@ -3751,11 +2992,7 @@ ability of the original caster, but is otherwise treated as if you cast
 the spell. The spell cast from the ring is no longer stored in it,
 freeing up space.
 
-*** Ring of Spell Turning
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-spell-turning
-    :END:
-
+** Ring of Spell Turning
 /Ring, legendary (requires attunement)/
 
 While wearing this ring, you have advantage on saving throws against any
@@ -3765,30 +3002,18 @@ spell has no effect on you and instead targets the caster, using the
 slot level, spell save DC, attack bonus, and spellcasting ability of the
 caster.
 
-*** Ring of Swimming
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-swimming
-    :END:
-
+** Ring of Swimming
 /Ring, uncommon/
 
 You have a swimming speed of 40 feet while wearing this ring.
 
-*** Ring of Telekinesis
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-telekinesis
-    :END:
-
+** Ring of Telekinesis
 /Ring, very rare (requires attunement)/
 
 While wearing this ring, you can cast the /telekinesis/ spell at will,
 but you can target only objects that aren't being worn or carried.
 
-*** Ring of the Ram
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-the-ram
-    :END:
-
+** Ring of the Ram
 /Ring, rare (requires attunement)/
 
 This ring has 3 charges, and it regains 1d3 expended charges daily at
@@ -3803,43 +3028,27 @@ to try to break an object you can see within 60 feet of you that isn't
 being worn or carried. The ring makes a Strength check with a +5 bonus
 for each charge you spend.
 
-*** Ring of Three Wishes
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-three-wishes
-    :END:
-
+** Ring of Three Wishes
 /Ring, legendary/
 
 While wearing this ring, you can use an action to expend 1 of its 3
 charges to cast the /wish/ spell from it. The ring becomes nonmagical
 when you use the last charge.
 
-*** Ring of Warmth
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-warmth
-    :END:
-
+** Ring of Warmth
 /Ring, uncommon (requires attunement)/
 
 While wearing this ring, you have resistance to cold damage. In
 addition, you and everything you wear and carry are unharmed by
 temperatures as low as -50 degrees Fahrenheit.
 
-*** Ring of Water Walking
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-water-walking
-    :END:
-
+** Ring of Water Walking
 /Ring, uncommon/
 
 While wearing this ring, you can stand on and move across any liquid
 surface as if it were solid ground.
 
-*** Ring of X-ray Vision
-    :PROPERTIES:
-    :CUSTOM_ID: ring-of-x-ray-vision
-    :END:
-
+** Ring of X-ray Vision
 /Ring, rare (requires attunement)/
 
 While wearing this ring, you can use an action to speak its command
@@ -3854,11 +3063,7 @@ Whenever you use the ring again before taking a long rest, you must
 succeed on a DC 15 Constitution saving throw or gain one level of
 exhaustion.
 
-*** Robe of Eyes
-    :PROPERTIES:
-    :CUSTOM_ID: robe-of-eyes
-    :END:
-
+** Robe of Eyes
 /Wondrous item, rare (requires attunement)/
 
 This robe is adorned with eyelike patterns. While you wear the robe, you
@@ -3879,11 +3084,7 @@ feet of the robe causes you to be blinded for 1 minute. At the end of
 each of your turns, you can make a Constitution saving throw (DC 11 for
 /light/ or DC 15 for /daylight/), ending the blindness on a success.
 
-*** Robe of Scintillating Colors
-    :PROPERTIES:
-    :CUSTOM_ID: robe-of-scintillating-colors
-    :END:
-
+** Robe of Scintillating Colors
 /Wondrous item, very rare (requires attunement)/
 
 This robe has 3 charges, and it regains 1d3 expended charges daily at
@@ -3896,11 +3097,7 @@ addition, any creature in the bright light that can see you when the
 robe's power is activated must succeed on a DC 15 Wisdom saving throw or
 become stunned until the effect ends.
 
-*** Robe of Stars
-    :PROPERTIES:
-    :CUSTOM_ID: robe-of-stars
-    :END:
-
+** Robe of Stars
 /Wondrous item, very rare (requires attunement)/
 
 This black or dark blue robe is embroidered with small white or silver
@@ -3917,11 +3114,7 @@ until you use an action to return to the plane you were on. You reappear
 in the last space you occupied, or if that space is occupied, the
 nearest unoccupied space.
 
-*** Robe of the Archmagi
-    :PROPERTIES:
-    :CUSTOM_ID: robe-of-the-archmagi
-    :END:
-
+** Robe of the Archmagi
 /Wondrous item, legendary (requires attunement by a sorcerer, warlock,
 or wizard)/
 
@@ -3939,11 +3132,7 @@ You gain these benefits while wearing the robe:
   effects.
 - Your spell save DC and spell attack bonus each increase by 2.
 
-*** Robe of Useful Items
-    :PROPERTIES:
-    :CUSTOM_ID: robe-of-useful-items
-    :END:
-
+** Robe of Useful Items
 /Wondrous item, uncommon/
 
 This robe has cloth patches of various shapes and colors covering it.
@@ -3981,11 +3170,7 @@ or determines them randomly.
 | 97-100 | Portable ram                                                                                                                                                                                      |
 |        |                                                                                                                                                                                                   |
 
-*** Rod of Absorption
-    :PROPERTIES:
-    :CUSTOM_ID: rod-of-absorption
-    :END:
-
+** Rod of Absorption
 /Rod, very rare (requires attunement)/
 
 While holding this rod, you can use your reaction to absorb a spell that
@@ -4012,11 +3197,7 @@ A newly found rod has 1d10 levels of spell energy stored in it already.
 A rod that can no longer absorb spell energy and has no energy remaining
 becomes nonmagical.
 
-*** Rod of Alertness
-    :PROPERTIES:
-    :CUSTOM_ID: rod-of-alertness
-    :END:
-
+** Rod of Alertness
 /Rod, very rare (requires attunement)/
 
 This rod has a flanged head and the following properties.
@@ -4039,11 +3220,7 @@ The rod's head stops glowing and the effect ends after 10 minutes, or
 when a creature uses an action to pull the rod from the ground. This
 property can't be used again until the next dawn.
 
-*** Rod of Lordly Might
-    :PROPERTIES:
-    :CUSTOM_ID: rod-of-lordly-might
-    :END:
-
+** Rod of Lordly Might
 /Rod, legendary (requires attunement)/
 
 This rod has a flanged head, and it functions as a magic mace that
@@ -4106,11 +3283,7 @@ frightened target can repeat the saving throw at the end of each of its
 turns, ending the effect on itself on a success. This property can't be
 used again until the next dawn.
 
-*** Rod of Rulership
-    :PROPERTIES:
-    :CUSTOM_ID: rod-of-rulership
-    :END:
-
+** Rod of Rulership
 /Rod, rare (requires attunement)/
 
 You can use an action to present the rod and command obedience from each
@@ -4121,11 +3294,7 @@ trusted leader. If harmed by you or your companions, or commanded to do
 something contrary to its nature, a target ceases to be charmed in this
 way. The rod can't be used again until the next dawn.
 
-*** Rod of Security
-    :PROPERTIES:
-    :CUSTOM_ID: rod-of-security
-    :END:
-
+** Rod of Security
 /Rod, very rare/
 
 While holding this rod, you can use an action to activate it. The rod
@@ -4149,11 +3318,7 @@ reappear in the location they occupied when you activated the rod, or an
 unoccupied space nearest that location. The rod can't be used again
 until ten days have passed.
 
-*** Rope of Climbing
-    :PROPERTIES:
-    :CUSTOM_ID: rope-of-climbing
-    :END:
-
+** Rope of Climbing
 /Wondrous item, uncommon/
 
 This 60-foot length of silk rope weighs 3 pounds and can hold up to
@@ -4174,11 +3339,7 @@ The rope has AC 20 and 20 hit points. It regains 1 hit point every 5
 minutes as long as it has at least 1 hit point. If the rope drops to 0
 hit points, it is destroyed.
 
-*** Rope of Entanglement
-    :PROPERTIES:
-    :CUSTOM_ID: rope-of-entanglement
-    :END:
-
+** Rope of Entanglement
 /Wondrous item, rare/
 
 This rope is 30 feet long and weighs 3 pounds. If you hold one end of
@@ -4196,16 +3357,7 @@ The rope has AC 20 and 20 hit points. It regains 1 hit point every 5
 minutes as long as it has at least 1 hit point. If the rope drops to 0
 hit points, it is destroyed.
 
-* Magic Items (S)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-s
-  :END:
-
-*** Scarab of Protection
-    :PROPERTIES:
-    :CUSTOM_ID: scarab-of-protection
-    :END:
-
+** Scarab of Protection
 /Wondrous item, legendary (requires attunement)/
 
 If you hold this beetle-shaped medallion in your hand for 1 round, an
@@ -4219,33 +3371,21 @@ provides two benefits while it is on your person:
   failed save into a successful one. The scarab crumbles into powder and
   is destroyed when its last charge is expended.
 
-*** Scimitar of Speed
-    :PROPERTIES:
-    :CUSTOM_ID: scimitar-of-speed
-    :END:
-
+** Scimitar of Speed
 /Weapon (scimitar), very rare (requires attunement)/
 
 You gain a +2 bonus to attack and damage rolls made with this magic
 weapon. In addition, you can make one attack with it as a bonus action
 on each of your turns.
 
-*** Shield, +1, +2, or +3
-    :PROPERTIES:
-    :CUSTOM_ID: shield-1-2-or-3
-    :END:
-
+** Shield, +1, +2, or +3
 /Armor (shield), uncommon (+1), rare (+2), or very rare (+3)/
 
 While holding this shield, you have a bonus to AC determined by the
 shield's rarity. This bonus is in addition to the shield's normal bonus
 to AC.
 
-*** Shield of Missile Attraction
-    :PROPERTIES:
-    :CUSTOM_ID: shield-of-missile-attraction
-    :END:
-
+** Shield of Missile Attraction
 /Armor (shield), rare (requires attunement)/
 
 While holding this shield, you have resistance to damage from ranged
@@ -4257,11 +3397,7 @@ shield fails to end the curse on you. Whenever a ranged weapon attack is
 made against a target within 10 feet of you, the curse causes you to
 become the target instead.
 
-*** Slippers of Spider Climbing
-    :PROPERTIES:
-    :CUSTOM_ID: slippers-of-spider-climbing
-    :END:
-
+** Slippers of Spider Climbing
 /Wondrous item, uncommon (requires attunement)/
 
 While you wear these light shoes, you can move up, down, and across
@@ -4270,11 +3406,7 @@ hands free. You have a climbing speed equal to your walking speed.
 However, the slippers don't allow you to move this way on a slippery
 surface, such as one covered by ice or oil.
 
-*** Sovereign Glue
-    :PROPERTIES:
-    :CUSTOM_ID: sovereign-glue
-    :END:
-
+** Sovereign Glue
 /Wondrous item, legendary/
 
 This viscous, milky-white substance can form a permanent adhesive bond
@@ -4287,11 +3419,7 @@ One ounce of the glue can cover a 1-foot square surface. The glue takes
 only by the application of /universal solvent/ or /oil of etherealness/,
 or with a /wish/ spell.
 
-*** Spell Scroll
-    :PROPERTIES:
-    :CUSTOM_ID: spell-scroll
-    :END:
-
+** Spell Scroll
 /Scroll, varies/
 
 A /spell scroll/ bears the words of a single spell, written in a
@@ -4333,22 +3461,14 @@ succeed on an Intelligence (Arcana) check with a DC equal to 10+the
 spell's level. If the check succeeds, the spell is successfully copied.
 Whether the check succeeds or fails, the /spell scroll/ is destroyed.
 
-*** Spellguard Shield
-    :PROPERTIES:
-    :CUSTOM_ID: spellguard-shield
-    :END:
-
+** Spellguard Shield
 /Armor (shield), very rare (requires attunement)/
 
 While holding this shield, you have advantage on saving throws against
 spells and other magical effects, and spell attacks have disadvantage
 against you.
 
-*** Sphere of Annihilation
-    :PROPERTIES:
-    :CUSTOM_ID: sphere-of-annihilation
-    :END:
-
+** Sphere of Annihilation
 /Wondrous item, legendary/
 
 This 2-foot diameter black sphere is a hole in the multiverse, hovering
@@ -4388,11 +3508,7 @@ the following table.
 | 86-00 | A spatial rift sends each creature and object within 180 feet of the sphere, including the sphere, to a random plane of existence. |
 |       |                                                                                                                                    |
 
-*** Staff of Charming
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-charming
-    :END:
-
+** Staff of Charming
 /Staff, rare (requires attunement by a bard, cleric, druid, sorcerer,
 warlock, or wizard)/
 
@@ -4413,11 +3529,7 @@ The staff regains 1d8+2 expended charges daily at dawn. If you expend
 the last charge, roll a d20. On a 1, the staff becomes a nonmagical
 quarterstaff.
 
-*** Staff of Fire
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-fire
-    :END:
-
+** Staff of Fire
 /Staff, very rare (requires attunement by a druid, sorcerer, warlock, or
 wizard)/
 
@@ -4432,11 +3544,7 @@ The staff regains 1d6+4 expended charges daily at dawn. If you expend
 the last charge, roll a d20. On a 1, the staff blackens, crumbles into
 cinders, and is destroyed.
 
-*** Staff of Frost
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-frost
-    :END:
-
+** Staff of Frost
 /Staff, very rare (requires attunement by a druid, sorcerer, warlock, or
 wizard)/
 
@@ -4451,11 +3559,7 @@ The staff regains 1d6+4 expended charges daily at dawn. If you expend
 the last charge, roll a d20. On a 1, the staff turns to water and is
 destroyed.
 
-*** Staff of Healing
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-healing
-    :END:
-
+** Staff of Healing
 /Staff, rare (requires attunement by a bard, cleric, or druid)/
 
 This staff has 10 charges. While holding it, you can use an action to
@@ -4468,11 +3572,7 @@ The staff regains 1d6+4 expended charges daily at dawn. If you expend
 the last charge, roll a d20. On a 1, the staff vanishes in a flash of
 light, lost forever.
 
-*** Staff of Power
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-power
-    :END:
-
+** Staff of Power
 /Staff, very rare (requires attunement by a sorcerer, warlock, or
 wizard)/
 
@@ -4520,11 +3620,7 @@ table. On a successful save, a creature takes half as much damage.
 | 21 to 30 ft. away     | 4 × the number of charges in the staff |
 |                       |                                        |
 
-*** Staff of Striking
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-striking
-    :END:
-
+** Staff of Striking
 /Staff, very rare (requires attunement)/
 
 This staff can be wielded as a magic quarterstaff that grants a +3 bonus
@@ -4536,11 +3632,7 @@ target takes an extra 1d6 force damage. The staff regains 1d6+4 expended
 charges daily at dawn. If you expend the last charge, roll a d20. On a
 1, the staff becomes a nonmagical quarterstaff.
 
-*** Staff of Swarming Insects
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-swarming-insects
-    :END:
-
+** Staff of Swarming Insects
 /Staff, rare (requires attunement by a bard, cleric, druid, sorcerer,
 warlock, or wizard)/
 
@@ -4560,11 +3652,7 @@ making the area heavily obscured for creatures other than you. The swarm
 moves with you, remaining centered on you. A wind of at least 10 miles
 per hour disperses the swarm and ends the effect.
 
-*** Staff of the Magi
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-the-magi
-    :END:
-
+** Staff of the Magi
 /Staff, legendary (requires attunement by a sorcerer, warlock, or
 wizard)/
 
@@ -4622,11 +3710,7 @@ table. On a successful save, a creature takes half as much damage.
 | 21 to 30 ft. away     | 4 × the number of charges in the staff |
 |                       |                                        |
 
-*** Staff of the Python
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-the-python
-    :END:
-
+** Staff of the Python
 /Staff, uncommon (requires attunement by a cleric, druid, or warlock)/
 
 You can use an action to speak this staff's command word and throw the
@@ -4646,11 +3730,7 @@ staff form. The staff then shatters and is destroyed. If the snake
 reverts to staff form before losing all its hit points, it regains all
 of them.
 
-*** Staff of the Woodlands
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-the-woodlands
-    :END:
-
+** Staff of the Woodlands
 /Staff, rare (requires attunement by a druid)/
 
 This staff can be wielded as a magic quarterstaff that grants a +2 bonus
@@ -4682,11 +3762,7 @@ magic if targeted by /detect magic/. While touching the tree and using
 another action to speak its command word, you return the staff to its
 normal form. Any creature in the tree falls when it reverts to a staff.
 
-*** Staff of Thunder and Lightning
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-thunder-and-lightning
-    :END:
-
+** Staff of Thunder and Lightning
 /Staff, very rare (requires attunement)/
 
 This staff can be wielded as a magic quarterstaff that grants a +2 bonus
@@ -4719,11 +3795,7 @@ damage and isn't deafened.
 Strike and Thunderclap properties at the same time. Doing so doesn't
 expend the daily use of those properties, only the use of this one.
 
-*** Staff of Withering
-    :PROPERTIES:
-    :CUSTOM_ID: staff-of-withering
-    :END:
-
+** Staff of Withering
 /Staff, rare (requires attunement by a cleric, druid, or warlock)/
 
 This staff has 3 charges and regains 1d3 expended charges daily at dawn.
@@ -4735,11 +3807,7 @@ succeed on a DC 15 Constitution saving throw or have disadvantage for 1
 hour on any ability check or saving throw that uses Strength or
 Constitution.
 
-*** Stone of Controlling Earth Elementals
-    :PROPERTIES:
-    :CUSTOM_ID: stone-of-controlling-earth-elementals
-    :END:
-
+** Stone of Controlling Earth Elementals
 /Wondrous item, rare/
 
 If the stone is touching the ground, you can use an action to speak its
@@ -4747,21 +3815,13 @@ command word and summon an earth elemental, as if you had cast the
 /conjure elemental/ spell. The stone can't be used this way again until
 the next dawn. The stone weighs 5 pounds.
 
-*** Stone of Good Luck (Luckstone)
-    :PROPERTIES:
-    :CUSTOM_ID: stone-of-good-luck-luckstone
-    :END:
-
+** Stone of Good Luck (Luckstone)
 /Wondrous item, uncommon (requires attunement)/
 
 While this polished agate is on your person, you gain a +1 bonus to
 ability checks and saving throws.
 
-*** Sun Blade
-    :PROPERTIES:
-    :CUSTOM_ID: sun-blade
-    :END:
-
+** Sun Blade
 /Weapon (longsword), rare (requires attunement)/
 
 This item appears to be a longsword hilt. While grasping the hilt, you
@@ -4780,11 +3840,7 @@ blade persists, you can use an action to expand or reduce its radius of
 bright and dim light by 5 feet each, to a maximum of 30 feet each or a
 minimum of 10 feet each.
 
-*** Sword of Life Stealing
-    :PROPERTIES:
-    :CUSTOM_ID: sword-of-life-stealing
-    :END:
-
+** Sword of Life Stealing
 /Weapon (any sword), rare (requires attunement)/
 
 When you attack a creature with this magic weapon and roll a 20 on the
@@ -4792,11 +3848,7 @@ attack roll, that target takes an extra 3d6 necrotic damage, provided
 that the target isn't a construct or an undead. You gain temporary hit
 points equal to the extra damage dealt.
 
-*** Sword of Sharpness
-    :PROPERTIES:
-    :CUSTOM_ID: sword-of-sharpness
-    :END:
-
+** Sword of Sharpness
 /Weapon (any sword that deals slashing damage), very rare (requires
 attunement)/
 
@@ -4814,11 +3866,7 @@ to shed bright light in a 10-foot radius and dim light for an additional
 10 feet. Speaking the command word again or sheathing the sword puts out
 the light.
 
-*** Sword of Wounding
-    :PROPERTIES:
-    :CUSTOM_ID: sword-of-wounding
-    :END:
-
+** Sword of Wounding
 /Weapon (any sword), rare (requires attunement)/
 
 Hit points lost to this weapon's damage can be regained only through a
@@ -4834,16 +3882,7 @@ Alternatively, the wounded creature, or a creature within 5 feet of it,
 can use an action to make a DC 15 Wisdom (Medicine) check, ending the
 effect of such wounds on it on a success.
 
-* Magic Items (T)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-t
-  :END:
-
-*** Talisman of Pure Good
-    :PROPERTIES:
-    :CUSTOM_ID: talisman-of-pure-good
-    :END:
-
+** Talisman of Pure Good
 /Wondrous item, legendary (requires attunement by a creature of good
 alignment)/
 
@@ -4866,11 +3905,7 @@ destroyed, leaving no remains. The fissure then closes, leaving no trace
 of its existence. When you expend the last charge, the talisman
 disperses into motes of golden light and is destroyed.
 
-*** Talisman of the Sphere
-    :PROPERTIES:
-    :CUSTOM_ID: talisman-of-the-sphere
-    :END:
-
+** Talisman of the Sphere
 /Wondrous item, legendary (requires attunement)/
 
 When you make an Intelligence (Arcana) check to control a /sphere of
@@ -4880,11 +3915,7 @@ with control over a /sphere of annihilation/, you can use an action to
 levitate it 10 feet plus a number of additional feet equal to 10 × your
 Intelligence modifier.
 
-*** Talisman of Ultimate Evil
-    :PROPERTIES:
-    :CUSTOM_ID: talisman-of-ultimate-evil
-    :END:
-
+** Talisman of Ultimate Evil
 /Wondrous item, legendary (requires attunement by a creature of evil
 alignment)/
 
@@ -4907,11 +3938,7 @@ be destroyed, leaving no remains. The fissure then closes, leaving no
 trace of its existence. When you expend the last charge, the talisman
 dissolves into foul-smelling slime and is destroyed.
 
-*** Tome of Clear Thought
-    :PROPERTIES:
-    :CUSTOM_ID: tome-of-clear-thought
-    :END:
-
+** Tome of Clear Thought
 /Wondrous item, very rare/
 
 This book contains memory and logic exercises, and its words are charged
@@ -4920,11 +3947,7 @@ studying the book's contents and practicing its guidelines, your
 Intelligence score increases by 2, as does your maximum for that score.
 The manual then loses its magic, but regains it in a century.
 
-*** Tome of Leadership and Influence
-    :PROPERTIES:
-    :CUSTOM_ID: tome-of-leadership-and-influence
-    :END:
-
+** Tome of Leadership and Influence
 /Wondrous item, very rare/
 
 This book contains guidelines for influencing and charming others, and
@@ -4934,11 +3957,7 @@ guidelines, your Charisma score increases by 2, as does your maximum for
 that score. The manual then loses its magic, but regains it in a
 century.
 
-*** Tome of Understanding
-    :PROPERTIES:
-    :CUSTOM_ID: tome-of-understanding
-    :END:
-
+** Tome of Understanding
 /Wondrous item, very rare/
 
 This book contains intuition and insight exercises, and its words are
@@ -4947,11 +3966,7 @@ fewer studying the book's contents and practicing its guidelines, your
 Wisdom score increases by 2, as does your maximum for that score. The
 manual then loses its magic, but regains it in a century.
 
-*** Trident of Fish Command
-    :PROPERTIES:
-    :CUSTOM_ID: trident-of-fish-command
-    :END:
-
+** Trident of Fish Command
 /Weapon (trident), uncommon (requires attunement)/
 
 This trident is a magic weapon. It has 3 charges. While you carry it,
@@ -4959,16 +3974,7 @@ you can use an action and expend 1 charge to cast /dominate beast/ (save
 DC 15) from it on a beast that has an innate swimming speed. The trident
 regains 1d3 expended charges daily at dawn.
 
-* Magic Items (U)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-u
-  :END:
-
-*** Universal Solvent
-    :PROPERTIES:
-    :CUSTOM_ID: universal-solvent
-    :END:
-
+** Universal Solvent
 /Wondrous item, legendary/
 
 This tube holds milky liquid with a strong alcohol smell. You can use an
@@ -4976,26 +3982,13 @@ action to pour the contents of the tube onto a surface within reach. The
 liquid instantly dissolves up to 1 square foot of adhesive it touches,
 including /sovereign glue./
 
-* Magic Items (V)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-v
-  :END:
-
-*** Vicious Weapon
-    :PROPERTIES:
-    :CUSTOM_ID: vicious-weapon
-    :END:
-
+** Vicious Weapon
 /Weapon (any), rare/
 
 When you roll a 20 on your attack roll with this magic weapon, your
 critical hit deals an extra 2d6 damage of the weapon's type.
 
-*** Vorpal Sword
-    :PROPERTIES:
-    :CUSTOM_ID: vorpal-sword
-    :END:
-
+** Vorpal Sword
 /Weapon (any sword that deals slashing damage), legendary (requires
 attunement)/
 
@@ -5011,16 +4004,7 @@ that the creature is too big for its head to be cut off with this
 weapon. Such a creature instead takes an extra 6d8 slashing damage from
 the hit.
 
-* Magic Items (W)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-w
-  :END:
-
-*** Wand of Binding
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-binding
-    :END:
-
+** Wand of Binding
 /Wand, rare (requires attunement by a spellcaster)/
 
 This wand has 7 charges for the following properties. It regains 1d6+1
@@ -5036,11 +4020,7 @@ to expend 1 charge and gain advantage on a saving throw you make to
 avoid being paralyzed or restrained, or you can expend 1 charge and gain
 advantage on any check you make to escape a grapple.
 
-*** Wand of Enemy Detection
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-enemy-detection
-    :END:
-
+** Wand of Enemy Detection
 /Wand, rare (requires attunement)/
 
 This wand has 7 charges. While holding it, you can use an action and
@@ -5054,11 +4034,7 @@ The wand regains 1d6+1 expended charges daily at dawn. If you expend the
 wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and
 is destroyed.
 
-*** Wand of Fear
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-fear
-    :END:
-
+** Wand of Fear
 /Wand, rare (requires attunement)/
 
 This wand has 7 charges for the following properties. It regains 1d6+1
@@ -5081,11 +4057,7 @@ from moving. If it has nowhere it can move, the creature can use the
 Dodge action. At the end of each of its turns, a creature can repeat the
 saving throw, ending the effect on itself on a success.
 
-*** Wand of Fireballs
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-fireballs
-    :END:
-
+** Wand of Fireballs
 /Wand, rare (requires attunement by a spellcaster)/
 
 This wand has 7 charges. While holding it, you can use an action to
@@ -5098,11 +4070,7 @@ The wand regains 1d6+1 expended charges daily at dawn. If you expend the
 wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and
 is destroyed.
 
-*** Wand of Lightning Bolts
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-lightning-bolts
-    :END:
-
+** Wand of Lightning Bolts
 /Wand, rare (requires attunement by a spellcaster)/
 
 This wand has 7 charges. While holding it, you can use an action to
@@ -5115,22 +4083,14 @@ The wand regains 1d6+1 expended charges daily at dawn. If you expend the
 wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and
 is destroyed.
 
-*** Wand of Magic Detection
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-magic-detection
-    :END:
-
+** Wand of Magic Detection
 /Wand, uncommon/
 
 This wand has 3 charges. While holding it, you can expend 1 charge as an
 action to cast the /detect magic/ spell from it. The wand regains 1d3
 expended charges daily at dawn.
 
-*** Wand of Magic Missiles
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-magic-missiles
-    :END:
-
+** Wand of Magic Missiles
 /Wand, uncommon/
 
 This wand has 7 charges. While holding it, you can use an action to
@@ -5143,11 +4103,7 @@ The wand regains 1d6+1 expended charges daily at dawn. If you expend the
 wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and
 is destroyed.
 
-*** Wand of Paralysis
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-paralysis
-    :END:
-
+** Wand of Paralysis
 /Wand, rare (requires attunement by a spellcaster)/
 
 This wand has 7 charges. While holding it, you can use an action to
@@ -5161,11 +4117,7 @@ The wand regains 1d6+1 expended charges daily at dawn. If you expend the
 wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and
 is destroyed.
 
-*** Wand of Polymorph
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-polymorph
-    :END:
-
+** Wand of Polymorph
 /Wand, very rare (requires attunement by a spellcaster)/
 
 This wand has 7 charges. While holding it, you can use an action to
@@ -5176,11 +4128,7 @@ The wand regains 1d6+1 expended charges daily at dawn. If you expend the
 wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and
 is destroyed.
 
-*** Wand of Secrets
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-secrets
-    :END:
-
+** Wand of Secrets
 /Wand, uncommon/
 
 The wand has 3 charges. While holding it, you can use an action to
@@ -5188,11 +4136,7 @@ expend 1 of its charges, and if a secret door or trap is within 30 feet
 of you, the wand pulses and points at the one nearest to you. The wand
 regains 1d3 expended charges daily at dawn.
 
-*** Wand of the War Mage, +1, +2, or +3
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-the-war-mage-1-2-or-3
-    :END:
-
+** Wand of the War Mage, +1, +2, or +3
 /Wand, uncommon (+1), rare (+2), or very rare (+3) (requires attunement
 by a spellcaster)/
 
@@ -5200,11 +4144,7 @@ While holding this wand, you gain a bonus to spell attack rolls
 determined by the wand's rarity. In addition, you ignore half cover when
 making a spell attack.
 
-*** Wand of Web
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-web
-    :END:
-
+** Wand of Web
 /Wand, uncommon (requires attunement by a spellcaster)/
 
 This wand has 7 charges. While holding it, you can use an action to
@@ -5214,11 +4154,7 @@ The wand regains 1d6+1 expended charges daily at dawn. If you expend the
 wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and
 is destroyed.
 
-*** Wand of Wonder
-    :PROPERTIES:
-    :CUSTOM_ID: wand-of-wonder
-    :END:
-
+** Wand of Wonder
 /Wand, rare (requires attunement by a spellcaster)/
 
 This wand has 7 charges. While holding it, you can use an action to
@@ -5264,21 +4200,13 @@ is destroyed.
 | 98-100 | If you targeted a creature, it must make a DC 15 Constitution saving throw. If you didn't target a creature, you become the target and must make the saving throw. If the saving throw fails by 5 or more, the target is instantly petrified. On any other failed save, the target is restrained and begins to turn to stone. While restrained in this way, the target must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the target is freed by the greater restoration spell or similar magic. |
 |        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
-*** Weapon, +1, +2, or +3
-    :PROPERTIES:
-    :CUSTOM_ID: weapon-1-2-or-3
-    :END:
-
+** Weapon, +1, +2, or +3
 /Weapon (any), uncommon (+1), rare (+2), or very rare (+3)/
 
 You have a bonus to attack and damage rolls made with this magic weapon.
 The bonus is determined by the weapon's rarity.
 
-*** Well of Many Worlds
-    :PROPERTIES:
-    :CUSTOM_ID: well-of-many-worlds
-    :END:
-
+** Well of Many Worlds
 /Wondrous item, legendary/
 
 This fine black cloth, soft as silk, is folded up to the dimensions of a
@@ -5291,11 +4219,7 @@ where it leads. You can use an action to close an open portal by taking
 hold of the edges of the cloth and folding it up. Once /well of many
 worlds/ has opened a portal, it can't do so again for 1d8 hours.
 
-*** Wind Fan
-    :PROPERTIES:
-    :CUSTOM_ID: wind-fan
-    :END:
-
+** Wind Fan
 /Wondrous item, uncommon/
 
 While holding this fan, you can use an action to cast the /gust of wind/
@@ -5304,11 +4228,7 @@ until the next dawn. Each time it is used again before then, it has a
 cumulative 20 percent chance of not working and tearing into useless,
 nonmagical tatters.
 
-*** Winged Boots
-    :PROPERTIES:
-    :CUSTOM_ID: winged-boots
-    :END:
-
+** Winged Boots
 /Wondrous item, uncommon (requires attunement)/
 
 While you wear these boots, you have a flying speed equal to your
@@ -5320,11 +4240,7 @@ descend at a rate of 30 feet per round until you land.
 The boots regain 2 hours of flying capability for every 12 hours they
 aren't in use.
 
-*** Wings of Flying
-    :PROPERTIES:
-    :CUSTOM_ID: wings-of-flying
-    :END:
-
+** Wings of Flying
 /Wondrous item, rare (requires attunement)/
 
 While wearing this cloak, you can use an action to speak its command
@@ -5333,26 +4249,7 @@ your back for 1 hour or until you repeat the command word as an action.
 The wings give you a flying speed of 60 feet. When they disappear, you
 can't use them again for 1d12 hours.
 
-* Magic Items (X)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-x
-  :END:
-
-* Magic Items (Y)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-y
-  :END:
-
-* Magic Items (Z)
-  :PROPERTIES:
-  :CUSTOM_ID: magic-items-z
-  :END:
-
-* Sentient Magic
-  :PROPERTIES:
-  :CUSTOM_ID: sentient-magic
-  :END:
-
+* Sentient Magic                                             :sentient:magic:
 Some magic items possess sentience and personality. Such an item might
 be possessed, haunted by the spirit of a previous owner, or self-aware
 thanks to the magic used to create it. In any case, the item behaves
@@ -5371,7 +4268,7 @@ item, the wielder can access those properties normally. If the
 relationship is strained, the item can suppress its activated properties
 or even turn them against the wielder.
 
-*** Creating Sentient Magic Items
+** Creating Sentient Magic Items
     :PROPERTIES:
     :CUSTOM_ID: creating-sentient-magic-items
     :END:
@@ -5380,7 +4277,7 @@ When you decide to make a magic item sentient, you create the item's
 persona in the same way you would create an NPC, with a few exceptions
 described here.
 
-**** Abilities
+*** Abilities
      :PROPERTIES:
      :CUSTOM_ID: abilities
      :END:
@@ -5390,7 +4287,7 @@ can choose the item's abilities or determine them randomly. To determine
 them randomly, roll 4d6 for each one, dropping the lowest roll and
 totaling the rest.
 
-**** Communication
+*** Communication
      :PROPERTIES:
      :CUSTOM_ID: communication
      :END:
@@ -5408,7 +4305,7 @@ You can choose how it communicates or roll on the following table.
 | 91-100 | The item can speak, read, and understand one or more languages. In addition, the item can communicate telepathically with any character that carries or wields it. |
 |        |                                                                                                                                                                    |
 
-**** Senses
+*** Senses
      :PROPERTIES:
      :CUSTOM_ID: senses
      :END:
@@ -5427,7 +4324,7 @@ on the following table.
 | 4  | Hearing and darkvision out to 120 feet.    |
 |    |                                            |
 
-**** Alignment
+*** Alignment
      :PROPERTIES:
      :CUSTOM_ID: alignment
      :END:
@@ -5451,7 +4348,7 @@ following table.
 | 97-100 | Chaotic evil    |
 |        |                 |
 
-**** Special Purpose
+*** Special Purpose
      :PROPERTIES:
      :CUSTOM_ID: special-purpose
      :END:
@@ -5480,7 +4377,7 @@ table.
 | 10  | Creator Seeker: The item seeks its creator and wants to understand why it was created.                                                 |
 |     |                                                                                                                                        |
 
-**** Conflict
+*** Conflict
      :PROPERTIES:
      :CUSTOM_ID: conflict
      :END:
@@ -5518,7 +4415,7 @@ dawn.
   :CUSTOM_ID: artifacts
   :END:
 
-*** Orb of Dragonkind
+** Orb of Dragonkind
     :PROPERTIES:
     :CUSTOM_ID: orb-of-dragonkind
     :END:

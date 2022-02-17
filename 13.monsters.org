@@ -1,7 +1,5 @@
-* MONSTERS
-  :PROPERTIES:
-  :CUSTOM_ID: monsters
-  :END:
+#+STARTUP: content showstars indent
+#+FILETAGS: monster
 
 * Monster Statistics
   :PROPERTIES:

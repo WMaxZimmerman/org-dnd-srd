@@ -1,3 +1,6 @@
+#+STARTUP: content showstars indent
+#+FILETAGS: npc
+
 * NPCs
   :PROPERTIES:
   :CUSTOM_ID: npcs

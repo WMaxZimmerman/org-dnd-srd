@@ -1,3 +1,6 @@
+#+STARTUP: content showstars indent
+#+FILETAGS: creature
+
 * CREATURES
   :PROPERTIES:
   :CUSTOM_ID: creatures
