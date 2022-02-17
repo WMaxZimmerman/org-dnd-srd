@@ -6,34 +6,34 @@ Magic items are presented in alphabetical order. A magic item's
 description gives the item's name, its category, its rarity, and its
 magical properties.
 
-** Adamantine Armor
+** Adamantine Armor                                         :armor:uncommon:
 /Armor (medium or heavy, but not hide), uncommon/
 
 This suit of armor is reinforced with adamantine, one of the hardest
 substances in existence. While you're wearing it, any critical hit
 against you becomes a normal hit.
 
-** Ammunition, +1, +2, or +3
+** Ammunition, +1, +2, or +3 :weapon:ammo:ammunition:uncommon:rare:very_rare:
 /Weapon (any ammunition), uncommon (+1), rare (+2), or very rare (+3)/
 
 You have a bonus to attack and damage rolls made with this piece of
 magic ammunition. The bonus is determined by the rarity of the
 ammunition. Once it hits a target, the ammunition is no longer magical.
 
-** Amulet of Health
+** Amulet of Health                          :wondrous:item:rare:attunement:
 /Wondrous item, rare (requires attunement)/
 
 Your Constitution score is 19 while you wear this amulet. It has no
 effect on you if your Constitution is already 19 or higher.
 
-** Amulet of Proof against Detection and Location
+** Amulet of Proof against Detection and Location :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing this amulet, you are hidden from divination magic. You
 can't be targeted by such magic or perceived through magical scrying
 sensors.
 
-** Amulet of the Planes
+** Amulet of the Planes                 :wondrous:item:very_rare:attunement:
 /Wondrous item, very rare (requires attunement)/
 
 While wearing this amulet, you can use an action to name a location that
@@ -44,7 +44,7 @@ you travel to a random destination. Roll a d100. On a 1-60, you travel
 to a random location on the plane you named. On a 61-100, you travel to
 a randomly determined plane of existence.
 
-** Animated Shield
+** Animated Shield                       :armor:shield:very_rare:attunement:
 /Armor (shield), very rare (requires attunement)/
 
 While holding this shield, you can speak its command word as a bonus
@@ -55,7 +55,7 @@ bonus action to end this effect, or until you are incapacitated or die,
 at which point the shield falls to the ground or into your hand if you
 have one free.
 
-** Apparatus of the Crab
+** Apparatus of the Crab                           :wondrous:item:legendary:
 /Wondrous item, legendary/
 
 This item first appears to be a Large sealed iron barrel weighing 500
@@ -69,15 +69,14 @@ levers are used, the apparatus transforms to resemble a giant lobster.
 The apparatus of the Crab is a Large object with the following
 statistics:
 
-*Armor Class* 20
+- Armor Class :: 20
+- Hit Points :: 200
+- Speed (or 0 ft. for both if the legs and tail aren't extended)
+  - Walking :: 30 ft
+  - Swimming :: 30 ft
 
-*Hit Points* 200
-
-*Speed* 30 ft., swim 30 ft. (or 0 ft. for both if the legs and tail
-aren't extended)
-
-*Damage Immunities* poison, psychic
-
+- Damage Immunities :: poison, psychic
+  
 To be used as a vehicle, the apparatus requires one pilot. While the
 apparatus's hatch is closed, the compartment is airtight and watertight.
 The compartment holds enough air for 10 hours of breathing, divided by
@@ -92,8 +91,7 @@ of the apparatus's levers up or down. After each use, a lever goes back
 to its neutral position. Each lever, from left to right, functions as
 shown in the Apparatus of the Crab Levers table.
 
-*Table- Apparatus of the Crab*
-
+*** Table: Apparatus of the Crab
 | Lever | Up                                                                                                                               | Down                                                                                                                                        |
 |-------+----------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------|
 | 1     | Legs and tail extend, allowing the apparatus to walk and swim.                                                                   | Legs and tail retract, reducing the apparatus's speed to 0 and making it unable to benefit from bonuses to speed.                           |
@@ -106,16 +104,14 @@ shown in the Apparatus of the Crab Levers table.
 | 8     | Eyelike fixtures emit bright light in a 30-foot radius and dim light for an additional 30 feet.                                  | The light turns off.                                                                                                                        |
 | 9     | The apparatus sinks as much as 20 feet in liquid.                                                                                | The apparatus rises up to 20 feet in liquid.                                                                                                |
 | 10    | The rear hatch unseals and opens.                                                                                                | The rear hatch closes and seals.                                                                                                            |
-|       |                                                                                                                                  |                                                                                                                                             |
 
-** Armor, +1, +2, or +3
-/Armor (light, medium, or heavy), rare (+1), very rare (+2), or
-legendary (+3)/
+** Armor, +1, +2, or +3                     :armor:rare:very_rare:legendary:
+/Armor (light, medium, or heavy), rare (+1), very rare (+2), or legendary (+3)/
 
 You have a bonus to AC while wearing this armor. The bonus is determined
 by its rarity.
 
-** Armor of Invulnerability
+** Armor of Invulnerability                     :armor:legendary:attunement:
 /Armor (plate), legendary (requires attunement)/
 
 You have resistance to nonmagical damage while you wear this armor.
@@ -124,14 +120,13 @@ nonmagical damage for 10 minutes or until you are no longer wearing the
 armor. Once this special action is used, it can't be used again until
 the next dawn.
 
-** Armor of Resistance
+** Armor of Resistance                               :armor:rare:attunement:
 /Armor (light, medium, or heavy), rare (requires attunement)/
 
 You have resistance to one type of damage while you wear this armor. The
 GM chooses the type or determines it randomly from the options below.
 
-*Table- Armor of Resistance*
-
+*** Table: Armor of Resistance
 | d10 | Damage Type |
 |-----+-------------|
 | 1   | Acid        |
@@ -144,23 +139,23 @@ GM chooses the type or determines it randomly from the options below.
 | 8   | Psychic     |
 | 9   | Radiant     |
 | 10  | Thunder     |
-|     |             |
 
-** Armor of Vulnerability
+** Armor of Vulnerability                            :armor:rare:attunement:
 /Armor (plate), rare (requires attunement)/
 
 While wearing this armor, you have resistance to one of the following
 damage types: bludgeoning, piercing, or slashing. The GM chooses the
 type or determines it randomly.
 
-*/Curse/*. This armor is cursed, a fact that is revealed only when an
-/identify/ spell is cast on the armor or you attune to it. Attuning to
-the armor curses you until you are targeted by the /remove curse/ spell
+*** Curse
+This armor is cursed, a fact that is revealed only when an
+[[file:10.spells.org::*Identify][Identify]] spell is cast on the armor or you attune to it. Attuning to
+the armor curses you until you are targeted by the [[file:10.spells.org::*Remove Curse][Remove Curse]] spell
 or similar magic; removing the armor fails to end the curse. While
 cursed, you have vulnerability to two of the three damage types
 associated with the armor (not the one to which it grants resistance).
 
-** Arrow-Catching Shield
+** Arrow-Catching Shield                      :armor:shield:rare:attunement:
 /Armor (shield), rare (requires attunement)/
 
 You gain a +2 bonus to AC against ranged attacks while you wield this
@@ -169,7 +164,7 @@ addition, whenever an attacker makes a ranged attack against a target
 within 5 feet of you, you can use your reaction to become the target of
 the attack instead.
 
-** Arrow of Slaying
+** Arrow of Slaying                                 :weapon:arrow:very_rare:
 /Weapon (arrow), very rare/
 
 An /arrow of slaying/ is a magic weapon meant to slay a particular kind
@@ -186,7 +181,7 @@ becomes a nonmagical arrow.
 Other types of magic ammunition of this kind exist, such as /bolts of
 slaying/ meant for a crossbow, though arrows are most common.
 
-** Bag of Beans
+** Bag of Beans                                         :wondrous:item:rare:
 /Wondrous item, rare/
 
 Inside this heavy cloth bag are 3d4 dry beans. The bag weighs 1/2 pound
@@ -204,8 +199,7 @@ water it, the bean produces an effect 1 minute later from the ground
 where it was planted. The GM can choose an effect from the following
 table, determine it randomly, or create an effect.
 
-*Table- Bag of Beans*
-
+*** Table: Bag of Beans
 | d100  | Effect                                                                                                                                                                                                                                                                                                                                                                |
 |-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 01    | 5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take 5d6 poison damage and become poisoned for 1 hour. On an even roll, the eater gains 5d6 temporary hit points for 1 hour.                                                                                      |
@@ -219,9 +213,8 @@ table, determine it randomly, or create an effect.
 | 81-90 | A nest of 1d4+3 eggs springs up. Any creature that eats an egg must make a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores. On a failed save, the creature takes 10d6 force damage from an internal magical explosion.                              |
 | 91-99 | A pyramid with a 60-foot square base bursts upward. Inside is a sarcophagus containing a mummy lord. The pyramid is treated as the mummy lord's lair, and its sarcophagus contains treasure of the GM's choice.                                                                                                                                                       |
 | 100   | A giant beanstalk sprouts, growing to a height of the GM's choice. The top leads where the GM chooses, such as to a great view, a cloud giant's castle, or a different plane of existence.                                                                                                                                                                            |
-|       |                                                                                                                                                                                                                                                                                                                                                                       |
 
-** Bag of Devouring
+** Bag of Devouring                                :wondrous:item:very_rare:
 /Wondrous item, very rare/
 
 This bag superficially resembles a /bag of holding/ but is a feeding
@@ -247,7 +240,7 @@ determines the time and plane.
 If the bag is pierced or torn, it is destroyed, and anything contained
 within it is transported to a random location on the Astral Plane.
 
-** Bag of Holding
+** Bag of Holding                                   :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 This bag has an interior space considerably larger than its outside
@@ -272,7 +265,7 @@ feet of the gate is sucked through it to a random location on the Astral
 Plane. The gate then closes. The gate is one-way only and can't be
 reopened.
 
-** Bag of Tricks
+** Bag of Tricks                                    :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 This ordinary bag, made from gray, rust, or tan cloth, appears empty.
@@ -293,8 +286,7 @@ creature acts in a fashion appropriate to its nature.
 Once three fuzzy objects have been pulled from the bag, the bag can't be
 used again until the next dawn.
 
-*Table- Gray Bag of Tricks*
-
+*** Table: Gray Bag of Tricks                                       :table:
 | d8 | Creature     |
 |----+--------------|
 | 1  | Weasel       |
@@ -305,10 +297,8 @@ used again until the next dawn.
 | 6  | Giant badger |
 | 7  | Dire wolf    |
 | 8  | Giant elk    |
-|    |              |
 
-*Table- Rust Bag of Tricks*
-
+*** Table: Rust Bag of Tricks                                       :table:
 | d8 | Creature   |
 |----+------------|
 | 1  | Rat        |
@@ -319,10 +309,8 @@ used again until the next dawn.
 | 6  | Giant boar |
 | 7  | Lion       |
 | 8  | Brown bear |
-|    |            |
 
-*Table- Tan Bag of Tricks*
-
+*** Table: Tan Bag of Tricks                                        :table:
 | d8 | Creature     |
 |----+--------------|
 | 1  | Jackal       |
@@ -333,9 +321,8 @@ used again until the next dawn.
 | 6  | Giant weasel |
 | 7  | Giant hyena  |
 | 8  | Tiger        |
-|    |              |
 
-** Bead of Force
+** Bead of Force                                        :wondrous:item:rare:
 /Wondrous item, rare/
 
 This small black sphere measures 3/4 of an inch in diameter and weighs
@@ -356,7 +343,7 @@ wall, moving the sphere up to half the creature's walking speed. The
 sphere can be picked up, and its magic causes it to weigh only 1 pound,
 regardless of the weight of creatures inside.
 
-** Belt of Dwarvenkind
+** Belt of Dwarvenkind                       :wondrous:item:rare:attunement:
 /Wondrous item, rare (requires attunement)/
 
 While wearing this belt, you gain the following benefits:
@@ -377,7 +364,7 @@ wearing the belt:
 - You have darkvision out to a range of 60 feet.
 - You can speak, read, and write Dwarvish.
 
-** Belt of Giant Strength
+** Belt of Giant Strength                  :wondrous:item:varied:attunement:
 /Wondrous item, rarity varies (requires attunement)/
 
 While wearing this belt, your Strength score changes to a score granted
@@ -389,8 +376,7 @@ according to the six kinds of true giants. The /belt of stone giant
 strength/ and the /belt of frost giant strength/ look different, but
 they have the same effect.
 
-*Table- Belt of Strength*
-
+*** Table: Belt of Strength
 | Type              | Strength | Rarity    |
 |-------------------+----------+-----------|
 | Hill giant        | 21       | Rare      |
@@ -398,20 +384,20 @@ they have the same effect.
 | Fire giant        | 25       | Very rare |
 | Cloud giant       | 27       | Legendary |
 | Storm giant       | 29       | Legendary |
-|                   |          |           |
 
-** Berserker Axe
+** Berserker Axe                                :weapon:axe:rare:attunement:
 /Weapon (any axe), rare (requires attunement)/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
 weapon. In addition, while you are attuned to this weapon, your hit
 point maximum increases by 1 for each level you have attained.
 
-*/Curse/*. This axe is cursed, and becoming attuned to it extends the
-curse to you. As long as you remain cursed, you are unwilling to part
-with the axe, keeping it within reach at all times. You also have
-disadvantage on attack rolls with weapons other than this one, unless no
-foe is within 60 feet of you that you can see or hear.
+- Curse ::
+  This axe is cursed, and becoming attuned to it extends the
+  curse to you. As long as you remain cursed, you are unwilling to part
+  with the axe, keeping it within reach at all times. You also have
+  disadvantage on attack rolls with weapons other than this one, unless no
+  foe is within 60 feet of you that you can see or hear.
 
 Whenever a hostile creature damages you while the axe is in your
 possession, you must succeed on a DC 15 Wisdom saving throw or go
@@ -423,20 +409,20 @@ you have multiple possible targets, you attack one at random. You are
 berserk until you start your turn with no creatures within 60 feet of
 you that you can see or hear.
 
-** Boots of Elvenkind
+** Boots of Elvenkind                               :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 While you wear these boots, your steps make no sound, regardless of the
 surface you are moving across. You also have advantage on Dexterity
 (Stealth) checks that rely on moving silently.
 
-** Boots of Levitation
+** Boots of Levitation                       :wondrous:item:rare:attunement:
 /Wondrous item, rare (requires attunement)/
 
 While you wear these boots, you can use an action to cast the /levitate/
 spell on yourself at will.
 
-** Boots of Speed
+** Boots of Speed                            :wondrous:item:rare:attunement:
 /Wondrous item, rare (requires attunement)/
 
 While you wear these boots, you can use a bonus action and click the
@@ -448,7 +434,7 @@ you end the effect.
 When the boots' property has been used for a total of 10 minutes, the
 magic ceases to function until you finish a long rest.
 
-** Boots of Striding and Springing
+** Boots of Striding and Springing       :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 While you wear these boots, your walking speed becomes 30 feet, unless
@@ -457,19 +443,21 @@ encumbered or wearing heavy armor. In addition, you can jump three times
 the normal distance, though you can't jump farther than your remaining
 movement would allow.
 
-** Boots of the Winterlands
+** Boots of the Winterlands              :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 These furred boots are snug and feel quite warm. While you wear them,
 you gain the following benefits:
 
 - You have resistance to cold damage.
+  
 - You ignore difficult terrain created by ice or snow.
+  
 - You can tolerate temperatures as low as -50 degrees Fahrenheit without
   any additional protection. If you wear heavy clothes, you can tolerate
   temperatures as low as -100 degrees Fahrenheit.
 
-** Bowl of Commanding Water Elementals
+** Bowl of Commanding Water Elementals                  :wondrous:item:rare:
 /Wondrous item, rare/
 
 While this bowl is filled with water, you can use an action to speak the
@@ -480,20 +468,20 @@ the next dawn.
 The bowl is about 1 foot in diameter and half as deep. It weighs 3
 pounds and holds about 3 gallons.
 
-** Bracers of Archery
+** Bracers of Archery                    :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing these bracers, you have proficiency with the longbow and
 shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made
 with such weapons.
 
-** Bracers of Defense
+** Bracers of Defense                        :wondrous:item:rare:attunement:
 /Wondrous item, rare (requires attunement)/
 
 While wearing these bracers, you gain a +2 bonus to AC if you are
 wearing no armor and using no shield.
 
-** Brazier of Commanding Fire Elementals
+** Brazier of Commanding Fire Elementals                :wondrous:item:rare:
 /Wondrous item, rare/
 
 While a fire burns in this brass brazier, you can use an action to speak
@@ -503,13 +491,13 @@ again until the next dawn.
 
 The brazier weighs 5 pounds.
 
-** Brooch of Shielding
+** Brooch of Shielding                    :wondrous:item:uncommon:attunment:
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing this brooch, you have resistance to force damage, and you
 have immunity to damage from the /magic missile/ spell.
 
-** Broom of Flying
+** Broom of Flying                                  :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 This wooden broom, which weighs 3 pounds, functions like a mundane broom
@@ -524,7 +512,7 @@ you if you speak the command word, name the location, and are familiar
 with that place. The broom comes back to you when you speak another
 command word, provided that the broom is still within 1 mile of you.
 
-** Candle of Invocation
+** Candle of Invocation                 :wondrous:item:very_rare:attunement:
 /Wondrous item, very rare (requires attunement)/
 
 This slender taper is dedicated to a deity and shares that deity's
@@ -532,20 +520,18 @@ alignment. The candle's alignment can be detected with the /detect evil
 and good/ spell. The GM chooses the god and associated alignment or
 determines the alignment randomly.
 
-*Table- Candle of Invocation*
-
-| d20   | Alignment       |
-|-------+-----------------|
-| 1-2   | Chaotic evil    |
-| 3-4   | Chaotic neutral |
-| 5-7   | Chaotic good    |
-| 8-9   | Neutral evil    |
-| 10-11 | Neutral         |
-| 12-13 | Neutral good    |
-| 14-15 | Lawful evil     |
-| 16-17 | Lawful neutral  |
-| 18-20 | Lawful good     |
-|       |                 |
+- Table: Candle of Invocation
+  | d20   | Alignment       |
+  |-------+-----------------|
+  | 1-2   | Chaotic evil    |
+  | 3-4   | Chaotic neutral |
+  | 5-7   | Chaotic good    |
+  | 8-9   | Neutral evil    |
+  | 10-11 | Neutral         |
+  | 12-13 | Neutral good    |
+  | 14-15 | Lawful evil     |
+  | 16-17 | Lawful neutral  |
+  | 18-20 | Lawful good     |
 
 The candle's magic is activated when the candle is lit, which requires
 an action. After burning for 4 hours, the candle is destroyed. You can
@@ -561,13 +547,13 @@ expending spell slots, though the spell's effect is as if cast with a
 1st-level slot.
 
 Alternatively, when you light the candle for the first time, you can
-cast the /gate/ spell with it. Doing so destroys the candle.
+cast the [[file:10.spells.org::*Gate][Gate]] spell with it. Doing so destroys the candle.
 
-** Cape of the Mountebank
+** Cape of the Mountebank                               :wondrous:item:rare:
 /Wondrous item, rare/
 
 This cape smells faintly of brimstone. While wearing it, you can use it
-to cast the /dimension door/ spell as an action. This property of the
+to cast the [[file:10.spells.org::*Dimension Door][Dimension Door]] spell as an action. This property of the
 cape can't be used again until the next dawn.
 
 When you disappear, you leave behind a cloud of smoke, and you appear in
@@ -575,7 +561,7 @@ a similar cloud of smoke at your destination. The smoke lightly obscures
 the space you left and the space you appear in, and it dissipates at the
 end of your next turn. A light or stronger wind disperses the smoke.
 
-** Carpet of Flying
+** Carpet of Flying                                :wondrous:item:very_rare:
 /Wondrous item, very rare/
 
 You can speak the carpet's command word as an action to make the carpet
@@ -585,31 +571,29 @@ that you are within 30 feet of it.
 Four sizes of /carpet of flying/ exist. The GM chooses the size of a
 given carpet or determines it randomly.
 
-*Table- Carpet of Flying*
-
-| d100   | Size          | Capacity | Flying Speed |
-|--------+---------------+----------+--------------|
-| 01-20  | 3 ft. × 5 ft. | 200 lb.  | 80 feet      |
-| 21-55  | 4 ft. × 6 ft. | 400 lb.  | 60 feet      |
-| 56-80  | 5 ft. × 7 ft. | 600 lb.  | 40 feet      |
-| 81-100 | 6 ft. × 9 ft. | 800 lb.  | 30 feet      |
-|        |               |          |              |
+- Table Carpet of Flying
+  | d100   | Size          | Capacity | Flying Speed |
+  |--------+---------------+----------+--------------|
+  | 01-20  | 3 ft. × 5 ft. | 200 lb.  | 80 feet      |
+  | 21-55  | 4 ft. × 6 ft. | 400 lb.  | 60 feet      |
+  | 56-80  | 5 ft. × 7 ft. | 600 lb.  | 40 feet      |
+  | 81-100 | 6 ft. × 9 ft. | 800 lb.  | 30 feet      |
 
 A carpet can carry up to twice the weight shown on the table, but it
 flies at half speed if it carries more than its normal capacity.
 
-** Censer of Controlling Air Elementals
+** Censer of Controlling Air Elementals                 :wondrous:item:rare:
 /Wondrous item, rare/
 
 While incense is burning in this censer, you can use an action to speak
 the censer's command word and summon an air elemental, as if you had
-cast the /conjure elemental/ spell. The censer can't be used this way
+cast the [[file:10.spells.org::*Conjure Elemental][Conjure Elemental]] spell. The censer can't be used this way
 again until the next dawn.
 
 This 6-inch-wide, 1-foot high vessel resembles a chalice with a
 decorated lid. It weighs 1 pound.
 
-** Chime of Opening
+** Chime of Opening                                     :wondrous:item:rare:
 /Wondrous item, rare/
 
 This hollow metal tube measures about 1 foot long and weighs 1 pound.
@@ -622,31 +606,35 @@ object itself opens.
 The chime can be used ten times. After the tenth time, it cracks and
 becomes useless.
 
-** Circlet of Blasting
+** Circlet of Blasting                              :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
-While wearing this circlet, you can use an action to cast the /scorching
-ray/ spell with it. When you make the spell's attacks, you do so with an
+While wearing this circlet, you can use an action to cast the [[file:10.spells.org::*Scorching Ray][Scorching Ray]]
+spell with it. When you make the spell's attacks, you do so with an
 attack bonus of +5. The circlet can't be used this way again until the
 next dawn.
 
-** Cloak of Arachnida
+** Cloak of Arachnida                   :wondrous:item:very_rare:attunement:
 /Wondrous item, very rare (requires attunement)/
 
 This fine garment is made of black silk interwoven with faint silvery
 threads. While wearing it, you gain the following benefits:
 
 - You have resistance to poison damage.
+  
 - You have a climbing speed equal to your walking speed.
+  
 - You can move up, down, and across vertical surfaces and upside down
   along ceilings, while leaving your hands free.
+  
 - You can't be caught in webs of any sort and can move through webs as
   if they were difficult terrain.
-- You can use an action to cast the /web/ spell (save DC 13). The web
+  
+- You can use an action to cast the [[file:10.spells.org::*Web][Web]] spell (save DC 13). The web
   created by the spell fills twice its normal area. Once used, this
   property of the cloak can't be used again until the next dawn.
 
-** Cloak of Displacement
+** Cloak of Displacement                     :wondrous:item:rare:attunement:
 /Wondrous item, rare (requires attunement)/
 
 While you wear this cloak, it projects an illusion that makes you appear
@@ -656,7 +644,7 @@ damage, the property ceases to function until the start of your next
 turn. This property is suppressed while you are incapacitated,
 restrained, or otherwise unable to move.
 
-** Cloak of Elvenkind
+** Cloak of Elvenkind                    :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 While you wear this cloak with its hood up, Wisdom (Perception) checks
@@ -664,12 +652,12 @@ made to see you have disadvantage, and you have advantage on Dexterity
 (Stealth) checks made to hide, as the cloak's color shifts to camouflage
 you. Pulling the hood up or down requires an action.
 
-** Cloak of Protection
+** Cloak of Protection                   :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 You gain a +1 bonus to AC and saving throws while you wear this cloak.
 
-** Cloak of the Bat
+** Cloak of the Bat                          :wondrous:item:rare:attunement:
 /Wondrous item, rare (requires attunement)/
 
 While wearing this cloak, you have advantage on Dexterity (Stealth)
@@ -679,19 +667,19 @@ you ever fail to grip the cloak's edges while flying in this way, or if
 you are no longer in dim light or darkness, you lose this flying speed.
 
 While wearing the cloak in an area of dim light or darkness, you can use
-your action to cast /polymorph/ on yourself, transforming into a bat.
+your action to cast [[file:10.spells.org::*Polymorph][Polymorph]] on yourself, transforming into a bat.
 While you are in the form of the bat, you retain your Intelligence,
 Wisdom, and Charisma scores. The cloak can't be used this way again
 until the next dawn.
 
-** Cloak of the Manta Ray
+** Cloak of the Manta Ray                           :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 While wearing this cloak with its hood up, you can breathe underwater,
 and you have a swimming speed of 60 feet. Pulling the hood up or down
 requires an action.
 
-** Crystal Ball
+** Crystal Ball               :wondrous:item:very_rare:legendary:attunement:
 /Wondrous item, very rare or legendary (requires attunement)/
 
 The typical /crystal ball/, a very rare item, is about 6 inches in
@@ -701,26 +689,27 @@ diameter. While touching it, you can cast the /scrying/ spell (save DC
 The following /crystal ball/ variants are legendary items and have
 additional properties.
 
-*/Crystal Ball of Mind Reading/*. You can use an action to cast the
-/detect thoughts/ spell (save DC 17) while you are scrying with the
-/crystal ball/, targeting creatures you can see within 30 feet of the
-spell's sensor. You don't need to concentrate on this /detect thoughts/
-to maintain it during its duration, but it ends if /scrying/ ends.
+*** Crystal Ball of Mind Reading
+You can use an action to cast the [[file:10.spells.org::*Detect Thoughts][Detect Thoughts]] spell (save DC 17)
+while you are scrying with the /crystal ball/, targeting creatures you
+can see within 30 feet of the spell's sensor. You don't need to
+concentrate on this /detect thoughts/ to maintain it during its duration,
+but it ends if [[file:10.spells.org::*Scrying][Scrying]] ends.
 
-*/Crystal Ball of Telepathy/*. While scrying with the crystal ball, you
-can communicate telepathically with creatures you can see within 30 feet
-of the spell's sensor. You can also use an action to cast the
-/suggestion/ spell (save DC 17) through the sensor on one of those
-creatures. You don't need to concentrate on this /suggestion/ to
-maintain it during its duration, but it ends if /scrying/ ends. Once
-used, the /suggestion/ power of the /crystal ball/ can't be used again
-until the next dawn.
+*** Crystal Ball of Telepathy
+While scrying with the crystal ball, you can communicate telepathically
+with creatures you can see within 30 feet of the spell's sensor. You can
+also use an action to cast the [[file:10.spells.org::*Suggestion][Suggestion]] spell (save DC 17) through the
+sensor on one of those creatures. You don't need to concentrate on this
+/suggestion/ to maintain it during its duration, but it ends if [[file:10.spells.org::*Scrying][Scrying]]
+ends. Once used, the /suggestion/ power of the /crystal ball/ can't be
+used again until the next dawn.
 
-*/Crystal Ball of True Seeing/*. While scrying with the crystal ball,
-you have truesight with a radius of 120 feet centered on the spell's
-sensor.
+*** Crystal Ball of True Seeing
+While scrying with the crystal ball, you have truesight with a radius of
+120 feet centered on the spell's sensor.
 
-** Cube of Force
+** Cube of Force                             :wondrous:item:rare:attunement:
 /Wondrous item, rare (requires attunement)/
 
 This cube is about an inch across. Each face has a distinct marking on
@@ -742,8 +731,7 @@ If your movement causes the barrier to come into contact with a solid
 object that can't pass through the cube, you can't move any closer to
 that object as long as the barrier remains.
 
-*Table- Cube of Force Effects*
-
+*** Table- Cube of Force Effects                                    :table:
 | Face | Charges | Effect                                                                                                            |
 |------+---------+-------------------------------------------------------------------------------------------------------------------|
 | 1    | 1       | Gases, wind, and fog can't pass through the barrier.                                                              |
@@ -752,13 +740,11 @@ that object as long as the barrier remains.
 | 4    | 4       | Spell effects can't pass through the barrier.                                                                     |
 | 5    | 5       | Nothing can pass through the barrier. Walls, floors, and ceilings can pass through at your discretion.            |
 | 6    | 0       | The barrier deactivates.                                                                                          |
-|      |         |                                                                                                                   |
 
+*** Table: Cube of Force Charges Lost                               :table:
 The cube loses charges when the barrier is targeted by certain spells or
 comes into contact with certain spell or magic item effects, as shown in
 the table below.
-
-*Table- Cube of Force Charges Lost*
 
 | Spell or Item    | Charges Lost |
 |------------------+--------------|
@@ -767,9 +753,8 @@ the table below.
 | Passwall         | 1d6          |
 | Prismatic spray  | 1d20         |
 | Wall of fire     | 1d4          |
-|                  |              |
 
-** Cubic Gate
+** Cubic Gate                                     :wondrouss:item:legendary:
 /Wondrous item, legendary/
 
 This cube is 3 inches across and radiates palpable magical energy. The
@@ -777,16 +762,16 @@ six sides of the cube are each keyed to a different plane of existence,
 one of which is the Material Plane. The other sides are linked to planes
 determined by the GM.
 
-You can use an action to press one side of the cube to cast the /gate/
+You can use an action to press one side of the cube to cast the [[file:10.spells.org::*Gate][Gate]]
 spell with it, opening a portal to the plane keyed to that side.
 Alternatively, if you use an action to press one side twice, you can
-cast the /plane shift/ spell (save DC 17) with the cube and transport
+cast the [[file:10.spells.org::*Plane Shift][Plane Shift]] spell (save DC 17) with the cube and transport
 the targets to the plane keyed to that side.
 
 The cube has 3 charges. Each use of the cube expends 1 charge. The cube
 regains 1d3 expended charges daily at dawn.
 
-** Dagger of Venom
+** Dagger of Venom                                      :weapon:dagger:rare:
 /Weapon (dagger), rare/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
@@ -798,7 +783,7 @@ hits a creature. That creature must succeed on a DC 15 Constitution
 saving throw or take 2d10 poison damage and become poisoned for 1
 minute. The dagger can't be used this way again until the next dawn.
 
-** Dancing Sword
+** Dancing Sword                        :weapons:sword:very_rare:attunement:
 /Weapon (any sword), very rare (requires attunement)/
 
 You can use a bonus action to toss this magic sword into the air and
@@ -819,7 +804,7 @@ to you, it moves as close to you as it can and then falls to the ground.
 It also ceases to hover if you grasp it or move more than 30 feet away
 from it.
 
-** Decanter of Endless Water
+** Decanter of Endless Water                        :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 This stoppered flask sloshes when shaken, as if it contains water. The
@@ -831,7 +816,9 @@ choice) pours out of the flask. The water stops pouring out at the start
 of your next turn. Choose from the following options:
 
 - "Stream" produces 1 gallon of water.
+  
 - "Fountain" produces 5 gallons of water.
+  
 - "Geyser" produces 30 gallons of water that gushes forth in a geyser 30
   feet long and 1 foot wide. As a bonus action while holding the
   decanter, you can aim the geyser at a creature you can see within 30
@@ -841,7 +828,7 @@ of your next turn. Choose from the following options:
   weighs no more than 200 pounds. The object is either knocked over or
   pushed up to 15 feet away from you.
 
-** Deck of Illusions
+** Deck of Illusions                                :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 This box contains a set of parchment cards. A full deck has 34 cards. A
@@ -867,8 +854,7 @@ The illusion lasts until its card is moved or the illusion is dispelled.
 When the illusion ends, the image on its card disappears, and that card
 can't be used again.
 
-*Table- Deck of Illusions*
-
+*** Table: Deck of Illusions                                        :table:
 | Playing Card      | Illusion                         |
 |-------------------+----------------------------------|
 | Ace of hearts     | Red dragon                       |
@@ -904,9 +890,8 @@ can't be used again.
 | Eight of clubs    | Orc                              |
 | Two of clubs      | Kobold                           |
 | Jokers (2)        | You (the deck's owner)           |
-|                   |                                  |
 
-** Deck of Many Things
+** Deck of Many Things                             :wondrous:item:legendary:
 /Wondrous item, legendary/
 
 Usually found in a box or pouch, this deck contains a number of cards
@@ -926,8 +911,7 @@ Once a card is drawn, it fades from existence. Unless the card is the
 Fool or the Jester, the card reappears in the deck, making it possible
 to draw the same card twice.
 
-*Table- Deck of Many Things*
-
+*** Table: Deck of Many Things
 | Playing Card       | Card       |
 |--------------------+------------|
 | Ace of diamonds    | Vizier*    |
@@ -952,10 +936,8 @@ to draw the same card twice.
 | Two of spades      | Balance*   |
 | Joker (with TM)    | Fool*      |
 | Joker (without TM) | Jester     |
-|                    |            |
 
-* Found only in a deck with twenty-two cards
-
+*** Found only in a deck with twenty-two cards
 */Balance/*. Your mind suffers a wrenching alteration, causing your
 alignment to change. Lawful becomes chaotic, good becomes evil, and vice
 versa. If you are true neutral or unaligned, this card has no effect on
@@ -1029,7 +1011,7 @@ until you die or it drops to 0 hit points, whereupon it disappears. If
 anyone tries to help you, the helper summons its own avatar of death. A
 creature slain by an avatar of death can't be restored to life.
 
-*** Avatar of Death
+**** Avatar of Death
 /Medium undead, neutral evil/
 
 *Armor Class* 20
@@ -1092,7 +1074,7 @@ this way, your body is incapacitated. A /wish/ spell can't restore your
 soul, but the spell reveals the location of the object that holds it.
 You draw no more cards.
 
-** Defender
+** Defender                              :weapon:sword:legendary:attunement:
 /Weapon (any sword), legendary (requires attunement)/
 
 You gain a +3 bonus to attack and damage rolls made with this magic
@@ -1106,7 +1088,7 @@ bonus to AC. The adjusted bonuses remain in effect until the start of
 your next turn, although you must hold the sword to gain a bonus to AC
 from it.
 
-** Demon Armor
+** Demon Armor                     :armor:plate:very_rare:attunement:cursed:
 /Armor (plate), very rare (requires attunement)/
 
 While wearing this armor, you gain a +1 bonus to AC, and you can
@@ -1120,7 +1102,7 @@ are targeted by the /remove curse/ spell or similar magic. While wearing
 the armor, you have disadvantage on attack rolls against demons and on
 saving throws against their spells and special abilities.
 
-** Dimensional Shackles
+** Dimensional Shackles                                 :wondrous:item:rare:
 /Wondrous item, rare/
 
 You can use an action to place these shackles on an incapacitated
@@ -1136,7 +1118,7 @@ action to remove them. Once every 30 days, the bound creature can make a
 DC 30 Strength (Athletics) check. On a success, the creature breaks free
 and destroys the shackles.
 
-** Dragon Scale Mail
+** Dragon Scale Mail                 :armor:scale_mail:very_rare:attunement:
 /Armor (scale mail), very rare (requires attunement)/
 
 Dragon scale mail is made of the scales of one kind of dragon. Sometimes
@@ -1154,8 +1136,7 @@ discern the distance and direction to the closest dragon within 30 miles
 of you that is of the same type as the armor. This special action can't
 be used again until the next dawn.
 
-*Table- Dragon Scale Mail*
-
+*** Table: Dragon Scale Mail                                        :table:
 | Dragon | Resistance |
 |--------+------------|
 | Black  | Acid       |
@@ -1168,9 +1149,8 @@ be used again until the next dawn.
 | Red    | Fire       |
 | Silver | Cold       |
 | White  | Cold       |
-|        |            |
 
-** Dragon Slayer
+** Dragon Slayer                                         :weapon:sword:rare:
 /Weapon (any sword), rare/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
@@ -1181,7 +1161,7 @@ damage of the weapon's type. For the purpose of this weapon, "dragon"
 refers to any creature with the dragon type, including dragon turtles
 and wyverns.
 
-** Dust of Disappearance
+** Dust of Disappearance                            :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 Found in a small packet, this powder resembles very fine sand. There is
@@ -1192,7 +1172,7 @@ and the dust is consumed when its magic takes effect. If a creature
 affected by the dust attacks or casts a spell, the invisibility ends for
 that creature.
 
-** Dust of Dryness
+** Dust of Dryness                                  :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 This small packet contains 1d6+4 pinches of dust. You can use an action
@@ -1208,11 +1188,11 @@ An elemental composed mostly of water that is exposed to a pinch of the
 dust must make a DC 13 Constitution saving throw, taking 10d6 necrotic
 damage on a failed save, or half as much damage on a successful one.
 
-** Dust of Sneezing and Choking
+** Dust of Sneezing and Choking                     :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 Found in a small container, this powder resembles very fine sand. It
-appears to be /dust of disappearance/, and an /identify/ spell reveals
+appears to be [[*Dust of Disappearance][Dust of Disappearance]], and an [[file:10.spells.org::*Identify][Identify]] spell reveals
 it to be such. There is enough of it for one use.
 
 When you use an action to throw a handful of the dust into the air, you
@@ -1221,17 +1201,17 @@ succeed on a DC 15 Constitution saving throw or become unable to
 breathe, while sneezing uncontrollably. A creature affected in this way
 is incapacitated and suffocating. As long as it is conscious, a creature
 can repeat the saving throw at the end of each of its turns, ending the
-effect on it on a success. The /lesser restoration/ spell can also end
+effect on it on a success. The [[file:10.spells.org::*Lesser Restoration][Lesser Restoration]] spell can also end
 the effect on a creature.
 
-** Dwarven Plate
+** Dwarven Plate                                     :armor:plate:very_rare:
 /Armor (plate), very rare/
 
 While wearing this armor, you gain a +2 bonus to AC. In addition, if an
 effect moves you against your will along the ground, you can use your
 reaction to reduce the distance you are moved by up to 10 feet.
 
-** Dwarven Thrower
+** Dwarven Thrower              :weapon:warhammer:very_rare:attunment:dwarf:
 /Weapon (warhammer), very rare (requires attunement by a dwarf)/
 
 You gain a +3 bonus to attack and damage rolls made with this magic
@@ -1241,7 +1221,7 @@ weapon, it deals an extra 1d8 damage or, if the target is a giant, 2d8
 damage. Immediately after the attack, the weapon flies back to your
 hand.
 
-** Efficient Quiver
+** Efficient Quiver                                 :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 Each of the quiver's three compartments connects to an extradimensional
@@ -1254,7 +1234,7 @@ to six long objects, such as bows, quarterstaffs, or spears.
 You can draw any item the quiver contains as if doing so from a regular
 quiver or scabbard.
 
-** Efreeti Bottle
+** Efreeti Bottle                                  :wondrous:item:very_rare:
 /Wondrous item, very rare/
 
 This painted brass bottle weighs 1 pound. When you use an action to
@@ -1266,41 +1246,36 @@ you.
 The first time the bottle is opened, the GM rolls to determine what
 happens.
 
-*Table- Efreeti Bottle*
-
+*** Table: Efreeti Bottle                                           :table:
 | d100   | Effect                                                                                                                                                                                                                                                                                                                                                 |
 |--------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 01-10  | The efreeti attacks you. After fighting for 5 rounds, the efreeti disappears, and the bottle loses its magic.                                                                                                                                                                                                                                          |
 | 11-90  | The efreeti serves you for 1 hour, doing as you command. Then the efreeti returns to the bottle, and a new stopper contains it. The stopper can't be removed for 24 hours. The next two times the bottle is opened, the same effect occurs. If the bottle is opened a fourth time, the efreeti escapes and disappears, and the bottle loses its magic. |
 | 91-100 | The efreeti can cast the wish spell three times for you. It disappears when it grants the final wish or after 1 hour, and the bottle loses its magic.                                                                                                                                                                                                  |
-|        |                                                                                                                                                                                                                                                                                                                                                        |
 
-** Elemental Gem
+** Elemental Gem                                    :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
-This gem contains a mote of elemental energy. When you use an action to
-break the gem, an elemental is summoned as if you had cast the /conjure
-elemental/ spell, and the gem's magic is lost. The type of gem
-determines the elemental summoned by the spell.
+This gem contains a mote of elemental energy. When you use an action to break the gem,
+an elemental is summoned as if you had cast the [[file:10.spells.org::*Conjure Elemental][Conjure Elemental]] spell, and the
+gem's magic is lost. The type of gem determines the elemental summoned by the spell.
 
-*Table- Elemental Gem*
-
+*** Table: Elemental Gem                                            :table:
 | Gem            | Summoned Elemental |
 |----------------+--------------------|
 | Blue sapphire  | Air elemental      |
 | Yellow diamond | Earth elemental    |
 | Red corundum   | Fire elemental     |
 | Emerald        | Water elemental    |
-|                |                    |
 
-** Elven Chain
+** Elven Chain                                      :armor:chain_shirt:rare:
 /Armor (chain shirt), rare/
 
 You gain a +1 bonus to AC while you wear this armor. You are considered
 proficient with this armor even if you lack proficiency with medium
 armor.
 
-** Eversmoking Bottle
+** Eversmoking Bottle                               :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 Smoke leaks from the lead-stoppered mouth of this brass bottle, which
@@ -1316,16 +1291,16 @@ closed, the cloud disperses after 10 minutes. A moderate wind (11 to 20
 miles per hour) can also disperse the smoke after 1 minute, and a strong
 wind (21 or more miles per hour) can do so after 1 round.
 
-** Eyes of Charming
+** Eyes of Charming                      :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
-These crystal lenses fit over the eyes. They have 3 charges. While
-wearing them, you can expend 1 charge as an action to cast the /charm
-person/ spell (save DC 13) on a humanoid within 30 feet of you, provided
-that you and the target can see each other. The lenses regain all
-expended charges daily at dawn.
+These crystal lenses fit over the eyes. They have 3 charges. While wearing
+them, you can expend 1 charge as an action to cast the [[file:10.spells.org::*Charm Person][Charm Person]]
+spell (save DC 13) on a humanoid within 30 feet of you, provided that you
+and the target can see each other. The lenses regain all expended charges
+daily at dawn.
 
-** Eyes of Minute Seeing
+** Eyes of Minute Seeing                            :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 These crystal lenses fit over the eyes. While wearing them, you can see
@@ -1333,7 +1308,7 @@ much better than normal out to a range of 1 foot. You have advantage on
 Intelligence (Investigation) checks that rely on sight while searching
 an area or studying an object within that range.
 
-** Eyes of the Eagle
+** Eyes of the Eagle                     :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 These crystal lenses fit over the eyes. While wearing them, you have
@@ -1341,15 +1316,14 @@ advantage on Wisdom (Perception) checks that rely on sight. In
 conditions of clear visibility, you can make out details of even
 extremely distant creatures and objects as small as 2 feet across.
 
-** Feather Token
+** Feather Token                                        :wondrous:item:rare:
 /Wondrous item, rare/
 
 This tiny object looks like a feather. Different types of feather tokens
 exist, each with a different single-use effect. The GM chooses the kind
 of token or determines it randomly.
 
-*Table- Feather Token*
-
+*** Table: Feather Token                                            :table:
 | d100   | Feather Token |
 |--------+---------------|
 | 01-20  | Anchor        |
@@ -1358,14 +1332,15 @@ of token or determines it randomly.
 | 51-65  | Swan boat     |
 | 66-90  | Tree          |
 | 91-100 | Whip          |
-|        |               |
 
-*/Anchor/*. You can use an action to touch the token to a boat or ship.
+*** Anchor
+You can use an action to touch the token to a boat or ship.
 For the next 24 hours, the vessel can't be moved by any means. Touching
 the token to the vessel again ends the effect. When the effect ends, the
 token disappears.
 
-*/Bird/*. You can use an action to toss the token 5 feet into the air.
+*** Bird
+You can use an action to toss the token 5 feet into the air.
 The token disappears and an enormous, multicolored bird takes its place.
 The bird has the statistics of a roc, but it obeys your simple commands
 and can't attack. It can carry up to 500 pounds while flying at its
@@ -1375,13 +1350,15 @@ that speed. The bird disappears after flying its maximum distance for a
 day or if it drops to 0 hit points. You can dismiss the bird as an
 action.
 
-*/Fan/*. If you are on a boat or ship, you can use an action to toss the
+*** Fan
+If you are on a boat or ship, you can use an action to toss the
 token up to 10 feet in the air. The token disappears, and a giant
 flapping fan takes its place. The fan floats and creates a wind strong
 enough to fill the sails of one ship, increasing its speed by 5 miles
 per hour for 8 hours. You can dismiss the fan as an action.
 
-*/Swan Boat/*. You can use an action to touch the token to a body of
+*** Swan Boat
+You can use an action to touch the token to a body of
 water at least 60 feet in diameter. The token disappears, and a 50-foot
 long, 20-foot wide boat shaped like a swan takes its place. The boat is
 self-propelled and moves across water at a speed of 6 miles per hour.
@@ -1391,13 +1368,15 @@ creatures. A Large creature counts as four Medium creatures, while a
 Huge creature counts as nine. The boat remains for 24 hours and then
 disappears. You can dismiss the boat as an action.
 
-*/Tree/*. You must be outdoors to use this token. You can use an action
+*** Tree
+You must be outdoors to use this token. You can use an action
 to touch it to an unoccupied space on the ground. The token disappears,
 and in its place a nonmagical oak tree springs into existence. The tree
 is 60 feet tall and has a 5-foot diameter trunk, and its branches at the
 top spread out in a 20-foot radius.
 
-*/Whip/*. You can use an action to throw the token to a point within 10
+*** Whip
+You can use an action to throw the token to a point within 10
 feet of you. The token disappears, and a floating whip takes its place.
 You can then use a bonus action to make a melee spell attack against a
 creature within 10 feet of the whip, with an attack bonus of +9. On a
@@ -1408,7 +1387,7 @@ feet and repeat the attack against a creature within 10 feet of it. The
 whip disappears after 1 hour, when you use an action to dismiss it, or
 when you are incapacitated or die.
 
-** Figurine of Wondrous Power
+** Figurine of Wondrous Power                         :wondrous:item:varied:
 /Wondrous item, rarity by figurine/
 
 A /figurine of wondrous power/ is a statuette of a beast small enough to
@@ -1522,7 +1501,7 @@ a raven for up to 12 hours. Once it has been used, it can't be used
 again until 2 days have passed. While in raven form, the figurine allows
 you to cast the /animal messenger/ spell on it at will.
 
-** Flame Tongue
+** Flame Tongue                               :weapon:sword:rare:attunement:
 /Weapon (any sword), rare (requires attunement)/
 
 You can use a bonus action to speak this magic sword's command word,
@@ -1532,7 +1511,7 @@ sword is ablaze, it deals an extra 2d6 fire damage to any target it
 hits. The flames last until you use a bonus action to speak the command
 word again or until you drop or sheathe the sword.
 
-** Folding Boat
+** Folding Boat                                         :wondrous:item:rare:
 /Wondrous item, rare/
 
 This object appears as a wooden box that measures 12 inches long, 6
@@ -1560,7 +1539,7 @@ box, provided that no creatures are aboard. Any objects in the vessel
 that can't fit inside the box remain outside the box as it folds. Any
 objects in the vessel that can fit inside the box do so.
 
-** Frost Brand
+** Frost Brand                          :weapson:sword:very_rare:attunement:
 /Weapon (any sword), very rare (requires attunement)/
 
 When you hit with an attack using this magic sword, the target takes an
@@ -1574,13 +1553,13 @@ When you draw this weapon, you can extinguish all nonmagical flames
 within 30 feet of you. This property can be used no more than once per
 hour.
 
-** Gauntlets of Ogre Power
+** Gauntlets of Ogre Power               :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 Your Strength score is 19 while you wear these gauntlets. They have no
 effect on you if your Strength is already 19 or higher.
 
-** Gem of Brightness
+** Gem of Brightness                                :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 This prism has 50 charges. While you are holding it, you can use an
@@ -1591,12 +1570,14 @@ effects:
   30-foot radius and dim light for an additional 30 feet. This effect
   doesn't expend a charge. It lasts until you use a bonus action to
   repeat the command word or until you use another function of the gem.
+  
 - The second command word expends 1 charge and causes the gem to fire a
   brilliant beam of light at one creature you can see within 60 feet of
   you. The creature must succeed on a DC 15 Constitution saving throw or
   become blinded for 1 minute. The creature can repeat the saving throw
   at the end of each of its turns, ending the effect on itself on a
   success.
+  
 - The third command word expends 5 charges and causes the gem to flare
   with blinding light in a 30-foot cone originating from it. Each
   creature in the cone must make a saving throw as if struck by the beam
@@ -1605,7 +1586,7 @@ effects:
 When all of the gem's charges are expended, the gem becomes a nonmagical
 jewel worth 50 gp.
 
-** Gem of Seeing
+** Gem of Seeing                             :wondrous:item:rare:attunement:
 /Wondrous item, rare (requires attunement)/
 
 This gem has 3 charges. As an action, you can speak the gem's command
@@ -1614,7 +1595,7 @@ out to 120 feet when you peer through the gem.
 
 The gem regains 1d3 expended charges daily at dawn.
 
-** Giant Slayer
+** Giant Slayer                                     :weapons:axe:sword:rare:
 /Weapon (any axe or sword), rare/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
@@ -1625,7 +1606,7 @@ weapon's type and must succeed on a DC 15 Strength saving throw or fall
 prone. For the purpose of this weapon, "giant" refers to any creature
 with the giant type, including ettins and trolls.
 
-** Glamoured Studded Leather
+** Glamoured Studded Leather                    :armor:studded_leather:rare:
 /Armor (studded leather), rare/
 
 While wearing this armor, you gain a +1 bonus to AC. You can also use a
@@ -1636,7 +1617,7 @@ accessories, but the armor retains its normal bulk and weight. The
 illusory appearance lasts until you use this property again or remove
 the armor.
 
-** Gloves of Missile Snaring
+** Gloves of Missile Snaring             :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 These gloves seem to almost meld into your hands when you don them. When
@@ -1646,21 +1627,21 @@ provided that you have a free hand. If you reduce the damage to 0, you
 can catch the missile if it is small enough for you to hold in that
 hand.
 
-** Gloves of Swimming and Climbing
+** Gloves of Swimming and Climbing       :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing these gloves, climbing and swimming don't cost you extra
 movement, and you gain a +5 bonus to Strength (Athletics) checks made to
 climb or swim.
 
-** Goggles of Night
+** Goggles of Night                                 :wondrous:item:uncommon:
 /Wondrous item, uncommon/
 
 While wearing these dark lenses, you have darkvision out to a range of
 60 feet. If you already have darkvision, wearing the goggles increases
 its range by 60 feet.
 
-** Hammer of Thunderbolts
+** Hammer of Thunderbolts                            :weapon:maul:legendary:
 /Weapon (maul), legendary/
 
 You gain a +1 bonus to attack and damage rolls made with this magic
@@ -1683,7 +1664,7 @@ it must succeed on a DC 17 Constitution saving throw or be stunned until
 the end of your next turn. The hammer regains 1d4+1 expended charges
 daily at dawn.
 
-** Handy Haversack
+** Handy Haversack                                      :wondrous:item:rare:
 /Wondrous item, rare/
 
 This backpack has a central pouch and two side pouches, each of which is
@@ -1714,7 +1695,7 @@ the gate is sucked through it and deposited in a random location on the
 Astral Plane. The gate then closes. The gate is one-way only and can't
 be reopened.
 
-** Hat of Disguise
+** Hat of Disguise :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing this hat, you can use an action to cast the /disguise
