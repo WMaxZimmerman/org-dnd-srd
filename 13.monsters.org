@@ -609,13 +609,13 @@ end abruptly or dissipate over time when the legendary creature dies.
 * Aberrations                                                    :abberation:
 ** Aboleth                                         :large:cr_10:lawful:evil:
 :PROPERTIES:
-:SIZE: Large
+:SIZE: large
 :ALIGNMENT: lawful evil
 :CR: 10
 :XP: 5,900
 :END:
 - Armor Class :: 17 (natural armor)
-- Hit Points :: 135 (18d10+36)
+- Hit Points :: 135 (18d10 + 36)
 - Speed
   - Walk :: 10 ft.
   - Swim :: 40 ft.
@@ -654,18 +654,6 @@ end abruptly or dissipate over time when the legendary creature dies.
 |         |       |     |    | 1d20 + 4  | Persuasion      |
 |---------+-------+-----+----+-----------+-----------------|
 | PROF    |     4 |     |    |           |                 |
-#+TBLFM: @2$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @4$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @8$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @9$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @15$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @21$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @2$5..@3$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @2$3))))
-#+TBLFM: @4$5..@7$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @4$3))))
-#+TBLFM: @8$5..@8$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @8$3))))
-#+TBLFM: @9$5..@14$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @9$3))))
-#+TBLFM: @15$5..@20$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @15$3))))
-#+TBLFM: @21$5..@25$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @21$3))))xk
 
 *** Senses 
 - darkvision :: 120 ft.
@@ -743,151 +731,251 @@ legendary actions at the start of its turn.
   the aboleth regains hit points equal to the damage the creature takes.
 
 
-* Monsters (A)
+* Beasts                                                              :beast:
 
-** Angels
-   :PROPERTIES:
-   :CUSTOM_ID: angels
-   :END:
+* Celestials                                                      :celestial:
+** Angels                                                            :angel:
+*** Deva                                         :medium:lawful:good:cr_10:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: lawful good
+:CR: 10
+:XP: 5,900
+:END:
+- Armor Class :: 17 (natural armor)
+- Hit Points :: 136 (16d8 + 64)
+- Speed
+  - Walk :: 30 ft.
+  - Fly :: 90 ft.
 
-*** Deva
-    :PROPERTIES:
-    :CUSTOM_ID: deva
-    :END:
+**** Abilities and Skills
+| Ability | Score | Mod | PB | Roll     | Skill           |
+|---------+-------+-----+----+----------+-----------------|
+| STR     |    18 |   4 |    | 1d20 + 4 | Saving Throw    |
+|         |       |     |    | 1d20 + 4 | Athletics       |
+|---------+-------+-----+----+----------+-----------------|
+| DEX     |    18 |   4 |    | 1d20 + 4 | Saving Throw    |
+|         |       |     |    | 1d20 + 4 | Acrobatics      |
+|         |       |     |    | 1d20 + 4 | Sleight of Hand |
+|         |       |     |    | 1d20 + 4 | Stealth         |
+|---------+-------+-----+----+----------+-----------------|
+| CON     |    18 |   4 |    | 1d20 + 4 | Saving Throw    |
+|---------+-------+-----+----+----------+-----------------|
+| INT     |    17 |   3 |    | 1d20 + 3 | Saving Throw    |
+|         |       |     |    | 1d20 + 3 | Arcana          |
+|         |       |     |    | 1d20 + 3 | History         |
+|         |       |     |    | 1d20 + 3 | Investigation   |
+|         |       |     |    | 1d20 + 3 | Nature          |
+|         |       |     |    | 1d20 + 3 | Religion        |
+|---------+-------+-----+----+----------+-----------------|
+| WIS     |    20 |   5 | X  | 1d20 + 9 | Saving Throw    |
+|         |       |     |    | 1d20 + 5 | Animal Handling |
+|         |       |     | X  | 1d20 + 9 | Insight         |
+|         |       |     |    | 1d20 + 5 | Medicine        |
+|         |       |     | X  | 1d20 + 9 | Perception      |
+|         |       |     |    | 1d20 + 5 | Survival        |
+|---------+-------+-----+----+----------+-----------------|
+| CHA     |    20 |   5 | X  | 1d20 + 9 | Saving Throw    |
+|         |       |     |    | 1d20 + 5 | Deception       |
+|         |       |     |    | 1d20 + 5 | Intimidation    |
+|         |       |     |    | 1d20 + 5 | Performance     |
+|         |       |     |    | 1d20 + 5 | Persuasion      |
+|---------+-------+-----+----+----------+-----------------|
+| PROF    |     4 |     |    |          |                 |
+#+TBLFM: @2$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @4$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @8$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @9$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @15$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @21$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @2$5..@3$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @2$3))))
+#+TBLFM: @4$5..@7$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @4$3))))
+#+TBLFM: @8$5..@8$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @8$3))))
+#+TBLFM: @9$5..@14$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @9$3))))
+#+TBLFM: @15$5..@20$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @15$3))))
+#+TBLFM: @21$5..@25$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @21$3))))
 
-/Medium celestial, lawful good/
+**** Resistance and Immunities
+***** Resistance
+- radiant
+- non-magical bludgeoning, piercing, and slashing
+  
+***** Immune
+- charmed
+- exhaustion
+- frightened
 
-*Armor Class* 17 (natural armor)
+**** Features
+***** Senses
+- darkvision :: 120 ft.
+- passive Perception :: 19
 
-*Hit Points* 136 (16d8+64)
+***** Languages
+- all
+- telepathy 120 ft.
 
-*Speed* 30 ft., fly 90 ft.
-
-| STR     | DEX     | CON     | INT     | WIS     | CHA     |
-|---------+---------+---------+---------+---------+---------|
-| 18 (+4) | 18 (+4) | 18 (+4) | 17 (+3) | 20 (+5) | 20 (+5) |
-
-*Saving Throws* Wis +9, Cha +9
-
-*Skills* Insight +9, Perception +9
-
-*Damage Resistances* radiant; bludgeoning, piercing, and slashing from
-nonmagical attacks
-
-*Condition Immunities* charmed, exhaustion, frightened
-
-*Senses* darkvision 120 ft., passive Perception 19
-
-*Languages* all, telepathy 120 ft.
-
-*Challenge* 10 (5,900 XP)
-
-*/Angelic Weapons/*. The deva's weapon attacks are magical. When the
+***** Angelic Weapons
+The deva's weapon attacks are magical. When the
 deva hits with any weapon, the weapon deals an extra 4d8 radiant damage
 (included in the attack).
 
-*/Innate Spellcasting/*. The deva's spellcasting ability is Charisma
+***** Innate Spellcasting
+The deva's spellcasting ability is Charisma
 (spell save DC 17). The deva can innately cast the following spells,
 requiring only verbal Components
 
-At will: /detect evil and good/
+At will: [[file:10.spells.org::*Detect Evil and Good][Detect Evil and Good]]
 
-1/day each: /commune/, /raise dead/
+1/day each: [[file:10.spells.org::*Commune][Commune]], [[file:10.spells.org::*Raise Dead][Raise Dead]]
 
-*/Magic Resistance/*. The deva has advantage on saving throws against
+***** Magic Resistance
+The deva has advantage on saving throws against
 spells and other magical effects.
 
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-2
-       :END:
+**** Actions
+- Multiattack ::
+  The deva makes two melee attacks.
 
-*/Multiattack/*. The deva makes two melee attacks.
+- Mace ::
+  /Melee Weapon Attack:/ +8 to hit, reach 5 ft., one target.
+  /Hit:/ 7 (1d6+4) bludgeoning damage plus 18 (4d8) radiant damage.
 
-*/Mace/*. /Melee Weapon Attack:/ +8 to hit, reach 5 ft., one target.
-/Hit:/ 7 (1d6+4) bludgeoning damage plus 18 (4d8) radiant damage.
+- Healing Touch (3/Day) ::
+  The deva touches another creature. The target
+  magically regains 20 (4d8+2) hit points and is freed from any curse,
+  disease, poison, blindness, or deafness.
 
-*/Healing Touch (3/Day)/*. The deva touches another creature. The target
-magically regains 20 (4d8+2) hit points and is freed from any curse,
-disease, poison, blindness, or deafness.
+- Change Shape ::
+  The deva magically polymorphs into a humanoid or beast
+  that has a challenge rating equal to or less than its own, or back into
+  its true form. It reverts to its true form if it dies. Any equipment it
+  is wearing or carrying is absorbed or borne by the new form (the deva's
+  choice).
 
-*/Change Shape/*. The deva magically polymorphs into a humanoid or beast
-that has a challenge rating equal to or less than its own, or back into
-its true form. It reverts to its true form if it dies. Any equipment it
-is wearing or carrying is absorbed or borne by the new form (the deva's
-choice).
+  In a new form, the deva retains its game statistics and ability to
+  speak, but its AC, movement modes, Strength, Dexterity, and special
+  senses are replaced by those of the new form, and it gains any
+  statistics and capabilities (except class features, legendary actions,
+  and lair actions) that the new form has but that it lacks.
 
-In a new form, the deva retains its game statistics and ability to
-speak, but its AC, movement modes, Strength, Dexterity, and special
-senses are replaced by those of the new form, and it gains any
-statistics and capabilities (except class features, legendary actions,
-and lair actions) that the new form has but that it lacks.
+*** Planetar                                      :large:lawful:good:cr_16:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: lawful good
+:CR: 16
+:XP: 15,000
+:END:
+- Armor Class :: 19 (natural armor)
+- Hit Points :: 200 (16d10 + 112)
+- Speed
+  - Walk :: 40 ft.
+  - Fly :: 120 ft.
 
-*** Planetar
-    :PROPERTIES:
-    :CUSTOM_ID: planetar
-    :END:
+**** Abilities and Skills
+| Ability | Score | Mod | PB | Roll      | Skill           |
+|---------+-------+-----+----+-----------+-----------------|
+| STR     |    24 |   7 |    | 1d20 + 7  | Saving Throw    |
+|         |       |     |    | 1d20 + 7  | Athletics       |
+|---------+-------+-----+----+-----------+-----------------|
+| DEX     |    20 |   5 |    | 1d20 + 5  | Saving Throw    |
+|         |       |     |    | 1d20 + 5  | Acrobatics      |
+|         |       |     |    | 1d20 + 5  | Sleight of Hand |
+|         |       |     |    | 1d20 + 5  | Stealth         |
+|---------+-------+-----+----+-----------+-----------------|
+| CON     |    24 |   7 | X  | 1d20 + 12 | Saving Throw    |
+|---------+-------+-----+----+-----------+-----------------|
+| INT     |    19 |   4 |    | 1d20 + 4  | Saving Throw    |
+|         |       |     |    | 1d20 + 4  | Arcana          |
+|         |       |     |    | 1d20 + 4  | History         |
+|         |       |     |    | 1d20 + 4  | Investigation   |
+|         |       |     |    | 1d20 + 4  | Nature          |
+|         |       |     |    | 1d20 + 4  | Religion        |
+|---------+-------+-----+----+-----------+-----------------|
+| WIS     |    22 |   6 | X  | 1d20 + 11 | Saving Throw    |
+|         |       |     |    | 1d20 + 6  | Animal Handling |
+|         |       |     |    | 1d20 + 6  | Insight         |
+|         |       |     |    | 1d20 + 6  | Medicine        |
+|         |       |     | X  | 1d20 + 11 | Perception      |
+|         |       |     |    | 1d20 + 6  | Survival        |
+|---------+-------+-----+----+-----------+-----------------|
+| CHA     |    25 |   7 | X  | 1d20 + 12 | Saving Throw    |
+|         |       |     |    | 1d20 + 7  | Deception       |
+|         |       |     |    | 1d20 + 7  | Intimidation    |
+|         |       |     |    | 1d20 + 7  | Performance     |
+|         |       |     |    | 1d20 + 7  | Persuasion      |
+|---------+-------+-----+----+-----------+-----------------|
+| PROF    |     5 |     |    |           |                 |
+#+TBLFM: @2$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @4$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @8$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @9$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @15$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @21$3='(calc-dnd-mod (string-to-number $2))
+#+TBLFM: @2$5..@3$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @2$3))))
+#+TBLFM: @4$5..@7$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @4$3))))
+#+TBLFM: @8$5..@8$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @8$3))))
+#+TBLFM: @9$5..@14$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @9$3))))
+#+TBLFM: @15$5..@20$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @15$3))))
+#+TBLFM: @21$5..@25$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @21$3))))
 
-/Large celestial, lawful good/
+**** Resistances and Immunities
+***** Resistance
+- radiant
+- non-magical
+  - bludgeoning
+  - piercing
+  - slashing
+  
+***** Immune
+- charmed
+- exhaustion
+- frightened
 
-*Armor Class* 19 (natural armor)
+**** Features  
+***** Senses
+- truesight :: 120 ft.
+- passive Perception :: 21
 
-*Hit Points* 200 (16d10+112)
+***** Languages
+- all
+- telepathy :: 120 ft.
 
-*Speed* 40 ft., fly 120 ft.
-
-| STR     | DEX     | CON     | INT     | WIS     | CHA     |
-|---------+---------+---------+---------+---------+---------|
-| 24 (+7) | 20 (+5) | 24 (+7) | 19 (+4) | 22 (+6) | 25 (+7) |
-
-*Saving Throws* Con +12, Wis +11, Cha +12
-
-*Skills* Perception +11
-
-*Damage Resistances* radiant; bludgeoning, piercing, and slashing from
-nonmagical attacks
-
-*Condition Immunities* charmed, exhaustion, frightened
-
-*Senses* truesight 120 ft., passive Perception 21
-
-*Languages* all, telepathy 120 ft.
-
-*Challenge* 16 (15,000 XP)
-
-*/Angelic Weapons/*. The planetar's weapon attacks are magical. When the
+***** Angelic Weapons
+The planetar's weapon attacks are magical. When the
 planetar hits with any weapon, the weapon deals an extra 5d8 radiant
 damage (included in the attack).
 
-*/Divine Awareness/*. The planetar knows if it hears a lie.
+***** Divine Awareness
+The planetar knows if it hears a lie.
 
-*/Innate Spellcasting/*. The planetar's spellcasting ability is Charisma
+***** Innate Spellcasting
+The planetar's spellcasting ability is Charisma
 (spell save DC 20). The planetar can innately cast the following spells,
 requiring no material Components
 
-At will: /detect evil and good/, /invisibility/ (self only)
+At will: [[file:10.spells.org::*Detect Evil and Good][Detect Evil and Good]], [[file:10.spells.org::*Invisibility][Invisibility]] (self only)
 
-3/day each: /blade barrier/, /dispel evil and good/, /flame strike/,
+3/day each: /blade barrier/, [[file:10.spells.org::*Dispel Evil and Good][Dispel Evil and Good]], [[file:10.spells.org::*Flame Strike][Flame Strike]],
 /raise dead/
 
-1/day each: /commune/, /control weather/, /insect plague/
+1/day each: [[file:10.spells.org::*Commune][Commune]], [[file:10.spells.org::*Control Weather][Control Weather]], [[file:10.spells.org::*Insect Plague][Insect Plague]]
 
-*/Magic Resistance/*. The planetar has advantage on saving throws
+***** Magic Resistance
+The planetar has advantage on saving throws
 against spells and other magical effects.
 
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-3
-       :END:
+**** Actions
+- Multiattack ::
+  The planetar makes two melee attacks.
 
-*/Multiattack/*. The planetar makes two melee attacks.
+- Greatsword ::
+  /Melee Weapon Attack:/ +12 to hit, reach 5 ft., one
+  target. /Hit:/ 21 (4d6+7) slashing damage plus 22 (5d8) radiant damage.
 
-*/Greatsword/*. /Melee Weapon Attack:/ +12 to hit, reach 5 ft., one
-target. /Hit:/ 21 (4d6+7) slashing damage plus 22 (5d8) radiant damage.
-
-*/Healing Touch (4/Day)/*. The planetar touches another creature. The
-target magically regains 30 (6d8+3) hit points and is freed from any
-curse, disease, poison, blindness, or deafness.
+- Healing Touch (4/Day) ::
+  The planetar touches another creature. The
+  target magically regains 30 (6d8+3) hit points and is freed from any
+  curse, disease, poison, blindness, or deafness.
 
 *** Solar
     :PROPERTIES:
@@ -993,6 +1081,32 @@ one.
 see within 30 feet of it. If the target can see it, the target must
 succeed on a DC 15 Constitution saving throw or be blinded until magic
 such as the /lesser restoration/ spell removes the blindness.
+
+
+* Constructs                                                      :construct:
+
+* Dragons                                                            :dragon:
+
+* Elementals                                                      :elemental:
+
+* Fey                                                                   :fey:
+
+* Fiends                                                              :fiend:
+
+* Giants                                                              :giant:
+
+* Humanoids                                                        :humanoid:
+
+* Monstrosities                                                 :monstorsity:
+
+* Oozes                                                                :ooze:
+
+* Plants                                                              :plant:
+
+* Undead                                                             :undead:
+
+* Monsters (A)
+
 
 ** Animated Objects
    :PROPERTIES:

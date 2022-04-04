@@ -1695,7 +1695,7 @@ the gate is sucked through it and deposited in a random location on the
 Astral Plane. The gate then closes. The gate is one-way only and can't
 be reopened.
 
-** Hat of Disguise :wondrous:item:uncommon:attunement:
+** Hat of Disguise                       :wondrous:item:uncommon:attunement:
 /Wondrous item, uncommon (requires attunement)/
 
 While wearing this hat, you can use an action to cast the /disguise
