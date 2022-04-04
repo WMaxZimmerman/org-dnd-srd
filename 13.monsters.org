@@ -782,18 +782,6 @@ legendary actions at the start of its turn.
 |         |       |     |    | 1d20 + 5 | Persuasion      |
 |---------+-------+-----+----+----------+-----------------|
 | PROF    |     4 |     |    |          |                 |
-#+TBLFM: @2$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @4$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @8$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @9$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @15$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @21$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @2$5..@3$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @2$3))))
-#+TBLFM: @4$5..@7$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @4$3))))
-#+TBLFM: @8$5..@8$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @8$3))))
-#+TBLFM: @9$5..@14$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @9$3))))
-#+TBLFM: @15$5..@20$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @15$3))))
-#+TBLFM: @21$5..@25$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @21$3))))
 
 **** Resistance and Immunities
 ***** Resistance
@@ -905,18 +893,6 @@ spells and other magical effects.
 |         |       |     |    | 1d20 + 7  | Persuasion      |
 |---------+-------+-----+----+-----------+-----------------|
 | PROF    |     5 |     |    |           |                 |
-#+TBLFM: @2$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @4$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @8$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @9$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @15$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @21$3='(calc-dnd-mod (string-to-number $2))
-#+TBLFM: @2$5..@3$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @2$3))))
-#+TBLFM: @4$5..@7$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @4$3))))
-#+TBLFM: @8$5..@8$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @8$3))))
-#+TBLFM: @9$5..@14$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @9$3))))
-#+TBLFM: @15$5..@20$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @15$3))))
-#+TBLFM: @21$5..@25$5='(concat "1d20 + " (number-to-string (+ (calc-dnd-pb (string-to-number @26$2) $4) (string-to-number @21$3))))
 
 **** Resistances and Immunities
 ***** Resistance
