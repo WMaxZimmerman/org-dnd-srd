@@ -1,56 +1,59 @@
 #+STARTUP: content showstars indent
 #+FILETAGS: creature
 
-* CREATURES
-  :PROPERTIES:
-  :CUSTOM_ID: creatures
-  :END:
-
+* Creatures
 This section contains statistics for various animals, vermin, and other
 critters. The stat blocks are organized alphabetically by creature name.
+
+* Beast                                                               :beast:
+** Ape                                             :medium:unaligned:cr_1_2:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: 0.5
+:XP: 100
+:END:
+- Armor Class :: 12
+- Hit Points :: 19 (3d8+6)
+- Speed
+  - Walking :: 30 ft
+  - Climbing :: 30 ft
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 16 (+3) | 14 (+2) | 14 (+2) | 6 (-2) | 12 (+1) | 7 (-2) |
+
+- Skills
+  - Athletics :: +5
+  - Perception :: +3
+    
+- Senses
+  - Passive Perception :: 13
+
+- Languages :: None
+
+*** Actions
+- Multiattack :: The ape makes two fist attacks.
+
+**** Fist /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft
+- one target
+- Hit :: 6 (1d6+3) bludgeoning damage
+
+**** Rock /Ranged Weapon Attack/
+- +5 to hit
+- range 25/50 ft
+- one target
+- Hit :: 6 (1d6+3) bludgeoning damage
 
 * Creatures (A-C)
   :PROPERTIES:
   :CUSTOM_ID: creatures-a-c
   :END:
 
-** Ape
-   :PROPERTIES:
-   :CUSTOM_ID: ape
-   :END:
 
-/Medium beast, unaligned/
-
-*Armor Class* 12
-
-*Hit Points* 19 (3d8+6)
-
-*Speed* 30 ft., climb 30 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 16 (+3) | 14 (+2) | 14 (+2) | 6 (-2) | 12 (+1) | 7 (-2) |
-
-*Skills* Athletics +5, Perception +3
-
-*Senses* passive Perception 13
-
-*Languages* -
-
-*Challenge* 1/2 (100 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions
-       :END:
-
-*/Multiattack/*. The ape makes two fist attacks.
-
-*/Fist/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one target.
-/Hit:/ 6 (1d6+3) bludgeoning damage.
-
-*/Rock/*. /Ranged Weapon Attack:/ +5 to hit, range 25/50 ft., one
-target. /Hit:/ 6 (1d6+3) bludgeoning damage.
 
 ** Awakened Shrub
    :PROPERTIES:
