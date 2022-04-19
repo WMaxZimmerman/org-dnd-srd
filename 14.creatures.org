@@ -154,6 +154,92 @@ unfamiliar creature that wanders too close.
 - reach 5 ft
 - one target
 - Hit :: 1 piercing damage
+
+** Bat                                                 :tiny:unaligned:cr_0:
+:PROPERTIES:
+:SIZE: tiny
+:ALIGNMENT: unaligned
+:CR: 0
+:XP: 10
+:END:
+- Armor Class :: 12
+- Hit Points :: 1 (1d4-1)
+- Speed
+  - Walking :: 5 ft
+  - Flying :: 30 ft
+
+*** Abilities and Skills
+| STR    | DEX     | CON    | INT    | WIS     | CHA    |
+|--------+---------+--------+--------+---------+--------|
+| 2 (-4) | 15 (+2) | 8 (-1) | 2 (-4) | 12 (+1) | 4 (-3) |
+
+*** Features
+- Senses
+  - Blindsight :: 60 ft
+  - Passive Perception :: 11
+
+- Languages
+  - None
+
+- Echolocation ::
+  The bat can't use its blindsight while deafened.
+
+- Keen Hearing ::
+  The bat has advantage on Wisdom (Perception) checks that rely on hearing.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +0 to hit
+- reach 5 ft
+- one creature
+- Hit :: 1 piercing damage
+
+** Black Bear                                      :medium:unaligned:cr_1_2:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: 0.5
+:XP: 100
+:END:
+- Armor Class :: 11 (natural armor)
+- Hit Points :: 19 (3d8+6)
+- Speed
+  - Walking :: 40 ft
+  - Climbing :: 30 ft
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 15 (+2) | 10 (+0) | 14 (+2) | 2 (-4) | 12 (+1) | 7 (-2) |
+
+- Skills
+  - Perception :: +3
+
+*** Features
+- Senses
+  - Passive Perception :: 13
+
+- Languages
+  - None
+
+- Keen Smell ::
+  The bear has advantage on Wisdom (Perception) checks that rely on smell.
+
+*** Actions
+- Multiattack ::
+  The bear makes two attacks: one with its bite and one with its claws.
+
+**** Bite /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft
+- one target
+- Hit :: 5 (1d6+2) piercing damage
+
+**** Claws /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft
+- one target
+- Hit :: 7 (2d4+2) slashing damage
   
 * Plant                                                               :plant:
 ** Awakened Shrub                                     :small:unaligned:cr_0:
@@ -239,131 +325,56 @@ the [[file:10.spells.org::*Awaken][Awaken]] spell or similar magic.
 - one target
 - Hit :: 14 (3d6+4) bludgeoning damage
 
-* Creatures (A-C)
 
-** Bat
-   :PROPERTIES:
-   :CUSTOM_ID: bat
-   :END:
-
-/Tiny beast, unaligned/
-
-*Armor Class* 12
-
-*Hit Points* 1 (1d4-1)
-
-*Speed* 5 ft., fly 30 ft.
-
-| STR    | DEX     | CON    | INT    | WIS     | CHA    |
-|--------+---------+--------+--------+---------+--------|
-| 2 (-4) | 15 (+2) | 8 (-1) | 2 (-4) | 12 (+1) | 4 (-3) |
-
-*Senses* blindsight 60 ft., passive Perception 11
-
-*Languages* -
-
-*Challenge* 0 (10 XP)
-
-*/Echolocation/*. The bat can't use its blindsight while deafened.
-
-*/Keen Hearing/*. The bat has advantage on Wisdom (Perception) checks
-that rely on hearing.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-6
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +0 to hit, reach 5 ft., one creature.
-/Hit:/ 1 piercing damage.
-
-** Black Bear
-   :PROPERTIES:
-   :CUSTOM_ID: black-bear
-   :END:
-
-/Medium beast, unaligned/
-
-*Armor Class* 11 (natural armor)
-
-*Hit Points* 19 (3d8+6)
-
-*Speed* 40 ft., climb 30 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 15 (+2) | 10 (+0) | 14 (+2) | 2 (-4) | 12 (+1) | 7 (-2) |
-
-*Skills* Perception +3
-
-*Senses* passive Perception 13
-
-*Languages* -
-
-*Challenge* 1/2 (100 XP)
-
-*/Keen Smell/*. The bear has advantage on Wisdom (Perception) checks
-that rely on smell.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-7
-       :END:
-
-*/Multiattack/*. The bear makes two attacks: one with its bite and one
-with its claws.
-
-*/Bite/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 5 (1d6+2) piercing damage.
-
-*/Claws./* /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 7 (2d4+2) slashing damage.
-
-** Blink Dog
-   :PROPERTIES:
-   :CUSTOM_ID: blink-dog
-   :END:
-
-/Medium fey, lawful good/
-
-*Armor Class* 13
-
-*Hit Points* 22 (4d8+4)
-
-*Speed* 40 ft.
-
-| STR     | DEX     | CON     | INT     | WIS     | CHA     |
-|---------+---------+---------+---------+---------+---------|
-| 12 (+1) | 17 (+3) | 12 (+1) | 10 (+0) | 13 (+1) | 11 (+0) |
-
-*Skills* Perception +3, Stealth +5
-
-*Senses* passive Perception 13
-
-*Languages* Blink Dog, understands Sylvan but can't speak it
-
-*Challenge* 1/4 (50 XP)
-
-*/Keen Hearing and Smell/*. The dog has advantage on Wisdom (Perception)
-checks that rely on hearing or smell.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-8
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +3 to hit, reach 5 ft., one target.
-/Hit:/ 4 (1d6+1) piercing damage.
-
-*/Teleport (Recharge 4-6)/*. The dog magically teleports, along with any
-equipment it is wearing or carrying, up to 40 feet to an unoccupied
-space it can see. Before or after teleporting, the dog can make one bite
-attack.
-
+* Fey                                                                   :fey:
+** Blink Dog                                     :medium:lawful:good:cr_1_4:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: lawful good
+:CR: 0.25
+:XP: 50
+:END:
 A *blink dog* takes its name from its ability to blink in and out of
 existence, a talent it uses to aid its attacks and to avoid harm. Blink
 dogs harbor a long- standing hatred for displacer beasts and attack them
 on sight.
+
+- Armor Class :: 13
+- Hit Points :: 22 (4d8+4)
+- Speed :: 40 ft
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT     | WIS     | CHA     |
+|---------+---------+---------+---------+---------+---------|
+| 12 (+1) | 17 (+3) | 12 (+1) | 10 (+0) | 13 (+1) | 11 (+0) |
+
+- Skills
+  - Perception :: +3
+  - Stealth :: +5
+
+*** Features
+- Senses
+  - Passive Perception :: 13
+
+- Languages
+  - Understands Sylvan but can't speak it
+
+- Keen Hearing and Smell ::
+  The dog has advantage on Wisdom (Perception) checks that rely on hearing or smell.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +3 to hit
+- reach 5 ft
+- one target
+- Hit :: 4 (1d6+1) piercing damage
+
+**** Teleport (Recharge 4-6)
+The dog magically teleports, along with any equipment it is wearing or carrying, up
+to 40 feet to an unoccupied space it can see. Before or after teleporting, the dog
+can make one bite attack.
+
+* Creatures (A-C)
 
 ** Blood Hawk
    :PROPERTIES:
