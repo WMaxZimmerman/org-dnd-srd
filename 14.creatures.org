@@ -48,198 +48,198 @@ critters. The stat blocks are organized alphabetically by creature name.
 - one target
 - Hit :: 6 (1d6+3) bludgeoning damage
 
-* Creatures (A-C)
-  :PROPERTIES:
-  :CUSTOM_ID: creatures-a-c
-  :END:
-
-
-
-** Awakened Shrub
-   :PROPERTIES:
-   :CUSTOM_ID: awakened-shrub
-   :END:
-
-/Small plant, unaligned/
-
-*Armor Class* 9
-
-*Hit Points* 10 (3d6)
-
-*Speed* 20 ft.
-
-| STR    | DEX    | CON     | INT     | WIS     | CHA    |
-|--------+--------+---------+---------+---------+--------|
-| 3 (-4) | 8 (-1) | 11 (+0) | 10 (+0) | 10 (+0) | 6 (-2) |
-
-*Damage Vulnerabilities* fire
-
-*Damage Resistances* piercing
-
-*Senses* passive Perception 10
-
-*Languages* one language known by its creator
-
-*Challenge* 0 (10 XP)
-
-*/False Appearance/*. While the shrub remains motionless, it is
-indistinguishable from a normal shrub.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-1
-       :END:
-
-*/Rake/*. /Melee Weapon Attack:/ +1 to hit, reach 5 ft., one target.
-/Hit:/ 1 (1d4-1) slashing damage.
-
-An *awakened shrub* is an ordinary shrub given sentience and mobility by
-the /awaken/ spell or similar magic.
-
-** Awakened Tree
-   :PROPERTIES:
-   :CUSTOM_ID: awakened-tree
-   :END:
-
-/Huge plant, unaligned/
-
-*Armor Class* 13 (natural armor)
-
-*Hit Points* 59 (7d12+14)
-
-*Speed* 20 ft.
-
-| STR     | DEX    | CON     | INT     | WIS     | CHA    |
-|---------+--------+---------+---------+---------+--------|
-| 19 (+4) | 6 (-2) | 15 (+2) | 10 (+0) | 10 (+0) | 7 (-2) |
-
-*Damage Vulnerabilities* fire
-
-*Damage Resistances* bludgeoning, piercing
-
-*Senses* passive Perception 10
-
-*Languages* one language known by its creator
-
-*Challenge* 2 (450 XP)
-
-*/False Appearance/*. While the tree remains motionless, it is
-indistinguishable from a normal tree.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-2
-       :END:
-
-*/Slam/*. /Melee Weapon Attack:/ +6 to hit, reach 10 ft., one target.
-/Hit:/ 14 (3d6+4) bludgeoning damage.
-
-An *awakened tree* is an ordinary tree given sentience and mobility by
-the /awaken/ spell or similar magic.
-
-** Axe Beak
-   :PROPERTIES:
-   :CUSTOM_ID: axe-beak
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 11
-
-*Hit Points* 19 (3d10+3)
-
-*Speed* 50 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 14 (+2) | 12 (+1) | 12 (+1) | 2 (-4) | 10 (+0) | 5 (-3) |
-
-*Senses* passive Perception 10
-
-*Languages* -
-
-*Challenge* 1/4 (50 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-3
-       :END:
-
-*/Beak/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 6 (1d8+2) slashing damage.
-
+** Axe Beak                                         :large:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: 0.25
+:XP: 50
+:END:
 An *axe beak* is a tall flightless bird with strong legs and a heavy,
 wedge-shaped beak. It has a nasty disposition and tends to attack any
 unfamiliar creature that wanders too close.
 
-** Baboon
-   :PROPERTIES:
-   :CUSTOM_ID: baboon
-   :END:
+- Armor Class :: 11
+- Hit Points :: 19 (3d10+3)
+- Speed :: 50 ft
 
-/Small beast, unaligned/
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 14 (+2) | 12 (+1) | 12 (+1) | 2 (-4) | 10 (+0) | 5 (-3) |
 
-*Armor Class* 12
+*** Features
+- Senses
+  - Passive Perception :: 10
 
-*Hit Points* 3 (1d6)
+- Languages
+  - None
 
-*Speed* 30 ft., climb 30 ft.
+*** Actions
+**** Beak /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft
+- one target
+- Hit :: 6 (1d8+2) slashing damage
 
+** Baboon                                             :small:unaligned:cr_0:
+:PROPERTIES:
+:SIZE: small
+:ALIGNMENT: unaligned
+:CR: 0
+:XP: 10
+:END:
+- Armor Class :: 12
+- Hit Points :: 3 (1d6)
+- Speed
+  - Walking ::30 ft
+  - Climbing :: 30 ft.
+
+*** Abilities and Skills
 | STR    | DEX     | CON     | INT    | WIS     | CHA    |
 |--------+---------+---------+--------+---------+--------|
 | 8 (-1) | 14 (+2) | 11 (+0) | 4 (-3) | 12 (+1) | 6 (-2) |
 
-*Senses* passive Perception 11
+*** Features
+- Senses
+  - Passive Perception :: 11
 
-*Languages* -
+- Languages
+  - None
 
-*Challenge* 0 (10 XP)
+- Pack Tactics ::
+  The baboon has advantage on an attack roll against a creature if at least
+  one of the baboon's allies is within 5 feet of the creature and the ally
+  isn't incapacitated.
 
-*/Pack Tactics/*. The baboon has advantage on an attack roll against a
-creature if at least one of the baboon's allies is within 5 feet of the
-creature and the ally isn't incapacitated.
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +1 to hit
+- reach 5 ft
+- one target
+- Hit :: 1 (1d4-1) piercing damage
 
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-4
-       :END:
+** Badger                                              :tiny:cr_0:unaligned:
+:PROPERTIES:
+:SIZE: tiny
+:ALIGNMENT: unaligned
+:CR: 0
+:XP: 10
+:END:
+- Armor Class :: 10
+- Hit Points :: 3 (1d4+1)
+- Speed ::
+  - Walking :: 20 ft
+  - Burrow :: 5 ft
 
-*/Bite/*. /Melee Weapon Attack:/ +1 to hit, reach 5 ft., one target.
-/Hit:/ 1 (1d4-1) piercing damage.
-
-** Badger
-   :PROPERTIES:
-   :CUSTOM_ID: badger
-   :END:
-
-/Tiny beast, unaligned/
-
-*Armor Class* 10
-
-*Hit Points* 3 (1d4+1)
-
-*Speed* 20 ft., burrow 5 ft.
-
+*** Abilities and Skills
 | STR    | DEX     | CON     | INT    | WIS     | CHA    |
 |--------+---------+---------+--------+---------+--------|
 | 4 (-3) | 11 (+0) | 12 (+1) | 2 (-4) | 12 (+1) | 5 (-3) |
 
-*Senses* darkvision 30 ft., passive Perception 11
+*** Features
+- Senses
+  - Darkvision :: 30 ft
+  - Passive Perception :: 11
 
-*Languages* -
+- Languages
+  - None
 
-*Challenge* 0 (10 XP)
+- Keen Smell ::
+  The badger has advantage on Wisdom (Perception) checks that rely on smell.
 
-*/Keen Smell/*. The badger has advantage on Wisdom (Perception) checks
-that rely on smell.
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +2 to hit
+- reach 5 ft
+- one target
+- Hit :: 1 piercing damage
+  
+* Plant                                                               :plant:
+** Awakened Shrub                                     :small:unaligned:cr_0:
+:PROPERTIES:
+:SIZE: small
+:ALIGNMENT: unaligned
+:CR: 0
+:XP: 10
+:END:
+An *awakened shrub* is an ordinary shrub given sentience and mobility by the
+[[file:10.spells.org::*Awaken][Awaken]] spell or similar magic.
 
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-5
-       :END:
+- Armor Class :: 9
+- Hit Points :: 10 (3d6)
+- Speed :: 20 ft
 
-*/Bite/*. /Melee Weapon Attack:/ +2 to hit, reach 5 ft., one target.
-/Hit:/ 1 piercing damage.
+*** Abilities and Skills
+| STR    | DEX    | CON     | INT     | WIS     | CHA    |
+|--------+--------+---------+---------+---------+--------|
+| 3 (-4) | 8 (-1) | 11 (+0) | 10 (+0) | 10 (+0) | 6 (-2) |
+
+*** Features
+- Damage Vulnerabilities
+  - fire
+- Damage Resistances
+  - piercing
+
+- Senses
+  - Passive Perception :: 10
+
+- Languages
+  - one language known by its creator
+
+- False Appearance ::
+  While the shrub remains motionless, it is indistinguishable from a normal shrub.
+
+*** Actions
+**** Rake /Melee Weapon Attack/
+- +1 to hit
+- reach 5 ft
+- one target
+- Hit :: 1 (1d4-1) slashing damage
+
+** Awakened Tree                                       :huge:unaligned:cr_2:
+:PROPERTIES:
+:SIZE: huge
+:ALIGNMENT: unaligned
+:CR: 2
+:XP: 450
+:END:
+An *awakened tree* is an ordinary tree given sentience and mobility by
+the [[file:10.spells.org::*Awaken][Awaken]] spell or similar magic.
+
+- Armor Class :: 13 (natural armor)
+- Hit Points :: 59 (7d12+14)
+- Speed :: 20 ft
+
+*** Abilities and Skills
+| STR     | DEX    | CON     | INT     | WIS     | CHA    |
+|---------+--------+---------+---------+---------+--------|
+| 19 (+4) | 6 (-2) | 15 (+2) | 10 (+0) | 10 (+0) | 7 (-2) |
+
+*** Features
+- Damage Vulnerabilities
+  - fire
+- Damage Resistances
+  - bludgeoning
+  - piercing
+
+- Senses
+  - Passive Perception :: 10
+
+- Languages
+  - one language known by its creator
+
+- False Appearance ::
+  While the tree remains motionless, it is indistinguishable from a normal tree.
+
+*** Actions
+**** Slam /Melee Weapon Attack/
+- +6 to hit
+- reach 10 ft
+- one target
+- Hit :: 14 (3d6+4) bludgeoning damage
+
+* Creatures (A-C)
 
 ** Bat
    :PROPERTIES:
