@@ -240,7 +240,142 @@ unfamiliar creature that wanders too close.
 - reach 5 ft
 - one target
 - Hit :: 7 (2d4+2) slashing damage
-  
+
+** Blood Hawk                                       :small:unaligned:cr_1_8:
+:PROPERTIES:
+:SIZE: small
+:ALIGNMENT: unaligned
+:CR: 0.125
+:XP: 25
+:END:
+Taking its name from its crimson feathers and aggressive nature, the
+*blood hawk* fearlessly attacks almost any animal, stabbing it with its
+daggerlike beak. Blood hawks flock together in large numbers, attacking
+as a pack to take down prey.
+
+- Armor Class :: 12
+- Hit Points :: 7 (2d6)
+- Speed
+  - Walking :: 10 ft
+  - Flying :: 60 ft
+
+*** Abilities and Skills
+| STR    | DEX     | CON     | INT    | WIS     | CHA    |
+|--------+---------+---------+--------+---------+--------|
+| 6 (-2) | 14 (+2) | 10 (+0) | 3 (-4) | 14 (+2) | 5 (-3) |
+
+- Skills
+  - Perception :: +4
+
+*** Features
+- Senses
+  - Passive Perception :: 14
+
+- Languages
+  - None
+
+- Keen Sight ::
+  The hawk has advantage on Wisdom (Perception) checks that rely on sight.
+
+- Pack Tactics ::
+  The hawk has advantage on an attack roll against a creature if at least
+  one of the hawk's allies is within 5 feet of the creature and the ally
+  isn't incapacitated.
+
+*** Actions
+**** Beak /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft
+- one target
+- Hit :: 4 (1d4+2) piercing damage
+
+** Boar                                            :medium:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: 0.25
+:XP: 50
+:END:
+- Armor Class :: 11 (natural armor)
+- Hit Points :: 11 (2d8+2)
+- Speed :: 40 ft
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS    | CHA    |
+|---------+---------+---------+--------+--------+--------|
+| 13 (+1) | 11 (+0) | 12 (+1) | 2 (-4) | 9 (-1) | 5 (-3) |
+
+*** Features
+- Senses
+  - Passive Perception :: 9
+
+- Languages
+  - None
+
+- Charge ::
+  If the boar moves at least 20 feet straight toward a target and then hits
+  it with a tusk attack on the same turn, the target takes an extra 3 (1d6)
+  slashing damage. If the target is a creature, it must succeed on a DC 11
+  Strength saving throw or be knocked prone.
+
+- Relentless (Recharges after a Short or Long Rest) ::
+  If the boar takes 7 damage or less that would reduce it to 0 hit points,
+  it is reduced to 1 hit point instead.
+
+*** Actions
+**** Tusk /Melee Weapon Attack/
+- +3 to hit
+- reach 5 ft
+- one target
+- Hit :: 4 (1d6+1) slashing damage
+
+** Brown Bear                                         :large:unaligned:cr_1:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: 1
+:XP: 200
+:END:
+- Armor Class :: 11 (natural armor)
+- Hit Points :: 34 (4d10+12)
+- Speed
+  - Walking :: 40 ft
+  - Climbing :: 30 ft
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 19 (+4) | 10 (+0) | 16 (+3) | 2 (-4) | 13 (+1) | 7 (-2) |
+
+- Skills
+  - Perception :: +3
+
+*** Features
+- Senses
+  - Passive Perception :: 13
+
+- Languages
+  - None
+
+- Keen Smell ::
+  The bear has advantage on Wisdom (Perception) checks that rely on smell.
+
+*** Actions
+**** Multiattack
+The bear makes two attacks: one with its bite and one with its claws.
+
+**** Bite /Melee Weapon Attack/
+- +6 to hit
+- reach 5 ft
+- one target
+- Hit :: 8 (1d8+4) piercing damage
+
+**** Claws /Melee Weapon Attack/
+- +6 to hit
+- reach 5 ft
+- one target
+- Hit :: 11 (2d6+4) slashing damage
+
 * Plant                                                               :plant:
 ** Awakened Shrub                                     :small:unaligned:cr_0:
 :PROPERTIES:
@@ -375,133 +510,6 @@ to 40 feet to an unoccupied space it can see. Before or after teleporting, the d
 can make one bite attack.
 
 * Creatures (A-C)
-
-** Blood Hawk
-   :PROPERTIES:
-   :CUSTOM_ID: blood-hawk
-   :END:
-
-/Small beast, unaligned/
-
-*Armor Class* 12
-
-*Hit Points* 7 (2d6)
-
-*Speed* 10 ft., fly 60 ft.
-
-| STR    | DEX     | CON     | INT    | WIS     | CHA    |
-|--------+---------+---------+--------+---------+--------|
-| 6 (-2) | 14 (+2) | 10 (+0) | 3 (-4) | 14 (+2) | 5 (-3) |
-
-*Skills* Perception +4
-
-*Senses* passive Perception 14
-
-*Languages* -
-
-*Challenge* 1/8 (25 XP)
-
-*/Keen Sight/*. The hawk has advantage on Wisdom (Perception) checks
-that rely on sight.
-
-*/Pack Tactics/*. The hawk has advantage on an attack roll against a
-creature if at least one of the hawk's allies is within 5 feet of the
-creature and the ally isn't incapacitated.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-9
-       :END:
-
-*/Beak/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 4 (1d4+2) piercing damage.
-
-Taking its name from its crimson feathers and aggressive nature, the
-*blood hawk* fearlessly attacks almost any animal, stabbing it with its
-daggerlike beak. Blood hawks flock together in large numbers, attacking
-as a pack to take down prey.
-
-** Boar
-   :PROPERTIES:
-   :CUSTOM_ID: boar
-   :END:
-
-/Medium beast, unaligned/
-
-*Armor Class* 11 (natural armor)
-
-*Hit Points* 11 (2d8+2)
-
-*Speed* 40 ft.
-
-| STR     | DEX     | CON     | INT    | WIS    | CHA    |
-|---------+---------+---------+--------+--------+--------|
-| 13 (+1) | 11 (+0) | 12 (+1) | 2 (-4) | 9 (-1) | 5 (-3) |
-
-*Senses* passive Perception 9
-
-*Languages* -
-
-*Challenge* 1/4 (50 XP)
-
-*/Charge/*. If the boar moves at least 20 feet straight toward a target
-and then hits it with a tusk attack on the same turn, the target takes
-an extra 3 (1d6) slashing damage. If the target is a creature, it must
-succeed on a DC 11 Strength saving throw or be knocked prone.
-
-*/Relentless (Recharges after a Short or Long Rest)/*. If the boar takes
-7 damage or less that would reduce it to 0 hit points, it is reduced to
-1 hit point instead.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-10
-       :END:
-
-*/Tusk/*. /Melee Weapon Attack:/ +3 to hit, reach 5 ft., one target.
-/Hit:/ 4 (1d6+1) slashing damage.
-
-** Brown Bear
-   :PROPERTIES:
-   :CUSTOM_ID: brown-bear
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 11 (natural armor)
-
-*Hit Points* 34 (4d10+12)
-
-*Speed* 40 ft., climb 30 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 19 (+4) | 10 (+0) | 16 (+3) | 2 (-4) | 13 (+1) | 7 (-2) |
-
-*Skills* Perception +3
-
-*Senses* passive Perception 13
-
-*Languages* -
-
-*Challenge* 1 (200 XP)
-
-*/Keen Smell/*. The bear has advantage on Wisdom (Perception) checks
-that rely on smell.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-11
-       :END:
-
-*/Multiattack/*. The bear makes two attacks: one with its bite and one
-with its claws.
-
-*/Bite/*. /Melee Weapon Attack:/ +6 to hit, reach 5 ft., one target.
-/Hit:/ 8 (1d8+4) piercing damage.
-
-*/Claws./* /Melee Weapon Attack:/ +6 to hit, reach 5 ft., one target.
-/Hit:/ 11 (2d6+4) slashing damage.
 
 ** Camel
    :PROPERTIES:
