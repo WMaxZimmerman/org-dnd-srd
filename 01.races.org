@@ -1,4 +1,6 @@
+#+LATEX_CLASS: dnd
 #+STARTUP: content showstars indent
+#+OPTIONS: tags:nil
 #+FILETAGS: races
 
 * Intro
