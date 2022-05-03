@@ -376,6 +376,197 @@ The bear makes two attacks: one with its bite and one with its claws.
 - one target
 - Hit :: 11 (2d6+4) slashing damage
 
+** Camel                                            :large:unaligned:cr_1_8:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: .125
+:XP: 25
+:END:
+- Armor Class :: 9
+- Hit Points :: 15 (2d10+4)
+- Speed :: 50 ft.
+
+*** Abilities and Skills
+| STR     | DEX    | CON     | INT    | WIS    | CHA    |
+|---------+--------+---------+--------+--------+--------|
+| 16 (+3) | 8 (-1) | 14 (+2) | 2 (-4) | 8 (-1) | 5 (-3) |
+
+- Senses
+  - Passive Perception :: 9
+
+*** Features
+- Languages
+  - None
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft
+- one target
+- Hit :: 2 (1d4) bludgeoning damage
+
+** Cat                                                 :tiny:unaligned:cr_0:
+:PROPERTIES:
+:SIZE: tiny
+:ALIGNMENT: unaligned
+:CR: 0
+:XP: 10
+:END:
+- Armor Class :: 12
+- Hit Points :: 2 (1d4)
+- Speed
+  - Walking :: 40 ft
+  - Climbing :: 30 ft
+
+*** Abilities and Skills
+| STR    | DEX     | CON     | INT    | WIS     | CHA    |
+|--------+---------+---------+--------+---------+--------|
+| 3 (-4) | 15 (+2) | 10 (+0) | 3 (-4) | 12 (+1) | 7 (-2) |
+
+- Skills
+  - Perception :: +3
+  - Stealth :: +4
+
+*** Features
+- Senses
+  - Passive Perception :: 13
+
+- Languages
+  - None
+
+- Keen Smell ::
+  The cat has advantage on Wisdom (Perception) checks that rely on smell.
+
+*** Actions
+**** Claws /Melee Weapon Attack/
+- +0 to hit
+- reach 5 ft
+- one target
+- Hit :: 1 slashing damage
+
+** Constrictor Snake                                :large:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: .25
+:XP: 50
+:END:
+- Armor Class :: 12
+- Hit Points :: 13 (2d10+2)
+- Speed ::
+  - Walking :: 30 ft
+  - Swimming :: 30 ft
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 15 (+2) | 14 (+2) | 12 (+1) | 1 (-5) | 10 (+0) | 3 (-4) |
+
+*** Features
+- Senses
+  - Blindsight :: 10 ft
+  - Passive Perception :: 10
+    
+- Languages
+  - None
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft
+- one creature
+- Hit :: 5 (1d6+2) piercing damage
+
+**** Constrict /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft
+- one creature
+- Hit ::
+  6 (1d8+2) bludgeoning damage, and the target is grappled (escape DC 14).
+  Until this grapple ends, the creature is restrained, and the snake can't
+  constrict another target.
+
+** Crab                                                :tiny:unaligned:cr_0:
+:PROPERTIES:
+:SIZE: tiny
+:ALIGNMENT: unaligned
+:CR: 0
+:XP: 10
+:END:
+- Armor Class :: 11 (natural armor)
+- Hit Points :: 2 (1d4)
+- Speed
+  - Walking :: 20 ft
+  - Swiming :: 20 ft
+
+*** Abilities and Skills
+| STR    | DEX     | CON     | INT    | WIS    | CHA    |
+|--------+---------+---------+--------+--------+--------|
+| 2 (-4) | 11 (+0) | 10 (+0) | 1 (-5) | 8 (-1) | 2 (-4) |
+
+- Skills
+  - Stealth :: +2
+
+*** Features
+- Senses
+  - Blindsight :: 30 ft
+  - Passive Perception :: 9
+
+- Languages
+  - None
+
+- Amphibious ::
+  The crab can breathe air and water.
+
+*** Actions
+**** Claw /Melee Weapon Attack/
+- +0 to hit
+- reach 5 ft
+- one target
+- Hit :: 1 bludgeoning damage
+
+** Crocodile                                        :large:unaligned:cr_1_2:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: .5
+:XP: 100
+:END:
+- Armor Class :: 12 (natural armor)
+- Hit Points :: 19 (3d10+3)
+- Speed ::
+  - Walking :: 20 ft
+  - Swiming :: 30 ft
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 15 (+2) | 10 (+0) | 13 (+1) | 2 (-4) | 10 (+0) | 5 (-3) |
+
+*Skills* Stealth +2
+
+*** Features
+- Senses ::
+  - Passive Perception :: 10
+
+- Languages
+  - None
+
+- Hold Breath ::
+  The crocodile can hold its breath for 15 minutes.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft
+- one creature
+- Hit ::
+  7 (1d10+2) piercing damage, and the target is grappled (escape DC 12).
+  Until this grapple ends, the target is restrained, and the crocodile
+  can't bite another target.
+
+
 * Plant                                                               :plant:
 ** Awakened Shrub                                     :small:unaligned:cr_0:
 :PROPERTIES:
@@ -509,237 +700,68 @@ The dog magically teleports, along with any equipment it is wearing or carrying,
 to 40 feet to an unoccupied space it can see. Before or after teleporting, the dog
 can make one bite attack.
 
-* Creatures (A-C)
+* Monstrosity                                                   :monstrosity:
+** Death Dog                                      :medium:neutral:evil:cr_1:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: neutral evil
+:CR: 1
+:XP: 200
+:END:
+A *death dog* is an ugly two-headed hound that roams plains, and
+deserts. Hate burns in a death dog's heart, and a taste for humanoid
+flesh drives it to attack travelers and explorers. Death dog saliva
+carries a foul disease that causes a victim's flesh to slowly rot off
+the bone.
 
-** Camel
-   :PROPERTIES:
-   :CUSTOM_ID: camel
-   :END:
+- Armor Class :: 12
+- Hit Points :: 39 (6d8+12)
+- Speed :: 40 ft.
 
-/Large beast, unaligned/
-
-*Armor Class* 9
-
-*Hit Points* 15 (2d10+4)
-
-*Speed* 50 ft.
-
-| STR     | DEX    | CON     | INT    | WIS    | CHA    |
-|---------+--------+---------+--------+--------+--------|
-| 16 (+3) | 8 (-1) | 14 (+2) | 2 (-4) | 8 (-1) | 5 (-3) |
-
-*Senses* passive Perception 9
-
-*Languages* -
-
-*Challenge* 1/8 (25 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-12
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one target.
-/Hit:/ 2 (1d4) bludgeoning damage.
-
-** Cat
-   :PROPERTIES:
-   :CUSTOM_ID: cat
-   :END:
-
-/Tiny beast, unaligned/
-
-*Armor Class* 12
-
-*Hit Points* 2 (1d4)
-
-*Speed* 40 ft., climb 30 ft.
-
-| STR    | DEX     | CON     | INT    | WIS     | CHA    |
-|--------+---------+---------+--------+---------+--------|
-| 3 (-4) | 15 (+2) | 10 (+0) | 3 (-4) | 12 (+1) | 7 (-2) |
-
-*Skills* Perception +3, Stealth +4
-
-*Senses* passive Perception 13
-
-*Languages* -
-
-*Challenge* 0 (10 XP)
-
-*/Keen Smell/*. The cat has advantage on Wisdom (Perception) checks that
-rely on smell.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-13
-       :END:
-
-*/Claws./* /Melee Weapon Attack:/ +0 to hit, reach 5 ft., one target.
-/Hit:/ 1 slashing damage.
-
-** Constrictor Snake
-   :PROPERTIES:
-   :CUSTOM_ID: constrictor-snake
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 12
-
-*Hit Points* 13 (2d10+2)
-
-*Speed* 30 ft., swim 30 ft.
-
+*** Abilities and Skills
 | STR     | DEX     | CON     | INT    | WIS     | CHA    |
 |---------+---------+---------+--------+---------+--------|
-| 15 (+2) | 14 (+2) | 12 (+1) | 1 (-5) | 10 (+0) | 3 (-4) |
+| 15 (+2) | 14 (+2) | 14 (+2) | 3 (-4) | 13 (+1) | 6 (-2) |
 
-*Senses* blindsight 10 ft., passive Perception 10
+- Skills
+  - Perception :: +5
+  - Stealth :: +4
 
-*Languages* -
+*** Features
+- Senses ::
+  - Darkvision :: 120 ft
+  - Passive Perception :: 15
 
-*Challenge* 1/4 (50 XP)
+- Languages
+  - None
 
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-14
-       :END:
+- Two-Headed ::
+  The dog has advantage on Wisdom (Perception) checks and on saving throws
+  against being blinded, charmed, deafened, frightened, stunned, or
+  knocked unconscious.
 
-*/Bite/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one creature.
-/Hit:/ 5 (1d6+2) piercing damage.
+*** Actions
+**** Multiattack
+The dog makes two bite attacks.
 
-*/Constrict/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one
-creature. /Hit:/ 6 (1d8+2) bludgeoning damage, and the target is
-grappled (escape DC 14). Until this grapple ends, the creature is
-restrained, and the snake can't constrict another target.
-
-** Crab
-   :PROPERTIES:
-   :CUSTOM_ID: crab
-   :END:
-
-/Tiny beast, unaligned/
-
-*Armor Class* 11 (natural armor)
-
-*Hit Points* 2 (1d4)
-
-*Speed* 20 ft., swim 20 ft.
-
-| STR    | DEX     | CON     | INT    | WIS    | CHA    |
-|--------+---------+---------+--------+--------+--------|
-| 2 (-4) | 11 (+0) | 10 (+0) | 1 (-5) | 8 (-1) | 2 (-4) |
-
-*Skills* Stealth +2
-
-*Senses* blindsight 30 ft., passive Perception 9
-
-*Languages* -
-
-*Challenge* 0 (10 XP)
-
-*/Amphibious/*. The crab can breathe air and water.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-15
-       :END:
-
-*/Claw/*. /Melee Weapon Attack:/ +0 to hit, reach 5 ft., one target.
-/Hit:/ 1 bludgeoning damage.
-
-** Crocodile
-   :PROPERTIES:
-   :CUSTOM_ID: crocodile
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 12 (natural armor)
-
-*Hit Points* 19 (3d10+3)
-
-*Speed* 20 ft., swim 30 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 15 (+2) | 10 (+0) | 13 (+1) | 2 (-4) | 10 (+0) | 5 (-3) |
-
-*Skills* Stealth +2
-
-*Senses* passive Perception 10
-
-*Languages* -
-
-*Challenge* 1/2 (100 XP)
-
-*/Hold Breath/*. The crocodile can hold its breath for 15 minutes.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-16
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one creature.
-/Hit:/ 7 (1d10+2) piercing damage, and the target is grappled (escape DC
-12). Until this grapple ends, the target is restrained, and the
-crocodile can't bite another target.
+**** Bite /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft
+- one target
+- Hit ::
+  5 (1d6+2) piercing damage. If the target is a creature, it must succeed on
+  a DC 12 Constitution saving throw against disease or become poisoned until
+  the disease is cured. Every 24 hours that elapse, the creature must repeat
+  the saving throw, reducing its hit point maximum by 5 (1d10) on a failure.
+  This reduction lasts until the disease is cured. The creature dies if the
+  disease reduces its hit point maximum to 0.
 
 * Creatures (D-F)
   :PROPERTIES:
   :CUSTOM_ID: creatures-d-f
   :END:
 
-** Death Dog
-   :PROPERTIES:
-   :CUSTOM_ID: death-dog
-   :END:
 
-/Medium monstrosity, neutral evil/
-
-*Armor Class* 12
-
-*Hit Points* 39 (6d8+12)
-
-*Speed* 40 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 15 (+2) | 14 (+2) | 14 (+2) | 3 (-4) | 13 (+1) | 6 (-2) |
-
-*Skills* Perception +5, Stealth +4
-
-*Senses* darkvision 120 ft., passive Perception 15
-
-*Languages* -
-
-*Challenge* 1 (200 XP)
-
-*/Two-Headed/*. The dog has advantage on Wisdom (Perception) checks and
-on saving throws against being blinded, charmed, deafened, frightened,
-stunned, or knocked unconscious.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-17
-       :END:
-
-*/Multiattack/*. The dog makes two bite attacks.
-
-*/Bite/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 5 (1d6+2) piercing damage. If the target is a creature, it must
-succeed on a DC 12 Constitution saving throw against disease or become
-poisoned until the disease is cured. Every 24 hours that elapse, the
-creature must repeat the saving throw, reducing its hit point maximum by
-5 (1d10) on a failure. This reduction lasts until the disease is cured.
-The creature dies if the disease reduces its hit point maximum to 0.
-
-A *death dog* is an ugly two-headed hound that roams plains, and
-deserts. Hate burns in a death dog's heart, and a taste for humanoid
-flesh drives it to attack travelers and explorers. Death dog saliva
-carries a foul disease that causes a victim's flesh to slowly rot off
-the bone.
 
 ** Deer
    :PROPERTIES:
