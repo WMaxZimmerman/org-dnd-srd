@@ -1,5 +1,8 @@
+#+LATEX_CLASS: dnd
 #+STARTUP: content showstars indent
+#+OPTIONS: tags:nil
 #+FILETAGS: creature
+#+TITLE: Creatures
 
 * Creatures
 This section contains statistics for various animals, vermin, and other
@@ -566,6 +569,812 @@ The bear makes two attacks: one with its bite and one with its claws.
   Until this grapple ends, the target is restrained, and the crocodile
   can't bite another target.
 
+** Deer                                              :medium:unaligned:cr_0:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: 0
+:XP: 10
+:END:
+- Armor Class :: 13
+- Hit Points :: 4 (1d8)
+- Speed :: 50 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 11 (+0) | 16 (+3) | 11 (+0) | 2 (-4) | 14 (+2) | 5 (-3) |
+
+*** Features
+- Senses
+  - Passive Perception :: 12
+
+- Languages
+  - None
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +2 to hit
+- reach 5 ft.
+- one target
+- Hit ::
+  2 (1d4) piercing damage
+
+** Dire Wolf                                          :large:unaligned:cr_1:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: 1
+:XP: 200
+:END:
+- Armor Class :: 14 (natural armor)
+- Hit Points :: 37 (5d10+10)
+- Speed :: 50 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 17 (+3) | 15 (+2) | 15 (+2) | 3 (-4) | 12 (+1) | 7 (-2) |
+
+- Skills
+  - Perception :: +3
+  - Stealth :: +4
+
+*** Features
+- Senses
+  - Passive Perception :: 13
+
+- Languages
+  - None
+
+- Keen Hearing and Smell ::
+  The wolf has advantage on Wisdom (Perception) checks that rely on hearing or
+  smell.
+
+- Pack Tactics ::
+  The wolf has advantage on an attack roll against a creature if at least one of
+  the wolf's allies is within 5 feet of the creature and the ally isn't
+  incapacitated.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft.
+- one target
+- Hit ::
+  10 (2d6+3) piercing damage. If the target is a creature, it must succeed on a
+  DC 13 Strength saving throw or be knocked prone.
+
+** Draft Horse                                      :large:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: .25
+:XP: 50
+:END:
+- Armor Class :: 10
+- Hit Points :: 19 (3d10+3)
+- Speed :: 40 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 18 (+4) | 10 (+0) | 12 (+1) | 2 (-4) | 11 (+0) | 7 (-2) |
+
+*** Features
+- Senses
+  - Passive Perception :: 10
+
+- Languages
+  - None
+
+*** Actions
+**** Hooves /Melee Weapon Attack/
+- +6 to hit
+- reach 5 ft.
+- one target
+- Hit ::
+  9 (2d4+4) bludgeoning damage
+
+** Eagle                                              :small:unaligned:cr_0:
+:PROPERTIES:
+:SIZE: small
+:ALIGNMENT: unaligned
+:CR: 0
+:XP: 10
+:END:
+- Armor Class :: 12
+- Hit Points :: 3 (1d6)
+- Speed
+  - Walking :: 10 ft.
+  - Flying :: 60 ft.
+
+*** Abilities and Skills
+| STR    | DEX     | CON     | INT    | WIS     | CHA    |
+|--------+---------+---------+--------+---------+--------|
+| 6 (-2) | 15 (+2) | 10 (+0) | 2 (-4) | 14 (+2) | 7 (-2) |
+
+- Skills
+  - Perception :: +4
+
+*** Features
+- Senses
+  - Passive Perception :: 14
+
+- Languages
+  - None
+
+- Keen Sight ::
+  The eagle has advantage on Wisdom (Perception) checks that rely on sight.
+
+*** Actions
+**** Talons /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft.
+- one target
+- Hit ::
+  4 (1d4+2) slashing damage
+
+** Elephant                                            :huge:unaligned:cr_4:
+:PROPERTIES:
+:SIZE: huge
+:ALIGNMENT: unaligned
+:CR: 4
+:XP: 1100
+:END:
+- Armor Class :: 12 (natural armor)
+- Hit Points :: 76 (8d12+24)
+- Speed :: 40 ft.
+
+*** Abilities and Skills
+| STR     | DEX    | CON     | INT    | WIS     | CHA    |
+|---------+--------+---------+--------+---------+--------|
+| 22 (+6) | 9 (-1) | 17 (+3) | 3 (-4) | 11 (+0) | 6 (-2) |
+
+*** Features
+- Senses
+  - Passive Perception :: 10
+
+- Languages
+  - None
+
+- Trampling Charge ::
+  If the elephant moves at least 20 feet straight toward a creature and then
+  hits it with a gore attack on the same turn, that target must succeed on a DC
+  12 Strength saving throw or be knocked prone. If the target is prone, the
+  elephant can make one stomp attack against it as a bonus action.
+
+*** Actions
+**** Gore /Melee Weapon Attack/
+- +8 to hit
+- reach 5 ft.
+- one target
+- Hit ::
+  19 (3d8+6) piercing damage
+
+**** Stomp /Melee Weapon Attack/
+- +8 to hit
+- reach 5 ft.
+- one prone creature
+- Hit ::
+  22 (3d10+6) bludgeoning damage
+
+** Elk                                              :large:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: .25
+:XP: 50
+:END:
+- Armor Class :: 10
+- Hit Points :: 13 (2d10+2)
+- Speed :: 50 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 16 (+3) | 10 (+0) | 12 (+1) | 2 (-4) | 10 (+0) | 6 (-2) |
+
+*** Features
+- Senses
+  - Passive Perception :: 10
+
+- Languages
+  - None
+
+- Charge ::
+  If the elk moves at least 20 feet straight toward a target and then hits it
+  with a ram attack on the same turn, the target takes an extra 7 (2d6) damage.
+  If the target is a creature, it must succeed on a DC 13 Strength saving throw
+  or be knocked prone.
+
+*** Actions
+**** Ram /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft.
+- one target
+- Hit ::
+  6 (1d6+3) bludgeoning damage
+
+**** Hooves /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft.
+- one prone creature
+- Hit ::
+  8 (2d4+3) bludgeoning damage
+
+** Flying Snake                                      :tiny:unaligned:cr_1_8:
+:PROPERTIES:
+:SIZE: tiny
+:ALIGNMENT: unaligned
+:CR: .125
+:XP: 25
+:END:
+A *flying snake* is a brightly colored, winged serpent found in remote jungles.
+Tribes people and cultists sometimes domesticate flying snakes to serve as
+messengers that deliver scrolls wrapped in their coils.
+
+- Armor Class :: 14
+- Hit Points :: 5 (2d4)
+- Speed
+  - Walking :: 30 ft.
+  - Flying :: 60 ft.
+  - Swimming :: 30 ft.
+
+*** Abilities and Skills
+| STR    | DEX     | CON     | INT    | WIS     | CHA    |
+|--------+---------+---------+--------+---------+--------|
+| 4 (-3) | 18 (+4) | 11 (+0) | 2 (-4) | 12 (+1) | 5 (-3) |
+
+*** Features
+- Senses
+  - blindsight :: 10 ft.
+  - Passive Perception :: 11
+
+- Languages
+  - None
+
+- Flyby ::
+  The snake doesn't provoke opportunity attacks when it flies out of an enemy's
+  reach.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +6 to hit
+- reach 5 ft.
+- one target
+- Hit ::
+  1 piercing damage plus 7 (3d4) poison damage
+
+** Frog :tiny:unaligned:cr_0:
+:PROPERTIES:
+:SIZE: tiny
+:ALIGNMENT: unaligned
+:CR: 0
+:XP: 10
+:END:
+A *frog* has no effective attacks. It feeds on small insects and typically
+dwells near water, in trees, or underground. The frog's statistics can also be
+used to represent a *toad*.
+
+- Armor Class :: 11
+- Hit Points :: 1 (1d4-1)
+- Speed
+  - Walking :: 20 ft.
+  - Swimming :: 20 ft.
+
+*** Abilities and Skills
+| STR    | DEX     | CON    | INT    | WIS    | CHA    |
+|--------+---------+--------+--------+--------+--------|
+| 1 (-5) | 13 (+1) | 8 (-1) | 1 (-5) | 8 (-1) | 3 (-4) |
+
+- Skills
+  - Perception :: +1
+  - Stealth :: +3
+
+*** Features
+- Senses
+  - darkvision :: 30 ft.
+  - Passive Perception :: 11
+
+- Languages
+  - None
+
+- Amphibious ::
+  The frog can breathe air and water.
+
+- Standing Leap ::
+  The frog's long jump is up to 10 feet and its high jump is up to 5 feet, with
+  or without a running start.
+
+** Giant Ape :huge:unaligned:cr_7:
+:PROPERTIES:
+:SIZE: huge
+:ALIGNMENT: unaligned
+:CR: 7
+:XP: 2,900
+:END:
+- Armor Class :: 12
+- Hit Points :: 157 (15d12+60)
+- Speed
+  - Walking :: 40 ft.
+  - Climbing :: 40 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 23 (+6) | 14 (+2) | 18 (+4) | 7 (-2) | 12 (+1) | 7 (-2) |
+
+- Skills
+  - Athletics :: +9
+  - Perception :: +4
+
+*** Features
+- Senses
+  - Passive Perception :: 14
+
+- Languages
+  - None
+
+*** Actions
+- Multiattack ::
+  The ape makes two fist attacks.
+
+**** Fist /Melee Weapon Attack/
+- +9 to hit
+- reach 10 ft.
+- one target
+- Hit :: 22 (3d10+6) bludgeoning damage
+
+**** Rock /Ranged Weapon Attack/
+- +9 to hit
+- range 50/100 ft.
+- one target
+- Hit :: 30 (7d6+6) bludgeoning damage
+
+** Giant Badger :medium:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: .25
+:XP: 50
+:END:
+- Armor Class :: 10
+- Hit Points :: 13 (2d8+4)
+- Speed
+  - Walking :: 30 ft.
+  - Burrow :: 10 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 13 (+1) | 10 (+0) | 15 (+2) | 2 (-4) | 12 (+1) | 5 (-3) |
+
+*** Features
+- Senses
+  - Darkvision :: 30 ft.
+  - Passive Perception :: 11
+
+- Languages
+  - None
+
+- Keen Smell ::
+  The badger has advantage on Wisdom (Perception) checks that rely on smell.
+
+*** Actions
+- Multiattack
+  The badger makes two attacks: one with its bite and one with its claws.
+
+**** Bite /Melee Weapon Attack/
+- +3 to hit
+- reach 5 ft.
+- one target
+- Hit :: 4 (1d6+1) piercing damage
+
+**** Claws /Melee Weapon Attack/
+- +3 to hit
+- reach 5 ft.
+- one target
+- Hit :: 6 (2d4+1) slashing damage
+
+** Giant Bat :large:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: .25
+:XP: 50
+:END:
+- Armor Class :: 13
+- Hit Points :: 22 (4d10)
+- Speed
+  - Walking :: 10 ft.
+  - Flying :: 60 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 15 (+2) | 16 (+3) | 11 (+0) | 2 (-4) | 12 (+1) | 6 (-2) |
+
+*** Features
+- Senses
+  - Blindsight :: 60 ft.
+  - Passive Perception :: 11
+
+- Languages
+  - None
+
+- Echolocation ::
+  The bat can't use its blindsight while deafened.
+
+- Keen Hearing ::
+  The bat has advantage on Wisdom (Perception) checks that rely on hearing.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft.
+- one creature
+- Hit :: 5 (1d6+2) piercing damage
+
+** Giant Boar :large:unaligned:cr_2:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: 2
+:XP: 450
+:END:
+- Armor Class :: 12 (natural armor)
+- Hit Points :: 42 (5d10+15)
+- Speed :: 40 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS    | CHA    |
+|---------+---------+---------+--------+--------+--------|
+| 17 (+3) | 10 (+0) | 16 (+3) | 2 (-4) | 7 (-2) | 5 (-3) |
+
+*** Features
+- Senses
+  - Passive Perception :: 8
+
+- Languages
+  - None
+
+- Charge ::
+  If the boar moves at least 20 feet straight toward a target and then hits it
+  with a tusk attack on the same turn, the target takes an extra 7 (2d6)
+  slashing damage. If the target is a creature, it must succeed on a DC 13
+  Strength saving throw or be knocked prone.
+
+- Relentless (Recharges after a Short or Long Rest) ::
+  If the boar takes 10 damage or less that would reduce it to 0 hit points, it
+  is reduced to 1 hit point instead.
+
+*** Actions
+**** Tusk /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft.
+- one target
+- Hit :: 10 (2d6+3) slashing damage
+
+** Giant Centipede :small:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: small
+:ALIGNMENT: unaligned
+:CR: .25
+:XP: 50
+:END:
+- Armor Class :: 13 (natural armor)
+- Hit Points :: 4 (1d6+1)
+- Speed
+  - Walking :: 30 ft.
+  - Climbing :: 30 ft.
+
+*** Abilities and Skills
+| STR    | DEX     | CON     | INT    | WIS    | CHA    |
+|--------+---------+---------+--------+--------+--------|
+| 5 (-3) | 14 (+2) | 12 (+1) | 1 (-5) | 7 (-2) | 3 (-4) |
+
+*** Features
+- Senses
+  - Blindsight :: 30 ft.
+  - Passive Perception :: 8
+
+- Languages
+  - None
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft.
+- one creature
+- Hit ::
+  4 (1d4+2) piercing damage, and the target must succeed on a DC 11 Constitution
+  saving throw or take 10 (3d6) poison damage. If the poison damage reduces the
+  target to 0 hit points, the target is stable but poisoned for 1 hour, even
+  after regaining hit points, and is paralyzed while poisoned in this way.
+
+** Giant Constrictor Snake :huge:unaligned:cr_2:
+:PROPERTIES:
+:SIZE: huge
+:ALIGNMENT: unaligned
+:CR: 2
+:XP: 450
+:END:
+- Armor Class :: 12
+- Hit Points :: 60 (8d12+8)
+- Speed
+  - Walking :: 30 ft.
+  - Swiming :: 30 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 19 (+4) | 14 (+2) | 12 (+1) | 1 (-5) | 10 (+0) | 3 (-4) |
+
+- Skills
+  - Perception :: +2
+
+*** Features
+- Senses
+  - Blindsight :: 10 ft.
+  - Passive Perception :: 12
+
+- Languages
+  - None
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +6 to hit
+- reach 10 ft.
+- one creature
+- Hit :: 11 (2d6+4) piercing damage
+
+**** Constrict /Melee Weapon Attack/
+- +6 to hit
+- reach 5 ft.
+- one creature
+- Hit ::
+  13 (2d8+4) bludgeoning damage, and the target is grappled (escape DC 16).
+  Until this grapple ends, the creature is restrained, and the snake can't
+  constrict another target.
+
+** Giant Crab :medium:unaligned:cr_1_8:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: .125
+:XP: 25
+:END:
+- Armor Class :: 15 (natural armor)
+- Hit Points :: 13 (3d8)
+- Speed
+  - Walking :: 30 ft.
+  - Swiming :: 30 ft.
+
+*** Abilities and Skill
+| STR     | DEX     | CON     | INT    | WIS    | CHA    |
+|---------+---------+---------+--------+--------+--------|
+| 13 (+1) | 15 (+2) | 11 (+0) | 1 (-5) | 9 (-1) | 3 (-4) |
+
+- Skills
+  - Stealth :: +4
+
+*** Features
+- Senses
+  - Blindsight :: 30 ft.
+  - Passive Perception :: 9
+
+- Languages
+  - None
+
+- Amphibious ::
+  The crab can breathe air and water.
+
+*** Actions
+**** Claw /Melee Weapon Attack/
+- +3 to hit
+- reach 5 ft.
+- one target
+- Hit ::
+  4 (1d6+1) bludgeoning damage, and the target is grappled (escape DC 11). The
+  crab has two claws, each of which can grapple only one target.
+
+** Giant Crocodile :huge:unaligned:cr_5:
+:PROPERTIES:
+:SIZE: huge
+:ALIGNMENT: unaligned
+:CR: 5
+:XP: 1800
+:END:
+- Armor Class :: 14 (natural armor)
+- Hit Points :: 85 (9d12+27)
+- Speed
+  - Walking :: 30 ft.
+  - Swimming :: 50 ft.
+
+*** Abilities and Skills
+| STR     | DEX    | CON     | INT    | WIS     | CHA    |
+|---------+--------+---------+--------+---------+--------|
+| 21 (+5) | 9 (-1) | 17 (+3) | 2 (-4) | 10 (+0) | 7 (-2) |
+
+*** Features
+- Senses
+  - Passive Perception :: 10
+
+- Languages
+  - None
+
+- Hold Breath ::
+  The crocodile can hold its breath for 30 minutes.
+
+*** Actions
+- Multiattack ::
+  The crocodile makes two attacks: one with its bite and one with its tail.
+
+**** Bite /Melee Weapon Attack/
+- +8 to hit
+- reach 5 ft.
+- one target
+- Hit ::
+  21 (3d10+5) piercing damage, and the target is grappled (escape DC 16). Until
+  this grapple ends, the target is restrained, and the crocodile can't bite
+  another target.
+
+**** Tail /Melee Weapon Attack/
+- +8 to hit
+- reach 10 ft.
+- one target not grappled by the crocodile
+- Hit ::
+  14 (2d8+5) bludgeoning damage. If the target is a creature, it must succeed on
+  a DC 16 Strength saving throw or be knocked prone.
+
+** Giant Eagle :large:neutral:good:cr_1:
+:PROPERTIES:
+:SIZE: lage
+:ALIGNMENT: unaligned
+:CR: 1
+:XP: 200
+:END:
+A *giant eagle* is a noble creature that speaks its own language and
+understands speech in the Common tongue. A mated pair of giant eagles
+typically has up to four eggs or young in their nest (treat the young as
+normal eagles).
+
+- Armor Class :: 13
+- Hit Points :: 26 (4d10+4)
+- Speed
+  - Walking :: 10 ft.
+  - Flying :: 80 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA     |
+|---------+---------+---------+--------+---------+---------|
+| 16 (+3) | 17 (+3) | 13 (+1) | 8 (-1) | 14 (+2) | 10 (+0) |
+
+- Skills
+  - Perception :: +4
+
+*** Features
+- Senses
+  - Passive Perception :: 14
+
+- Languages
+  - understands Common
+  - understands Auran
+
+- Keen Sight ::
+  The eagle has advantage on Wisdom (Perception) checks that rely on sight.
+
+*** Actions
+- Multiattack ::
+  The eagle makes two attacks: one with its beak and one with its talons.
+
+**** Beak /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft.
+- one target
+- Hit :: 6 (1d6+3) piercing damage
+
+**** Talons /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft.
+- one target
+- Hit :: 10 (2d6+3) slashing damage
+
+** Giant Elk :huge:unaligned:cr_2:
+:PROPERTIES:
+:SIZE: huge
+:ALIGNMENT: unaligned
+:CR: 2
+:XP: 450
+:END:
+The majestic *giant elk* is rare to the point that its appearance is
+often taken as a foreshadowing of an important event, such as the birth
+of a king. Legends tell of gods that take the form of giant elk when
+visiting the Material Plane. Many cultures therefore believe that to
+hunt these creatures is to invite divine wrath.
+
+- Armor Class :: 14 (natural armor)
+- Hit Points :: 42 (5d12+10)
+- Speed :: 60 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA     |
+|---------+---------+---------+--------+---------+---------|
+| 19 (+4) | 16 (+3) | 14 (+2) | 7 (-2) | 14 (+2) | 10 (+0) |
+
+- Skills
+  - Perception :: +4
+
+*** Features
+- Senses
+  - Passive Perception :: 14
+
+- Languages
+  - understands Common
+  - understands Elvish
+  - understands Sylvan
+
+- Charge ::
+  If the elk moves at least 20 feet straight toward a target and then hits it
+  with a ram attack on the same turn, the target takes an extra 7 (2d6) damage.
+  If the target is a creature, it must succeed on a DC 14 Strength saving throw
+  or be knocked prone.
+
+*** Actions
+**** Ram /Melee Weapon Attack/
+- +6 to hit
+- reach 10 ft.
+- one target
+- Hit :: 11 (2d6+4) bludgeoning damage
+
+**** Hooves /Melee Weapon Attack/
+- +6 to hit
+- reach 5 ft.
+- one prone creature
+- Hit :: 22 (4d8+4) bludgeoning damage
+
+** Giant Fire Beetle :small:unaligned:cr_0:
+:PROPERTIES:
+:SIZE: small
+:ALIGNMENT: unaligned
+:CR: 0
+:XP: 10
+:END:
+A *giant fire beetle* is a nocturnal creature that takes its name from a
+pair of glowing glands that give off light. Miners and adventurers prize
+these creatures, for a giant fire beetle's glands continue to shed light
+for 1d6 days after the beetle dies. Giant fire beetles are most commonly
+found underground and in dark forests.
+
+- Armor Class :: 13 (natural armor)
+- Hit Points :: 4 (1d6+1)
+- Speed :: 30 ft.
+
+*** Abilities and Skills
+| STR    | DEX     | CON     | INT    | WIS    | CHA    |
+|--------+---------+---------+--------+--------+--------|
+| 8 (-1) | 10 (+0) | 12 (+1) | 1 (-5) | 7 (-2) | 3 (-4) |
+
+*** Features
+- Senses
+  - Blindsight :: 30 ft.
+  - Passive Perception :: 8
+
+- Languages
+  - None
+
+- Illumination ::
+  The beetle sheds bright light in a 10-foot radius and dim light for an
+  additional 10 feet.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +1 to hit
+- reach 5 ft.
+- one target
+- Hit :: 2 (1d6-1) slashing damage
+
 
 * Plant                                                               :plant:
 ** Awakened Shrub                                     :small:unaligned:cr_0:
@@ -700,6 +1509,7 @@ The dog magically teleports, along with any equipment it is wearing or carrying,
 to 40 feet to an unoccupied space it can see. Before or after teleporting, the dog
 can make one bite attack.
 
+
 * Monstrosity                                                   :monstrosity:
 ** Death Dog                                      :medium:neutral:evil:cr_1:
 :PROPERTIES:
@@ -756,750 +1566,8 @@ The dog makes two bite attacks.
   This reduction lasts until the disease is cured. The creature dies if the
   disease reduces its hit point maximum to 0.
 
-* Creatures (D-F)
-  :PROPERTIES:
-  :CUSTOM_ID: creatures-d-f
-  :END:
-
-
-
-** Deer
-   :PROPERTIES:
-   :CUSTOM_ID: deer
-   :END:
-
-/Medium beast, unaligned/
-
-*Armor Class* 13
-
-*Hit Points* 4 (1d8)
-
-*Speed* 50 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 11 (+0) | 16 (+3) | 11 (+0) | 2 (-4) | 14 (+2) | 5 (-3) |
-
-*Senses* passive Perception 12
-
-*Languages* -
-
-*Challenge* 0 (10 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-18
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +2 to hit, reach 5 ft., one target.
-/Hit:/ 2 (1d4) piercing damage.
-
-** Dire Wolf
-   :PROPERTIES:
-   :CUSTOM_ID: dire-wolf
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 14 (natural armor)
-
-*Hit Points* 37 (5d10+10)
-
-*Speed* 50 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 17 (+3) | 15 (+2) | 15 (+2) | 3 (-4) | 12 (+1) | 7 (-2) |
-
-*Skills* Perception +3, Stealth +4
-
-*Senses* passive Perception 13
-
-*Languages* -
-
-*Challenge* 1 (200 XP)
-
-*/Keen Hearing and Smell/*. The wolf has advantage on Wisdom
-(Perception) checks that rely on hearing or smell.
-
-*/Pack Tactics/*. The wolf has advantage on an attack roll against a
-creature if at least one of the wolf's allies is within 5 feet of the
-creature and the ally isn't incapacitated.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-19
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one target.
-/Hit:/ 10 (2d6+3) piercing damage. If the target is a creature, it must
-succeed on a DC 13 Strength saving throw or be knocked prone.
-
-** Draft Horse
-   :PROPERTIES:
-   :CUSTOM_ID: draft-horse
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 10
-
-*Hit Points* 19 (3d10+3)
-
-*Speed* 40 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 18 (+4) | 10 (+0) | 12 (+1) | 2 (-4) | 11 (+0) | 7 (-2) |
-
-*Senses* passive Perception 10
-
-*Languages* -
-
-*Challenge* 1/4 (50 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-20
-       :END:
-
-*/Hooves/*. /Melee Weapon Attack:/ +6 to hit, reach 5 ft., one target.
-/Hit:/ 9 (2d4+4) bludgeoning damage.
-
-** Eagle
-   :PROPERTIES:
-   :CUSTOM_ID: eagle
-   :END:
-
-/Small beast, unaligned/
-
-*Armor Class* 12
-
-*Hit Points* 3 (1d6)
-
-*Speed* 10 ft., fly 60 ft.
-
-| STR    | DEX     | CON     | INT    | WIS     | CHA    |
-|--------+---------+---------+--------+---------+--------|
-| 6 (-2) | 15 (+2) | 10 (+0) | 2 (-4) | 14 (+2) | 7 (-2) |
-
-*Skills* Perception +4
-
-*Senses* passive Perception 14
-
-*Languages* -
-
-*Challenge* 0 (10 XP)
-
-*/Keen Sight/*. The eagle has advantage on Wisdom (Perception) checks
-that rely on sight.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-21
-       :END:
-
-*/Talons/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 4 (1d4+2) slashing damage.
-
-** Elephant
-   :PROPERTIES:
-   :CUSTOM_ID: elephant
-   :END:
-
-/Huge beast, unaligned/
-
-*Armor Class* 12 (natural armor)
-
-*Hit Points* 76 (8d12+24)
-
-*Speed* 40 ft.
-
-| STR     | DEX    | CON     | INT    | WIS     | CHA    |
-|---------+--------+---------+--------+---------+--------|
-| 22 (+6) | 9 (-1) | 17 (+3) | 3 (-4) | 11 (+0) | 6 (-2) |
-
-*Senses* passive Perception 10
-
-*Languages* -
-
-*Challenge* 4 (1,100 XP)
-
-*/Trampling Charge/*. If the elephant moves at least 20 feet straight
-toward a creature and then hits it with a gore attack on the same turn,
-that target must succeed on a DC 12 Strength saving throw or be knocked
-prone. If the target is prone, the elephant can make one stomp attack
-against it as a bonus action.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-22
-       :END:
-
-*/Gore/*. /Melee Weapon Attack:/ +8 to hit, reach 5 ft., one target.
-/Hit:/ 19 (3d8+6) piercing damage.
-
-*/Stomp/*. /Melee Weapon Attack:/ +8 to hit, reach 5 ft., one prone
-creature. /Hit:/ 22 (3d10+6) bludgeoning damage.
-
-** Elk
-   :PROPERTIES:
-   :CUSTOM_ID: elk
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 10
-
-*Hit Points* 13 (2d10+2)
-
-*Speed* 50 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 16 (+3) | 10 (+0) | 12 (+1) | 2 (-4) | 10 (+0) | 6 (-2) |
-
-*Senses* passive Perception 10
-
-*Languages* -
-
-*Challenge* 1/4 (50 XP)
-
-*/Charge/*. If the elk moves at least 20 feet straight toward a target
-and then hits it with a ram attack on the same turn, the target takes an
-extra 7 (2d6) damage. If the target is a creature, it must succeed on a
-DC 13 Strength saving throw or be knocked prone.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-23
-       :END:
-
-*/Ram/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one target.
-/Hit:/ 6 (1d6+3) bludgeoning damage.
-
-*/Hooves/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one prone
-creature. /Hit:/ 8 (2d4+3) bludgeoning damage.
-
-** Flying Snake
-   :PROPERTIES:
-   :CUSTOM_ID: flying-snake
-   :END:
-
-/Tiny beast, unaligned/
-
-*Armor Class* 14
-
-*Hit Points* 5 (2d4)
-
-*Speed* 30 ft., fly 60 ft., swim 30 ft
-
-| STR    | DEX     | CON     | INT    | WIS     | CHA    |
-|--------+---------+---------+--------+---------+--------|
-| 4 (-3) | 18 (+4) | 11 (+0) | 2 (-4) | 12 (+1) | 5 (-3) |
-
-*Senses* blindsight 10 ft., passive Perception 11
-
-*Languages* -
-
-*Challenge* 1/8 (25 XP)
-
-*/Flyby/*. The snake doesn't provoke opportunity attacks when it flies
-out of an enemy's reach.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-24
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +6 to hit, reach 5 ft., one target.
-/Hit:/ 1 piercing damage plus 7 (3d4) poison damage.
-
-A *flying snake* is a brightly colored, winged serpent found in remote
-jungles. Tribespeople and cultists sometimes domesticate flying snakes
-to serve as messengers that deliver scrolls wrapped in their coils.
-
-** Frog
-   :PROPERTIES:
-   :CUSTOM_ID: frog
-   :END:
-
-/Tiny beast, unaligned/
-
-*Armor Class* 11
-
-*Hit Points* 1 (1d4-1)
-
-*Speed* 20 ft., swim 20 ft.
-
-| STR    | DEX     | CON    | INT    | WIS    | CHA    |
-|--------+---------+--------+--------+--------+--------|
-| 1 (-5) | 13 (+1) | 8 (-1) | 1 (-5) | 8 (-1) | 3 (-4) |
-
-*Skills* Perception +1, Stealth +3
-
-*Senses* darkvision 30 ft., passive Perception 11
-
-*Languages* -
-
-*Challenge* 0 (0 XP)
-
-*/Amphibious/*. The frog can breathe air and water.
-
-*/Standing Leap/*. The frog's long jump is up to 10 feet and its high
-jump is up to 5 feet, with or without a running start.
-
-A *frog* has no effective attacks. It feeds on small insects and
-typically dwells near water, in trees, or underground. The frog's
-statistics can also be used to represent a *toad*.
 
 * Creatures (G-I)
-  :PROPERTIES:
-  :CUSTOM_ID: creatures-g-i
-  :END:
-
-** Giant Ape
-   :PROPERTIES:
-   :CUSTOM_ID: giant-ape
-   :END:
-
-/Huge beast, unaligned/
-
-*Armor Class* 12
-
-*Hit Points* 157 (15d12+60)
-
-*Speed* 40 ft., climb 40 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 23 (+6) | 14 (+2) | 18 (+4) | 7 (-2) | 12 (+1) | 7 (-2) |
-
-*Skills* Athletics +9, Perception +4
-
-*Senses* passive Perception 14
-
-*Languages* -
-
-*Challenge* 7 (2,900 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-25
-       :END:
-
-*/Multiattack/*. The ape makes two fist attacks.
-
-*/Fist/*. /Melee Weapon Attack:/ +9 to hit, reach 10 ft., one target.
-/Hit:/ 22 (3d10+6) bludgeoning damage.
-
-*/Rock/*. /Ranged Weapon Attack:/ +9 to hit, range 50/100 ft., one
-target. /Hit:/ 30 (7d6+6) bludgeoning damage.
-
-** Giant Badger
-   :PROPERTIES:
-   :CUSTOM_ID: giant-badger
-   :END:
-
-/Medium beast, unaligned/
-
-*Armor Class* 10
-
-*Hit Points* 13 (2d8+4)
-
-*Speed* 30 ft., burrow 10 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 13 (+1) | 10 (+0) | 15 (+2) | 2 (-4) | 12 (+1) | 5 (-3) |
-
-*Senses* darkvision 30 ft., passive Perception 11
-
-*Languages* -
-
-*Challenge* 1/4 (50 XP)
-
-*/Keen Smell/*. The badger has advantage on Wisdom (Perception) checks
-that rely on smell.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-26
-       :END:
-
-*/Multiattack/*. The badger makes two attacks: one with its bite and one
-with its claws.
-
-*/Bite/*. /Melee Weapon Attack:/ +3 to hit, reach 5 ft., one target.
-/Hit:/ 4 (1d6+1) piercing damage.
-
-*/Claws./* /Melee Weapon Attack:/ +3 to hit, reach 5 ft., one target.
-/Hit:/ 6 (2d4+1) slashing damage.
-
-** Giant Bat
-   :PROPERTIES:
-   :CUSTOM_ID: giant-bat
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 13
-
-*Hit Points* 22 (4d10)
-
-*Speed* 10 ft., fly 60 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 15 (+2) | 16 (+3) | 11 (+0) | 2 (-4) | 12 (+1) | 6 (-2) |
-
-*Senses* blindsight 60 ft., passive Perception 11
-
-*Languages* -
-
-*Challenge* 1/4 (50 XP)
-
-*/Echolocation/*. The bat can't use its blindsight while deafened.
-
-*/Keen Hearing/*. The bat has advantage on Wisdom (Perception) checks
-that rely on hearing.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-27
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one creature.
-/Hit:/ 5 (1d6+2) piercing damage.
-
-** Giant Boar
-   :PROPERTIES:
-   :CUSTOM_ID: giant-boar
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 12 (natural armor)
-
-*Hit Points* 42 (5d10+15)
-
-*Speed* 40 ft.
-
-| STR     | DEX     | CON     | INT    | WIS    | CHA    |
-|---------+---------+---------+--------+--------+--------|
-| 17 (+3) | 10 (+0) | 16 (+3) | 2 (-4) | 7 (-2) | 5 (-3) |
-
-*Senses* passive Perception 8
-
-*Languages* -
-
-*Challenge* 2 (450 XP)
-
-*/Charge/*. If the boar moves at least 20 feet straight toward a target
-and then hits it with a tusk attack on the same turn, the target takes
-an extra 7 (2d6) slashing damage. If the target is a creature, it must
-succeed on a DC 13 Strength saving throw or be knocked prone.
-
-*/Relentless (Recharges after a Short or Long Rest)/*. If the boar takes
-10 damage or less that would reduce it to 0 hit points, it is reduced to
-1 hit point instead.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-28
-       :END:
-
-*/Tusk/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one target.
-/Hit:/ 10 (2d6+3) slashing damage.
-
-** Giant Centipede
-   :PROPERTIES:
-   :CUSTOM_ID: giant-centipede
-   :END:
-
-/Small beast, unaligned/
-
-*Armor Class* 13 (natural armor)
-
-*Hit Points* 4 (1d6+1)
-
-*Speed* 30 ft., climb 30 ft.
-
-| STR    | DEX     | CON     | INT    | WIS    | CHA    |
-|--------+---------+---------+--------+--------+--------|
-| 5 (-3) | 14 (+2) | 12 (+1) | 1 (-5) | 7 (-2) | 3 (-4) |
-
-*Senses* blindsight 30 ft., passive Perception 8
-
-*Languages* -
-
-*Challenge* 1/4 (50 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-29
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one creature.
-/Hit:/ 4 (1d4+2) piercing damage, and the target must succeed on a DC 11
-Constitution saving throw or take 10 (3d6) poison damage. If the poison
-damage reduces the target to 0 hit points, the target is stable but
-poisoned for 1 hour, even after regaining hit points, and is paralyzed
-while poisoned in this way.
-
-** Giant Constrictor Snake
-   :PROPERTIES:
-   :CUSTOM_ID: giant-constrictor-snake
-   :END:
-
-/Huge beast, unaligned/
-
-*Armor Class* 12
-
-*Hit Points* 60 (8d12+8)
-
-*Speed* 30 ft., swim 30 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 19 (+4) | 14 (+2) | 12 (+1) | 1 (-5) | 10 (+0) | 3 (-4) |
-
-*Skills* Perception +2
-
-*Senses* blindsight 10 ft., passive Perception 12
-
-*Languages* -
-
-*Challenge* 2 (450 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-30
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +6 to hit, reach 10 ft., one creature.
-/Hit:/ 11 (2d6+4) piercing damage.
-
-*/Constrict/*. /Melee Weapon Attack:/ +6 to hit, reach 5 ft., one
-creature. /Hit:/ 13 (2d8+4) bludgeoning damage, and the target is
-grappled (escape DC 16). Until this grapple ends, the creature is
-restrained, and the snake can't constrict another target.
-
-** Giant Crab
-   :PROPERTIES:
-   :CUSTOM_ID: giant-crab
-   :END:
-
-/Medium beast, unaligned/
-
-*Armor Class* 15 (natural armor)
-
-*Hit Points* 13 (3d8)
-
-*Speed* 30 ft., swim 30 ft.
-
-| STR     | DEX     | CON     | INT    | WIS    | CHA    |
-|---------+---------+---------+--------+--------+--------|
-| 13 (+1) | 15 (+2) | 11 (+0) | 1 (-5) | 9 (-1) | 3 (-4) |
-
-*Skills* Stealth +4
-
-*Senses* blindsight 30 ft., passive Perception 9
-
-*Languages* -
-
-*Challenge* 1/8 (25 XP)
-
-*/Amphibious/*. The crab can breathe air and water.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-31
-       :END:
-
-*/Claw/*. /Melee Weapon Attack:/ +3 to hit, reach 5 ft., one target.
-/Hit:/ 4 (1d6+1) bludgeoning damage, and the target is grappled (escape
-DC 11). The crab has two claws, each of which can grapple only one
-target.
-
-** Giant Crocodile
-   :PROPERTIES:
-   :CUSTOM_ID: giant-crocodile
-   :END:
-
-/Huge beast, unaligned/
-
-*Armor Class* 14 (natural armor)
-
-*Hit Points* 85 (9d12+27)
-
-*Speed* 30 ft., swim 50 ft.
-
-| STR     | DEX    | CON     | INT    | WIS     | CHA    |
-|---------+--------+---------+--------+---------+--------|
-| 21 (+5) | 9 (-1) | 17 (+3) | 2 (-4) | 10 (+0) | 7 (-2) |
-
-*Senses* passive Perception 10
-
-*Languages* -
-
-*Challenge* 5 (1,800 XP)
-
-*/Hold Breath/*. The crocodile can hold its breath for 30 minutes.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-32
-       :END:
-
-*/Multiattack/*. The crocodile makes two attacks: one with its bite and
-one with its tail.
-
-*/Bite/*. /Melee Weapon Attack:/ +8 to hit, reach 5 ft., one target.
-/Hit:/ 21 (3d10+5) piercing damage, and the target is grappled (escape
-DC 16). Until this grapple ends, the target is restrained, and the
-crocodile can't bite another target.
-
-*/Tail/*. /Melee Weapon Attack:/ +8 to hit, reach 10 ft., one target not
-grappled by the crocodile. /Hit:/ 14 (2d8+5) bludgeoning damage. If the
-target is a creature, it must succeed on a DC 16 Strength saving throw
-or be knocked prone.
-
-** Giant Eagle
-   :PROPERTIES:
-   :CUSTOM_ID: giant-eagle
-   :END:
-
-/Large beast, neutral good/
-
-*Armor Class* 13
-
-*Hit Points* 26 (4d10+4)
-
-*Speed* 10 ft., fly 80 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA     |
-|---------+---------+---------+--------+---------+---------|
-| 16 (+3) | 17 (+3) | 13 (+1) | 8 (-1) | 14 (+2) | 10 (+0) |
-
-*Skills* Perception +4
-
-*Senses* passive Perception 14
-
-*Languages* Giant Eagle, understands Common and Auran but can't speak
-them
-
-*Challenge* 1 (200 XP)
-
-*/Keen Sight/*. The eagle has advantage on Wisdom (Perception) checks
-that rely on sight.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-33
-       :END:
-
-*/Multiattack/*. The eagle makes two attacks: one with its beak and one
-with its talons.
-
-*/Beak/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one target.
-/Hit:/ 6 (1d6+3) piercing damage.
-
-*/Talons/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one target.
-/Hit:/ 10 (2d6+3) slashing damage.
-
-A *giant eagle* is a noble creature that speaks its own language and
-understands speech in the Common tongue. A mated pair of giant eagles
-typically has up to four eggs or young in their nest (treat the young as
-normal eagles).
-
-** Giant Elk
-   :PROPERTIES:
-   :CUSTOM_ID: giant-elk
-   :END:
-
-/Huge beast, unaligned/
-
-*Armor Class* 14 (natural armor)
-
-*Hit Points* 42 (5d12+10)
-
-*Speed* 60 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA     |
-|---------+---------+---------+--------+---------+---------|
-| 19 (+4) | 16 (+3) | 14 (+2) | 7 (-2) | 14 (+2) | 10 (+0) |
-
-*Skills* Perception +4
-
-*Senses* passive Perception 14
-
-*Languages* Giant Elk, understands Common, Elvish, and Sylvan but can't
-speak them
-
-*Challenge* 2 (450 XP)
-
-*/Charge/*. If the elk moves at least 20 feet straight toward a target
-and then hits it with a ram attack on the same turn, the target takes an
-extra 7 (2d6) damage. If the target is a creature, it must succeed on a
-DC 14 Strength saving throw or be knocked prone.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-34
-       :END:
-
-*/Ram/*. /Melee Weapon Attack:/ +6 to hit, reach 10 ft., one target.
-/Hit:/ 11 (2d6+4) bludgeoning damage.
-
-*/Hooves/*. /Melee Weapon Attack:/ +6 to hit, reach 5 ft., one prone
-creature. /Hit:/ 22 (4d8+4) bludgeoning damage.
-
-The majestic *giant elk* is rare to the point that its appearance is
-often taken as a foreshadowing of an important event, such as the birth
-of a king. Legends tell of gods that take the form of giant elk when
-visiting the Material Plane. Many cultures therefore believe that to
-hunt these creatures is to invite divine wrath.
-
-** Giant Fire Beetle
-   :PROPERTIES:
-   :CUSTOM_ID: giant-fire-beetle
-   :END:
-
-/Small beast, unaligned/
-
-*Armor Class* 13 (natural armor)
-
-*Hit Points* 4 (1d6+1)
-
-*Speed* 30 ft.
-
-| STR    | DEX     | CON     | INT    | WIS    | CHA    |
-|--------+---------+---------+--------+--------+--------|
-| 8 (-1) | 10 (+0) | 12 (+1) | 1 (-5) | 7 (-2) | 3 (-4) |
-
-*Senses* blindsight 30 ft., passive Perception 8
-
-*Languages* -
-
-*Challenge* 0 (10 XP)
-
-*/Illumination/*. The beetle sheds bright light in a 10-foot radius and
-dim light for an additional 10 feet.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-35
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +1 to hit, reach 5 ft., one target.
-/Hit:/ 2 (1d6-1) slashing damage.
-
-A *giant fire beetle* is a nocturnal creature that takes its name from a
-pair of glowing glands that give off light. Miners and adventurers prize
-these creatures, for a giant fire beetle's glands continue to shed light
-for 1d6 days after the beetle dies. Giant fire beetles are most commonly
-found underground and in dark forests.
 
 ** Giant Frog
    :PROPERTIES:
