@@ -846,7 +846,7 @@ messengers that deliver scrolls wrapped in their coils.
 - Hit ::
   1 piercing damage plus 7 (3d4) poison damage
 
-** Frog :tiny:unaligned:cr_0:
+** Frog                                                :tiny:unaligned:cr_0:
 :PROPERTIES:
 :SIZE: tiny
 :ALIGNMENT: unaligned
@@ -887,7 +887,7 @@ used to represent a *toad*.
   The frog's long jump is up to 10 feet and its high jump is up to 5 feet, with
   or without a running start.
 
-** Giant Ape :huge:unaligned:cr_7:
+** Giant Ape                                           :huge:unaligned:cr_7:
 :PROPERTIES:
 :SIZE: huge
 :ALIGNMENT: unaligned
@@ -932,7 +932,7 @@ used to represent a *toad*.
 - one target
 - Hit :: 30 (7d6+6) bludgeoning damage
 
-** Giant Badger :medium:unaligned:cr_1_4:
+** Giant Badger                                    :medium:unaligned:cr_1_4:
 :PROPERTIES:
 :SIZE: medium
 :ALIGNMENT: unaligned
@@ -977,7 +977,7 @@ used to represent a *toad*.
 - one target
 - Hit :: 6 (2d4+1) slashing damage
 
-** Giant Bat :large:unaligned:cr_1_4:
+** Giant Bat                                        :large:unaligned:cr_1_4:
 :PROPERTIES:
 :SIZE: large
 :ALIGNMENT: unaligned
@@ -1016,7 +1016,7 @@ used to represent a *toad*.
 - one creature
 - Hit :: 5 (1d6+2) piercing damage
 
-** Giant Boar :large:unaligned:cr_2:
+** Giant Boar                                         :large:unaligned:cr_2:
 :PROPERTIES:
 :SIZE: large
 :ALIGNMENT: unaligned
@@ -1056,7 +1056,7 @@ used to represent a *toad*.
 - one target
 - Hit :: 10 (2d6+3) slashing damage
 
-** Giant Centipede :small:unaligned:cr_1_4:
+** Giant Centipede                                  :small:unaligned:cr_1_4:
 :PROPERTIES:
 :SIZE: small
 :ALIGNMENT: unaligned
@@ -1093,7 +1093,7 @@ used to represent a *toad*.
   target to 0 hit points, the target is stable but poisoned for 1 hour, even
   after regaining hit points, and is paralyzed while poisoned in this way.
 
-** Giant Constrictor Snake :huge:unaligned:cr_2:
+** Giant Constrictor Snake                             :huge:unaligned:cr_2:
 :PROPERTIES:
 :SIZE: huge
 :ALIGNMENT: unaligned
@@ -1138,7 +1138,7 @@ used to represent a *toad*.
   Until this grapple ends, the creature is restrained, and the snake can't
   constrict another target.
 
-** Giant Crab :medium:unaligned:cr_1_8:
+** Giant Crab                                      :medium:unaligned:cr_1_8:
 :PROPERTIES:
 :SIZE: medium
 :ALIGNMENT: unaligned
@@ -1179,7 +1179,7 @@ used to represent a *toad*.
   4 (1d6+1) bludgeoning damage, and the target is grappled (escape DC 11). The
   crab has two claws, each of which can grapple only one target.
 
-** Giant Crocodile :huge:unaligned:cr_5:
+** Giant Crocodile                                     :huge:unaligned:cr_5:
 :PROPERTIES:
 :SIZE: huge
 :ALIGNMENT: unaligned
@@ -1228,7 +1228,7 @@ used to represent a *toad*.
   14 (2d8+5) bludgeoning damage. If the target is a creature, it must succeed on
   a DC 16 Strength saving throw or be knocked prone.
 
-** Giant Eagle :large:neutral:good:cr_1:
+** Giant Eagle                                     :large:neutral:good:cr_1:
 :PROPERTIES:
 :SIZE: lage
 :ALIGNMENT: unaligned
@@ -1281,7 +1281,7 @@ normal eagles).
 - one target
 - Hit :: 10 (2d6+3) slashing damage
 
-** Giant Elk :huge:unaligned:cr_2:
+** Giant Elk                                           :huge:unaligned:cr_2:
 :PROPERTIES:
 :SIZE: huge
 :ALIGNMENT: unaligned
@@ -1334,7 +1334,7 @@ hunt these creatures is to invite divine wrath.
 - one prone creature
 - Hit :: 22 (4d8+4) bludgeoning damage
 
-** Giant Fire Beetle :small:unaligned:cr_0:
+** Giant Fire Beetle                                  :small:unaligned:cr_0:
 :PROPERTIES:
 :SIZE: small
 :ALIGNMENT: unaligned
@@ -1375,7 +1375,823 @@ found underground and in dark forests.
 - one target
 - Hit :: 2 (1d6-1) slashing damage
 
+** Giant Frog                                      :medium:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: .25
+:XP: 50
+:END:
+- Armor Class :: 11
+- Hit Points :: 18 (4d8)
+- Speed
+  - Walking :: 30 ft.
+  - Swimming :: 30 ft.
 
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 12 (+1) | 13 (+1) | 11 (+0) | 2 (-4) | 10 (+0) | 3 (-4) |
+
+- Skills
+  - Perception :: +2
+  - Stealth :: +3
+
+*** Features
+- Senses
+  - Darkvision :: 30 ft.
+  - Passive Perception :: 12
+
+- Languages
+  - None
+
+- Amphibious ::
+  The frog can breathe air and water.
+
+- Standing Leap ::
+  The frog's long jump is up to 20 feet and its high jump is up to 10 feet, with
+  or without a running start.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +3 to hit
+- reach 5 ft.
+- one target
+- Hit ::
+  4 (1d6+1) piercing damage, and the target is grappled (escape DC 11). Until
+  this grapple ends, the target is restrained, and the frog can't bite another
+  target.
+
+**** Swallow
+The frog makes one bite attack against a Small or smaller target it is grappling.
+If the attack hits, the target is swallowed, and the grapple ends. The swallowed
+target is blinded and restrained, it has total cover against attacks and other
+effects outside the frog, and it takes 5 (2d4) acid damage at the start of each
+of the frog's turns. The frog can have only one target swallowed at a time.
+
+If the frog dies, a swallowed creature is no longer restrained by it and can
+escape from the corpse using 5 feet of movement, exiting prone.
+
+** Giant Goat                                       :large:unaligned:cr_1_5:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: .5
+:XP: 100
+:END:
+- Armor Class :: 11 (natural armor)
+- Hit Points :: 19 (3d10+3)
+- Speed :: 40 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 17 (+3) | 11 (+0) | 12 (+1) | 3 (-4) | 12 (+1) | 6 (-2) |
+
+*** Features
+- Senses
+  - Passive Perception :: 11
+
+- Languages
+  - None
+
+- Charge ::
+  If the goat moves at least 20 feet straight toward a target and then hits it
+  with a ram attack on the same turn, the target takes an extra 5 (2d4)
+  bludgeoning damage. If the target is a creature, it must succeed on a DC 13
+  Strength saving throw or be knocked prone.
+
+- Sure-Footed ::
+  The goat has advantage on Strength and Dexterity saving throws made against
+  effects that would knock it prone.
+
+*** Actions
+**** Ram /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft.
+- one target
+- Hit :: 8 (2d4+3) bludgeoning damage
+
+** Giant Hyena                                        :large:unaligned:cr_1:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: 1
+:XP: 200
+:END:
+- Armor Class :: 12
+- Hit Points :: 45 (6d10+12)
+- Speed :: 50 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 16 (+3) | 14 (+2) | 14 (+2) | 2 (-4) | 12 (+1) | 7 (-2) |
+
+- Skills
+  - Perception :: +3
+    
+*** Features
+- Senses
+  - Passive Perception :: 13
+
+- Languages
+  - None
+
+- Rampage ::
+  When the hyena reduces a creature to 0 hit points with a melee attack on its
+  turn, the hyena can take a bonus action to move up to half its speed and make
+  a bite attack.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft.
+- one target
+- Hit :: 10 (2d6+3) piercing damage
+
+** Giant Lizard                                     :large:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: .25
+:XP: 50
+:END:
+A *giant lizard* can be ridden or used as a draft animal. Lizardfolk
+also keep them as pets, and subterranean giant lizards are used as
+mounts and pack animals by drow, duergar, and others.
+
+- Armor Class :: 12 (natural armor)
+- Hit Points :: 19 (3d10+3)
+- Speed
+  - Walking :: 30 ft.
+  - Climbing :: 30 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 15 (+2) | 12 (+1) | 13 (+1) | 2 (-4) | 10 (+0) | 5 (-3) |
+
+*** Features
+- Senses
+  - Darkvision :: 30 ft.
+  - Passive Perception :: 10
+  
+- Languages
+  - None
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft.
+- one target
+- Hit :: 6 (1d8+2) piercing damage
+
+** Giant Octopus                                      :large:unaligned:cr_1:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: 1
+:XP: 200
+:END:
+- Armor Class :: 11
+- Hit Points :: 52 (8d10+8)
+- Speed
+  - Walking :: 10 ft.
+  - Swimming :: 60 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 17 (+3) | 13 (+1) | 13 (+1) | 4 (-3) | 10 (+0) | 4 (-3) |
+
+- Skills
+  - Perception :: +4
+  - Stealth :: +5
+
+*** Features
+- Senses
+  - Darkvision :: 60 ft.
+  - Passive Perception :: 14
+  
+- Languages
+  - None
+
+- Hold Breath ::
+  While out of water, the octopus can hold its breath for 1 hour.
+
+- Underwater Camouflage ::
+  The octopus has advantage on Dexterity (Stealth) checks made while underwater.
+
+- Water Breathing ::
+  The octopus can breathe only underwater.
+
+*** Actions
+**** Tentacles /Melee Weapon Attack/
+- +5 to hit
+- reach 15 ft.
+- one target
+- Hit ::
+  10 (2d6+3) bludgeoning damage. If the target is  creature, it is grappled
+  (escape DC 16). Until this grapple ends, the target is restrained, and the
+  octopus can't use its tentacles on another target.
+
+**** Ink Cloud (Recharges after a Short or Long Rest)
+A 20- foot radius cloud of ink extends all around the octopus if it is
+underwater. The area is heavily obscured for 1 minute, although a significant
+current can disperse the ink. After releasing the ink, the octopus can use the
+Dash action as a bonus action.
+
+** Giant Owl                                          :large:neutral:cr_1_4:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: neutral
+:CR: .25
+:XP: 50
+:END:
+*Giant owls* often befriend fey and other sylvan creatures and are
+guardians of their woodland realms.
+
+- Armor Class :: 12
+- Hit Points :: 19 (3d10+3)
+- Speed
+  - Walking :: 5 ft.
+  - Flying :: 60 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA     |
+|---------+---------+---------+--------+---------+---------|
+| 13 (+1) | 15 (+2) | 12 (+1) | 8 (-1) | 13 (+1) | 10 (+0) |
+
+- Skills
+  - Perception :: +5
+  - Stealth :: +4
+
+*** Features
+- Senses
+  - Darkvision :: 120 ft.
+  - Passive Perception :: 15
+  
+- Languages
+  - understands Common
+  - understands Elvish
+  - understands Sylvan
+
+- Flyby ::
+  The owl doesn't provoke opportunity attacks when it flies out of an enemy's
+  reach.
+
+- Keen Hearing and Sight ::
+  The owl has advantage on Wisdom (Perception) checks that rely on hearing or
+  sight.
+
+*** Actions
+**** Talons /Melee Weapon Attack/
+- +3 to hit
+- reach 5 ft.
+- one target
+- Hit :: 8 (2d6+1) slashing damage
+
+** Giant Poisonous Snake                           :medium:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: .25
+:XP: 50
+:END:
+- Armor Class :: 14
+- Hit Points :: 11 (2d8+2)
+- Speed
+  - Walking :: 30 ft.
+  - Swimming :: 30 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 10 (+0) | 18 (+4) | 13 (+1) | 2 (-4) | 10 (+0) | 3 (-4) |
+
+- Skills
+  - Perception :: +2
+
+*** Features
+- Senses
+  - Blindsight :: 10 ft.
+  - Passive Perception :: 12
+  
+- Languages
+  - None
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +6 to hit
+- reach 10 ft.
+- one target
+- Hit ::
+  6 (1d4+4) piercing damage, and the target must make a DC 1 Constitution saving
+  throw, taking 10 (3d6) poison damage on a failed save, or half as much damage
+  on a successful one.
+
+** Giant Rat                                        :small:unaligned:cr_1_8:
+:PROPERTIES:
+:SIZE: small
+:ALIGNMENT: unaligned
+:CR: .125
+:XP: 25
+:END:
+- Armor Class :: 12
+- Hit Points :: 7 (2d6)
+- Speed :: 30 ft.
+
+*** Abilities and Skills
+| STR    | DEX     | CON     | INT    | WIS     | CHA    |
+|--------+---------+---------+--------+---------+--------|
+| 7 (-2) | 15 (+2) | 11 (+0) | 2 (-4) | 10 (+0) | 4 (-3) |
+
+*** Features
+- Senses
+  - Darkvision :: 60 ft.
+  - Passive Perception :: 10
+  
+- Languages
+  - None
+
+- Keen Smell ::
+  The rat has advantage on Wisdom (Perception) checks that rely on smell.
+
+- Pack Tactics ::
+  The rat has advantage on an attack roll against a creature if at least one of
+  the rat's allies is within 5 feet of the creature and the ally isn't
+  incapacitated.
+
+*** Actions
+#+BEGIN_QUOTE
+  *Variant: Diseased Giant Rats*
+
+  Some giant rats carry vile diseases that they spread with their bites.
+  A diseased giant rat has a challenge rating of 1/8 (25 XP) and the
+  following action instead of its normal bite attack.
+
+  */Bite/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
+  /Hit:/ 4 (1d4+2) piercing damage. If the target is a creature, it must
+  succeed on a DC 10 Constitution saving throw or contract a disease.
+  Until the disease is cured, the target can't regain hit points except
+  by magical means, and the target's hit point maximum decreases by 3
+  (1d6) every 24 hours. If the target's hit point maximum drops to 0 as
+  a result of this disease, the target dies.
+#+END_QUOTE
+
+**** Bite /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft.
+- one target
+- Hit :: 4 (1d4+2) piercing damage
+
+** Giant Scorpion                                     :large:unaligned:cr_3:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: 3
+:XP: 700
+:END:
+- Armor Class :: 15 (natural armor)
+- Hit Points :: 52 (7d10+14)
+- Speed :: 40 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS    | CHA    |
+|---------+---------+---------+--------+--------+--------|
+| 15 (+2) | 13 (+1) | 15 (+2) | 1 (-5) | 9 (-1) | 3 (-4) |
+
+*** Features
+- Senses
+  - Blindsight :: 60 ft.
+  - Passive Perception :: 9
+  
+- Languages
+  - None
+
+*** Actions
+**** Multiattack
+The scorpion makes three attacks: two with its claws and one with its sting.
+
+**** Claw /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft
+- one target
+- Hit ::
+  6 (1d8+2) bludgeoning damage, and the target is grappled (escape DC 12). The
+  scorpion has two claws, each of which can grapple only one target.
+
+**** Sting /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft.
+- one creature
+- Hit ::
+  7 (1d10+2) piercing damage, and the target must make a DC 12 Constitution
+  saving throw, taking 22 (4d10) poison damage on a failed save, or half as much
+  damage on a successful one.
+
+** Giant Sea Horse                                  :large:unaligned:cr_1_2:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: .5
+:XP: 100
+:END:
+Like their smaller kin, *giant sea horses* are shy, colorful fish with
+elongated bodies and curled tails. Aquatic elves train them as mounts.
+
+- Armor Class :: 13 (natural armor)
+- Hit Points :: 16 (3d10)
+- Speed
+  - Walking :: 0 ft.
+  - Swimming :: 40 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 12 (+1) | 15 (+2) | 11 (+0) | 2 (-4) | 12 (+1) | 5 (-3) |
+
+*** Features
+- Senses
+  - Passive Perception :: 11
+  
+- Languages
+  - None
+
+- Charge ::
+  If the sea horse moves at least 20 feet straight toward a target and then hits
+  it with a ram attack on the same turn, the target takes an extra 7 (2d6)
+  bludgeoning damage. It the target is a creature, it must succeed on a DC 11
+  Strength saving throw or be knocked prone.
+
+- Water Breathing ::
+  The sea horse can breathe only underwater.
+
+*** Actions
+**** Ram /Melee Weapon Attack/
+- +3 to hit
+- reach 5 ft.
+- one target
+- Hit :: 4 (1d6+1) bludgeoning damage
+
+** Giant Shark                                         :huge:unaligned:cr_5:
+:PROPERTIES:
+:SIZE: huge
+:ALIGNMENT: unaligned
+:CR: 5
+:XP: 1800
+:END:
+A *giant shark* is 30 feet long and normally found in deep oceans.
+Utterly fearless, it preys on anything that crosses its path, including
+whales and ships.
+
+- Armor Class :: 13 (natural armor)
+- Hit Points :: 126 (11d12+55)
+- Speed :: 0 ft., swim 50 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 23 (+6) | 11 (+0) | 21 (+5) | 1 (-5) | 10 (+0) | 5 (-3) |
+
+- Skills
+  - Perception :: +3
+
+*** Features
+- Senses
+  - Blindsight :: 60 ft.
+  - Passive Perception :: 13
+    
+- Languages
+  - None
+
+- Blood Frenzy ::
+  The shark has advantage on melee attack rolls against any creature that
+  doesn't have all its hit points.
+
+- Water Breathing ::
+  The shark can breathe only underwater.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +9 to hit
+- reach 5 ft.
+- one target
+- Hit :: 22 (3d10+6) piercing damage
+
+** Giant Spider                                       :large:unaligned:cr_1:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: 1
+:XP: 200
+:END:
+To snare its prey, a *giant spider* spins elaborate webs or shoots
+sticky strands of webbing from its abdomen. Giant spiders are most
+commonly found underground, making their lairs on ceilings or in dark,
+web-filled crevices. Such lairs are often festooned with web cocoons
+holding past victims.
+
+- Armor Class :: 14 (natural armor)
+- Hit Points :: 26 (4d10+4)
+- Speed :: 30 ft., climb 30 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 14 (+2) | 16 (+3) | 12 (+1) | 2 (-4) | 11 (+0) | 4 (-3) |
+
+- Skills
+  - Stealth :: +7
+
+*** Features
+- Senses
+  - Blindsight :: 10 ft.
+  - Darkvision :: 60 ft.
+  - Passive Perception :: 10
+
+- Languages
+  - None
+
+- Spider Climb ::
+  The spider can climb difficult surfaces, including upside down on ceilings,
+  without needing to make an ability check.
+
+- Web Sense ::
+  While in contact with a web, the spider knows the exact location of any other
+  creature in contact with the same web.
+
+- Web Walker ::
+  The spider ignores movement restrictions caused by webbing.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft.
+- one creature
+- Hit ::
+  7 (1d8+3) piercing damage, and the target must make a DC 1 Constitution saving
+  throw, taking 9 (2d8) poison damage on a failed save, or half as much damage
+  on a successful one. If the poison damage reduces the target to 0 hit points,
+  the target is stable but poisoned for 1 hour, even after regaining hit points,
+  and is paralyzed while poisoned in this way.
+
+**** Web (Recharge 5-6) /Ranged Weapon Attack/
+- +5 to hit
+- range 30/60 ft.
+- one creature
+- Hit ::
+  The target is restrained by webbing. As an action, the restrained target can
+  make a DC 12 Strength check, bursting the webbing on a success. The webbing
+  can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage;
+  immunity to bludgeoning, poison, and psychic damage).
+
+** Giant Toad                                         :large:unaligned:cr_1:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: unaligned
+:CR: 1
+:XP: 200
+:END:
+- Armor Class :: 11
+- Hit Points :: 39 (6d10+6)
+- Speed :: 20 ft., swim 40 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 15 (+2) | 13 (+1) | 13 (+1) | 2 (-4) | 10 (+0) | 3 (-4) |
+
+*** Features
+- Senses
+  - Darkvision :: 30 ft.
+  - Passive Perception :: 10
+  
+- Languages
+  - None
+
+- Amphibious ::
+  The toad can breathe air and water.
+
+- Standing Leap ::
+  The toad's long jump is up to 20 feet and its high jump is up to 10 feet, with
+  or without a running start.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft.
+- one target
+- Hit ::
+  7 (1d10+2) piercing damage plus 5 (1d10) poison damage, and the target is
+  grappled (escape DC 13). Until this grapple ends, the target is restrained,
+  and the toad can't bite another target.
+
+**** Swallow
+The toad makes one bite attack against a Medium or smaller target it is
+grappling. If the attack hits, the target is swallowed, and the grapple ends.
+The swallowed target is blinded and restrained, it has total cover against
+attacks and other effects outside the toad, and it takes 10 (3d6) acid damage at
+the start of each of the toad's turns. The toad can have only one target
+swallowed at a time.
+
+If the toad dies, a swallowed creature is no longer restrained by it and can
+escape from the corpse using 5 feet of movement, exiting prone.
+
+** Giant Vulture                                   :large:neutral:evil:cr_1:
+:PROPERTIES:
+:SIZE: large
+:ALIGNMENT: neutral evil
+:CR: 1
+:XP: 200
+:END:
+A *giant vulture* has advanced intelligence and a malevolent bent.
+Unlike its smaller kin, it will attack a wounded creature to hasten its
+end. Giant vultures have been known to haunt a thirsty, starving
+creature for days to enjoy its suffering.
+
+- Armor Class :: 10
+- Hit Points :: 22 (3d10+6)
+- Speed
+  - Walking :: 10 ft.
+  - Flying :: 60 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 15 (+2) | 10 (+0) | 15 (+2) | 6 (-2) | 12 (+1) | 7 (-2) |
+
+- Skills
+  - Perception :: +3
+
+*** Features
+- Senses
+  - Passive Perception :: 13
+  
+- Languages
+  - None
+
+- Keen Sight and Smell ::
+  The vulture has advantage on Wisdom (Perception) checks that rely on sight or
+  smell.
+
+- Pack Tactics ::
+  The vulture has advantage on an attack roll against a creature if at least one
+  of the vulture's allies is within 5 feet of the creature and the ally isn't
+  incapacitated.
+
+*** Actions
+**** Multiattack
+The vulture makes two attacks: one with its beak and one with its talons.
+
+**** Beak /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft
+- one target
+- Hit :: 7 (2d4+2) piercing damage
+
+**** Talons /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft.
+- one target
+- Hit :: 9 (2d6+2) slashing damage
+
+** Giant Wasp                                      :medium:unaligned:cr_1_2:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: .5
+:XP: 100
+:END:
+- Armor Class :: 12
+- Hit Points :: 13 (3d8)
+- Speed
+  - Walking :: 10 ft.
+  - Flying :: 50 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 10 (+0) | 14 (+2) | 10 (+0) | 1 (-5) | 10 (+0) | 3 (-4) |
+
+*** Features
+- Senses
+  - Passive Perception :: 10
+  
+- Languages
+  - None
+
+*** Actions
+**** Sting /Melee Weapon Attack/
+- +4 to hit
+- reach 5 ft.
+- one creature
+- Hit ::
+  5 (1d6+2) piercing damage, and the target must make a DC 1 Constitution saving
+  throw, taking 10 (3d6) poison damage on a failed save, or half as much damage
+  on a successful one. If the poison damage reduces the target to 0 hit points,
+  the target is stable but poisoned for 1 hour, even after regaining hit points,
+  and is paralyzed while poisoned in this way.
+
+** Giant Weasel                                    :medium:unaligned:cr_1_8:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: .125
+:XP: 25
+:END:
+- Armor Class :: 13
+- Hit Points :: 9 (2d8)
+- Speed :: 40 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 11 (+0) | 16 (+3) | 10 (+0) | 4 (-3) | 12 (+1) | 5 (-3) |
+
+- Skills
+  - Perception :: +3
+  - Stealth :: +5
+
+*** Features
+- Senses
+  - Darkvision :: 60 ft.
+  - Passive Perception :: 13
+  
+- Languages
+  - None
+
+- Keen Hearing and Smell ::
+  The weasel has advantage on Wisdom (Perception) checks that rely on hearing or
+  smell.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +5 to hit
+- reach 5 ft.
+- one target
+- Hit :: 5 (1d4+3) piercing damage
+
+** Giant Wolf Spider                               :medium:unaligned:cr_1_4:
+:PROPERTIES:
+:SIZE: medium
+:ALIGNMENT: unaligned
+:CR: .25
+:XP: 50
+:END:
+Smaller than a giant spider, a *giant wolf spider* hunts prey across
+open ground or hides in a burrow or crevice, or in a hidden cavity
+beneath debris.
+
+- Armor Class :: 13
+- Hit Points :: 11 (2d8+2)
+- Speed
+  - Walking :: 40 ft.
+  - Climbing :: 40 ft.
+
+*** Abilities and Skills
+| STR     | DEX     | CON     | INT    | WIS     | CHA    |
+|---------+---------+---------+--------+---------+--------|
+| 12 (+1) | 16 (+3) | 13 (+1) | 3 (-4) | 12 (+1) | 4 (-3) |
+
+- Skills
+  - Perception :: +3
+  - Stealth :: +7
+
+*** Features
+- Senses
+  - Blindsight :: 10 ft.
+  - Darkvision :: 60 ft.
+  - Passive Perception :: 13
+  
+- Languages
+  - None
+
+- Spider Climb ::
+  The spider can climb difficult surfaces, including upside down on ceilings,
+  without needing to make an ability check.
+
+- Web Sense ::
+  While in contact with a web, the spider knows the exact location of any other
+  creature in contact with the same web.
+
+- Web Walker ::
+  The spider ignores movement restrictions caused by webbing.
+
+*** Actions
+**** Bite /Melee Weapon Attack/
+- +3 to hit
+- reach 5 ft.
+- one creature
+- Hit ::
+  4 (1d6+1) piercing damage, and the target must make a DC 1 Constitution saving
+  throw, taking 7 (2d6) poison damage on a failed save, or half as much damage
+  on a successful one. If the poison damage reduces the target to 0 hit points,
+  the target is stable but poisoned for 1 hour, even after regaining hit points,
+  and is paralyzed while poisoned in this way.
+
+  
 * Plant                                                               :plant:
 ** Awakened Shrub                                     :small:unaligned:cr_0:
 :PROPERTIES:
@@ -1568,755 +2384,6 @@ The dog makes two bite attacks.
 
 
 * Creatures (G-I)
-
-** Giant Frog
-   :PROPERTIES:
-   :CUSTOM_ID: giant-frog
-   :END:
-
-/Medium beast, unaligned/
-
-*Armor Class* 11
-
-*Hit Points* 18 (4d8)
-
-*Speed* 30 ft., swim 30 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 12 (+1) | 13 (+1) | 11 (+0) | 2 (-4) | 10 (+0) | 3 (-4) |
-
-*Skills* Perception +2, Stealth +3
-
-*Senses* darkvision 30 ft., passive Perception 12
-
-*Languages* -
-
-*Challenge* 1/4 (50 XP)
-
-*/Amphibious/*. The frog can breathe air and water.
-
-*/Standing Leap/*. The frog's long jump is up to 20 feet and its high
-jump is up to 10 feet, with or without a running start.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-36
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +3 to hit, reach 5 ft., one target.
-/Hit:/ 4 (1d6+1) piercing damage, and the target is grappled (escape DC
-11). Until this grapple ends, the target is restrained, and the frog
-can't bite another target.
-
-*/Swallow/*. The frog makes one bite attack against a Small or smaller
-target it is grappling. If the attack hits, the target is swallowed, and
-the grapple ends. The swallowed target is blinded and restrained, it has
-total cover against attacks and other effects outside the frog, and it
-takes 5 (2d4) acid damage at the start of each of the frog's turns. The
-frog can have only one target swallowed at a time.
-
-If the frog dies, a swallowed creature is no longer restrained by it and
-can escape from the corpse using 5 feet of movement, exiting prone.
-
-** Giant Goat
-   :PROPERTIES:
-   :CUSTOM_ID: giant-goat
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 11 (natural armor)
-
-*Hit Points* 19 (3d10+3)
-
-*Speed* 40 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 17 (+3) | 11 (+0) | 12 (+1) | 3 (-4) | 12 (+1) | 6 (-2) |
-
-*Senses* passive Perception 11
-
-*Languages* -
-
-*Challenge* 1/2 (100 XP)
-
-*/Charge/*. If the goat moves at least 20 feet straight toward a target
-and then hits it with a ram attack on the same turn, the target takes an
-extra 5 (2d4) bludgeoning damage. If the target is a creature, it must
-succeed on a DC 13 Strength saving throw or be knocked prone.
-
-*/Sure-Footed/*. The goat has advantage on Strength and Dexterity saving
-throws made against effects that would knock it prone.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-37
-       :END:
-
-*/Ram/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one target.
-/Hit:/ 8 (2d4+3) bludgeoning damage.
-
-** Giant Hyena
-   :PROPERTIES:
-   :CUSTOM_ID: giant-hyena
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 12
-
-*Hit Points* 45 (6d10+12)
-
-*Speed* 50 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 16 (+3) | 14 (+2) | 14 (+2) | 2 (-4) | 12 (+1) | 7 (-2) |
-
-*Skills* Perception +3
-
-*Senses* passive Perception 13
-
-*Languages* -
-
-*Challenge* 1 (200 XP)
-
-*/Rampage/*. When the hyena reduces a creature to 0 hit points with a
-melee attack on its turn, the hyena can take a bonus action to move up
-to half its speed and make a bite attack.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-38
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one target.
-/Hit:/ 10 (2d6+3) piercing damage.
-
-** Giant Lizard
-   :PROPERTIES:
-   :CUSTOM_ID: giant-lizard
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 12 (natural armor)
-
-*Hit Points* 19 (3d10+3)
-
-*Speed* 30 ft., climb 30 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 15 (+2) | 12 (+1) | 13 (+1) | 2 (-4) | 10 (+0) | 5 (-3) |
-
-*Senses* darkvision 30 ft., passive Perception 10
-
-*Languages* -
-
-*Challenge* 1/4 (50 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-39
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 6 (1d8+2) piercing damage.
-
-A *giant lizard* can be ridden or used as a draft animal. Lizardfolk
-also keep them as pets, and subterranean giant lizards are used as
-mounts and pack animals by drow, duergar, and others.
-
-** Giant Octopus
-   :PROPERTIES:
-   :CUSTOM_ID: giant-octopus
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 11
-
-*Hit Points* 52 (8d10+8)
-
-*Speed* 10 ft., swim 60 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 17 (+3) | 13 (+1) | 13 (+1) | 4 (-3) | 10 (+0) | 4 (-3) |
-
-*Skills* Perception +4, Stealth +5
-
-*Senses* darkvision 60 ft., passive Perception 14
-
-*Languages* -
-
-*Challenge* 1 (200 XP)
-
-*/Hold Breath/*. While out of water, the octopus can hold its breath for
-1 hour.
-
-*/Underwater Camouflage/*. The octopus has advantage on Dexterity
-(Stealth) checks made while underwater.
-
-*/Water Breathing/*. The octopus can breathe only underwater.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-40
-       :END:
-
-*/Tentacles/*. /Melee Weapon Attack:/ +5 to hit, reach 15 ft., one
-target. /Hit:/ 10 (2d6+3) bludgeoning damage. If the target is a
-creature, it is grappled (escape DC 16). Until this grapple ends, the
-target is restrained, and the octopus can't use its tentacles on another
-target.
-
-*/Ink Cloud (Recharges after a Short or Long Rest)/*. A 20- foot radius
-cloud of ink extends all around the octopus if it is underwater. The
-area is heavily obscured for 1 minute, although a significant current
-can disperse the ink. After releasing the ink, the octopus can use the
-Dash action as a bonus action.
-
-** Giant Owl
-   :PROPERTIES:
-   :CUSTOM_ID: giant-owl
-   :END:
-
-/Large beast, neutral/
-
-*Armor Class* 12
-
-*Hit Points* 19 (3d10+3)
-
-*Speed* 5 ft., fly 60 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA     |
-|---------+---------+---------+--------+---------+---------|
-| 13 (+1) | 15 (+2) | 12 (+1) | 8 (-1) | 13 (+1) | 10 (+0) |
-
-*Skills* Perception +5, Stealth +4
-
-*Senses* darkvision 120 ft., passive Perception 15
-
-*Languages* Giant Owl, understands Common, Elvish, and Sylvan but can't
-speak them
-
-*Challenge* 1/4 (50 XP)
-
-*/Flyby/*. The owl doesn't provoke opportunity attacks when it flies out
-of an enemy's reach.
-
-*/Keen Hearing and Sight/*. The owl has advantage on Wisdom (Perception)
-checks that rely on hearing or sight.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-41
-       :END:
-
-*/Talons/*. /Melee Weapon Attack:/ +3 to hit, reach 5 ft., one target.
-/Hit:/ 8 (2d6+1) slashing damage.
-
-*Giant owls* often befriend fey and other sylvan creatures and are
-guardians of their woodland realms.
-
-** Giant Poisonous Snake
-   :PROPERTIES:
-   :CUSTOM_ID: giant-poisonous-snake
-   :END:
-
-/Medium beast, unaligned/
-
-*Armor Class* 14
-
-*Hit Points* 11 (2d8+2)
-
-*Speed* 30 ft., swim 30 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 10 (+0) | 18 (+4) | 13 (+1) | 2 (-4) | 10 (+0) | 3 (-4) |
-
-*Skills* Perception +2
-
-*Senses* blindsight 10 ft., passive Perception 12
-
-*Languages* -
-
-*Challenge* 1/4 (50 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-42
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +6 to hit, reach 10 ft., one target.
-/Hit:/ 6 (1d4+4) piercing damage, and the target must make a DC 11
-Constitution saving throw, taking 10 (3d6) poison damage on a failed
-save, or half as much damage on a successful one.
-
-** Giant Rat
-   :PROPERTIES:
-   :CUSTOM_ID: giant-rat
-   :END:
-
-/Small beast, unaligned/
-
-*Armor Class* 12
-
-*Hit Points* 7 (2d6)
-
-*Speed* 30 ft.
-
-| STR    | DEX     | CON     | INT    | WIS     | CHA    |
-|--------+---------+---------+--------+---------+--------|
-| 7 (-2) | 15 (+2) | 11 (+0) | 2 (-4) | 10 (+0) | 4 (-3) |
-
-*Senses* darkvision 60 ft., passive Perception 10
-
-*Languages* -
-
-*Challenge* 1/8 (25 XP)
-
-*/Keen Smell/*. The rat has advantage on Wisdom (Perception) checks that
-rely on smell.
-
-*/Pack Tactics/*. The rat has advantage on an attack roll against a
-creature if at least one of the rat's allies is within 5 feet of the
-creature and the ally isn't incapacitated.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-43
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 4 (1d4+2) piercing damage.
-
-#+BEGIN_QUOTE
-  *Variant: Diseased Giant Rats*
-
-  Some giant rats carry vile diseases that they spread with their bites.
-  A diseased giant rat has a challenge rating of 1/8 (25 XP) and the
-  following action instead of its normal bite attack.
-
-  */Bite/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-  /Hit:/ 4 (1d4+2) piercing damage. If the target is a creature, it must
-  succeed on a DC 10 Constitution saving throw or contract a disease.
-  Until the disease is cured, the target can't regain hit points except
-  by magical means, and the target's hit point maximum decreases by 3
-  (1d6) every 24 hours. If the target's hit point maximum drops to 0 as
-  a result of this disease, the target dies.
-#+END_QUOTE
-
-** Giant Scorpion
-   :PROPERTIES:
-   :CUSTOM_ID: giant-scorpion
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 15 (natural armor)
-
-*Hit Points* 52 (7d10+14)
-
-*Speed* 40 ft.
-
-| STR     | DEX     | CON     | INT    | WIS    | CHA    |
-|---------+---------+---------+--------+--------+--------|
-| 15 (+2) | 13 (+1) | 15 (+2) | 1 (-5) | 9 (-1) | 3 (-4) |
-
-*Senses* blindsight 60 ft., passive Perception 9
-
-*Languages* -
-
-*Challenge* 3 (700 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-44
-       :END:
-
-*/Multiattack/*. The scorpion makes three attacks: two with its claws
-and one with its sting.
-
-*/Claw/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 6 (1d8+2) bludgeoning damage, and the target is grappled (escape
-DC 12). The scorpion has two claws, each of which can grapple only one
-target.
-
-*/Sting/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one creature.
-/Hit:/ 7 (1d10+2) piercing damage, and the target must make a DC 12
-Constitution saving throw, taking 22 (4d10) poison damage on a failed
-save, or half as much damage on a successful one.
-
-** Giant Sea Horse
-   :PROPERTIES:
-   :CUSTOM_ID: giant-sea-horse
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 13 (natural armor)
-
-*Hit Points* 16 (3d10)
-
-*Speed* 0 ft., swim 40 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 12 (+1) | 15 (+2) | 11 (+0) | 2 (-4) | 12 (+1) | 5 (-3) |
-
-*Senses* passive Perception 11
-
-*Languages* -
-
-*Challenge* 1/2 (100 XP)
-
-*/Charge/*. If the sea horse moves at least 20 feet straight toward a
-target and then hits it with a ram attack on the same turn, the target
-takes an extra 7 (2d6) bludgeoning damage. It the target is a creature,
-it must succeed on a DC 11 Strength saving throw or be knocked prone.
-
-*/Water Breathing/*. The sea horse can breathe only underwater.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-45
-       :END:
-
-*/Ram/*. /Melee Weapon Attack:/ +3 to hit, reach 5 ft., one target.
-/Hit:/ 4 (1d6+1) bludgeoning damage.
-
-Like their smaller kin, *giant sea horses* are shy, colorful fish with
-elongated bodies and curled tails. Aquatic elves train them as mounts.
-
-** Giant Shark
-   :PROPERTIES:
-   :CUSTOM_ID: giant-shark
-   :END:
-
-/Huge beast, unaligned/
-
-*Armor Class* 13 (natural armor)
-
-*Hit Points* 126 (11d12+55)
-
-*Speed* 0 ft., swim 50 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 23 (+6) | 11 (+0) | 21 (+5) | 1 (-5) | 10 (+0) | 5 (-3) |
-
-*Skills* Perception +3
-
-*Senses* blindsight 60 ft., passive Perception 13
-
-*Languages* -
-
-*Challenge* 5 (1,800 XP)
-
-*/Blood Frenzy/*. The shark has advantage on melee attack rolls against
-any creature that doesn't have all its hit points.
-
-*/Water Breathing/*. The shark can breathe only underwater.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-46
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +9 to hit, reach 5 ft., one target.
-/Hit:/ 22 (3d10+6) piercing damage.
-
-A *giant shark* is 30 feet long and normally found in deep oceans.
-Utterly fearless, it preys on anything that crosses its path, including
-whales and ships.
-
-** Giant Spider
-   :PROPERTIES:
-   :CUSTOM_ID: giant-spider
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 14 (natural armor)
-
-*Hit Points* 26 (4d10+4)
-
-*Speed* 30 ft., climb 30 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 14 (+2) | 16 (+3) | 12 (+1) | 2 (-4) | 11 (+0) | 4 (-3) |
-
-*Skills* Stealth +7
-
-*Senses* blindsight 10 ft., darkvision 60 ft., passive Perception 10
-
-*Languages* -
-
-*Challenge* 1 (200 XP)
-
-*/Spider Climb/*. The spider can climb difficult surfaces, including
-upside down on ceilings, without needing to make an ability check.
-
-*/Web Sense/*. While in contact with a web, the spider knows the exact
-location of any other creature in contact with the same web.
-
-*/Web Walker/*. The spider ignores movement restrictions caused by
-webbing.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-47
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one creature.
-/Hit:/ 7 (1d8+3) piercing damage, and the target must make a DC 11
-Constitution saving throw, taking 9 (2d8) poison damage on a failed
-save, or half as much damage on a successful one. If the poison damage
-reduces the target to 0 hit points, the target is stable but poisoned
-for 1 hour, even after regaining hit points, and is paralyzed while
-poisoned in this way.
-
-*/Web (Recharge 5-6)/*. /Ranged Weapon Attack:/ +5 to hit, range 30/60
-ft., one creature. /Hit:/ The target is restrained by webbing. As an
-action, the restrained target can make a DC 12 Strength check, bursting
-the webbing on a success. The webbing can also be attacked and destroyed
-(AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning,
-poison, and psychic damage).
-
-To snare its prey, a *giant spider* spins elaborate webs or shoots
-sticky strands of webbing from its abdomen. Giant spiders are most
-commonly found underground, making their lairs on ceilings or in dark,
-web-filled crevices. Such lairs are often festooned with web cocoons
-holding past victims.
-
-** Giant Toad
-   :PROPERTIES:
-   :CUSTOM_ID: giant-toad
-   :END:
-
-/Large beast, unaligned/
-
-*Armor Class* 11
-
-*Hit Points* 39 (6d10+6)
-
-*Speed* 20 ft., swim 40 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 15 (+2) | 13 (+1) | 13 (+1) | 2 (-4) | 10 (+0) | 3 (-4) |
-
-*Senses* darkvision 30 ft., passive Perception 10
-
-*Languages* -
-
-*Challenge* 1 (200 XP)
-
-*/Amphibious/*. The toad can breathe air and water.
-
-*/Standing Leap/*. The toad's long jump is up to 20 feet and its high
-jump is up to 10 feet, with or without a running start.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-48
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 7 (1d10+2) piercing damage plus 5 (1d10) poison damage, and the
-target is grappled (escape DC 13). Until this grapple ends, the target
-is restrained, and the toad can't bite another target.
-
-*/Swallow/*. The toad makes one bite attack against a Medium or smaller
-target it is grappling. If the attack hits, the target is swallowed, and
-the grapple ends. The swallowed target is blinded and restrained, it has
-total cover against attacks and other effects outside the toad, and it
-takes 10 (3d6) acid damage at the start of each of the toad's turns. The
-toad can have only one target swallowed at a time.
-
-If the toad dies, a swallowed creature is no longer restrained by it and
-can escape from the corpse using 5 feet of movement, exiting prone.
-
-** Giant Vulture
-   :PROPERTIES:
-   :CUSTOM_ID: giant-vulture
-   :END:
-
-/Large beast, neutral evil/
-
-*Armor Class* 10
-
-*Hit Points* 22 (3d10+6)
-
-*Speed* 10 ft., fly 60 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 15 (+2) | 10 (+0) | 15 (+2) | 6 (-2) | 12 (+1) | 7 (-2) |
-
-*Skills* Perception +3
-
-*Senses* passive Perception 13
-
-*Languages* understands Common but can't speak
-
-*Challenge* 1 (200 XP)
-
-*/Keen Sight and Smell/*. The vulture has advantage on Wisdom
-(Perception) checks that rely on sight or smell.
-
-*/Pack Tactics/*. The vulture has advantage on an attack roll against a
-creature if at least one of the vulture's allies is within 5 feet of the
-creature and the ally isn't incapacitated.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-49
-       :END:
-
-*/Multiattack/*. The vulture makes two attacks: one with its beak and
-one with its talons.
-
-*/Beak/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 7 (2d4+2) piercing damage.
-
-*/Talons/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one target.
-/Hit:/ 9 (2d6+2) slashing damage.
-
-A *giant vulture* has advanced intelligence and a malevolent bent.
-Unlike its smaller kin, it will attack a wounded creature to hasten its
-end. Giant vultures have been known to haunt a thirsty, starving
-creature for days to enjoy its suffering.
-
-** Giant Wasp
-   :PROPERTIES:
-   :CUSTOM_ID: giant-wasp
-   :END:
-
-/Medium beast, unaligned/
-
-*Armor Class* 12
-
-*Hit Points* 13 (3d8)
-
-*Speed* 10 ft., fly 50 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 10 (+0) | 14 (+2) | 10 (+0) | 1 (-5) | 10 (+0) | 3 (-4) |
-
-*Senses* passive Perception 10
-
-*Languages* -
-
-*Challenge* 1/2 (100 XP)
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-50
-       :END:
-
-*/Sting/*. /Melee Weapon Attack:/ +4 to hit, reach 5 ft., one creature.
-/Hit:/ 5 (1d6+2) piercing damage, and the target must make a DC 11
-Constitution saving throw, taking 10 (3d6) poison damage on a failed
-save, or half as much damage on a successful one. If the poison damage
-reduces the target to 0 hit points, the target is stable but poisoned
-for 1 hour, even after regaining hit points, and is paralyzed while
-poisoned in this way.
-
-** Giant Weasel
-   :PROPERTIES:
-   :CUSTOM_ID: giant-weasel
-   :END:
-
-/Medium beast, unaligned/
-
-*Armor Class* 13
-
-*Hit Points* 9 (2d8)
-
-*Speed* 40 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 11 (+0) | 16 (+3) | 10 (+0) | 4 (-3) | 12 (+1) | 5 (-3) |
-
-*Skills* Perception +3, Stealth +5
-
-*Senses* darkvision 60 ft., passive Perception 13
-
-*Languages* -
-
-*Challenge* 1/8 (25 XP)
-
-*/Keen Hearing and Smell/*. The weasel has advantage on Wisdom
-(Perception) checks that rely on hearing or smell.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-51
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +5 to hit, reach 5 ft., one target.
-/Hit:/ 5 (1d4+3) piercing damage.
-
-** Giant Wolf Spider
-   :PROPERTIES:
-   :CUSTOM_ID: giant-wolf-spider
-   :END:
-
-/Medium beast, unaligned/
-
-*Armor Class* 13
-
-*Hit Points* 11 (2d8+2)
-
-*Speed* 40 ft., climb 40 ft.
-
-| STR     | DEX     | CON     | INT    | WIS     | CHA    |
-|---------+---------+---------+--------+---------+--------|
-| 12 (+1) | 16 (+3) | 13 (+1) | 3 (-4) | 12 (+1) | 4 (-3) |
-
-*Skills* Perception +3, Stealth +7
-
-*Senses* blindsight 10 ft., darkvision 60 ft., passive Perception 13
-
-*Languages* -
-
-*Challenge* 1/4 (50 XP)
-
-*/Spider Climb/*. The spider can climb difficult surfaces, including
-upside down on ceilings, without needing to make an ability check.
-
-*/Web Sense/*. While in contact with a web, the spider knows the exact
-location of any other creature in contact with the same web.
-
-*/Web Walker/*. The spider ignores movement restrictions caused by
-webbing.
-
-****** Actions
-       :PROPERTIES:
-       :CUSTOM_ID: actions-52
-       :END:
-
-*/Bite/*. /Melee Weapon Attack:/ +3 to hit, reach 5 ft., one creature.
-/Hit:/ 4 (1d6+1) piercing damage, and the target must make a DC 11
-Constitution saving throw, taking 7 (2d6) poison damage on a failed
-save, or half as much damage on a successful one. If the poison damage
-reduces the target to 0 hit points, the target is stable but poisoned
-for 1 hour, even after regaining hit points, and is paralyzed while
-poisoned in this way.
-
-Smaller than a giant spider, a *giant wolf spider* hunts prey across
-open ground or hides in a burrow or crevice, or in a hidden cavity
-beneath debris.
 
 ** Goat
    :PROPERTIES:
